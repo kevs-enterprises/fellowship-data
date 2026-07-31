@@ -247,13 +247,16 @@ pub static ABILITIES: &[Ability] = &[
     Ability { id: AbilityId("GE_Firemage_PlacedProjectileAoe_DirectDamageBased_Dot"), hero: HeroId("Firemage"), name: "Fire Ball", gameplay_ability_asset: "GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_C", enabled_in_game: true, category: None, damage_school: None, attack_range: None, offensive: None, description: None, dynamic_description: Some("Inflicting fire damage every 2 seconds."), ability_tags: &[], slot_tags: &[], cooldown_tags: &[], effects: &[], cost_effect: None, global_cooldown_effect: None, icon: Some(MediaHandle { id: "Firemage_Inferno", kind: MediaKind::AbilityIcon, width: 256, height: 256 }), provenance: Provenance::DATAMINE },
 ];
 
-/// Whether the game ships numeric ability constants for each hero.
+/// Whether this dataset carries numeric ability constants for each hero.
 ///
-/// `false` does not mean zero, and does not mean extraction failed: it means the build
-/// contains no ability-constant rows for that hero. Their abilities carry structure —
-/// tags, effects, categories, descriptions — and reference constant rows that the build
-/// does not define. Every hero has base attributes regardless; this covers ability
-/// constants only.
+/// `false` is a statement about this dataset, not about the game. The build does define
+/// constants for most `false` heroes; they live in a raw-CSV directory that this
+/// extraction does not yet index, so the values are absent here rather than absent
+/// upstream. Do not read `false` as "the game has no number for this".
+///
+/// Abilities carry structure regardless — tags, effects, categories, descriptions — and
+/// reference constant rows by name, so a consumer can see which value is missing. Every
+/// hero has base attributes; this covers ability constants only.
 pub static NUMERIC_COVERAGE: &[(HeroId, bool)] = &[
     (HeroId("Bowguy"), false),
     (HeroId("Firemage"), true),
