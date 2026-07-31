@@ -1,0 +1,40 @@
+[package]
+name = "fellowship-data"
+version = "0.3.0"
+edition = "2024"
+rust-version = "1.97.1"
+description = "Fellowship game data — heroes, abilities, items, enemies — as a Rust library"
+license = "MIT"
+publish = false
+repository = "https://github.com/kevs-enterprises/fellowship-data-rs"
+
+# No dependencies, and that is the point. The data is `&'static` source, so there is nothing to
+# parse and nothing to deserialize. A browser build pays only for the domains it enables.
+#
+# Deliberately absent: `wasm-bindgen`, `serde`, and any `cdylib` crate-type. This library does not
+# assume it is going to a browser; a consumer targeting one exposes the shape it wants.
+[dependencies]
+
+[features]
+# A consumer that only lays out gear never compiles the 440 enemy difficulty curves.
+default = ["heroes", "abilities", "items", "attributes", "constants"]
+
+heroes = []
+abilities = []
+talents = []
+items = []
+attributes = []
+constants = []
+effects = []
+modifiers = []
+dungeons = []
+# ~440 curves of 151 points. Real weight if you do not need enemy scaling.
+mobs = []
+
+[lints.rust]
+unsafe_code = "forbid"
+
+# The crate is generated, so keeping `pedantic` clean costs nothing and catches emitter bugs.
+[lints.clippy]
+all = { level = "deny", priority = -1 }
+pedantic = { level = "deny", priority = -1 }
