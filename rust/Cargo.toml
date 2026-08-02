@@ -6,7 +6,7 @@ rust-version = "1.97.1"
 description = "Fellowship game data — heroes, abilities, items, enemies — as a Rust library"
 license = "MIT"
 publish = false
-repository = "https://github.com/kevs-enterprises/fellowship-data-rs"
+repository = "https://github.com/kevs-enterprises/fellowship-data"
 
 # No dependencies, and that is the point. The data is `&'static` source, so there is nothing to
 # parse and nothing to deserialize. A browser build pays only for the domains it enables.

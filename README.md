@@ -16,7 +16,7 @@ println!("{} — {}", elarion.name, elarion.title);   // Elarion — The Skystri
 
 ```toml
 [dependencies]
-fellowship-data = { git = "https://github.com/kevs-enterprises/fellowship-data-rs" }
+fellowship-data = { git = "https://github.com/kevs-enterprises/fellowship-data" }
 ```
 
 The crate has no dependencies of its own.
@@ -118,12 +118,12 @@ pin a tag if you need a stable dataset:
 fellowship-data = { git = "...", tag = "v0.3.0" }
 ```
 
-## A note on `src/generated/` and `json/`
+## A note on the generated files
 
-Both are generated and replaced wholesale whenever the data is refreshed, so a local fix to either
+`rust/src/generated/` and `json/` are generated and replaced wholesale whenever the data is refreshed, so a local fix to either
 disappears without warning — and fixing one alone would leave the two disagreeing, which a refresh
-refuses to publish. If a value looks wrong, report it rather than patching it here. `src/types.rs`
-is hand-written — it's the vocabulary the generated data is expressed in.
+refuses to publish. If a value looks wrong, report it rather than patching it here.
+`rust/src/types.rs` is hand-written — it's the vocabulary the generated data is expressed in.
 
 ## Legal
 
