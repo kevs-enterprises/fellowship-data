@@ -1,2 +1,10 @@
-/target/
-Cargo.lock.bak
+# Build output, per delivery. Each toolchain writes into its own directory, and none of it is
+# published — the deliveries are checked-in generated source, not build artefacts.
+/rust/target/
+/rust/Cargo.lock.bak
+/python/dist/
+/python/**/__pycache__/
+/python/.venv/
+/typescript/dist/
+/typescript/dist-test/
+/typescript/node_modules/

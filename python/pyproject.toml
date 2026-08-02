@@ -1,0 +1,43 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fellowship-data"
+version = "0.3.0"
+description = "Fellowship game data — heroes, abilities, items, enemies — as a Python package"
+readme = "README.md"
+license = "MIT"
+authors = [{ name = "kev-sh" }]
+keywords = ["game-data", "dataset", "gamedev"]
+requires-python = ">=3.10"
+# No dependencies, and that is the point. The values are written into the modules, so there is
+# nothing to parse and nothing to deserialize.
+dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+
+[project.urls]
+Repository = "https://github.com/kevs-enterprises/fellowship-data"
+Source = "https://github.com/kevs-enterprises/fellowship-data/tree/main/python"
+
+[tool.hatch.build.targets.wheel]
+packages = ["fellowship_data"]
+
+[tool.hatch.build.targets.sdist]
+include = ["fellowship_data", "tests", "README.md", "LICENSE"]
+exclude = [".gitignore"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# The generated modules are one very long line per record on purpose: it is what makes a data
+# refresh diff the entities that changed rather than reflowing the file.
+per-file-ignores = { "fellowship_data/generated/*.py" = ["E501"] }
