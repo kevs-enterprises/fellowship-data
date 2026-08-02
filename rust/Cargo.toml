@@ -1,3 +1,5 @@
+# SOURCED FILE — do not edit here. Edit automation/publish/ in the generator; this copy is overwritten on the next sync.
+
 [package]
 name = "fellowship-data"
 version = "0.3.0"

@@ -1,3 +1,5 @@
+# SOURCED FILE — do not edit here. Edit automation/publish/ in the generator; this copy is overwritten on the next sync.
+
 """The vocabulary's behaviour, stated the same way every delivery states it.
 
 Run with ``python3 -m unittest discover -s tests`` from the ``python/`` directory. No dependencies.

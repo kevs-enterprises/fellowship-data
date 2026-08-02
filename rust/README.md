@@ -1,3 +1,5 @@
+<!-- SOURCED FILE — do not edit here. Edit automation/publish/ in the generator; this copy is overwritten on the next sync. -->
+
 # fellowship-data
 
 Fellowship game data — heroes, abilities, items, talents, enemies, dungeons — as a Rust library.

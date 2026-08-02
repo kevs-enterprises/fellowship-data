@@ -1,3 +1,5 @@
+# SOURCED FILE — do not edit here. Edit automation/publish/ in the generator; this copy is overwritten on the next sync.
+
 [toolchain]
 channel = "1.97.1"
 profile = "minimal"
