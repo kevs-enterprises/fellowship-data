@@ -2,11 +2,18 @@
   "name": "fellowship-data",
   "version": "0.3.0",
   "description": "Fellowship game data — heroes, abilities, items, enemies — as a TypeScript package",
+  "keywords": ["game-data", "dataset", "gamedev"],
   "license": "MIT",
+  "author": "kev-sh",
+  "homepage": "https://github.com/kevs-enterprises/fellowship-data/tree/main/typescript#readme",
+  "bugs": "https://github.com/kevs-enterprises/fellowship-data/issues",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kevs-enterprises/fellowship-data.git",
     "directory": "typescript"
+  },
+  "engines": {
+    "node": ">=18"
   },
   "type": "module",
   "sideEffects": false,

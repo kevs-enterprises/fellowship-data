@@ -4,7 +4,7 @@ Fellowship game data — heroes, abilities, items, talents, enemies, dungeons �
 
 | | Install | Read it |
 |---|---|---|
-| [`rust/`](rust/) | `fellowship-data = { git = "…" }` | `use fellowship_data::generated::heroes::HEROES;` |
+| [`rust/`](rust/) | `cargo add fellowship-data` | `use fellowship_data::generated::heroes::HEROES;` |
 | [`python/`](python/) | `pip install fellowship-data` | `from fellowship_data.generated.heroes import HEROES` |
 | [`typescript/`](typescript/) | `npm install fellowship-data` | `import { HEROES } from "fellowship-data";` |
 | [`json/`](json/) | — | `json/heroes.json` |
@@ -52,7 +52,7 @@ Rust uses features — available: `heroes` · `abilities` · `talents` · `items
 `attributes` and `constants` on by default:
 
 ```toml
-fellowship-data = { git = "…", default-features = false, features = ["heroes", "items"] }
+fellowship-data = { version = "0.3", default-features = false, features = ["heroes", "items"] }
 ```
 
 Python imports per domain, and nothing loads a domain you did not ask for:

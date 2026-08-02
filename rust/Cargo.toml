@@ -4,9 +4,14 @@ version = "0.3.0"
 edition = "2024"
 rust-version = "1.97.1"
 description = "Fellowship game data — heroes, abilities, items, enemies — as a Rust library"
+readme = "README.md"
 license = "MIT"
-publish = false
+keywords = ["game-data", "dataset", "gamedev"]
 repository = "https://github.com/kevs-enterprises/fellowship-data"
+# The crate lives in a subdirectory of a four-delivery monorepo, not at the repository root.
+# crates.io links straight to `repository`, so this is the difference between a visitor landing on
+# the crate's own source and landing on a directory listing with no Cargo.toml in sight.
+homepage = "https://github.com/kevs-enterprises/fellowship-data/tree/main/rust"
 
 # No dependencies, and that is the point. The data is `&'static` source, so there is nothing to
 # parse and nothing to deserialize. A browser build pays only for the domains it enables.
