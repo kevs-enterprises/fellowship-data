@@ -1,0 +1,65 @@
+{
+  "build_id": "24133959",
+  "conventions": {
+    "curves": "A curve is {\"dense\": [v, ...]} with one value per difficulty from 1, or {\"keyframes\": [[difficulty, value], ...]} stating only the points the data gives. Values between keyframes are not interpolated here.",
+    "media": "A media handle carries a stable id and the source dimensions, never a path. Map the id onto wherever you serve art from.",
+    "non_finite_numbers": "JSON cannot express NaN or infinity, so they appear as the strings \"NaN\", \"Infinity\", and \"-Infinity\".",
+    "null": "The record does not carry this value. It is never a stand-in for zero, for an empty string, or for a value that exists but was not recovered.",
+    "order": "Records are stable-sorted, so a data refresh diffs one entity at a time."
+  },
+  "delivery": "This folder mirrors the Rust library in this repository. The library is the primary delivery; these files exist for consumers that are not Rust programs.",
+  "file_count": 10,
+  "files": [
+    {
+      "domain": "heroes",
+      "file": "heroes.json",
+      "record_count": 12
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities.json",
+      "record_count": 206
+    },
+    {
+      "domain": "talents",
+      "file": "talents.json",
+      "record_count": 319
+    },
+    {
+      "domain": "items",
+      "file": "items.json",
+      "record_count": 237
+    },
+    {
+      "domain": "attributes",
+      "file": "attributes.json",
+      "record_count": 24
+    },
+    {
+      "domain": "constants",
+      "file": "constants.json",
+      "record_count": 24
+    },
+    {
+      "domain": "effects",
+      "file": "effects.json",
+      "record_count": 2515
+    },
+    {
+      "domain": "modifiers",
+      "file": "modifiers.json",
+      "record_count": 23
+    },
+    {
+      "domain": "dungeons",
+      "file": "dungeons.json",
+      "record_count": 19
+    },
+    {
+      "domain": "mobs",
+      "file": "mobs.json",
+      "record_count": 220
+    }
+  ],
+  "schema_version": 1
+}
