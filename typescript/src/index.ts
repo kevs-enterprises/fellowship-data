@@ -1,3 +1,5 @@
+// SOURCED FILE — do not edit here. Edit automation/publish/ in the generator; this copy is overwritten on the next sync.
+
 /**
  * Fellowship game data, as a plain TypeScript package.
  *

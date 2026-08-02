@@ -1,3 +1,5 @@
+// SOURCED FILE — do not edit here. Edit automation/publish/ in the generator; this copy is overwritten on the next sync.
+
 //! The vocabulary the data is expressed in.
 //!
 //! Unlike everything under [`crate::generated`], this file is hand-written. Data that does not fit

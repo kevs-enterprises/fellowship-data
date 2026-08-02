@@ -1,3 +1,5 @@
+# SOURCED FILE — do not edit here. Edit automation/publish/ in the generator; this copy is overwritten on the next sync.
+
 """Fellowship game data, as a plain Python package.
 
 Everything under :mod:`fellowship_data.generated` is produced by a tool and overwritten on each
