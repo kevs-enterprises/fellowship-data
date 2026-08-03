@@ -245,29 +245,3 @@ ABILITIES: tuple[Ability, ...] = (
     Ability(id=AbilityId("GA_Warmaster_ShieldSelfBuff"), hero=HeroId("Warmaster"), name="Siegebreaker", gameplay_ability_asset="GA_Warmaster_ShieldSelfBuff_C", enabled_in_game=True, category="Spirit", damage_school=None, attack_range=None, offensive=None, description="For the next 20 seconds, the cooldown reduction granted by your <rt.effect>Veteran of War</> is doubled.\n\nWhile <rt.absorb>Siegebreaker</>is active, you take 25% reduced damage and your <rt.absorb>Shield Slam</>, <rt.absorb>Shield Throw</> and <rt.absorb>Shockwave</> abilities deal 25% increased damage.\n\n<rt.absorb>SPIRIT ABILITY</>\n<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>", dynamic_description=None, ability_tags=("AbilityType.Skill", "AbilityPrio.Default", "AbilityType.Spirit"), slot_tags=("Spirit",), cooldown_tags=(), effects=(), cost_effect="GE_Warmaster_ShieldSelfBuff_SpiritCost_C", global_cooldown_effect=None, icon=MediaHandle(id="T_Warmaster_Ultimate", kind=MediaKind.AbilityIcon, width=256, height=256), provenance=Provenance.DATAMINE),
     Ability(id=AbilityId("GE_Firemage_PlacedProjectileAoe_DirectDamageBased_Dot"), hero=HeroId("Firemage"), name="Fire Ball", gameplay_ability_asset="GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_C", enabled_in_game=True, category=None, damage_school=None, attack_range=None, offensive=None, description=None, dynamic_description="Inflicting fire damage every 2 seconds.", ability_tags=(), slot_tags=(), cooldown_tags=(), effects=(), cost_effect=None, global_cooldown_effect=None, icon=MediaHandle(id="Firemage_Inferno", kind=MediaKind.AbilityIcon, width=256, height=256), provenance=Provenance.DATAMINE),
 )
-
-#: Whether this dataset carries numeric ability constants for each hero.
-#:
-#: `false` is a statement about this dataset, not about the game. The build does define
-#: constants for most `false` heroes; the pipeline now indexes the raw-CSV directory
-#: they live in, but this field still comes from an externally-generated file that
-#: doesn't read that index yet, so `false` here can still lag behind what the pipeline
-#: actually has. Do not read `false` as "the game has no number for this".
-#:
-#: Abilities carry structure regardless — tags, effects, categories, descriptions — and
-#: reference constant rows by name, so a consumer can see which value is missing. Every
-#: hero has base attributes; this covers ability constants only.
-NUMERIC_COVERAGE: tuple[tuple[HeroId, bool], ...] = (
-    (HeroId("Bowguy"), False),
-    (HeroId("Firemage"), True),
-    (HeroId("Gunde"), False),
-    (HeroId("Ink"), False),
-    (HeroId("Lisa"), False),
-    (HeroId("Mara"), False),
-    (HeroId("Meiko"), False),
-    (HeroId("Mosse"), True),
-    (HeroId("Rime"), True),
-    (HeroId("Sune"), False),
-    (HeroId("Vigor"), True),
-    (HeroId("Warmaster"), False),
-)
