@@ -1,20 +1,6 @@
 {
   "build_id": "24133959",
   "domain": "abilities",
-  "numeric_coverage": {
-    "Bowguy": false,
-    "Firemage": true,
-    "Gunde": false,
-    "Ink": false,
-    "Lisa": false,
-    "Mara": false,
-    "Meiko": false,
-    "Mosse": true,
-    "Rime": true,
-    "Sune": false,
-    "Vigor": true,
-    "Warmaster": false
-  },
   "record_count": 206,
   "schema_version": 1,
   "records": [
