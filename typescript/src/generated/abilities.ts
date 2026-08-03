@@ -242,9 +242,10 @@ export const ABILITIES: readonly Ability[] = [
  * Whether this dataset carries numeric ability constants for each hero.
  *
  * `false` is a statement about this dataset, not about the game. The build does define
- * constants for most `false` heroes; they live in a raw-CSV directory that this
- * extraction does not yet index, so the values are absent here rather than absent
- * upstream. Do not read `false` as "the game has no number for this".
+ * constants for most `false` heroes; the pipeline now indexes the raw-CSV directory
+ * they live in, but this field still comes from an externally-generated file that
+ * doesn't read that index yet, so `false` here can still lag behind what the pipeline
+ * actually has. Do not read `false` as "the game has no number for this".
  *
  * Abilities carry structure regardless — tags, effects, categories, descriptions — and
  * reference constant rows by name, so a consumer can see which value is missing. Every
