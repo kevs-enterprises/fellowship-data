@@ -39,10 +39,10 @@ Available: `heroes` · `abilities` · `talents` · `items` · `attributes` · `c
 
 ## Browser use
 
-The crate builds for `wasm32-unknown-unknown` and every release is checked against that target. It
-deliberately ships no `wasm-bindgen` bindings and no `cdylib` — if you're targeting the browser
-you'll want to expose your own shape to JavaScript, and a binding baked in here would just get in
-the way.
+The crate has no dependencies and no platform-specific code, so it builds for
+`wasm32-unknown-unknown`. It deliberately ships no `wasm-bindgen` bindings and no `cdylib` — if
+you're targeting the browser you'll want to expose your own shape to JavaScript, and a binding baked
+in here would just get in the way.
 
 ## Missing values, curves, and media
 
