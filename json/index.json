@@ -8,7 +8,7 @@
     "order": "Records are stable-sorted and object keys are in declaration order, the same order every other delivery states its fields in, so a data refresh diffs one entity at a time."
   },
   "delivery": "This folder is one of this repository's deliveries of the same dataset, for consumers that would rather read JSON than install a package.",
-  "file_count": 10,
+  "file_count": 11,
   "files": [
     {
       "domain": "heroes",
@@ -59,6 +59,11 @@
       "domain": "mobs",
       "file": "mobs.json",
       "record_count": 220
+    },
+    {
+      "domain": "formulas",
+      "file": "formulas.json",
+      "record_count": 0
     }
   ],
   "schema_version": 1

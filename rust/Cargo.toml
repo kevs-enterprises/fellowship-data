@@ -37,6 +37,9 @@ modifiers = []
 dungeons = []
 # ~440 curves of 151 points. Real weight if you do not need enemy scaling.
 mobs = []
+# Currently empty: no formula has been recovered yet. Not default, so enabling it is a deliberate
+# choice a consumer makes once it starts publishing something.
+formulas = []
 
 [lints.rust]
 unsafe_code = "forbid"
