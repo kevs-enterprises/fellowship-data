@@ -283,6 +283,18 @@ id_newtype! {
     TalentId,
     /// Identifies a dungeon or zone.
     DungeonId,
+    /// Identifies an item trait.
+    TraitId,
+    /// Identifies an armor-set bonus.
+    SetBonusId,
+    /// Identifies a finesse.
+    FinesseId,
+    /// Identifies a relic power.
+    RelicPowerId,
+    /// Identifies a gameplay tag, as `<namespace>/<tag>`.
+    TagId,
+    /// Identifies a combat-model constant by its dotted path.
+    CombatConstantId,
 }
 
 #[cfg(test)]

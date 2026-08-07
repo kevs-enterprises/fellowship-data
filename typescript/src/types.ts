@@ -193,3 +193,15 @@ export type EffectId = string & { readonly __brand: "EffectId" };
 export type TalentId = string & { readonly __brand: "TalentId" };
 /** Identifies a dungeon or zone. */
 export type DungeonId = string & { readonly __brand: "DungeonId" };
+/** Identifies an item trait. */
+export type TraitId = string & { readonly __brand: "TraitId" };
+/** Identifies an armor-set bonus. */
+export type SetBonusId = string & { readonly __brand: "SetBonusId" };
+/** Identifies a finesse. */
+export type FinesseId = string & { readonly __brand: "FinesseId" };
+/** Identifies a relic power. */
+export type RelicPowerId = string & { readonly __brand: "RelicPowerId" };
+/** Identifies a gameplay tag, as `<namespace>/<tag>`. */
+export type TagId = string & { readonly __brand: "TagId" };
+/** Identifies a combat-model constant by its dotted path. */
+export type CombatConstantId = string & { readonly __brand: "CombatConstantId" };
