@@ -34,8 +34,9 @@ fellowship-data = { version = "0.3", default-features = false, features = ["hero
 ```
 
 Available: `heroes` · `abilities` · `talents` · `items` · `attributes` · `constants` · `effects` ·
-`modifiers` · `dungeons` · `mobs`. The default set is `heroes`, `abilities`, `items`, `attributes`,
-`constants`.
+`modifiers` · `dungeons` · `mobs` · `formulas`. The default set is `heroes`, `abilities`, `items`,
+`attributes`, `constants`. `formulas` currently publishes nothing — enable it once you want to
+start seeing whatever it carries as recovered composition lands.
 
 ## Browser use
 

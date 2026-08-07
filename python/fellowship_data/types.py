@@ -15,11 +15,15 @@ from typing import ClassVar, Generic, NewType, TypeVar
 __all__ = [
     "AbilityId",
     "AttributeId",
+    "Confidence",
     "Curve",
+    "Contradicted",
     "CurveValue",
     "Dense",
     "DungeonId",
     "EffectId",
+    "Grade",
+    "Graded",
     "HeroId",
     "ItemId",
     "Keyframes",
@@ -30,8 +34,15 @@ __all__ = [
     "Origin",
     "Provenance",
     "TalentId",
+    "Unassessed",
     "Unresolved",
+    "Unvalidated",
+    "Validated",
+    "Validation",
     "Value",
+    "contradiction_delta",
+    "is_graded",
+    "is_validated",
 ]
 
 T = TypeVar("T")
@@ -109,6 +120,94 @@ class Unresolved:
     """Known to exist, with no value recovered. Never silently omitted."""
 
     reason: str
+
+
+@dataclass(frozen=True)
+class Validated:
+    """Checked against at least one capture, and it agreed."""
+
+
+@dataclass(frozen=True)
+class Unvalidated:
+    """No capture has checked this formula."""
+
+    reason: str
+
+
+@dataclass(frozen=True)
+class Contradicted:
+    """A capture checked this formula and disagreed.
+
+    ``delta`` is the observed difference. A contradicted formula still publishes: the marker
+    records that two methods disagreed, not which one is wrong.
+    """
+
+    reason: str
+    delta: float
+
+
+#: Whether a modelled formula has been checked against a recorded capture.
+#:
+#: Not a confidence number. "Never checked" and "checked and disagreed" are different states with
+#: independent failure modes, and one scalar cannot carry both.
+Validation = Validated | Unvalidated | Contradicted
+
+
+def is_validated(validation: Validation) -> bool:
+    """Whether an oracle has agreed with this formula."""
+    return isinstance(validation, Validated)
+
+
+def contradiction_delta(validation: Validation) -> float | None:
+    """The observed disagreement, when one was measured."""
+    return validation.delta if isinstance(validation, Contradicted) else None
+
+
+class Grade(Enum):
+    """One axis of how much standing an extraction has."""
+
+    LOW = "low"
+    MEDIUM = "medium"
+    HIGH = "high"
+    VERIFIED = "verified"
+
+
+@dataclass(frozen=True)
+class Unassessed:
+    """Nothing has graded this extraction.
+
+    Carries a reason rather than being a bottom grade: "nobody assessed this" and "assessed, and
+    it is weak" are different claims.
+    """
+
+    reason: str
+
+
+@dataclass(frozen=True)
+class Graded:
+    """Graded on each axis the extraction actually has.
+
+    ``binding`` is how firmly the value is bound to the thing it claims to describe,
+    ``extraction`` how reliably the bytes were read, and ``interpretation`` how well what was read
+    is understood to mean what it is published as.
+    """
+
+    binding: Grade
+    extraction: Grade
+    interpretation: Grade
+
+
+#: How much standing the extraction behind a formula has.
+#:
+#: A separate axis from :data:`Validation`, not a finer grade of it. Validation asks whether an
+#: oracle agreed; this asks how well the value was recovered in the first place. Coverage is a
+#: corpus-level summary and is deliberately absent: it is not a property of any one formula.
+Confidence = Unassessed | Graded
+
+
+def is_graded(confidence: Confidence) -> bool:
+    """Whether this extraction has been graded at all."""
+    return isinstance(confidence, Graded)
 
 
 #: A value that could not be fully resolved.

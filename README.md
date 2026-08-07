@@ -50,8 +50,9 @@ Enemy difficulty scaling is real weight if you are building a gear planner that 
 mob, so each delivery lets you leave it out.
 
 Rust uses features — available: `heroes` · `abilities` · `talents` · `items` · `attributes` ·
-`constants` · `effects` · `modifiers` · `dungeons` · `mobs`, with `heroes`, `abilities`, `items`,
-`attributes` and `constants` on by default:
+`constants` · `effects` · `modifiers` · `dungeons` · `mobs` · `formulas`, with `heroes`,
+`abilities`, `items`, `attributes` and `constants` on by default. `formulas` currently publishes
+nothing:
 
 ```toml
 fellowship-data = { version = "0.3", default-features = false, features = ["heroes", "items"] }

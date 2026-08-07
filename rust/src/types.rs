@@ -99,6 +99,90 @@ impl<T: Copy> Value<T> {
     }
 }
 
+/// Whether a modelled formula has been checked against a recorded capture.
+///
+/// Not a confidence number. "Never checked" and "checked and disagreed" are different states with
+/// independent failure modes — the first is absence of evidence, the second is evidence of a
+/// problem — and one scalar cannot carry both, so they are separate variants and a consumer has to
+/// decide which it can live with.
+///
+/// A contradicted formula still publishes. The marker records that two methods disagreed; it does
+/// not assert which one is wrong.
+#[derive(Debug, Clone, Copy, PartialEq)]
+pub enum Validation {
+    /// Checked against at least one capture, and it agreed.
+    Validated,
+    /// No capture has checked this formula.
+    Unvalidated { reason: &'static str },
+    /// A capture checked this formula and disagreed. `delta` is the observed difference.
+    Contradicted { reason: &'static str, delta: f32 },
+}
+
+impl Validation {
+    /// Whether an oracle has agreed with this formula.
+    ///
+    /// Named for what it asserts. `!is_validated()` covers both "nobody checked" and "somebody
+    /// checked and it was wrong", which are not the same risk.
+    #[must_use]
+    pub const fn is_validated(&self) -> bool {
+        matches!(self, Self::Validated)
+    }
+
+    /// The observed disagreement, when one was measured.
+    #[must_use]
+    pub const fn contradiction_delta(&self) -> Option<f32> {
+        match self {
+            Self::Contradicted { delta, .. } => Some(*delta),
+            _ => None,
+        }
+    }
+}
+
+/// One axis of how much standing an extraction has.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Grade {
+    Low,
+    Medium,
+    High,
+    Verified,
+}
+
+/// How much standing the extraction behind a formula has.
+///
+/// A separate axis from [`Validation`], not a finer grade of it. Validation asks whether an oracle
+/// agreed; this asks how well the value was recovered in the first place. A formula can be
+/// well-extracted and contradicted, or ungraded and validated, and collapsing the two onto one
+/// number would lose whichever failed.
+///
+/// Graded on the three axes the extraction actually has. Coverage is a corpus-level summary and is
+/// deliberately not here: it is not a property of any one formula.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum Confidence {
+    /// Nothing has graded this extraction. Carries a reason rather than being a bottom grade —
+    /// "nobody assessed this" and "assessed, and it is weak" are different claims.
+    Unassessed { reason: &'static str },
+    /// Graded on each axis.
+    Graded {
+        /// How firmly the value is bound to the thing it claims to describe.
+        binding: Grade,
+        /// How reliably the bytes were read.
+        extraction: Grade,
+        /// How well what was read is understood to mean what it is published as.
+        interpretation: Grade,
+    },
+}
+
+impl Confidence {
+    /// Whether this extraction has been graded at all.
+    ///
+    /// Named for what it asserts. `!is_graded()` means nobody has assessed it, which is not the
+    /// same as a low grade — see [`Confidence::Unassessed`].
+    #[must_use]
+    pub const fn is_graded(&self) -> bool {
+        matches!(self, Self::Graded { .. })
+    }
+}
+
 /// Where a record came from.
 ///
 /// Kept on every record because a hand-authored correction and a value read from the game must

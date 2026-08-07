@@ -12,6 +12,8 @@ pub mod constants;
 pub mod dungeons;
 #[cfg(feature = "effects")]
 pub mod effects;
+#[cfg(feature = "formulas")]
+pub mod formulas;
 #[cfg(feature = "heroes")]
 pub mod heroes;
 #[cfg(feature = "items")]
