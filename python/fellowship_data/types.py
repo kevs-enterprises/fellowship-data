@@ -15,13 +15,15 @@ from typing import ClassVar, Generic, NewType, TypeVar
 __all__ = [
     "AbilityId",
     "AttributeId",
+    "CombatConstantId",
     "Confidence",
-    "Curve",
     "Contradicted",
+    "Curve",
     "CurveValue",
     "Dense",
     "DungeonId",
     "EffectId",
+    "FinesseId",
     "Grade",
     "Graded",
     "HeroId",
@@ -33,7 +35,11 @@ __all__ = [
     "MobId",
     "Origin",
     "Provenance",
+    "RelicPowerId",
+    "SetBonusId",
+    "TagId",
     "TalentId",
+    "TraitId",
     "Unassessed",
     "Unresolved",
     "Unvalidated",
@@ -319,3 +325,15 @@ EffectId = NewType("EffectId", str)
 TalentId = NewType("TalentId", str)
 #: Identifies a dungeon or zone.
 DungeonId = NewType("DungeonId", str)
+#: Identifies an item trait.
+TraitId = NewType("TraitId", str)
+#: Identifies an armor-set bonus.
+SetBonusId = NewType("SetBonusId", str)
+#: Identifies a finesse.
+FinesseId = NewType("FinesseId", str)
+#: Identifies a relic power.
+RelicPowerId = NewType("RelicPowerId", str)
+#: Identifies a gameplay tag, as ``<namespace>/<tag>``.
+TagId = NewType("TagId", str)
+#: Identifies a combat-model constant by its dotted path.
+CombatConstantId = NewType("CombatConstantId", str)

@@ -8,7 +8,7 @@
     "order": "Records are stable-sorted and object keys are in declaration order, the same order every other delivery states its fields in, so a data refresh diffs one entity at a time."
   },
   "delivery": "This folder is one of this repository's deliveries of the same dataset, for consumers that would rather read JSON than install a package.",
-  "file_count": 11,
+  "file_count": 17,
   "files": [
     {
       "domain": "heroes",
@@ -59,6 +59,36 @@
       "domain": "mobs",
       "file": "mobs.json",
       "record_count": 219
+    },
+    {
+      "domain": "traits",
+      "file": "traits.json",
+      "record_count": 40
+    },
+    {
+      "domain": "set_bonuses",
+      "file": "set_bonuses.json",
+      "record_count": 21
+    },
+    {
+      "domain": "finesses",
+      "file": "finesses.json",
+      "record_count": 14
+    },
+    {
+      "domain": "relic_powers",
+      "file": "relic_powers.json",
+      "record_count": 13
+    },
+    {
+      "domain": "tag_ids",
+      "file": "tag_ids.json",
+      "record_count": 13070
+    },
+    {
+      "domain": "combat_constants",
+      "file": "combat_constants.json",
+      "record_count": 309
     },
     {
       "domain": "formulas",

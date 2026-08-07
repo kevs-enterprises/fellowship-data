@@ -1,0 +1,52 @@
+// GENERATED FILE - do not edit by hand.
+//
+// Rendered from the published `set_bonuses.json`. Edits are overwritten on the next refresh.
+
+import type { MediaHandle, MediaKind, Provenance, SetBonusId } from "../types.js";
+
+/** A bonus granted for wearing several pieces of one item set. */
+export interface SetBonus {
+  readonly id: SetBonusId;
+  /** The gameplay tag this set bonus is addressed by. */
+  readonly set_bonus_id: string;
+  readonly numeric_id: number;
+  readonly display_name: string;
+  /** How many pieces of the set must be worn. */
+  readonly set_count: number;
+  readonly description: string;
+  /**
+   * The primary attributes this set bonus may roll for.
+   *
+   * Published in the same namespace `attributes.json` uses. The source carries the enum
+   * spelling (`ATTRIBUTE_AGILITY`), which resolves against nothing — the same mismatch
+   * `heroes.primary_attribute` had, and the same named transform.
+   */
+  readonly allowed_attributes: readonly string[];
+  readonly icon: MediaHandle | null;
+  readonly provenance: Provenance;
+}
+
+/** Every item set bonus, sorted by `id`. */
+export const SET_BONUSES: readonly SetBonus[] = [
+  { id: "Quickplay" as SetBonusId, set_bonus_id: "ItemID.SetBonus.Quickplay", numeric_id: 2098, display_name: "Expedition Heroism", set_count: 10, description: "+15% Critical Chance\n+20% Haste\n+20% Expertise\n+20% Spirit", allowed_attributes: [], icon: { id: "T_UI_Icon_Rarity_Common", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetA_Percentage_DH" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetA_Percentage_DH", numeric_id: 1769, display_name: "Draconic Deceit", set_count: 2, description: "+4% Critical Strike Chance\n-15% Threat Generation", allowed_attributes: ["Intellect"], icon: { id: "T_Icon_Frost_134_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetA_Percentage_T" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetA_Percentage_T", numeric_id: 1770, display_name: "Draconic Fury", set_count: 2, description: "+4% Critical Strike Chance\n+15% Threat Generation", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "T_Icon_Frost_134_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetA_Proc_Agility" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetA_Proc_Agility", numeric_id: 677, display_name: "Draconic Might", set_count: 2, description: "Your critical strikes have a chance (0.9 PPM) to increase your Agility by 18% for 14 seconds.", allowed_attributes: ["Agility"], icon: { id: "T_Icon_Frost_113", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetA_Proc_Intellect" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetA_Proc_Intellect", numeric_id: 678, display_name: "Draconic Might", set_count: 2, description: "Your critical strikes have a chance (0.9 PPM) to increase your Intellect by 18% for 14 seconds.", allowed_attributes: ["Intellect"], icon: { id: "T_Icon_Frost_113", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetA_Proc_Strength" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetA_Proc_Strength", numeric_id: 679, display_name: "Draconic Might", set_count: 2, description: "Your critical strikes have a chance (0.9 PPM) to increase your Strength by 18% for 14 seconds.", allowed_attributes: ["Strength"], icon: { id: "T_Icon_Frost_113", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetB_Percentage_HDT" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetB_Percentage_HDT", numeric_id: 680, display_name: "Tuzari Grace", set_count: 2, description: "+4% Haste\n+20% Movement Speed", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "T_Icon_Fire_162_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetB_Proc_HDT" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetB_Proc_HDT", numeric_id: 681, display_name: "Dark Prophecy", set_count: 2, description: "Your abilities have a chance (0.8 PPM) to increase your Haste by 25% for 20 seconds.", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "T_Icon_Fire_162_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetC_Percentage_D" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetC_Percentage_D", numeric_id: 682, display_name: "Sin Warding", set_count: 2, description: "+4% Expertise\n+5% Max Health", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "T_Icon_Gold_147_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetC_Percentage_H" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetC_Percentage_H", numeric_id: 683, display_name: "Sin Warding", set_count: 2, description: "+4% Expertise\n+5% Max Health", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "T_Icon_Gold_147_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetC_Percentage_T" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetC_Percentage_T", numeric_id: 684, display_name: "Sin Warding", set_count: 2, description: "+4% Expertise\n+5% Max Health", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "T_Icon_Gold_147_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetC_Proc_Agility" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetC_Proc_Agility", numeric_id: 685, display_name: "Torment of Bael'Aurum", set_count: 2, description: "+5% Agility\n\nWhen dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds.", allowed_attributes: ["Agility"], icon: { id: "T_Icon_Gold_147_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetC_Proc_Intellect" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetC_Proc_Intellect", numeric_id: 686, display_name: "Torment of Bael'Aurum", set_count: 2, description: "+5% Intellect\n\nWhen dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds.", allowed_attributes: ["Intellect"], icon: { id: "T_Icon_Gold_147_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetC_Proc_Strength" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetC_Proc_Strength", numeric_id: 687, display_name: "Torment of Bael'Aurum", set_count: 2, description: "+5% Strength\n\nWhen dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds.", allowed_attributes: ["Strength"], icon: { id: "T_Icon_Gold_147_BetaCropped", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetD_Percentage_D" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetD_Percentage_D", numeric_id: 1771, display_name: "Death's Grasp", set_count: 2, description: "+4% Spirit\n+10% damage to Low Health enemies.", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "LootModifier_SetBonus", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetD_Percentage_H" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetD_Percentage_H", numeric_id: 1772, display_name: "Haunting Lament", set_count: 2, description: "+4% Spirit\n+15% Max Mana", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "LootModifier_SetBonus", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetD_Percentage_T" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetD_Percentage_T", numeric_id: 689, display_name: "Sinthara's Veil", set_count: 2, description: "+4% Spirit\n+10% magic damage reduction", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "LootModifier_SetBonus", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetD_Proc_Agility" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetD_Proc_Agility", numeric_id: 690, display_name: "Drakheim's Absolution", set_count: 2, description: "Your Spirit Ability grants you Drakheim's Absolution, increasing your Agility by 20% for 20 seconds.", allowed_attributes: ["Agility"], icon: { id: "T_Icon_Energy_125", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetD_Proc_Intellect" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetD_Proc_Intellect", numeric_id: 691, display_name: "Drakheim's Absolution", set_count: 2, description: "Your Spirit Ability grants you Drakheim's Absolution, increasing your Intellect by 20% for 20 seconds.", allowed_attributes: ["Intellect"], icon: { id: "T_Icon_Energy_125", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetD_Proc_Strength" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetD_Proc_Strength", numeric_id: 692, display_name: "Drakheim's Absolution", set_count: 2, description: "Your Spirit Ability grants you Drakheim's Absolution, increasing your Strength by 20% for 20 seconds.", allowed_attributes: ["Strength"], icon: { id: "T_Icon_Energy_125", kind: "Other", width: 256, height: 256 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+  { id: "SetE_Percentage_HDT" as SetBonusId, set_bonus_id: "ItemID.SetBonus.SetE_Percentage_HDT", numeric_id: 5638, display_name: "Seal of the Heskyr", set_count: 2, description: "Your Gem Power is increased by 25%.", allowed_attributes: ["Strength", "Agility", "Intellect"], icon: { id: "T_Icons_Generic_Placeholder", kind: "Other", width: 128, height: 128 }, provenance: { origin: "datamine", dev_name: null, source: null } },
+];
