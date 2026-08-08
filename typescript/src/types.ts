@@ -79,60 +79,6 @@ export function knownOrDeclaredDefault<T>(value: Value<T>): T | null {
  * Kept on every record because a hand-authored correction and a value read from the game must
  * never be indistinguishable to a consumer.
  */
-/**
- * Whether a modelled formula has been checked against a recorded capture.
- *
- * Not a confidence number. "Never checked" and "checked and disagreed" are different states with
- * independent failure modes, and one scalar cannot carry both. A contradicted formula still
- * publishes: the marker records that two methods disagreed, not which one is wrong.
- */
-export type Validation =
-  | { readonly status: "validated" }
-  | { readonly status: "unvalidated"; readonly reason: string }
-  | { readonly status: "contradicted"; readonly reason: string; readonly delta: number };
-
-/** Whether an oracle has agreed with this formula. */
-export function isValidated(validation: Validation): boolean {
-  return validation.status === "validated";
-}
-
-/** The observed disagreement, when one was measured. */
-export function contradictionDelta(validation: Validation): number | null {
-  return validation.status === "contradicted" ? validation.delta : null;
-}
-
-/** One axis of how much standing an extraction has. */
-export type Grade = "low" | "medium" | "high" | "verified";
-
-/**
- * How much standing the extraction behind a formula has.
- *
- * A separate axis from {@link Validation}, not a finer grade of it. Validation asks whether an
- * oracle agreed; this asks how well the value was recovered in the first place. Graded on the
- * three axes the extraction actually has — coverage is a corpus-level summary and is deliberately
- * absent, because it is not a property of any one formula.
- */
-export type Confidence =
-  | { readonly status: "unassessed"; readonly reason: string }
-  | {
-      readonly status: "graded";
-      /** How firmly the value is bound to the thing it claims to describe. */
-      readonly binding: Grade;
-      /** How reliably the bytes were read. */
-      readonly extraction: Grade;
-      /** How well what was read is understood to mean what it is published as. */
-      readonly interpretation: Grade;
-    };
-
-/**
- * Whether this extraction has been graded at all.
- *
- * `!isGraded()` means nobody assessed it, which is not the same as a low grade.
- */
-export function isGraded(confidence: Confidence): boolean {
-  return confidence.status === "graded";
-}
-
 export type Origin = "datamine" | "derived" | "overlay";
 
 /** Provenance carried alongside a record. */
