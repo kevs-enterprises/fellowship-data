@@ -62,6 +62,8 @@ from .types import (
     TalentId,
     Unresolved,
     Value,
+    known,
+    known_or_declared_default,
 )
 
 __all__ = [
@@ -85,4 +87,10 @@ __all__ = [
     "TalentId",
     "Unresolved",
     "Value",
+    # The two accessors, beside the type they read. `Value` is on every effect modifier's
+    # magnitude, so reaching into `fellowship_data.types` for the only supported way to read one
+    # would make the awkward path the common one — and the convenient alternative is
+    # `m.value.value`, which reads a `Known` and raises on the other two arms.
+    "known",
+    "known_or_declared_default",
 ]
