@@ -4,6 +4,8 @@
 
 #[cfg(feature = "abilities")]
 pub mod abilities;
+#[cfg(feature = "ability_constants")]
+pub mod ability_constants;
 #[cfg(feature = "attributes")]
 pub mod attributes;
 #[cfg(feature = "combat_constants")]

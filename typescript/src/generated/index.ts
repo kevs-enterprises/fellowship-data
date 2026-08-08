@@ -4,6 +4,7 @@
 // `generated/<domain>.js` directly if you would rather be explicit.
 
 export * from "./abilities.js";
+export * from "./ability_constants.js";
 export * from "./attributes.js";
 export * from "./combat_constants.js";
 export * from "./constants.js";

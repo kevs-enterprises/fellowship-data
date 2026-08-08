@@ -6,6 +6,7 @@ for.
 Available modules:
 
 - ``fellowship_data.generated.abilities``
+- ``fellowship_data.generated.ability_constants``
 - ``fellowship_data.generated.attributes``
 - ``fellowship_data.generated.combat_constants``
 - ``fellowship_data.generated.constants``
@@ -29,4 +30,4 @@ BUILD_ID = "24133959"
 __all__ = ["BUILD_ID"]
 
 #: Every generated domain module, by name.
-DOMAINS = ("abilities", "attributes", "combat_constants", "constants", "dungeons", "effects", "finesses", "heroes", "items", "mobs", "modifiers", "relic_powers", "set_bonuses", "tag_ids", "talents", "traits",)
+DOMAINS = ("abilities", "ability_constants", "attributes", "combat_constants", "constants", "dungeons", "effects", "finesses", "heroes", "items", "mobs", "modifiers", "relic_powers", "set_bonuses", "tag_ids", "talents", "traits",)

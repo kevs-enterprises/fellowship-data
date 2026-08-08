@@ -44,6 +44,9 @@ relic_powers = []
 # 13,070 rows. Only needed to map a gameplay tag to the engine's numeric id.
 tag_ids = []
 combat_constants = []
+# 12,927 rows. The numbers behind every ability's mechanics; `abilities` carries the resolved
+# subset each ability actually references, so this is only needed to look one up by name.
+ability_constants = []
 
 [lints.rust]
 unsafe_code = "forbid"
