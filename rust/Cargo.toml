@@ -47,6 +47,9 @@ combat_constants = []
 # 12,927 rows. The numbers behind every ability's mechanics; `abilities` carries the resolved
 # subset each ability actually references, so this is only needed to look one up by name.
 ability_constants = []
+# The 22 native classes an effect's `Executions` array can reference; `effects` already carries
+# the resolved subset each effect references, so this is only needed to enumerate them.
+effect_executions = []
 
 [lints.rust]
 unsafe_code = "forbid"

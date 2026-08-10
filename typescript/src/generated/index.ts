@@ -9,6 +9,7 @@ export * from "./attributes.js";
 export * from "./combat_constants.js";
 export * from "./constants.js";
 export * from "./dungeons.js";
+export * from "./effect_executions.js";
 export * from "./effects.js";
 export * from "./finesses.js";
 export * from "./heroes.js";

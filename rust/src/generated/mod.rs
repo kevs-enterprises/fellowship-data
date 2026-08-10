@@ -14,6 +14,8 @@ pub mod combat_constants;
 pub mod constants;
 #[cfg(feature = "dungeons")]
 pub mod dungeons;
+#[cfg(feature = "effect_executions")]
+pub mod effect_executions;
 #[cfg(feature = "effects")]
 pub mod effects;
 #[cfg(feature = "finesses")]
