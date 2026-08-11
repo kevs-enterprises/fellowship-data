@@ -2,7 +2,7 @@
   "build_id": "24133959",
   "domain": "ability_constants",
   "record_count": 12928,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"name":"AI.ReturnHome.MoveSpeed","value":{"known":2.0},"table":"AbilityConstants","source":"base","note":null,"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"name":"AbilityUnlock.Level","value":{"known":19.0},"table":"DungeonModifiers","source":"base","note":"!!!!This is not Pinnacle unlock. this is global. Do not change this for pinnacle tweaking!!!!","provenance":{"origin":"datamine","dev_name":null,"source":null}},

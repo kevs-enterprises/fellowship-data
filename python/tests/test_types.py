@@ -12,8 +12,13 @@ one most worth checking in each of them independently.
 from __future__ import annotations
 
 import unittest
+from uuid import UUID
 
+from fellowship_data import ABILITY_GUID_SCHEME
 from fellowship_data.types import (
+    AbilityGuid,
+    AbilityId,
+    AbilityRef,
     CurveValue,
     Dense,
     Keyframes,
@@ -84,6 +89,35 @@ class ProvenanceTests(unittest.TestCase):
         # find two different spellings of the same fact.
         self.assertEqual(Origin.DATAMINE.value, "datamine")
         self.assertEqual(MediaKind.AbilityIcon.value, "AbilityIcon")
+
+
+class AbilityGuidTests(unittest.TestCase):
+    def test_an_ability_guid_is_backed_by_the_standard_library_uuid(self) -> None:
+        guid = AbilityGuid(UUID("faf295c9-9758-5dc6-abb9-c4b2cef8d531"))
+        self.assertIsInstance(guid, UUID)
+        self.assertEqual(str(guid), "faf295c9-9758-5dc6-abb9-c4b2cef8d531")
+
+    def test_the_package_root_exports_the_frozen_scheme(self) -> None:
+        self.assertEqual(ABILITY_GUID_SCHEME.name, "ability-guid-v1")
+        self.assertEqual(
+            ABILITY_GUID_SCHEME.namespace,
+            "c429f5ee-71e6-4a70-9e5b-4c63ee73e575",
+        )
+        self.assertEqual(ABILITY_GUID_SCHEME.version, 5)
+        self.assertEqual(
+            ABILITY_GUID_SCHEME.transform,
+            "strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/",
+        )
+        self.assertEqual(ABILITY_GUID_SCHEME.origin, Origin.DERIVED)
+
+    def test_an_ability_reference_keeps_source_text_beside_its_uuid(self) -> None:
+        guid = AbilityGuid(UUID("faf295c9-9758-5dc6-abb9-c4b2cef8d531"))
+        reference = AbilityRef(
+            source_id=AbilityId("GA_Bowguy_RangedAutoAttack_C"),
+            guid=guid,
+        )
+        self.assertEqual(reference.source_id, "GA_Bowguy_RangedAutoAttack_C")
+        self.assertIsInstance(reference.guid, UUID)
 
 
 class ImmutabilityTests(unittest.TestCase):

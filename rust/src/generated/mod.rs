@@ -2,6 +2,17 @@
 //!
 //! Each domain is feature-gated so a consumer compiles in only what it uses.
 
+use crate::types::{AbilityGuidScheme, Origin};
+
+/// The protocol used to derive every published Ability GUID.
+pub const ABILITY_GUID_SCHEME: AbilityGuidScheme = AbilityGuidScheme {
+    name: "ability-guid-v1",
+    namespace: "c429f5ee-71e6-4a70-9e5b-4c63ee73e575",
+    version: 5,
+    transform: "strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/",
+    origin: Origin::Derived,
+};
+
 #[cfg(feature = "abilities")]
 pub mod abilities;
 #[cfg(feature = "ability_constants")]

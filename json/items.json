@@ -52,7 +52,7 @@
     ]
   },
   "record_count": 237,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"id":"ItemID.HeroItem.Dynamic.Back.A_Crit","numeric_id":5127,"slot":"Back","rule_set":"DynamicHeroItemRuleSet.Default_GemSlot","stat_weights_key":"22.22.40","display_name":"Back_A_Crit","drops_in_all_dungeons":false,"drops_in_specific_dungeons":["Level.ID.UrrakMarkets","Level.ID.SandTomb"],"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"id":"ItemID.HeroItem.Dynamic.Back.A_Expertise","numeric_id":5128,"slot":"Back","rule_set":"DynamicHeroItemRuleSet.Default_GemSlot","stat_weights_key":"22.22.40","display_name":"Back_A_Expertise","drops_in_all_dungeons":false,"drops_in_specific_dungeons":["Level.ID.SnowPeak","Level.ID.SandTomb"],"provenance":{"origin":"datamine","dev_name":null,"source":null}},

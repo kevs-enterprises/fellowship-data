@@ -99,6 +99,48 @@ impl<T: Copy> Value<T> {
     }
 }
 
+/// Stable consumer identity for an Ability.
+///
+/// The bytes are UUID bytes, kept dependency-free so consumers do not inherit a UUID crate merely
+/// by depending on this data package. [`core::fmt::Display`] emits the canonical lowercase,
+/// hyphenated representation used by the structural deliveries.
+#[repr(transparent)]
+#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash)]
+pub struct AbilityGuid([u8; 16]);
+
+impl AbilityGuid {
+    /// Construct from the UUID's 16 network-order bytes.
+    #[must_use]
+    pub const fn from_bytes(bytes: [u8; 16]) -> Self {
+        Self(bytes)
+    }
+
+    /// The UUID's 16 network-order bytes.
+    #[must_use]
+    pub const fn as_bytes(&self) -> &[u8; 16] {
+        &self.0
+    }
+}
+
+impl core::fmt::Display for AbilityGuid {
+    fn fmt(&self, f: &mut core::fmt::Formatter<'_>) -> core::fmt::Result {
+        for (index, byte) in self.0.iter().enumerate() {
+            if matches!(index, 4 | 6 | 8 | 10) {
+                f.write_str("-")?;
+            }
+            write!(f, "{byte:02x}")?;
+        }
+        Ok(())
+    }
+}
+
+/// A source Ability occurrence paired with its stable consumer identity.
+#[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash)]
+pub struct AbilityRef {
+    pub source_id: AbilityId,
+    pub guid: AbilityGuid,
+}
+
 /// Where a record came from.
 ///
 /// Kept on every record because a hand-authored correction and a value read from the game must
@@ -111,6 +153,17 @@ pub enum Origin {
     Derived,
     /// Hand-authored to cover a known gap.
     Overlay,
+}
+
+/// The public protocol used to derive Ability GUIDs.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub struct AbilityGuidScheme {
+    pub name: &'static str,
+    /// Canonical lowercase, hyphenated UUID text. This is a namespace, not an entity identity.
+    pub namespace: &'static str,
+    pub version: u8,
+    pub transform: &'static str,
+    pub origin: Origin,
 }
 
 /// Provenance carried alongside a record.
@@ -282,5 +335,35 @@ mod tests {
         assert_eq!(hero.to_string(), "Bowguy");
         // AbilityId("Bowguy") is a different type and will not compare with `hero`; that is the
         // point of the newtypes and is enforced at compile time rather than here.
+    }
+
+    #[test]
+    fn an_ability_guid_is_exactly_sixteen_bytes_and_displays_canonically() {
+        let guid = AbilityGuid::from_bytes([
+            0xfa, 0xf2, 0x95, 0xc9, 0x97, 0x58, 0x5d, 0xc6, 0xab, 0xb9, 0xc4, 0xb2, 0xce,
+            0xf8, 0xd5, 0x31,
+        ]);
+        assert_eq!(core::mem::size_of::<AbilityGuid>(), 16);
+        assert_eq!(guid.as_bytes().len(), 16);
+        assert_eq!(
+            guid.to_string(),
+            "faf295c9-9758-5dc6-abb9-c4b2cef8d531"
+        );
+
+        let leading_zero_bytes = AbilityGuid::from_bytes([
+            0x00, 0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08, 0x09, 0x0a, 0x0b, 0x0c,
+            0x0d, 0x0e, 0x0f,
+        ]);
+        assert_eq!(
+            leading_zero_bytes.to_string(),
+            "00010203-0405-0607-0809-0a0b0c0d0e0f"
+        );
+
+        let reference = AbilityRef {
+            source_id: AbilityId("GA_Bowguy_RangedAutoAttack_C"),
+            guid,
+        };
+        assert_eq!(reference.source_id.as_str(), "GA_Bowguy_RangedAutoAttack_C");
+        assert_eq!(reference.guid, guid);
     }
 }

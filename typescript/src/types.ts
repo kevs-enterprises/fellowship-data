@@ -93,6 +93,19 @@ export interface Provenance {
 /** Read directly from the game's own data. */
 export const DATAMINE: Provenance = { origin: "datamine", dev_name: null, source: null };
 
+/** Stable consumer identity for an Ability, represented as a canonical UUID string. */
+export type AbilityGuid = string & { readonly __brand: "AbilityGuid" };
+
+/** The public protocol used to derive Ability GUIDs. */
+export interface AbilityGuidScheme {
+  readonly name: string;
+  /** Canonical UUID text. This is a namespace, not an entity identity. */
+  readonly namespace: string;
+  readonly version: number;
+  readonly transform: string;
+  readonly origin: Origin;
+}
+
 /** What a media handle points at. */
 export type MediaKind =
   | "HeroPortrait"
@@ -127,6 +140,11 @@ export interface MediaHandle {
 export type HeroId = string & { readonly __brand: "HeroId" };
 /** Identifies an ability or passive. */
 export type AbilityId = string & { readonly __brand: "AbilityId" };
+/** A source Ability occurrence paired with its stable consumer identity. */
+export interface AbilityRef {
+  readonly source_id: AbilityId;
+  readonly guid: AbilityGuid;
+}
 /** Identifies an item. */
 export type ItemId = string & { readonly __brand: "ItemId" };
 /** Identifies an enemy or boss. */

@@ -2,7 +2,7 @@
   "build_id": "24133959",
   "domain": "tag_ids",
   "record_count": 13070,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"id":"CRAICharacter/BP_BossTest","namespace":"CRAICharacter","tag":"BP_BossTest","numeric_id":2,"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"id":"CRAICharacter/BP_Debug_NPC_AoeActorSpawner","namespace":"CRAICharacter","tag":"BP_Debug_NPC_AoeActorSpawner","numeric_id":238,"provenance":{"origin":"datamine","dev_name":null,"source":null}},

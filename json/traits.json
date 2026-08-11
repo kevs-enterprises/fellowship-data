@@ -2,7 +2,7 @@
   "build_id": "24133959",
   "domain": "traits",
   "record_count": 40,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"id":"AbilityToIncreasedMainStat","trait_id":"ItemTrait.ID.AbilityToIncreasedMainStat","numeric_id":1,"name":"Hidden Power","description":"Your <rt.warning>abilities</> have a <rt.bold>chance</> to grant you 1 stack of <rt.bold>Hidden Power</> for <rt.bold>60 seconds</>. When you have <rt.bold>5 stacks</>, <rt.warning>Hidden Power is consumed</> and <rt.bold>Power Revealed</> is granted to you for <rt.bold>15 seconds</>, increasing your <rt.warning>Main Stat</> by <rt.effect>7.2%</> / <rt.effect>12.8%</> / <rt.effect>18.4%</> / <rt.effect>24%</>.\n\nYou can not gain <rt.bold>Hidden Power</> stacks while <rt.bold>Power Revealed</> is active on you.\n\n<rt.bold>(2.6 PPM)</>","categories":["Heroic"],"max_rank":4,"random_chance":2,"icon":{"id":"Tex_SpellBook01_89","kind":"Other","width":256,"height":256},"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"id":"AgainstAllOdds","trait_id":"ItemTrait.ID.BigBlowMitigation","numeric_id":52,"name":"The Beetle","description":"When you take damage equal to <bold>40% of your max health or more in a single hit</>, the damage is <bold>reduced by 30%</>.\n\nThis can only occur once every 20 seconds.","categories":["Necklace"],"max_rank":1,"random_chance":0,"icon":{"id":"Tex_WitchCraftIcons_75_b","kind":"Other","width":256,"height":256},"provenance":{"origin":"datamine","dev_name":null,"source":null}},

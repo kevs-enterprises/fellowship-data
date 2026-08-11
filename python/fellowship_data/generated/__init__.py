@@ -25,10 +25,21 @@ Available modules:
 - ``fellowship_data.generated.traits``
 """
 
+from ..types import AbilityGuidScheme, Origin
+
 #: The game build this data was extracted from.
 BUILD_ID = "24133959"
 
-__all__ = ["BUILD_ID"]
+#: The protocol used to derive every published Ability GUID.
+ABILITY_GUID_SCHEME = AbilityGuidScheme(
+    name="ability-guid-v1",
+    namespace="c429f5ee-71e6-4a70-9e5b-4c63ee73e575",
+    version=5,
+    transform="strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/",
+    origin=Origin.DERIVED,
+)
+
+__all__ = ["BUILD_ID", "ABILITY_GUID_SCHEME"]
 
 #: Every generated domain module, by name.
 DOMAINS = ("abilities", "ability_constants", "attributes", "combat_constants", "constants", "dungeons", "effect_executions", "effects", "finesses", "heroes", "items", "mobs", "modifiers", "relic_powers", "set_bonuses", "tag_ids", "talents", "traits",)
