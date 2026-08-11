@@ -2,7 +2,7 @@
   "build_id": "24133959",
   "domain": "attributes",
   "record_count": 24,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"id":"Agility","attribute_id":"CRBasicAttributeSet.Agility","display_name":"Agility","attribute_name":"Agility","attribute_set":"CRBasicAttributeSet","is_percent":false,"display_as_reduction":false,"round_to_decimals":0,"base_stat_multiplier":1.0,"final_penalty_percentage":0.0,"diminishing_returns":[],"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"id":"Armor","attribute_id":"CRBasicAttributeSet.Armor","display_name":"Armor","attribute_name":"Armor","attribute_set":"CRBasicAttributeSet","is_percent":false,"display_as_reduction":false,"round_to_decimals":0,"base_stat_multiplier":1.0,"final_penalty_percentage":1.0,"diminishing_returns":[{"max_bracket_value":50.0,"penalty_percentage":0.9},{"max_bracket_value":100.0,"penalty_percentage":0.8}],"provenance":{"origin":"datamine","dev_name":null,"source":null}},

@@ -2,7 +2,7 @@
   "build_id": "24133959",
   "domain": "set_bonuses",
   "record_count": 21,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"id":"Quickplay","set_bonus_id":"ItemID.SetBonus.Quickplay","numeric_id":2098,"display_name":"Expedition Heroism","set_count":10,"description":"+15% Critical Chance\n+20% Haste\n+20% Expertise\n+20% Spirit","allowed_attributes":[],"icon":{"id":"T_UI_Icon_Rarity_Common","kind":"Other","width":256,"height":256},"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"id":"SetA_Percentage_DH","set_bonus_id":"ItemID.SetBonus.SetA_Percentage_DH","numeric_id":1769,"display_name":"Draconic Deceit","set_count":2,"description":"+4% Critical Strike Chance\n-15% Threat Generation","allowed_attributes":["Intellect"],"icon":{"id":"T_Icon_Frost_134_BetaCropped","kind":"Other","width":256,"height":256},"provenance":{"origin":"datamine","dev_name":null,"source":null}},

@@ -2,7 +2,7 @@
   "build_id": "24133959",
   "domain": "combat_constants",
   "record_count": 309,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"id":"constants.AI.ReturnHome.MoveSpeed","value":2.0,"unresolved_reason":null,"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"id":"constants.Artifact.02.CheatDeath.ActivationBuff.AdditionalLifeSteal","value":0.3,"unresolved_reason":null,"provenance":{"origin":"datamine","dev_name":null,"source":null}},

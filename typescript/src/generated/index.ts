@@ -3,6 +3,8 @@
 // Re-exports every domain. Bundlers drop what you do not reference; import
 // `generated/<domain>.js` directly if you would rather be explicit.
 
+import type { AbilityGuidScheme } from "../types.js";
+
 export * from "./abilities.js";
 export * from "./ability_constants.js";
 export * from "./attributes.js";
@@ -24,3 +26,12 @@ export * from "./traits.js";
 
 /** The game build this data was extracted from. */
 export const BUILD_ID = "24133959";
+
+/** The protocol used to derive every published Ability GUID. */
+export const ABILITY_GUID_SCHEME: AbilityGuidScheme = {
+  name: "ability-guid-v1",
+  namespace: "c429f5ee-71e6-4a70-9e5b-4c63ee73e575",
+  version: 5,
+  transform: "strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/",
+  origin: "derived",
+};

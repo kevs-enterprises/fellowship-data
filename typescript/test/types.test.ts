@@ -11,8 +11,15 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
 
-import { at, isEmpty, known, knownOrDeclaredDefault, DATAMINE } from "../src/types.js";
-import type { Curve, Value } from "../src/types.js";
+import {
+  ABILITY_GUID_SCHEME,
+  at,
+  isEmpty,
+  known,
+  knownOrDeclaredDefault,
+  DATAMINE,
+} from "../src/index.js";
+import type { AbilityGuid, AbilityId, AbilityRef, Curve, Value } from "../src/types.js";
 
 test("a dense curve is indexed from difficulty one", () => {
   const curve: Curve = { dense: [10, 20, 30] };
@@ -67,4 +74,23 @@ test("the datamine constant carries no authored detail", () => {
   assert.equal(DATAMINE.origin, "datamine");
   assert.equal(DATAMINE.dev_name, null);
   assert.equal(DATAMINE.source, null);
+});
+
+test("the package root exports the frozen Ability GUID scheme", () => {
+  assert.deepEqual(ABILITY_GUID_SCHEME, {
+    name: "ability-guid-v1",
+    namespace: "c429f5ee-71e6-4a70-9e5b-4c63ee73e575",
+    version: 5,
+    transform: "strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/",
+    origin: "derived",
+  });
+});
+
+test("an Ability reference keeps source text beside its GUID", () => {
+  const reference: AbilityRef = {
+    source_id: "GA_Bowguy_RangedAutoAttack_C" as AbilityId,
+    guid: "faf295c9-9758-5dc6-abb9-c4b2cef8d531" as AbilityGuid,
+  };
+  assert.equal(reference.source_id, "GA_Bowguy_RangedAutoAttack_C");
+  assert.equal(reference.guid, "faf295c9-9758-5dc6-abb9-c4b2cef8d531");
 });

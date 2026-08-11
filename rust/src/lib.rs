@@ -37,10 +37,31 @@ pub mod types;
 /// Generated data. Every module here is overwritten on refresh; edits do not survive.
 pub mod generated;
 
+pub use generated::ABILITY_GUID_SCHEME;
 pub use types::{
-    AbilityId, AttributeId, Curve, DungeonId, EffectId, HeroId, ItemId, MediaHandle, MediaKind,
-    MobId, Origin, Provenance, TalentId, Value,
+    AbilityGuid, AbilityGuidScheme, AbilityId, AbilityRef, AttributeId, Curve, DungeonId, EffectId,
+    HeroId, ItemId, MediaHandle, MediaKind, MobId, Origin, Provenance, TalentId, Value,
 };
 
 /// The game build this data was extracted from.
 pub const BUILD_ID: &str = include_str!("generated/build_id.txt");
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn the_package_root_exports_the_frozen_ability_guid_scheme() {
+        assert_eq!(ABILITY_GUID_SCHEME.name, "ability-guid-v1");
+        assert_eq!(
+            ABILITY_GUID_SCHEME.namespace,
+            "c429f5ee-71e6-4a70-9e5b-4c63ee73e575"
+        );
+        assert_eq!(ABILITY_GUID_SCHEME.version, 5);
+        assert_eq!(
+            ABILITY_GUID_SCHEME.transform,
+            "strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/"
+        );
+        assert_eq!(ABILITY_GUID_SCHEME.origin, Origin::Derived);
+    }
+}

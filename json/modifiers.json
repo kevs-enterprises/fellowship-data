@@ -2,7 +2,7 @@
   "build_id": "24133959",
   "domain": "modifiers",
   "record_count": 23,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"id":"AnomalousOrbs","modifier_id":"Modifiers.Dungeon.AnomalousOrbs","numeric_id":24,"kind":"Dungeon","display_name":"Anomalous Orbs","description":"Three Anomalous Orbs spawn near enemies periodically. The orbs are targetable and can be damaged.\n\nOnce spawned, the orbs cast Detonate, an interruptable cast that deals heavy damage to all players if left unchecked. The Anomalous Orbs are susceptible to all forms of Crowd Control, which will also interrupt the cast of Detonate.\n\nAnomalous Orbs take <bold>400% increased damage</> while not actively casting Detonate.\n\n<bold>BONUS</>\nEach Anomalous Orb players destroy grants <bold>+480 Gem Power</> to the corresponding color of the Orb that was destroyed for 45 seconds.","limit_to_level_type":false,"minimum_hero_rank_required":1,"icon":{"id":"T_Nhance_RPG_Tech_17","kind":"Other","width":256,"height":256},"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"id":"Ascension1","modifier_id":"Modifiers.Ascension.Ascension1","numeric_id":2,"kind":"Ascension","display_name":"Sahril's Madness","description":"Enemies receive <bold>30% Increased Threat</> from <bold>Damage Dealers</> and <bold>Healers</>.\n\n\"The last peaceful night passed, as we awoke to a world of rapturous hatred.\"","limit_to_level_type":false,"minimum_hero_rank_required":2,"icon":{"id":"T_Ascension_Aggro","kind":"Other","width":256,"height":256},"provenance":{"origin":"datamine","dev_name":null,"source":null}},

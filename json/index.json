@@ -1,4 +1,11 @@
 {
+  "ability_guid_scheme": {
+    "name": "ability-guid-v1",
+    "namespace": "c429f5ee-71e6-4a70-9e5b-4c63ee73e575",
+    "origin": "derived",
+    "transform": "strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/",
+    "version": 5
+  },
   "build_id": "24133959",
   "conventions": {
     "curves": "A curve is {\"dense\": [v, ...]} with one value per difficulty from 1, or {\"keyframes\": [[difficulty, value], ...]} stating only the points the data gives. Values between keyframes are not interpolated here.",
@@ -101,5 +108,5 @@
       "record_count": 22
     }
   ],
-  "schema_version": 1
+  "schema_version": 2
 }

@@ -41,9 +41,12 @@ optional field is ``None`` because the game gives no value, never because the va
 
 from __future__ import annotations
 
-from .generated import BUILD_ID
+from .generated import ABILITY_GUID_SCHEME, BUILD_ID
 from .types import (
+    AbilityGuid,
+    AbilityGuidScheme,
     AbilityId,
+    AbilityRef,
     AttributeId,
     Curve,
     CurveValue,
@@ -67,8 +70,12 @@ from .types import (
 )
 
 __all__ = [
+    "ABILITY_GUID_SCHEME",
     "BUILD_ID",
+    "AbilityGuid",
+    "AbilityGuidScheme",
     "AbilityId",
+    "AbilityRef",
     "AttributeId",
     "Curve",
     "CurveValue",

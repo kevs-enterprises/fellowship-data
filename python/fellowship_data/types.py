@@ -11,9 +11,13 @@ from __future__ import annotations
 from dataclasses import dataclass
 from enum import Enum
 from typing import ClassVar, Generic, NewType, TypeVar
+from uuid import UUID
 
 __all__ = [
+    "AbilityGuid",
+    "AbilityGuidScheme",
     "AbilityId",
+    "AbilityRef",
     "AttributeId",
     "CombatConstantId",
     "Curve",
@@ -158,6 +162,18 @@ class Origin(str, Enum):
 
 
 @dataclass(frozen=True)
+class AbilityGuidScheme:
+    """The public protocol used to derive Ability GUIDs."""
+
+    name: str
+    #: Canonical UUID text. This is a namespace, not an entity identity.
+    namespace: str
+    version: int
+    transform: str
+    origin: Origin
+
+
+@dataclass(frozen=True)
 class Provenance:
     """Provenance carried alongside a record."""
 
@@ -212,8 +228,20 @@ class MediaHandle:
 
 #: Identifies a playable hero.
 HeroId = NewType("HeroId", str)
+#: Stable consumer identity for an Ability, backed by :class:`uuid.UUID`.
+AbilityGuid = NewType("AbilityGuid", UUID)
 #: Identifies an ability or passive.
 AbilityId = NewType("AbilityId", str)
+
+
+@dataclass(frozen=True)
+class AbilityRef:
+    """A source Ability occurrence paired with its stable consumer identity."""
+
+    source_id: AbilityId
+    guid: AbilityGuid
+
+
 #: Identifies an item.
 ItemId = NewType("ItemId", str)
 #: Identifies an enemy or boss.

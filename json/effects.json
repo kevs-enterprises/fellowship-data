@@ -2,7 +2,7 @@
   "build_id": "24133959",
   "domain": "effects",
   "record_count": 2515,
-  "schema_version": 1,
+  "schema_version": 2,
   "records": [
     {"id":"GE_ArmorSetBonus_CritChanceBonus","source_category":"set_bonus","dispellable":true,"duration_policy":"Infinite","ui_name":null,"ui_description":null,"stacking":null,"period":null,"effect_tags":["EffectLogic.System"],"applied_status":[],"modifiers":[{"attribute":"CritChance","op":"Additive","value":{"known":0.04},"magnitude_type":"ScalableFloat","detail":"CT_ArmorSetBonuses::ArmorSetBonus.CritChanceBonus.CriticalStrikeChanceIncrease","magnitude_by_rank":[]}],"execution_classes":[],"provenance":{"origin":"datamine","dev_name":null,"source":null}},
     {"id":"GE_ArmorSetBonus_ExpertiseBonus","source_category":"set_bonus","dispellable":true,"duration_policy":"Infinite","ui_name":null,"ui_description":null,"stacking":null,"period":null,"effect_tags":["EffectLogic.System"],"applied_status":[],"modifiers":[{"attribute":"Expertise","op":"Additive","value":{"known":0.04},"magnitude_type":"ScalableFloat","detail":"CT_ArmorSetBonuses::ArmorSetBonus.ExpertiseBonus.ExpertiseIncrease","magnitude_by_rank":[]}],"execution_classes":[],"provenance":{"origin":"datamine","dev_name":null,"source":null}},
