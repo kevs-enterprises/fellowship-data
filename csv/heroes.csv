@@ -1,0 +1,149 @@
+id,character_id,numeric_id,name,title,role,primary_attribute,armor_type,overall_difficulty,class_color_hex,description,spirit_description,biography,base_health,attack_range,provenance_origin,provenance_dev_name,provenance_source
+Bowguy,CharacterID.Hero.Bowguy,2,Elarion,The Skystrider,ROLE_DPS,Agility,Mail,2,7F49F5,"The Skystrider moves about the battlefield with the grace of a trained marksman.
+
+Elarion is a Ranged Damage Dealer that builds and spends Focus to perform powerful abilities.
+
+As an mythic bowman, Elarion has access to powerful buffs and debuffs that empower his shots and manipulate the battlefield.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Focus, causing you to refund any Focus spent when using that ability.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Agility by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 Spirit Point toward your Spirit Ability charge and apply 5 stacks of Lunarlight Mark to the target, plus 2 stacks to up to two additional nearby enemies.","A sentinel of starlight, Elarion Beau'ghai has walked the world for millenia as the surviving half of an ancient myth that shaped the world.
+
+He joins the Fellowship to watch over those who might one day fall to the same corrupting power he is fated to stop.",1687.0,Ranged,datamine,,
+Firemage,CharacterID.Hero.Firemage,7,Ardeos,The Pyromancer,ROLE_DPS,Intellect,Cloth,3,EB6328,"Ardeos is a cocky Spellcasting Damage Dealer who utilizes powerful Damage over Time effects. The fact that others have struggled to utilize such raw power doesn’t concern him, he’s found it to be a snap!
+
+Ardeos utilizes a system called Embers and Burning Embers. When he uses his basic abilities he collects the remaining Embers of the spellcast. When enough Embers have been collected they are set ablaze as Burning Embers.
+
+The Burning Embers can be spent to cast Detonate, causing your fiery Damage over Time effects to contribute to instantanous burst damage.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Burning Embers, causing you to refund any Burning Embers spent when using that ability.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Intellect by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 Spirit Point toward your Spirit Ability charge.","An exceptional pyromancer too powerful for the academies and too reckless to leave to his own devices.
+
+Ardeos joins the Fellowship to prove his flame will forge him into a hero, not an omen of apocalypse.",1704.0,Ranged,datamine,,
+Gunde,CharacterID.Hero.Gunde,9,Gunde,The Northlander,ROLE_DPS,,Leather,3,5A1F20,"A furious berserker driven by an insatiable hunger for battle, Gunde rends through all enemies standing in his path.
+
+Gunde is a Melee Fighter who excels at keeping pressure on his enemies.
+
+Rend is Gunde’s core mechanic, allowing him to stack powerful bleed effects through repeated attacks and abilities. Enemies that die while afflicted by Rend leave behind blood-soaked feathers carrying the remnants of their suffering. Absorbing these feathers allows Gunde to carry that bleeding momentum onto his next victim.
+
+By consuming accumulated Rend with Slaughter, Gunde can unleash devastating bursts of damage in a short window.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that applies Rend, causing 5 Blood Feathers to be created on the ground near you.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Strength by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 Spirit Point toward your Spirit Ability charge.","Driven into a frenzy by tribal blood-magic, the Berserkers of the Northlands are the fiercest warriors on the battlefields, often the last ones standing when dawn comes.
+
+Gunde's lust for violence drew him south to the Stronghold, to find new battles to fight. Barely speaking the language, but knowing a worthy challenge when he sees one, he joins the Fellowship to achieve the bloodlust he needs.",1767.0,Melee,datamine,,
+Ink,CharacterID.Hero.Ink,10,Tariq,The Thunderlord,ROLE_DPS,,Mail,2,163EB9,"Tariq channels storm and fury to deal immense damage to his enemies. He is a Melee Damage Dealer that builds Fury in combat and spends that Fury to unleash devastating power moves upon his foes.
+
+Tariq's greatest power is found in Thunder Call, an ability that causes Tariq to be enveloped in lightning for a time, as his attacks get enhanced with lightning damage and he himself casts chain lightning into the ranks of the enemies.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Fury, causing you to refund any Fury spent when using that ability.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Strength by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 Spirit Point toward your Spirit Ability charge.","Exiled from the Goremdal Mountains, Tariq honors his people by hunting monsters and preserving their traditions.
+
+Strong of hand and stronger of heart, he joins the Fellowship to uphold the legacy of his clan and find new family forged in honor.",1811.0,Melee,datamine,,
+Lisa,CharacterID.Hero.Lisa,24,Aeona,The Timeweaver,ROLE_HEALER,Intellect,Cloth,4,BC00FF,"Bending time itself, Aeona wields her hourglass to twist the flow of the battle to always be in her favour.
+
+Aeona is a Healer that uses Builder/Spender Mechanics. She excels at keeping her allies safe by doing damage to her enemies. 
+
+Her Beacon of Time ability delays any damage taken and applies it as a Stagger that slowly deals the damage taken over a period of time.
+
+In addition to Mana, Aeona utilizes Chrona, which can be spent to clear Stagger from allies or deal powerful bursts of damage.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Mana, causing you to instantly refund the Mana cost of that ability.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Intellect by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 stack of 'Clairvoyance', causing your next Chrona Spender to have no cost. 'Clairvoyance' stacks up to 3 times.","Once an eternal being, Aeona would experience all of time simultaneously, delighting in the trials and hardships of her beloved mortals who overcame adversity to achieve greatness. The gods, in their power, sought to meddle in the lives of mortals, stripping them of free will and playing games with their fates. 
+
+Aeona stood against them, freeing the mortals from their cruel fates, and was expelled from eternity as punishment, forced to walk a mortal life. She joins the Fellowship to help heal and protect those still writing their fates, manipulating time itself to defy the gods by fighting for tomorrow.",1783.0,Ranged,datamine,,
+Mara,CharacterID.Hero.Mara,11,Mara,The Hungering Blade,ROLE_DPS,Agility,Leather,4,6F2EF1,"Mara weaves in and out of the shadows to strike down her enemy.
+
+Mara is a Melee Damage Dealer who utilizes abilities to build combo points that she spends on powerful finishing moves that make quick work of foes. 
+
+As an assassin, Mara also has access to a variety of poisons that, when used strategically, give her an upper hand in battle.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Combo Points, causing you to refund any Energy and Combo Points spent when using that ability.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Agility by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 Spirit Point toward your Spirit Ability charge.","Hunted across continents, Mara hides from unseen pursuers who manipulate life and death from the shadows.
+
+She joins the Fellowship seeking refuge and vengeance, under a new identity, against those who pull the strings of fate.",1724.0,Melee,datamine,,
+Meiko,CharacterID.Hero.Meiko,13,Meiko,The Twinsoul,,Agility,Leather,4,28E05C,"As a martial artist, Meiko utilizes a variety of fighting techniques to empower herself and defend her allies.
+
+Meiko is a Melee Tank that uses Ability Combo Mechanics. She excels in the front lines taking hits instead of her allies.
+
+She uses Ability Combos to perform powerful Finishing Moves.
+
+Big cooldowns and self buffs allow her to mend her own wounds and survive dangerous attacks.","Increases the chance to trigger a ""Spirit Refund"" whenever you consume a charge of Earthfall or Stormfall, causing you to regain that charge and gain ""Spirit Armor"" for 12 seconds, increasing your Armor by 20%.
+
+Your ""Spirit Refunds"" also grant 1 Stone to your Stone Shield and ""Rising Spirit"" for 10 seconds, increasing your Agility by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 2 Spirit Points toward your Spirit Ability charge.","After the fall of the Edosaka Barrier, Meiko was sent away by her mother to survive. She traveled the world learning to channel her turmoil into martial grace as a Twinsoul.
+
+She joins the Fellowship to continue her training and seek heroes strong enough to challenge the Demon King that reigns over her homeland.",2216.0,Melee,datamine,,
+Mosse,CharacterID.Hero.Mosse,14,Sylvie,The Daughter of the Forest,ROLE_HEALER,Intellect,Leather,3,EA4F84,"Sylvie is a healer who uses her innate connection to nature and its many friends to heal her allies and harm her foes.
+
+Sylvie is a Healer that uses Pet Management Mechanics. She excels at sending her pets to heal her allies over time and attack her enemies.
+
+She commands her Flutterflies and Plants to heal allies and attack enemies.
+
+Her powerful Heal over Time spells allow her to prepare for battle and endure long and sustained fights.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Mana, causing you to instantly refund the Mana cost of that ability.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Intellect by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 Spirit Point toward your Spirit Ability charge and spawn a Prickly Vine next to you.","A changeling abandoned as a child, Sylvie was raised by the creatures of the Wyrdwoods and taught the language of flora and fauna.
+
+Outcast from civilization, she joins the Fellowship in search of kinship and a home she has never known.",1643.0,Ranged,datamine,,
+Rime,CharacterID.Hero.Rime,17,Rime,The Harbinger of Winter,ROLE_DPS,Intellect,Cloth,2,1EA3EE,"Channelling the forces of spirit and ice, Rime conjures powerful spells to decimate her foes.
+
+Rime is a Spellcasting Damage Dealer with Builder/Spender Mechanics. She excels at focusing down the biggest threat from a distance.
+
+Many of Rime’s abilities fill an Anima Bar to deal spikes of damage and generate Winter Orbs.
+
+She uses Winter Orbs to cast dangerous spells.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Winter Orbs, causing you to refund any Winter Orbs spent when using that ability.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Intellect by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 2 Spirit Points toward your Spirit Ability charge.","The last of her tribe, Rime lived in solitude until the rise of new evils forced her from her hermitage.
+
+The Harbinger enacts the will of the patron spirit of winter. Rime's power is a cursed gift she uses to cleanse corruption and bring quiet peace to those already fated to die.",1711.0,Ranged,datamine,,
+Sune,CharacterID.Hero.Sune,25,Xavian,The Light of Azamir,,,Plate,2,077365,"A frontline tank with heavy support capabilities, Xavian delivers fast, aggressive gameplay and powerful blows.
+
+Xavian is a Melee Support Tank that excels at protecting his allies while helping keep the party alive and healthy.
+
+His Swift Reprisal Mechanic enables frequent use of his abilities, supporting both survivability and offensive pressure. Brilliant Flash creates a damage-and-healing combo that provides strong self-sustain, while also extending the duration of Shining Halo when triggered.
+
+Mana is Xavian’s main resource, used to fuel healing and high-impact abilities.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Mana, causing you to instantly refund the Mana cost of that ability.
+
+Xavian's Brilliant Flash ability has a chance equal to your Spirit to trigger a 'Spirit Refund' even though it does not have a Mana cost. When it does, you instantly gain 50 Mana.
+
+Xavian's passive Mana Generation is increased by an amount equal to your Spirit.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 Spirit Point toward your Spirit Ability charge.","The fall of Azamir is a legend; a tale of hubris for defying the gods and meddling with power they shouldn’t control. Those that escaped the gods’ wrath made new homes throughout the lands, and began to build new lives, to forget. As a child, the prince was smuggled to safety and raised in foreign lands, seeing injustice and cruelty firsthand.
+
+Now a king without a kingdom, Xavian joins the Fellowship helping those he can, wielding the Light of Azamir to keep the dream of their ideals alive, to best represent what his people believed in. While some look at his family sigil in jest, he wears it with pride knowing his people will endure.",2556.0,Melee,datamine,,
+Vigor,CharacterID.Hero.Vigor,20,Vigour,The Lightshaper,ROLE_HEALER,Intellect,Mail,2,DDDBC5,"As a dwarf who divines the true meaning of runes, Vigour wields powerful healing spells to bolster and protect his allies and smite his enemies.
+
+Vigour is a Healer that uses Builder/Spender Mechanics. He excels in the middle of his allies where he can sustain them with powerful AoE heals.
+
+As a wielder of Radiant Runes, he must choose how and when to cast his most powerful spells.
+
+His strong Direct Healing grant him an advantage in reacting to an ever-changing battlefield.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that costs Mana, causing you to instantly refund the Mana cost of that ability.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Intellect by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1 Spirit Point toward your Spirit Ability charge and generate 1 Radiant Rune.","A dwarf of legend and the first Lightshaper to leave the mountain kingdoms.
+
+Vigour has spent centuries traveling the world, mending wounds, banishing shadow, and gathering champions to his cause. He is the guiding light that unites the disparate heroes of the Fellowship.",1692.0,Ranged,datamine,,
+Warmaster,CharacterID.Hero.Warmaster,22,Helena,The Warmaster,,,Plate,2,B46831,"Despite being weighed down by full plate armor, Helena is always ready to charge into the fray to protect her companions.
+
+Helena is a Melee Tank and excels in the front lines taking hits instead of her allies.
+
+Her Veteran of War mechanic allows Helena to reduce the cooldowns of her ability to allow for more frequent use of her powerful attacks and Toughness generators.
+
+Toughness is Helena's main resource for mitigating incoming damage and surviving dangerous encounters. Her Toughness is shown as a blue bar to the right of the character.","Increases the chance to trigger a ""Spirit Refund"" whenever you use an ability that interacts with your ""Veteran of War"", causing the cooldown reduction to be doubled.
+
+You also gain ""Rising Spirit"" for 10 seconds, increasing your Strength by 5%.
+
+Each time you trigger the ""Spirit Refund"" you gain 1.2 Spirit Points toward your Spirit Ability charge.","Disillusioned after the Twelve Year War, Helena wandered the world fighting back evil where noble apathy or cruelty allowed it to fester.
+
+The Warmaster joins the Fellowship to face threats she could not defeat alone. Helena is a stern presence, maintaining a seasoned warrior’s discipline and distance from her comrades lest she suffer the burden of loss again.",2556.0,Melee,datamine,,

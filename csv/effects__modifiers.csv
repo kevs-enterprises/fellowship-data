@@ -1,0 +1,887 @@
+id,modifiers_ordinal,attribute,op,value_known,value_curve_ref,value_default,value_unresolved_reason,magnitude_type,detail
+GE_ArmorSetBonus_CritChanceBonus,0,CritChance,Additive,0.04,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.CritChanceBonus.CriticalStrikeChanceIncrease
+GE_ArmorSetBonus_ExpertiseBonus,0,Expertise,Additive,0.04,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.ExpertiseBonus.ExpertiseIncrease
+GE_ArmorSetBonus_GemPowerBonus,0,RubyPower,MultiplyCompound,1.25,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.GemPowerBonus.GemPowerScaler
+GE_ArmorSetBonus_GemPowerBonus,1,AmethystPower,MultiplyCompound,1.25,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.GemPowerBonus.GemPowerScaler
+GE_ArmorSetBonus_GemPowerBonus,2,TopazPower,MultiplyCompound,1.25,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.GemPowerBonus.GemPowerScaler
+GE_ArmorSetBonus_GemPowerBonus,3,EmeraldPower,MultiplyCompound,1.25,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.GemPowerBonus.GemPowerScaler
+GE_ArmorSetBonus_GemPowerBonus,4,SapphirePower,MultiplyCompound,1.25,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.GemPowerBonus.GemPowerScaler
+GE_ArmorSetBonus_GemPowerBonus,5,DiamondPower,MultiplyCompound,1.25,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.GemPowerBonus.GemPowerScaler
+GE_ArmorSetBonus_HasteBonus,0,Haste,Additive,0.04,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.HasteBonus.HasteIncrease
+GE_ArmorSetBonus_HasteBuffOnAbilityUse_Buff,0,Haste,Additive,0.25,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.HasteBuffOnAbilityUse.HasteBonus
+GE_ArmorSetBonus_HeroismPowerAndDamageReductionBonus_Buff,0,Strength,MultiplyCompound,1.2,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.HeroismPowerAndDamageReductionBonus.PowerScaler
+GE_ArmorSetBonus_HeroismPowerAndDamageReductionBonus_Buff,1,Intellect,MultiplyCompound,1.2,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.HeroismPowerAndDamageReductionBonus.PowerScaler
+GE_ArmorSetBonus_HeroismPowerAndDamageReductionBonus_Buff,2,Agility,MultiplyCompound,1.2,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.HeroismPowerAndDamageReductionBonus.PowerScaler
+GE_ArmorSetBonus_MagicResistBonus,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.MagicResistBonus.IncomingMagicDamageMultiplier
+GE_ArmorSetBonus_MaxHealth,0,MaxHealth,MultiplyCompound,1.05,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.MaxHealthBonus.MaxHealthScaler
+GE_ArmorSetBonus_MaxManaBonus,0,MaxMana,Multiplicitive,1.15,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.MaxManaBonus.MaxManaScaler
+GE_ArmorSetBonus_MoveSpeedBonus,0,PassiveMoveSpeed,Multiplicitive,1.2,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.MoveSpeedBonus.MoveSpeedScaler
+GE_ArmorSetBonus_PowerBonusAndAutoHeal,0,Strength,MultiplyCompound,1.05,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.PowerBonusAndAutoHeal.PowerScaler
+GE_ArmorSetBonus_PowerBonusAndAutoHeal,1,Agility,MultiplyCompound,1.05,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.PowerBonusAndAutoHeal.PowerScaler
+GE_ArmorSetBonus_PowerBonusAndAutoHeal,2,Intellect,MultiplyCompound,1.05,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.PowerBonusAndAutoHeal.PowerScaler
+GE_ArmorSetBonus_PowerBonusOnCrit_Buff,0,PrimaryAttributeMultiplier,MultiplyCompound,1.18,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.PowerBonusOnCrit.PowerIncreaseFactor
+GE_ArmorSetBonus_Quickplay_CritChanceBonus,0,CritChance,Additive,0.15,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.Quickplay.CritChanceBonus
+GE_ArmorSetBonus_Quickplay_ExpertiseBonus,0,Expertise,Additive,0.2,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.Quickplay.Expertise
+GE_ArmorSetBonus_Quickplay_HasteBonus,0,Haste,Additive,0.2,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.Quickplay.HasteBonus
+GE_ArmorSetBonus_Quickplay_SpiritBonus,0,Spirit,Additive,0.2,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.Quickplay.SpiritBonus
+GE_ArmorSetBonus_SpiritBonus,0,Spirit,Additive,0.04,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.SpiritBonus.SpiritIncrease
+GE_ArmorSetBonus_SpiritBonus,1,SpiritGenerationHeal,Additive,0.04,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.SpiritBonus.SpiritIncrease
+GE_ArmorSetBonus_TargetLowHealthDamageBonus,0,DamageScale,MultiplyCompound,1.1,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.TargetLowHealthDamageBonus.DamageScaler
+GE_ArmorSetBonus_ThreatDecrease,0,DamageThreatMultiplier,MultiplyCompound,0.85,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.ThreatDecrease.ThreatScaler
+GE_ArmorSetBonus_ThreatDecrease,1,HealThreatMultiplier,MultiplyCompound,0.85,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.ThreatDecrease.ThreatScaler
+GE_ArmorSetBonus_ThreatIncrease,0,DamageThreatMultiplier,MultiplyCompound,1.15,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.ThreatIncrease.ThreatScaler
+GE_ArmorSetBonus_ThreatIncrease,1,HealThreatMultiplier,MultiplyCompound,1.15,,,,ScalableFloat,CT_ArmorSetBonuses::ArmorSetBonus.ThreatIncrease.ThreatScaler
+GE_Ascension_BossBoost,0,DifficultyHealthScale,MultiplyCompound,1.1,,,,ScalableFloat,CT_DungeonModifiers::Ultimatum.BossBoost.HealthScaler
+GE_Ascension_BossBoost,1,DifficultyDamageScale,MultiplyCompound,1.05,,,,ScalableFloat,CT_DungeonModifiers::Ultimatum.BossBoost.DamageScaler
+GE_Ascension_BossBoost_HeroBuff,0,CooldownReduction,Additive,0.1,,,,ScalableFloat,CT_DungeonModifiers::Ultimatum.BossBoost.HeroBuff.CooldownReductionIncrease
+GE_Ascension_DispelAndInterrupt_HeroBuff,0,DamageScale,Multiplicitive,1.0,,,,ScalableFloat,CT_AbilityConstants::Ascensions.DispelAndInterrupt.HeroBuff.DamageAndHealingScaler
+GE_Ascension_DispelAndInterrupt_HeroBuff,1,HealScale,Multiplicitive,1.0,,,,ScalableFloat,CT_AbilityConstants::Ascensions.DispelAndInterrupt.HeroBuff.DamageAndHealingScaler
+GE_Ascension_EnemyBoost,0,DifficultyDamageScale,MultiplyCompound,1.1,,,,ScalableFloat,CT_DungeonModifiers::Challenge.EnemyBoost.HealthScaler
+GE_Ascension_EnemyBoost,1,DifficultyHealthScale,MultiplyCompound,1.1,,,,ScalableFloat,CT_DungeonModifiers::Challenge.EnemyBoost.DamageScaler
+GE_Ascension_EnemyBoost_HeroBuff,0,Spirit,Additive,0.1,,,,ScalableFloat,CT_DungeonModifiers::Challenge.HeroBuff.SpiritIncrease
+GE_Ascension_ThreatManagement_HeroBuff,0,CritRating,Additive,0.0,,,,ScalableFloat,CT_AbilityConstants::Ascensions.ThreatManagement.HeroBuff.CritRatingIncrease
+GE_Ascension_ThreatManagement_ThreatDebuff,0,DamageThreatMultiplier,Multiplicitive,1.0,,,,ScalableFloat,registry::Ascensions.ThreatManagement.NonTank.DamageThreatMultiplier
+GE_Ascension_ThreatManagement_ThreatDebuff,1,HealThreatMultiplier,Multiplicitive,1.0,,,,ScalableFloat,registry::Ascensions.ThreatManagement.NonTank.HealThreatMultiplier
+GE_Ascension_TimerKillScore_HeroBuff,0,HasteRating,Additive,0.0,,,,ScalableFloat,CT_AbilityConstants::Ascensions.TimerKillScore.HeroBuff.HasteRatingIncrease
+GE_BaseLogic_Disorient,0,MoveSpeed,Multiplicitive,0.25,,,,ScalableFloat,CT_AbilityConstants::DefaultStatusEffects.Disorient.MoveSpeedScaler
+GE_BaseLogic_Fear,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,CT_AbilityConstants::DefaultStatusEffects.Fear.MoveSpeedScaler
+GE_BlackmistShadowMinion_Cast_Buff,0,SizeScale,Multiplicitive,1.12,,,,ScalableFloat,registry::VV_BlackmistShadowMinion.Cast.Buff.SizeScale
+GE_BlackmistShadowMinion_Cast_Buff,1,DamageScale,Multiplicitive,1.2,,,,ScalableFloat,registry::VV_BlackmistShadowMinion.Cast.Buff.DamageScale
+GE_BlackmistShadowMinion_Cast_Debuff,0,IncomingDamageMultiplier,Multiplicitive,,VV_BossVikingGod_RuneMinion.Cast.DebuffDamageMultiplier,,,ScalableFloat,registry::VV_BossVikingGod_RuneMinion.Cast.DebuffDamageMultiplier
+GE_BlackmistShadowMinion_Cast_HasteBuff,0,Haste,Multiplicitive,1.4,,,,ScalableFloat,registry::VV_BlackmistShadowMinion.Cast.Buff.HasteMultiplier
+GE_BossVikingMystic_RuneMinion_Cast_Buff,0,SizeScale,Multiplicitive,1.12,,,,ScalableFloat,registry::VV_BossVikingMystic_RuneMinion.Cast.Buff.SizeScale
+GE_BossVikingMystic_RuneMinion_Cast_Buff,1,DamageScale,Multiplicitive,1.4,,,,ScalableFloat,registry::VV_BossVikingMystic_RuneMinion.Cast.Buff.DamageScale
+GE_BossVikingMystic_RuneMinion_Cast_Debuff,0,IncomingDamageMultiplier,Multiplicitive,1.0,,,,ScalableFloat,registry::VV_BossVikingMystic_RuneMinion.Cast.DebuffDamageMultiplier
+GE_BossVikingMystic_RuneMinion_Cast_HasteBuff,0,Haste,Multiplicitive,1.4,,,,ScalableFloat,registry::VV_BossVikingMystic_RuneMinion.Cast.Buff.HasteMultiplier
+GE_Bowguy_AimSlow,0,PassiveMoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::Bowguy.AimSlow.MovementMultiplier
+GE_Bowguy_AoeProjectileDamage_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Bowguy_CastedBouncyProjectileDamage_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Bowguy_CastedProjectileHeavyDamage_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Bowguy_ChanneledMultiProjectileDebuff_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Bowguy_DurationalAoeDamage_Cost,0,SpiritPoints,Additive,100.0,,,,ScalableFloat,registry::Bowguy.DurationalAoeDamage.Cost
+GE_Bowguy_ProcHasteBuff_Buff,0,Haste,Additive,0.3,,,,ScalableFloat,registry::Bowguy.ProcHasteBuff.HasteIncrease
+GE_Bowguy_ReducedCostCooldownRecoveryBuff_CooldownRecoveryBuff,0,CooldownRecovery,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Bowguy_ReducedCostCooldownRecoveryBuff_Cost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Bowguy_ReducedCostCooldownRecoveryBuff_SelfBuff,0,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::Bowguy.ReducedCostCooldownRecoveryBuff.DamageMultiplier
+GE_Bowguy_SelfDefenceBuff_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.6,,,,ScalableFloat,registry::Bowguy.SelfDefenceBuff.IncomingDamageMultiplier
+GE_Bowguy_SingleProjectileDamage_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Bowguy_Talent_CastedProjectileHeavyDamage_IncreasedIncomingDamageDebuff_OwnerEffect,0,IncomingDamageMultiplier,Multiplicitive,1.08,,,,ScalableFloat,registry::Bowguy.CastedProjectileHeavyDamage.Talent.IncreasedIncomingDamageDebuff.IncomingDamageMultiplier
+GE_Bowguy_Talent_CastedProjectileHeavyDamage_NoBounceBuff_SelfBuff,0,Expertise,Additive,0.02,,,,ScalableFloat,registry::Bowguy.CastedProjectileHeavyDamage.Talent.NoBounceBuff.ExpertiseAdded
+GE_Bowguy_Talent_IncomingAoeDamageReduction,0,Avoidance,Additive,0.1,,,,ScalableFloat,registry::Bowguy.Talent.IncomingAoeDamageReduction.AdditionalAvoidance
+GE_Bowguy_Talent_IncreasedCritChanceAtLowHealth,0,CritChance,Additive,0.2,,,,ScalableFloat,registry::Bowguy.Talent.IncreasedCritChanceAtLowHealth.AdditionalCritChance
+GE_Bowguy_Talent_IncreasedMovementSpeed,0,PassiveMoveSpeed,MultiplyCompound,1.2,,,,ScalableFloat,registry::Bowguy.Talent.IncreasedMovementSpeed.SpeedMultiplier
+GE_Bowguy_Talent_ReducedIncomingMagicDamage,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Bowguy.Talent.ReducedIncomingMagicDamage.DamageMultiplier
+GE_Bowguy_TargetedAoeDamage_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Bowguy_TargetedAoePull_Slow,0,MoveSpeed,Multiplicitive,0.35,,,,ScalableFloat,registry::Bowguy.TargetedAoePull.Debuff.MoveSpeedMultiplier
+GE_CM_BlackburnMantrader_CastedRangedProjectile_SlowDebuff,0,MoveSpeed,Multiplicitive,0.6,,,,ScalableFloat,registry::CM_BlackburnMantrader.CastedRangedProjectile.Debuff.MovementSpeedMultiplier
+GE_CM_BossAina_CastHealDebuff_Debuff,0,IncomingHealSign,Override,-1.0,,,,ScalableFloat,
+GE_CM_BossAina_PlacedSlowAoe_SlowEffect,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::CM_BossAina.PlacedSlowAOE.Area.MovementSpeedMultiplier
+GE_CM_BossTroll_FallingRocks_Slow,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,registry::CM_BossTroll.FallingRock.CrumbleAoe.MovementSpeedMultiplier
+GE_CM_BossTroll_FinalEnrageHealth,0,MinHealth,Override,1.0,,,,ScalableFloat,
+GE_CM_BossYrsa_Aina_Shared_Enrage_FinalBuff,0,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::CM_BossYrsa.Shared.EnragePassive.OutgoingDamageMultiplierPerStack
+GE_CM_BossYrsa_Aina_Shared_Enrage_StackingBuff,0,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::CM_BossYrsa.Shared.EnragePassive.OutgoingDamageMultiplierPerStack
+GE_CM_EarthElemental_CastAoeDamage_Debuff,0,IncomingDamageMultiplier,Multiplicitive,1.1,,,,ScalableFloat,registry::CM_EarthElemental.CastAoeDamage.Debuff.DamageTakenFromThisMultiplier
+GE_CM_EarthElemental_EarthBreaker_Slow,0,MoveSpeed,Multiplicitive,0.4,,,,ScalableFloat,registry::CM_EarthElemental.EarthBreaker.MovementSpeedMultiplier
+GE_CM_ElfEnforcer_TankSlam_Debuff,0,Armor,Multiplicitive,0.8,,,,ScalableFloat,registry::CM_ElfEnforcer.TankSlam.ArmorMultiplier
+GE_CM_ElfInterrogator_IncreaseDamageTakenDebuff,0,IncomingDamageMultiplier,Additive,0.01,,,,ScalableFloat,registry::CM_ElfInterrogator.IncreaseDamageTakenDebuff.PercentageDamageBonus
+GE_CM_ElfInterrogator_PoisonDagger_ConvertHealingDebuff,0,IncomingHealMultiplier,Multiplicitive,,CM_ElfInterrogator.PoisonDagger.ReducedHealingTakenDebuff.HealSign,,,ScalableFloat,registry::CM_ElfInterrogator.PoisonDagger.ReducedHealingTakenDebuff.HealSign
+GE_CM_RubiliteAurastone_Vulnerable_SelfStun,0,IncomingDamageMultiplier,Multiplicitive,4.0,,,,ScalableFloat,registry::CM_RubiliteAurastone.Vulnerable.IncomingDamageMultiplier
+GE_CM_RubiliteFocus_Vulnerable_SelfStun,0,IncomingDamageMultiplier,Multiplicitive,4.0,,,,ScalableFloat,registry::CM_RubiliteAurastone.Vulnerable.IncomingDamageMultiplier
+GE_DD_Arbalist_LineAttack_Debuff,0,Strength,MultiplyCompound,0.75,,,,ScalableFloat,registry::DD_Arbalist.LineAttack.Debuff.MainStatMultiplier
+GE_DD_Arbalist_LineAttack_Debuff,1,Intellect,MultiplyCompound,0.75,,,,ScalableFloat,registry::DD_Arbalist.LineAttack.Debuff.MainStatMultiplier
+GE_DD_Arbalist_LineAttack_Debuff,2,Agility,MultiplyCompound,0.75,,,,ScalableFloat,registry::DD_Arbalist.LineAttack.Debuff.MainStatMultiplier
+GE_DD_Arbalist_LineAttack_Debuff,3,BlockChance,MultiplyCompound,0.75,,,,ScalableFloat,registry::DD_Arbalist.LineAttack.Debuff.BlockMultiplier
+GE_DD_Arbalist_LineAttack_Debuff,4,ParryChance,MultiplyCompound,0.75,,,,ScalableFloat,registry::DD_Arbalist.LineAttack.Debuff.ParryMultiplier
+GE_DD_Arbalist_LineAttack_Debuff,5,DodgeChance,MultiplyCompound,0.75,,,,ScalableFloat,registry::DD_Arbalist.LineAttack.Debuff.DodgeMultiplier
+GE_DD_BossCadavrianMagi_MoonCast_Slow,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::DD_BossCadavrianMagi.MoonCast.Slow.MovementSpeedMultiplier
+GE_DD_DesertNomad_MeleeAutoAttack_Buff,0,Haste,Additive,0.02,,,,ScalableFloat,registry::DD_DesertNomad.MeleeAutoAttack.Buff.HasteGainPerStack
+GE_DD_NightboundMagi_CastedPartyAoeDebuff_Debuff,0,MagicalIncomingDamageMultiplier,MultiplyCompound,1.5,,,,ScalableFloat,registry::DD_NightboundMagi.CastedPartyAoeDebuff.Debuff.IncomingMagicDamageScaler
+GE_DD_NightboundMagi_ChanneledFriendlyBuff_Buff,0,DamageScale,Multiplicitive,,DD_NightboundMagi.ChanneledFriendlyBuff.DamageScaleIncrease,,,ScalableFloat,registry::DD_NightboundMagi.ChanneledFriendlyBuff.DamageScaleIncrease
+GE_DM_ClockworkRat_MoveToTarget_Buff,0,MoveSpeed,Multiplicitive,0.45,,,,ScalableFloat,registry::DM_WinterTrickster.ThrowHomingBomb.Rat.MoveToTarget.MovementSpeedMod
+GE_DM_ClockworkRat_SaveSelf,0,Health,Override,1.0,,,,AttributeBased,
+GE_DM_Shared_CappedDifficultyDamageScale,0,DifficultyDamageScale,Override,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_DM_WinterGiantFriendly_BossChannelDamage_OutOfCombat,0,DamageThreatMultiplier,Override,0.0,,,,ScalableFloat,
+GE_DM_WinterGiant_CastSoakDebuff_Debuff,0,Armor,Multiplicitive,0.8,,,,ScalableFloat,registry::DM_WinterGiant.CastSoakDebuff.Debuff.ArmorDecreasePerStack
+GE_DM_WinterTrickster_DropBuffs_HasteAndMovementSpeedBuff,0,Haste,Multiplicitive,1.2,,,,ScalableFloat,registry::DM_WinterTrickster.DropBuffs.Buff.HasteAddMult
+GE_DM_WinterTrickster_DropBuffs_HasteAndMovementSpeedBuff,1,MoveSpeed,Multiplicitive,1.2,,,,ScalableFloat,registry::DM_WinterTrickster.DropBuffs.Buff.MovementSpeedAddMult
+GE_DM_WinterWitch_ChannelAoeDamage_SlowDebuff,0,MoveSpeed,Multiplicitive,0.7,,,,ScalableFloat,registry::DM_WinterWitch.ChannelAoeDamage.Debuff.MovementSpeedMultiplierPerStack
+GE_DR_BarbedRoot_Grip_Slow,0,MoveSpeed,MultiplyCompound,0.35,,,,ScalableFloat,registry::DR_BarbedRoot.Grip.Slow.MovementSpeedMultiplier
+GE_DR_BossCultLeader_BeamHeroDebuff_DamageIncrease,0,DamageScale,Multiplicitive,1.3,,,,ScalableFloat,registry::DR_BossCultLeader.SoakBeam.BossBuffDamageMultiplier
+GE_DR_BossCultLeader_BeamNPCDebuff_DamageIncrease,0,DamageScale,Multiplicitive,1.3,,,,ScalableFloat,registry::DR_BossCultLeader.SoakBeam.BossBuffDamageMultiplier
+GE_DR_BossCultLeader_BloodPoolSlow,0,MoveSpeed,Multiplicitive,0.4,,,,ScalableFloat,registry::DR_BossCultLeader.SacrificeBlood.MovementSpeedMultiplier
+GE_DR_BossCultLeader_BloodPoolSlow,1,IncomingDamageMultiplier,MultiplyCompound,2.0,,,,ScalableFloat,registry::DR_BossCultLeader.SacrificeBlood.DamageTakenMultiplier
+GE_DR_BossCultLeader_BloodPool_SelfBuff,0,DamageScale,Multiplicitive,1.5,,,,ScalableFloat,registry::DR_BossCultLeader.SacrificeBlood.SelfBuff.DamageScale
+GE_DR_BossCultLeader_BloodPool_SelfBuff,1,SizeScale,Multiplicitive,1.2,,,,ScalableFloat,registry::DR_BossCultLeader.SacrificeBlood.SelfBuff.SizeScale
+GE_DR_BossCultLeader_BloodPool_SelfBuff_Linger,0,DamageScale,Multiplicitive,1.5,,,,ScalableFloat,registry::DR_BossCultLeader.SacrificeBlood.SelfBuff.DamageScale
+GE_DR_BossCultLeader_BloodPool_SelfBuff_Linger,1,SizeScale,Multiplicitive,1.2,,,,ScalableFloat,registry::DR_BossCultLeader.SacrificeBlood.SelfBuff.SizeScale
+GE_DR_BossCultLeader_ChoosenBuff,0,SizeScale,Multiplicitive,1.5,,,,ScalableFloat,registry::DR_BossCultLeader.ChosenRitualistSizeBuff
+GE_DR_BossCultLeader_Grip_Slow,0,MoveSpeed,MultiplyCompound,0.35,,,,ScalableFloat,registry::NP_HalfMancatcher.Grip.Slow.MovementSpeedMultiplier
+GE_DR_BossDemonPlant_WakeUpAdds_SelfDebuff,0,IncomingDamageMultiplier,MultiplyCompound,1.1,,,,ScalableFloat,registry::DR_BossDemonPlant.WakeUpAdds.IncomingDamageMultiplier
+GE_DR_BossGateWizard_KickFootballDebuff,0,IncomingDamageMultiplier,MultiplyCompound,1.1,,,,ScalableFloat,registry::DR_BossGateWizard.Football.Debuff.IncreasedDamageTaken
+GE_DR_BossSummonedDemon_Debuff,0,IncomingDamageMultiplier,MultiplyCompound,0.05,,,,ScalableFloat,registry::DR_BossSummonedDemon.Debuff.IncreasedDamageTakenPerStack
+GE_DR_BossSummonedDemon_Enrage,0,SizeScale,Additive,0.33,,,,ScalableFloat,registry::DR_BossSummonedDemon.Enrage.IncreasedSize
+GE_DR_BossSummonedDemon_Enrage,1,DamageScale,Multiplicitive,1.2,,,,ScalableFloat,registry::DR_BossSummonedDemon.Enrage.IncreasedDamage
+GE_DR_DangerousBrute_Cleave_Debuff,0,PhysicalIncomingDamageMultiplier,MultiplyCompound,1.05,,,,ScalableFloat,registry::DR_DangerousBrute.Cleave.Debuff.ReducedMaxHealthFraction
+GE_DR_HornedDemon_Enrage_Buff,0,Haste,Additive,0.3,,,,ScalableFloat,registry::DR_HornedDemon.Enrage.IncreasedHaste
+GE_DR_HornedDemon_Enrage_Buff,1,DamageScale,Multiplicitive,1.3,,,,ScalableFloat,registry::DR_HornedDemon.Enrage.DamageScaler
+GE_DR_HornedDemon_Enrage_Buff,2,SizeScale,Additive,0.33,,,,ScalableFloat,registry::DR_BossSummonedDemon.Enrage.IncreasedSize
+GE_DR_SlaughtervineArchephyte_SlowMovingAOE_Slow,0,MoveSpeed,Multiplicitive,0.45,,,,ScalableFloat,registry::DR_SlaughtervineArchephyte.SlowMovingAOE.MoveSpeedMultiplier
+GE_DungeonModifier_AnomalousOrbs_BlockAllSkills_SelfDebuff,0,IncomingDamageMultiplier,MultiplyCompound,4.0,,,,ScalableFloat,registry::AnomalousOrbs.Orb.BlockAllSkills.IncomingDamageMultiplier
+GE_DungeonModifier_AnomalousOrbs_Buff_Amethyst,0,AmethystPower,Additive,480.0,,,,ScalableFloat,registry::AnomalousOrbs.Orb.Buff.AdditionalGemPowerPerStack
+GE_DungeonModifier_AnomalousOrbs_Buff_Diamond,0,DiamondPower,Additive,480.0,,,,ScalableFloat,registry::AnomalousOrbs.Orb.Buff.AdditionalGemPowerPerStack
+GE_DungeonModifier_AnomalousOrbs_Buff_Emerald,0,EmeraldPower,Additive,480.0,,,,ScalableFloat,registry::AnomalousOrbs.Orb.Buff.AdditionalGemPowerPerStack
+GE_DungeonModifier_AnomalousOrbs_Buff_Ruby,0,RubyPower,Additive,480.0,,,,ScalableFloat,registry::AnomalousOrbs.Orb.Buff.AdditionalGemPowerPerStack
+GE_DungeonModifier_AnomalousOrbs_Buff_Sapphire,0,SapphirePower,Additive,480.0,,,,ScalableFloat,registry::AnomalousOrbs.Orb.Buff.AdditionalGemPowerPerStack
+GE_DungeonModifier_AnomalousOrbs_Buff_Topaz,0,TopazPower,Additive,480.0,,,,ScalableFloat,registry::AnomalousOrbs.Orb.Buff.AdditionalGemPowerPerStack
+GE_DungeonModifier_BloodShardVolley_HeroStackingExpertiseBuff,0,Expertise,Additive,0.01,,,,ScalableFloat,
+GE_DungeonModifier_HolyTrinityNerf_EnemyHealthModifier,0,MaxHealth,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_EnemyPowerModifier,0,Strength,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_EnemyPowerModifier,1,Agility,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_EnemyPowerModifier,2,Intellect,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_HeroDamageModifier,0,DamageScale,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_HeroIncomingHealingAndAbsorbModifier,0,IncomingHealMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_HeroIncomingHealingAndAbsorbModifier,1,IncomingAbsorptionMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_HeroIncomingHealingAndAbsorbModifier,2,LifeSteal,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_NoDpsEnemyDebuff_IncomingDamageScaler,0,IncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_NoHealerBuff,0,LifeSteal,Additive,0.25,,,,ScalableFloat,registry::HolyTrinityNerf.NoHealerBonus.PlayerLifeStealAdded
+GE_DungeonModifier_HolyTrinityNerf_NoTankBuff,0,PhysicalIncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_NoTankBuff,1,MagicalIncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_HolyTrinityNerf_NoTankBuff,2,AoeIncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifier_ShadowLord_OnDeathGrantBuff_Buff,0,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::Shadowlord.OnDeathGrantBuff.Buff.DamageMultiplier
+GE_DungeonModifier_ShadowLord_OnDeathGrantBuff_Buff,1,Haste,Multiplicitive,1.2,,,,ScalableFloat,registry::Shadowlord.OnDeathGrantBuff.Buff.HasteMultiplier
+GE_DungeonModifier_ShadowLord_OnDeathGrantBuff_Buff,2,PassiveMoveSpeed,Multiplicitive,1.2,,,,ScalableFloat,registry::Shadowlord.OnDeathGrantBuff.Buff.PassiveMoveSpeedIncrease
+GE_DungeonModifier_ShadowLord_TickingAoE_Debuff,0,IncomingDamageMultiplier,Multiplicitive,1.05,,,,ScalableFloat,registry::Shadowlord.TickingAoE.Debuff.IncomingAoEDamagePerStack
+GE_DungeonModifier_StoneSkin_EnemyMaxHealthbuff,0,MaxHealth,AddFinal,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_DungeonModifier_StoneSkin_HeroBuff,0,PhysicalIncomingDamageMultiplier,MultiplyCompound,1.0,,,,ScalableFloat,CT_DungeonModifiers::StoneSkin.PlayerBuff.PhysicalIncomingDamageMultiplier
+GE_DungeonModifier_StormShield_ShieldBuff_CritBonusBuff,0,CritChance,Additive,0.2,,,,ScalableFloat,registry::StormShield.CritBonusBuff.AdditionalCritChance
+GE_DungeonModifier_StormShield_ShieldBuff_DR,0,IncomingDamageMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::StormShield.ShieldBuff.IncomingDamageMultiplier
+GE_DungeonModifier_Truesight_PlayerBuff,0,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::DM_Truesight.Buff.DamageScale
+GE_DungeonModifier_Truesight_PlayerBuff,1,HealScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::DM_Truesight.Buff.HealScale
+GE_DungeonModifier_WinterWitch_BoonAoeBuff_DamageReduction,0,IncomingDamageMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::DM_WinterWitch.AoeBoon.Buff.IncomingDamageMultiplier
+GE_DungeonModifiers_EmpoweredMinions_EmpoweredEnemyBuff,0,MaxHealth,AddFinal,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_DungeonModifiers_EmpoweredMinions_EmpoweredEnemyBuff,1,Strength,Multiplicitive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_DungeonModifiers_EmpoweredMinions_EmpoweredEnemyBuff,2,Agility,Multiplicitive,1.5,,,,ScalableFloat,CT_DungeonModifiers::EmpoweredMinions.EnemyBuff.OutgoingDamageScale
+GE_DungeonModifiers_EmpoweredMinions_EmpoweredEnemyBuff,3,Intellect,Multiplicitive,1.5,,,,ScalableFloat,CT_DungeonModifiers::EmpoweredMinions.EnemyBuff.OutgoingDamageScale
+GE_DungeonModifiers_EmpoweredMinions_EmpoweredEnemyBuff,4,SizeScale,Multiplicitive,1.2,,,,ScalableFloat,
+GE_DungeonModifiers_EmpoweredMinions_EmpoweredEnemyBuff,5,KillScore,MultiplyCompound,3.0,,,,ScalableFloat,registry::EmpoweredMinions.EnemyBuff.KillscoreScale
+GE_DungeonModifiers_EmpoweredMinions_MinionKilledBuff_HasteAndMovespeedBuff,0,Haste,Additive,0.2,,,,ScalableFloat,CT_DungeonModifiers::EmpoweredMinions.MinionKilledBuff.HasteIncrease
+GE_DungeonModifiers_EmpoweredMinions_MinionKilledBuff_HasteAndMovespeedBuff,1,PassiveMoveSpeed,Additive,0.2,,,,ScalableFloat,CT_DungeonModifiers::EmpoweredMinions.MinionKilledBuff.PassiveMoveSpeedIncrease
+GE_DungeonModifiers_PathFinder_Buff,0,Haste,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifiers_PromotedEnemies_EnemyBuff,0,DifficultyDamageScale,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_DungeonModifiers_PromotedEnemies_EnemyBuff,1,DifficultyHealthScale,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Environmental_IceColdWater_Slow,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::Environmental.Hazard.IceColdWater.SlowMultiplier
+GE_Environmental_IceColdWater_Slow_Linger,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::Environmental.Hazard.IceColdWater.SlowMultiplier
+GE_FK_BossElfDragon_EnragedPhaseHasteBuff,0,Haste,Additive,0.3,,,,ScalableFloat,registry::FK_BossElfDragon.EnragedPhase.HasteBuff.HasteAdded
+GE_FK_BossElfDragon_KnockbackConeRoot,0,MoveSpeed,Multiplicitive,0.2,,,,ScalableFloat,
+GE_FK_BossElfDragon_ShrinkingArenaDebuff_Slow,0,MoveSpeed,Multiplicitive,0.6,,,,ScalableFloat,registry::FK_BossElfDragon.ShrinkingArena.Debuff.MovementSpeedMultiplier
+GE_FK_BossFreezingWaterLord_GreaterWaterNova_Dot_Slow,0,MoveSpeed,Multiplicitive,0.85,,,,ScalableFloat,
+GE_FK_Elf_Cleric_LifeLeech_SelfBuff,0,LifeSteal,Additive,0.35,,,,ScalableFloat,registry::FK_ElfCleric.LifeLeech.LeechFraction
+GE_FK_Elf_Duelist_IceBreaker_EnragedBuff,0,Haste,Additive,0.3,,,,ScalableFloat,registry::FK_ElfDuelist.EnragedBuff.HasteBonus
+GE_FK_Elf_Duelist_IceBreaker_EnragedBuff,1,SizeScale,Multiplicitive,1.2,,,,ScalableFloat,
+GE_FK_Elf_Duelist_SpinningIceSword_SelfSlow,0,MoveSpeed,MultiplyCompound,0.25,,,,ScalableFloat,registry::FK_ElfDuelist.SpinningIceSwordStorm.MoveSpeedMultiplier
+GE_FK_Elf_Shardling_DeathExplosionSlowDebuff,0,MoveSpeed,Multiplicitive,0.9,,,,ScalableFloat,registry::FK_ElfShardling.DeathExplosion.Debuff.MovementSpeedMultiplier
+GE_FK_MirroredRangerCaptain_BattleCry_Debuff,0,IncomingDamageMultiplier,MultiplyCompound,1.2,,,,ScalableFloat,registry::FK_BossMirroredRangerCaptain.BattleCry.Debuff.DamageIncrease
+GE_FM_BullyBasher_BuffAllies_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::FM_BullyBasher.BuffSelf.IncomingDamageMultiplier
+GE_FM_Environmental_Spiderweb_Slow,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::FM_GravesnareKidnapper.ConeAoeProjectiles.Dot.MoveSpeedMultiplier
+GE_FM_FrenziedLooter_DropTreasure_Buff,0,MoveSpeed,Multiplicitive,0.95,,,,ScalableFloat,registry::FM_FrenziedLooter.DropTreasure.Buff.MoveSpeedMultiplier
+GE_FM_FrenziedLooter_DropTreasure_Buff,1,DamageScale,Multiplicitive,1.02,,,,ScalableFloat,registry::FM_FrenziedLooter.DropTreasure.Buff.DamageScale
+GE_FM_GravesnareKidnapper_CallChildren_ReducedMaxHealth,0,MaxHealth,MultiplyCompound,0.6,,,,ScalableFloat,registry::FM_GravesnareKidnapper.CallChildren.MaxHealthMultiplier
+GE_FM_GravesnareKidnapper_ConeAoeProjectiles_Slow,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::FM_GravesnareKidnapper.ConeAoeProjectiles.Dot.MoveSpeedMultiplier
+GE_FM_PIllager_Enrage_Buff,0,AttackSpeed,Multiplicitive,1.1,,,,ScalableFloat,registry::FM_Pillager.Enrage.HasteIncrease
+GE_FM_PIllager_Enrage_Buff,1,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::FM_Pillager.Enrage.DamageScaler
+GE_FM_PIllager_Enrage_Buff,2,SizeScale,Additive,0.1,,,,ScalableFloat,registry::FM_Pillager.Enrage.SizeIncrease
+GE_FM_PIllager_Enrage_MaxHealthIncrease,0,MaxHealth,Multiplicitive,1.1,,,,ScalableFloat,registry::FM_Pillager.Enrage.MaxHealthIncrease
+GE_FM_RotheartRecluse_DotProjectile_Slow,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,registry::FM_RotheartRecluse.DotProjectile.Slow.MoveSpeedMultiplier
+GE_FM_Shared_NPCCombatBuff_DpsBuff,0,MaxHealth,Multiplicitive,1.4,,,,ScalableFloat,registry::FM.Shared.NPCCombatBuff.Dps.MaxHealthMultiplier
+GE_FM_Shared_NPCCombatBuff_DpsBuff,1,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::FM.Shared.NPCCombatBuff.Dps.DamageScaleMultiplier
+GE_FM_Shared_NPCCombatBuff_Elite_DpsBuff,0,MaxHealth,Multiplicitive,1.1,,,,ScalableFloat,registry::FM.Shared.EliteCombatBuff.Dps.MaxHealthMultiplier
+GE_FM_Shared_NPCCombatBuff_Elite_DpsBuff,1,DamageScale,Multiplicitive,1.0,,,,ScalableFloat,registry::FM.Shared.EliteCombatBuff.Dps.DamageScaleMultiplier
+GE_FM_Shared_NPCCombatBuff_Elite_HealerBuff,0,MaxHealth,Multiplicitive,1.1,,,,ScalableFloat,registry::FM.Shared.EliteCombatBuff.Healer.MaxHealthMultiplier
+GE_FM_Shared_NPCCombatBuff_Elite_HealerBuff,1,DamageScale,Multiplicitive,1.4,,,,ScalableFloat,registry::FM.Shared.EliteCombatBuff.Healer.DamageScaleMultiplier
+GE_FM_Shared_NPCCombatBuff_Elite_TankBuff,0,MaxHealth,Multiplicitive,1.1,,,,ScalableFloat,registry::FM.Shared.EliteCombatBuff.Tank.MaxHealthMultiplier
+GE_FM_Shared_NPCCombatBuff_Elite_TankBuff,1,DamageScale,Multiplicitive,1.2,,,,ScalableFloat,registry::FM.Shared.EliteCombatBuff.Tank.DamageScaleMultiplier
+GE_FM_Shared_NPCCombatBuff_HealerBuff,0,MaxHealth,Multiplicitive,1.1,,,,ScalableFloat,registry::FM.Shared.NPCCombatBuff.Healer.MaxHealthMultiplier
+GE_FM_Shared_NPCCombatBuff_HealerBuff,1,DamageScale,Multiplicitive,1.4,,,,ScalableFloat,registry::FM.Shared.NPCCombatBuff.Healer.DamageScaleMultiplier
+GE_FM_Shared_NPCCombatBuff_TankBuff,0,MaxHealth,Multiplicitive,1.1,,,,ScalableFloat,registry::FM.Shared.NPCCombatBuff.Tank.MaxHealthMultiplier
+GE_FM_Shared_NPCCombatBuff_TankBuff,1,DamageScale,Multiplicitive,1.4,,,,ScalableFloat,registry::FM.Shared.NPCCombatBuff.Tank.DamageScaleMultiplier
+GE_FM_Slaver_Grip_Slow,0,MoveSpeed,MultiplyCompound,0.35,,,,ScalableFloat,registry::FM_Slaver.Grip.Slow.MovementSpeedMultiplier
+GE_Finesse_CurrentSpiritToBuff_Buff,0,Expertise,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Finesse_CurrentSpiritToBuff_Buff,1,Haste,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Finesse_CurrentSpiritToBuff_Buff,2,CritChance,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Finesse_Passive_MajorToReducedControlCooldown_DamageBonusToLowHealth,0,DamageScale,MultiplyCompound,1.05,,,,ScalableFloat,registry::Finesse.MajorToReducedControlCooldown.DamageBonusAgainstLowHealthEnemies
+GE_Finesse_Passive_PowerIncreasedCritChanceAndPower,0,CritChance,Additive,0.01,,,,ScalableFloat,registry::Finesse.PowerIncreasedCritChanceAndPower.AdditionalCritChance
+GE_Finesse_Passive_PowerIncreasedCritChanceAndPower,1,CritMultiplier,Multiplicitive,1.05,,,,ScalableFloat,registry::Finesse.PowerIncreasedCritChanceAndPower.CritPowerMultiplier
+GE_Finesse_PeriodicHasteBuff_Buff,0,Haste,Additive,0.06,,,,ScalableFloat,registry::Finesse.PeriodicHasteBuff.Buff.AdditionalHaste
+GE_Finesse_PowerToIncreasedCritChance,0,CritChance,Additive,0.025,,,,ScalableFloat,registry::Finesse.PowerToIncreasedCritChance.AdditionalCritChance
+GE_Firemage_CastedSingleHeavyDot_Talent_BoostsIncomingDamage_Debuff_OwnerEffect,0,IncomingDamageMultiplier,MultiplyCompound,1.07,,,,ScalableFloat,registry::Firemage.CastedSingleHeavyDot.Talent.BoostsIncomingDamage.DamageMultiplier
+GE_Firemage_ChanneledForwardAoeDamage_Cost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Firemage_ResourceGain_SetByCaller,0,Resources,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Firemage_ResourceRemove,0,Resources,Additive,-1.0,,,,ScalableFloat,
+GE_Firemage_SelfDefenceBuff_SelfBuff,0,IncomingDamageMultiplier,Multiplicitive,0.6,,,,ScalableFloat,CT_AbilityConstants::Firemage.SelfDefenceBuff.IncomingDamageScaler
+GE_Firemage_Talent_InstantDotSpread_SpiritAndCritBuff,0,Spirit,Additive,0.3,,,,ScalableFloat,registry::Firemage.InstantDotSpread.Talent.SpiritAndCritBuff.SpiritIncrease
+GE_Firemage_Talent_InstantDotSpread_SpiritAndCritBuff,1,CritChance,Additive,0.3,,,,ScalableFloat,registry::Firemage.InstantDotSpread.Talent.SpiritAndCritBuff.CritChanceIncrease
+GE_Firemage_Talent_ReducedAoeDamage,0,Avoidance,Additive,0.1,,,,ScalableFloat,CT_AbilityConstants::Firemage.Talent.ReducedAoeDamage.AvoidanceIncrease
+GE_Firemage_Talent_ReducedMagicDamage,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,CT_AbilityConstants::Firemage.Talent.ReducedMagicDamage.IncomingMagicDamageScaler
+GE_GemBonus_AddedMaxSpiritPointsMedium,0,MaxSpiritPoints,Additive,30.0,,,,ScalableFloat,registry::GemBonus.AddedMaxSpiritPoints.Medium
+GE_GemBonus_AddedMaxSpiritPointsSmall,0,MaxSpiritPoints,Additive,10.0,,,,ScalableFloat,registry::GemBonus.AddedMaxSpiritPoints.Small
+GE_GemBonus_CooldownReductionMedium,0,CooldownReduction,Additive,0.12,,,,ScalableFloat,CT_GemConstants::GemBonus.PassiveCooldownReduction.Medium.CooldownReduction
+GE_GemBonus_CooldownReductionSmall,0,CooldownReduction,Additive,0.04,,,,ScalableFloat,CT_GemConstants::GemBonus.PassiveCooldownReduction.Small.CooldownReduction
+GE_GemBonus_CritChanceBonusAgainstHalfHealthTargetMedium,0,CritChance,Additive,0.15,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceBonusAgainstHealthyTarget.Medium.CriticalChancePercentageIncrease
+GE_GemBonus_CritChanceBonusAgainstHalfHealthTargetSmall,0,CritChance,Additive,0.05,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceBonusAgainstHealthyTarget.Small.CriticalChancePercentageIncrease
+GE_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusMedium,0,CritChance,Additive,0.006,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.CriticalChanceIncrease
+GE_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusMedium,1,Haste,Additive,0.006,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.HasteIncrease
+GE_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusMedium,2,Expertise,Additive,0.006,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.ExpertiseIncrease
+GE_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusMedium,3,Spirit,Additive,0.006,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Medium.SpiritIncrease
+GE_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusSmall,0,CritChance,Additive,0.006,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.CriticalChanceIncrease
+GE_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusSmall,1,Haste,Additive,0.006,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.HasteIncrease
+GE_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusSmall,2,Expertise,Additive,0.006,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.ExpertiseIncrease
+GE_GemBonus_CriticalChanceHasteExpertiseAndSpiritBonusSmall,3,Spirit,Additive,0.006,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalChanceHasteExpertiseSpiritPercentageBonus.Small.SpiritIncrease
+GE_GemBonus_CriticalPowerBonusPercentageMedium,0,CritMultiplier,Multiplicitive,1.06,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalPowerPercentageBonus.Medium.CriticalStrikeScaler
+GE_GemBonus_CriticalPowerBonusPercentageSmall,0,CritMultiplier,MultiplyCompound,1.02,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalPowerPercentageBonus.Small.CriticalStrikeScaler
+GE_GemBonus_CriticalStrikePercentageBonusMedium,0,CritChance,Additive,0.06,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalStrikePercentageBonus.Medium.CriticalStrikeScaler
+GE_GemBonus_CriticalStrikePercentageBonusSmall,0,CritChance,Additive,0.02,,,,ScalableFloat,CT_GemConstants::GemBonus.CriticalStrikePercentageBonus.Small.CriticalStrikeScaler
+GE_GemBonus_DamageHealingAbsorbBonusInBossBattleMedium,0,DamageScale,MultiplyCompound,1.15,,,,ScalableFloat,registry::GemBonus.DamageHealingAsborbBonusInBossBattle.Medium.Scaler
+GE_GemBonus_DamageHealingAbsorbBonusInBossBattleMedium,1,HealScale,MultiplyCompound,1.15,,,,ScalableFloat,registry::GemBonus.DamageHealingAsborbBonusInBossBattle.Medium.Scaler
+GE_GemBonus_DamageHealingAbsorbBonusInBossBattleMedium,2,OutgoingAbsorptionMultiplier,MultiplyCompound,1.15,,,,ScalableFloat,registry::GemBonus.DamageHealingAsborbBonusInBossBattle.Medium.Scaler
+GE_GemBonus_DamageHealingAbsorbBonusInBossBattleSmall,0,DamageScale,MultiplyCompound,1.05,,,,ScalableFloat,registry::GemBonus.DamageHealingAsborbBonusInBossBattle.Small.Scaler
+GE_GemBonus_DamageHealingAbsorbBonusInBossBattleSmall,1,HealScale,MultiplyCompound,1.05,,,,ScalableFloat,registry::GemBonus.DamageHealingAsborbBonusInBossBattle.Small.Scaler
+GE_GemBonus_DamageHealingAbsorbBonusInBossBattleSmall,2,OutgoingAbsorptionMultiplier,MultiplyCompound,1.05,,,,ScalableFloat,registry::GemBonus.DamageHealingAsborbBonusInBossBattle.Small.Scaler
+GE_GemBonus_ExpertisePercentageBonusMedium,0,Expertise,Additive,0.06,,,,ScalableFloat,CT_GemConstants::GemBonus.ExpertisePercentageBonus.Medium.ExpertiseIncrease
+GE_GemBonus_ExpertisePercentageBonusSmall,0,Expertise,Additive,0.02,,,,ScalableFloat,CT_GemConstants::GemBonus.ExpertisePercentageBonus.Small.ExpertiseIncrease
+GE_GemBonus_ExpertiseStacksOnFirstDamage_ExpertiseEffect_Medium,0,Expertise,Additive,0.15,,,,ScalableFloat,registry::GemBonus.ExpertiseStacksOnFirstDamageExpertiseBonusPerStack.Medium
+GE_GemBonus_ExpertiseStacksOnFirstDamage_ExpertiseEffect_Small,0,Expertise,Additive,0.05,,,,ScalableFloat,registry::GemBonus.ExpertiseStacksOnFirstDamage.ExpertiseBonusPerStack.Small
+GE_GemBonus_HastePercentageBonusMedium,0,Haste,Additive,0.06,,,,ScalableFloat,CT_GemConstants::GemBonus.HastePercentageBonus.Medium.HasteIncrease
+GE_GemBonus_HastePercentageBonusSmall,0,Haste,Additive,0.02,,,,ScalableFloat,CT_GemConstants::GemBonus.HastePercentageBonus.Small.HasteIncrease
+GE_GemBonus_HastePercentageBonusWhenTargettingUnhealthyTargetsMedium,0,Haste,Additive,0.09,,,,ScalableFloat,CT_GemConstants::GemBonus.HastePercentageBonusWhenTargettingUnhealthyTargets.Medium.HastePercentageIncrease
+GE_GemBonus_HastePercentageBonusWhenTargettingUnhealthyTargetsSmall,0,Haste,Additive,0.03,,,,ScalableFloat,CT_GemConstants::GemBonus.HastePercentageBonusWhenTargettingUnhealthyTargets.Small.HastePercentageIncrease
+GE_GemBonus_HastePercentageBonusWhileNotHeroismMedium,0,Haste,Additive,0.06,,,,ScalableFloat,CT_GemConstants::GemBonus.HastePercentageBonusWhileNotHeroism.Medium.HastePercentageIncrease
+GE_GemBonus_HastePercentageBonusWhileNotHeroismSmall,0,Haste,Additive,0.02,,,,ScalableFloat,CT_GemConstants::GemBonus.HastePercentageBonusWhileNotHeroism.Small.HastePercentageIncrease
+GE_GemBonus_IncomingHealMultiplierForMissingHealth_IncHealBuff,0,IncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_GemBonus_MagicResistBonusOnDamageTaken_Medium,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.76,,,,ScalableFloat,registry::GemBonus.MagicResistBonusOnDamageTaken.IncomingMagicDamageScale.Medium
+GE_GemBonus_MagicResistBonusOnDamageTaken_Small,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.92,,,,ScalableFloat,registry::GemBonus.MagicResistBonusOnDamageTaken.IncomingMagicDamageScale.Small
+GE_GemBonus_MaxHealthPercentageBonusMedium,0,Stamina,Multiplicitive,1.09,,,,ScalableFloat,CT_GemConstants::GemBonus.MaxHealthPercentageBonus.Medium.MaxHealthScaler
+GE_GemBonus_MaxHealthPercentageBonusSmall,0,Stamina,Multiplicitive,1.03,,,,ScalableFloat,CT_GemConstants::GemBonus.MaxHealthPercentageBonus.Small.MaxHealthScaler
+GE_GemBonus_PrimaryAttributeAndStaminaBonusMedium,0,Armor,Additive,120.0,,,,ScalableFloat,registry::GemBonus.PrimaryAttributeAndStaminaBonus.Medium.ArmorIncrease
+GE_GemBonus_PrimaryAttributeAndStaminaBonusMedium,1,PrimaryAttributeFlatBonus,Additive,12.0,,,,ScalableFloat,registry::GemBonus.PrimaryAttributeAndStaminaBonus.Medium.PrimaryAttributeIncrease
+GE_GemBonus_PrimaryAttributeAndStaminaBonusSmall,0,Armor,Additive,40.0,,,,ScalableFloat,registry::GemBonus.PrimaryAttributeAndStaminaBonus.Small.ArmorIncrease
+GE_GemBonus_PrimaryAttributeAndStaminaBonusSmall,1,PrimaryAttributeFlatBonus,Additive,4.0,,,,ScalableFloat,registry::GemBonus.PrimaryAttributeAndStaminaBonus.Small.PrimaryAttributeIncrease
+GE_GemBonus_PrimaryAttributeBonusWhenHealthyMedium,0,PrimaryAttributeMultiplier,MultiplyCompound,1.06,,,,ScalableFloat,registry::GemBonus.PrimaryAttributeBonusWhenHealthy.Medium
+GE_GemBonus_PrimaryAttributeBonusWhenHealthySmall,0,PrimaryAttributeMultiplier,MultiplyCompound,1.02,,,,ScalableFloat,registry::GemBonus.PrimaryAttributeBonusWhenHealthy.Small
+GE_GemBonus_PrimaryAttributeBonusWhileHeroismMedium,0,PrimaryAttributeMultiplier,MultiplyCompound,1.24,,,,ScalableFloat,registry::GemBonus.PrimaryAttributeBonusWhileHeroism.Medium
+GE_GemBonus_PrimaryAttributeBonusWhileHeroismSmall,0,PrimaryAttributeMultiplier,MultiplyCompound,1.08,,,,ScalableFloat,registry::GemBonus.PrimaryAttributeBonusWhileHeroism.Small
+GE_GemBonus_PrimaryBonus_Medium,0,PrimaryAttributeMultiplier,MultiplyCompound,1.06,,,,ScalableFloat,registry::GemBonus.PrimaryBonus.Medium
+GE_GemBonus_PrimaryBonus_Small,0,PrimaryAttributeMultiplier,MultiplyCompound,1.02,,,,ScalableFloat,registry::GemBonus.PrimaryBonus.Small
+GE_GemBonus_SpiritPercentageBonusMedium,0,Spirit,Additive,0.06,,,,ScalableFloat,CT_GemConstants::GemBonus.SpiritPercentageBonus.Medium.SpiritIncrease
+GE_GemBonus_SpiritPercentageBonusSmall,0,Spirit,Additive,0.02,,,,ScalableFloat,CT_GemConstants::GemBonus.SpiritPercentageBonus.Small.SpiritIncrease
+GE_GemBonus_StaminaAndCritRatingBonusMedium,0,Stamina,Additive,24.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndCriticalBonus.Medium.StaminaIncrease
+GE_GemBonus_StaminaAndCritRatingBonusMedium,1,CritRating,Additive,24.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndCriticalBonus.Medium.CritRatingIncrease
+GE_GemBonus_StaminaAndCritRatingBonusSmall,0,Stamina,Additive,8.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndCriticalBonus.Small.StaminaIncrease
+GE_GemBonus_StaminaAndCritRatingBonusSmall,1,CritRating,Additive,8.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndCriticalBonus.Small.CritRatingIncrease
+GE_GemBonus_StaminaAndExpertiseRatingBonusMedium,0,Stamina,Additive,24.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndExpertiseBonus.Medium.StaminaIncrease
+GE_GemBonus_StaminaAndExpertiseRatingBonusMedium,1,ExpertiseRating,Additive,24.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndExpertiseBonus.Medium.ExpertiseRatingIncrease
+GE_GemBonus_StaminaAndExpertiseRatingBonusSmall,0,Stamina,Additive,8.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndExpertiseBonus.Small.StaminaIncrease
+GE_GemBonus_StaminaAndExpertiseRatingBonusSmall,1,ExpertiseRating,Additive,8.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndExpertiseBonus.Small.ExpertiseRatingIncrease
+GE_GemBonus_StaminaAndHasteRatingBonusMedium,0,Stamina,Additive,24.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndHasteBonus.Medium.StaminaIncrease
+GE_GemBonus_StaminaAndHasteRatingBonusMedium,1,HasteRating,Additive,24.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndHasteBonus.Medium.HasteRatingIncrease
+GE_GemBonus_StaminaAndHasteRatingBonusSmall,0,Stamina,Additive,8.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndHasteBonus.Small.StaminaIncrease
+GE_GemBonus_StaminaAndHasteRatingBonusSmall,1,HasteRating,Additive,8.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndHasteBonus.Small.HasteRatingIncrease
+GE_GemBonus_StaminaAndPrimaryAttributeBonusMedium,0,Stamina,Additive,36.0,,,,ScalableFloat,registry::GemBonus.StaminaAndPrimaryAttributeBonus.Medium.StaminaIncrease
+GE_GemBonus_StaminaAndPrimaryAttributeBonusMedium,1,PrimaryAttributeFlatBonus,Additive,6.0,,,,ScalableFloat,registry::GemBonus.StaminaAndPrimaryAttributeBonus.Medium.PrimaryAttributeIncrease
+GE_GemBonus_StaminaAndPrimaryAttributeBonusSmall,0,Stamina,Additive,12.0,,,,ScalableFloat,registry::GemBonus.StaminaAndPrimaryAttributeBonus.Small.StaminaIncrease
+GE_GemBonus_StaminaAndPrimaryAttributeBonusSmall,1,PrimaryAttributeFlatBonus,Additive,2.0,,,,ScalableFloat,registry::GemBonus.StaminaAndPrimaryAttributeBonus.Small.PrimaryAttributeIncrease
+GE_GemBonus_StaminaAndSpiritRatingBonusMedium,0,Stamina,Additive,24.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndSpiritBonus.Medium.StaminaIncrease
+GE_GemBonus_StaminaAndSpiritRatingBonusMedium,1,SpiritRating,Additive,24.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndSpiritBonus.Medium.SpiritRatingIncrease
+GE_GemBonus_StaminaAndSpiritRatingBonusSmall,0,Stamina,Additive,8.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndSpiritBonus.Small.StaminaIncrease
+GE_GemBonus_StaminaAndSpiritRatingBonusSmall,1,SpiritRating,Additive,8.0,,,,ScalableFloat,CT_GemConstants::GemBonus.StaminaAndSpiritBonus.Small.SpiritRatingIncrease
+GE_Gunde_AbilityToBuffChance_Buff,0,Strength,Multiplicitive,1.06,,,,ScalableFloat,registry::Gunde.Talent.AbilityToBuffChance.StrengthMultiplier
+GE_Gunde_BoostedDotDamage_TargetDamageMod,0,IncomingDamageMultiplier,MultiplyCompound,1.2,,,,ScalableFloat,registry::Gunde.BoostedDotDamage.Debuff.BleedDamageScaler
+GE_Gunde_ClampedHealthWithEruption_SelfBuff,0,MinHealth,Override,1.0,,,,ScalableFloat,
+GE_Gunde_ClampedHealthWithEruption_SelfBuff,1,SizeScale,Override,1.15,,,,ScalableFloat,
+GE_Gunde_ClampedHealthWithEruption_SpiritPointCost,0,SpiritPoints,Additive,100.0,,,,ScalableFloat,registry::Gunde.ClampedHealthWithEruption.SpiritPointCost
+GE_Gunde_DamageBlockHealthDrain_SelfBuff,0,IncomingHealMultiplier,Multiplicitive,1.2,,,,ScalableFloat,registry::Gunde.Talent.DamageBlockHealthDrain.IncreasedIncomingHeal.HealingScaler
+GE_Gunde_DamageBlockHealthDrain_SelfBuff,1,DamageMitigationScale,Override,0.0,,,,ScalableFloat,registry::Gunde.DamageBlockHealthDrain.IncomingDamageNotBecomingDotScaler
+GE_Gunde_DamageReductionSelfBuff_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.6,,,,ScalableFloat,registry::Gunde.DamageReductionSelfBuff.IncomingDamageMultiplier
+GE_Gunde_DotTransfer_SelfBuff,0,ResourcesTertiary,Additive,1.0,,,,ScalableFloat,
+GE_Gunde_DurationalAoeDotAndBuff_SelfBuff,0,DamageScale,MultiplyCompound,1.15,,,,ScalableFloat,registry::Gunde.DurationalAoeDotAndBuff.SelfBuff.DamageMultiplier
+GE_Gunde_DurationalAoeDotAndBuff_SelfBuff,1,DamageScale,MultiplyCompound,1.15,,,,ScalableFloat,registry::Gunde.DurationalAoeDotAndBuff.SelfBuff.DamageMultiplier
+GE_Gunde_HealingStance,0,IncomingDamageMultiplier,MultiplyCompound,0.7,,,,ScalableFloat,registry::Gunde.HealingStance.IncomingDamageScaler
+GE_Gunde_HeavyMeleeDotBased_IncreasedCritChance,0,CritChance,Additive,0.3,,,,ScalableFloat,registry::Gunde.HeavyMeleeDotBased.Talent.IncreasedCritChance.AdditionalCritChance
+GE_Gunde_HeavySingleTargetMelee_InHealingStance_ResourceCost,0,Resources,Additive,30.0,,,,ScalableFloat,registry::Gunde.HeavySingleTargetMelee.InHealingStance.ResourceCost
+GE_Gunde_InstantSpinAoe_InHealingStance_ResourceCost,0,Resources,Additive,40.0,,,,ScalableFloat,registry::Gunde.InstantSpinAoe.InHealingStance.ResourceCost
+GE_Gunde_MaxOrbResource,0,MaxResourcesTertiary,Override,150.0,,,,ScalableFloat,registry::Gunde.DotTransfer.MaxStacks
+GE_Gunde_Talent_DashAttack_EmpoweredAbilities_Proc,0,DamageScale,MultiplyCompound,1.15,,,,ScalableFloat,registry::Gunde.DashAttack.Talent.DamageMultiplier
+GE_Gunde_Talent_DotTransfer_IncreasedDamageOnSelf_Buff,0,DamageScale,Multiplicitive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Gunde_Talent_ExtraDotDamageBuff_Haste,0,Expertise,Additive,0.25,,,,ScalableFloat,registry::Gunde.ExtraDotDamageBuff.Talent.Haste.AdditionalHaste
+GE_Gunde_Talent_HeavyMeleeDotBased_IncreasedDamageLowHealthTarget,0,CritChance,Additive,1.0,,,,ScalableFloat,registry::Gunde.HeavyMeleeDotBased.Talent.LowHealthTarget.AddedCriticalStrikeChance
+GE_Gunde_Talent_HeavyMeleeDotBoost_GuaranteedSpiritProcBuff__Proc,0,SpiritRefundChanceFlatIncrease,Additive,1.0,,,,ScalableFloat,registry::Hero.Talent.AbilityCommitToSpiritRefund.AdditionalSpiritRefundChance
+GE_Gunde_Talent_InstantAoeDot_IncreasedCritChance,0,CritChance,Additive,0.1,,,,ScalableFloat,registry::Gunde.InstantAoeDot.Talent.IncreasedCritChance.AdditionalCritChance
+GE_Gunde_Talent_TargetedAoeProjectile_DamageCooldownReduction_IncreasedDamage,0,DamageScale,Multiplicitive,1.25,,,,ScalableFloat,registry::Gunde.TargetedAoeProjectile.Talent.DamageCooldownReduction.DamageMultiplier
+GE_HeroAttributesBase,0,Haste,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_HeroAttributesBase,1,CritChance,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_HeroAttributesBase,2,Expertise,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_HeroAttributesBase,3,Spirit,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_HeroAttributesBase,4,BlockDamageReductionFlat,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_HeroAttributesBase,5,BlockDamageReductionMultiplier,Multiplicitive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_IC_Assassin_PoisonDagger_ConvertHealingDebuff,0,HealScale,MultiplyCompound,0.3,,,,ScalableFloat,registry::IC_Assassin.PoisonDagger.ReducedHealingTakenDebuff.HealScaleMultiplier
+GE_IC_BossMagistrate_FrigidMist_Slow,0,MoveSpeed,Multiplicitive,0.4,,,,ScalableFloat,registry::IC_BossMagistrate.FrigidMist.MovementSpeedMultiplier
+GE_IC_BossMagistrate_Frostbolt_Debuff,0,MoveSpeed,Multiplicitive,1.0,,,,ScalableFloat,registry::IC_BossMagistrate.Frostbolt.Debuff.MovementSpeedMultiplier
+GE_IC_GlacialSprite_PassiveAOEPools_Slow,0,MoveSpeed,MultiplyCompound,0.5,,,,ScalableFloat,registry::IC_GreaterIceElemental.EarthBreaker.MovementSpeedMultiplier
+GE_IC_GreaterIceElemental_EarthBreaker_Slow,0,MoveSpeed,MultiplyCompound,0.5,,,,ScalableFloat,registry::IC_GreaterIceElemental.EarthBreaker.MovementSpeedMultiplier
+GE_IC_Healer_ChannelMultiTargetHeal_HasteBuff,0,Haste,Additive,0.2,,,,ScalableFloat,registry::IC_Healer.ChannelMultiTargetHeal.HasteBuffPercentage
+GE_Ink_AoeAttack_Activated,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,registry::Ink.AoeAttack.Talent.ReducedIncomingDamage.IncomingDamageMultiplier
+GE_Ink_AoeAttack_Activated,1,Expertise,Additive,0.2,,,,ScalableFloat,registry::Ink.AoeAttack.Talent.ReducedIncomingDamage.IncreasedStatBonus
+GE_Ink_AoeAttack_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Ink_CleaveAttack_Cost,0,Resources,Additive,0.0,,,,ScalableFloat,registry::Ink.CleaveAttack.Cost
+GE_Ink_EnhancedChargedBuff_Cost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Ink_EnhancedChargedBuff_PulsatingSingleDamage_SelfBuff,0,Expertise,Additive,0.01,,,,ScalableFloat,registry::Ink.EnhancedChargedBuff.PulsatingSingleDamage.SelfBuff.CritChanceIncreasePerStack
+GE_Ink_EnhancedChargedBuff_PulsatingSingleDamage_SelfBuff,1,SizeScale,Override,1.2,,,,ScalableFloat,
+GE_Ink_HeavySingleTargetAttack_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Ink_MaxRage,0,MaxResources,Override,1.0,,,,AttributeBased,
+GE_Ink_RageHandler_SetByCaller,0,Resources,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Ink_SecondChanceSingleTargetAttack_Cost,0,Resources,Additive,0.0,,,,ScalableFloat,registry::Ink.SecondChanceSingleTargetAttack.Cost
+GE_Ink_SelfDefenceBuff_SelfBuff_First,0,IncomingDamageMultiplier,MultiplyCompound,0.6,,,,ScalableFloat,registry::Ink.SelfDefenceBuff.FirstIncomingDamageReduction
+GE_Ink_Talent_AutoAttackBuffDurationalStatBonus,0,Spirit,Additive,0.015,,,,ScalableFloat,registry::Ink.Talent.AutoAttackBuffDurationalStatBonus.StatIncrease
+GE_Ink_Talent_AutoAttackBuff_CritStrikePowerIncrease,0,CritMultiplier,MultiplyCompound,1.1,,,,ScalableFloat,registry::Ink.AutoAttackBuff.Talent.GainToIncreasedDamage.PassiveCritStrikePowerScaler
+GE_Ink_Talent_AutoAttackBuff_StackingBuffConsumedBySpender_Buff,0,Expertise,Additive,0.05,,,,ScalableFloat,registry::Ink.AutoAttackBuff.Talent.StackingBuffConsumedByNextSpender.Buff.AddedExpertisePerStack
+GE_Ink_Talent_ChargedBuff_AddedHasteBuff,0,Haste,Additive,0.05,,,,ScalableFloat,registry::Ink.ChargedBuff.Talent.AddedHaste
+GE_Ink_Talent_ChargedBuff_LifestealAndStatBoost,0,IncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Ink.ChargedBuff.Talent.LifestealAndStatboost.IncomingDamageMultiplier
+GE_Ink_Talent_ChargedBuff_RageIncrease_Buff,0,Resources,Additive,1.0,,,,AttributeBased,
+GE_Ink_Talent_IncreasedAttackSpeed,0,AttackSpeed,Multiplicitive,1.85,,,,ScalableFloat,registry::Ink.Talent.IncreasedAttackSpeed.SpeedIncrease
+GE_Ink_Talent_IncreasedMovementSpeed,0,MoveSpeed,MultiplyCompound,1.2,,,,ScalableFloat,registry::Ink.Talent.IncreasedMovementSpeed.SpeedMultiplier
+GE_Ink_Talent_MoveToLocationAoeDamage_TargetExtraInkDamage_Debuff_OwnerEffect,0,IncomingDamageMultiplier,MultiplyCompound,1.2,,,,ScalableFloat,registry::Ink.MoveToLocationAoeDamage.Talent.TargetExtraInkDamage.IncomingDamageScaler
+GE_Ink_Talent_PassiveFuryGeneration,0,Resources,Additive,1.0,,,,AttributeBased,
+GE_JS_TutorialTroll_ThrowRocksMinHealth,0,MinHealth,Override,0.2,,,,AttributeBased,
+GE_LegendaryStat_IncreasedCooldownReduction,0,CooldownRecovery,Multiplicitive,1.1,,,,ScalableFloat,registry::LegendaryStat.IncreasedCooldownReduction.CooldownReductionMultiplier
+GE_LegendaryStat_IncreasedDamageReduction,0,IncomingDamageMultiplier,Multiplicitive,0.9,,,,ScalableFloat,registry::LegendaryStat.IncreasedDamageReduction.IncomingDamageMultiplier
+GE_LegendaryStat_IncreasedPrimaryStat,0,PrimaryAttributeMultiplier,Additive,0.1,,,,ScalableFloat,registry::LegendaryStat.IncreasedPrimaryStat.AdditionalPrimaryStatMultiplier
+GE_Lisa_AoeStaggerRemovalSpender_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_CastedHeal_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_CastedProjectileDamageIncreaseDebuff_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_CastedProjectileDamageIncreaseDebuff_Debuff_OwnerEffect,0,IncomingDamageMultiplier,Multiplicitive,1.2,,,,ScalableFloat,registry::Lisa.CastedProjectileDamageIncreaseDebuff.Debuff.IncomingDamageMultiplier
+GE_Lisa_CastedSingleTargetProjectile_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_ChanneledHealOrDamageProjectiles_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_InstantDamageSpender_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_InstantDamageSpender_SelfBuff_Buff,0,CooldownRecovery,Multiplicitive,2.0,,,,ScalableFloat,registry::Lisa.InstantDamageSpender.SelfBuff.CooldownRecoveryMultiplier
+GE_Lisa_InstantSelfBuff_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_InstantSelfBuff_SelfBuff,0,CooldownRecovery,Multiplicitive,1.5,,,,ScalableFloat,registry::Lisa.InstantSelfBuff.AdditionalCooldownRecovery
+GE_Lisa_InstantSingleTargetDamageAndDot_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_InstantSingleTargetDamageAndDot_Cost,1,Mana,AddFinal,10.0,,,,ScalableFloat,registry::Lisa.InstantSingleTargetDamageAndDot.Talent.ChargeUpMultiple.Cost
+GE_Lisa_Passive_ReducedIncomingDamage,0,IncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Lisa.PassiveIncomingDamageReduction.DamageScale
+GE_Lisa_PauseResourcesAndPartyHealth_Cost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_PauseResourcesAndPartyHealth_HealthBuff,0,Health,Override,1.0,,,,AttributeBased,
+GE_Lisa_PauseResourcesAndPartyHealth_SelfBuff,0,CooldownRecovery,MultiplyCompound,1.0,,,,ScalableFloat,registry::Lisa.PauseResourcesAndPartyHealth.CooldownRecoveryMultiplier
+GE_Lisa_PauseResourcesAndPartyHealth_SelfBuff,1,ManaRegenRate,Multiplicitive,1.0,,,,ScalableFloat,
+GE_Lisa_PauseResourcesAndPartyHealth_SelfBuff,2,OutOfCombatManaRegenRate,Multiplicitive,1.0,,,,ScalableFloat,
+GE_Lisa_SingleAllyDispel_ResourceCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_SingleTargetDamageImmunityBuff_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_SingleTargetDot_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_SingleTargetStaggerRemovalSpender_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_Stagger_Attributes,0,StaggerDamageAdditionFactor,Additive,0.3,,,,ScalableFloat,registry::Lisa.Stagger.DamageStaggerAdditionFactor
+GE_Lisa_Stagger_Attributes,1,StaggerHealReductionFactor,Additive,0.0,,,,ScalableFloat,registry::Lisa.Stagger.HealStaggerReductionFactor
+GE_Lisa_Talent_CastedProjectileDamageIncreaseDebuff_InstigatorBuff_Buff,0,Haste,Additive,0.2,,,,ScalableFloat,registry::Lisa.CastedProjectileDamageIncreaseDebuff.Talent.InstigatorBuff.AdditionalHaste
+GE_Lisa_Talent_DecreasedIncomingMagicDamage,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Lisa.Talent.DecreasedIncomingMagicDamage.DamageMultiplier
+GE_Lisa_Talent_InstantDamageSpender_SelfBuff_Buff,0,CooldownRecovery,Multiplicitive,3.0,,,,ScalableFloat,registry::Lisa.InstantDamageSpender.Talent.SelfBuff.CooldownRecoveryMultiplier
+GE_Lisa_Talent_InstantSelfBuff_FullResources,0,Resources,Additive,30.0,,,,ScalableFloat,registry::Lisa.InstantSelfBuff.Talent.FullResources.ResourceIncrease
+GE_Lisa_Talent_Passive_OverhealToStackingDamageReduction_DamageReductionBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.88,,,,ScalableFloat,registry::Lisa.SingleTargetStaggerRemovalSpender.Talent.OverhealToDamageReduction.IncomingDamageMultiplier
+GE_Lisa_Talent_ResourceThresholdBuffs_DamageIncrease,0,DamageScale,Multiplicitive,1.15,,,,ScalableFloat,registry::Lisa.Talent.ResourceThresholdBuffs.DamageMultiplier
+GE_Lisa_Talent_ResourceThresholdBuffs_DamageReduction,0,PhysicalDamageReduction,Additive,0.15,,,,ScalableFloat,registry::Lisa.Talent.ResourceThresholdBuffs.AdditionalDamageReduction
+GE_Lisa_Talent_ResourceThresholdBuffs_DamageReduction,1,MagicDamageReduction,Additive,0.15,,,,ScalableFloat,registry::Lisa.Talent.ResourceThresholdBuffs.AdditionalDamageReduction
+GE_Lisa_Talent_SingleTargetDot_DamageDecrease,0,DamageScale,Multiplicitive,0.95,,,,ScalableFloat,registry::Lisa.SingleTargetDot.Talent.DamageDecrease.DamageMultiplier
+GE_Lisa_Talent_TeleportForward_DamageReduction_Buff,0,PhysicalDamageReduction,Additive,0.15,,,,ScalableFloat,registry::Lisa.TeleportForward.Talent.DamageReduction.AdditionalDamageReduction
+GE_Lisa_Talent_TeleportForward_DamageReduction_Buff,1,MagicDamageReduction,Additive,0.15,,,,ScalableFloat,registry::Lisa.TeleportForward.Talent.DamageReduction.AdditionalDamageReduction
+GE_Lisa_TargetedAoeSilence_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Lisa_TeleportForward_MoveSpeedBuff,0,MoveSpeed,Multiplicitive,1.2,,,,ScalableFloat,registry::Lisa.TeleportForward.Buff.MoveSpeedMultiplier
+GE_MC_BloodCrystal_ChanneledDamageReduction_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.2,,,,ScalableFloat,registry::MC_BloodCrystal.ChanneledDammageReduction.IncomingDamageMultiplier
+GE_MC_BloodFountain_BoostGhost,0,SizeScale,Multiplicitive,1.01,,,,ScalableFloat,registry::MC_BloodFountain.BoostGhost.SizeScalePerStack
+GE_MC_BloodFountain_BoostGhost,1,DamageScale,Multiplicitive,1.01,,,,ScalableFloat,registry::MC_BloodFountain.BoostGhost.DamageMultiplierPerStack
+GE_MC_BloodGrunt_SaveSelf,0,Health,Override,1.0,,,,ScalableFloat,
+GE_MC_BloodGuard_CastedBuffAllies_Buff,0,DamageScale,Multiplicitive,1.2,,,,ScalableFloat,registry::MC_BloodGuard.CastedBuffAllies.Buff.AdditiveDamageScaler
+GE_MC_BloodGuard_CastedBuffAllies_Buff,1,SizeScale,Additive,0.07,,,,ScalableFloat,registry::MC_BloodHound.Enrage.SizeIncrease
+GE_MC_BloodGuard_ChanneledDamageReduction_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.2,,,,ScalableFloat,registry::MC_BloodGuard.ChanneledDammageReduction.IncomingDamageMultiplier
+GE_MC_BloodHound_CastedAoeDamageAndSilence_GrowAndGlow,0,SizeScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::MC_BloodHound.CastedAoeDamageAndSilence.GrowAndGlow.ScaleMultiplier
+GE_MC_BloodHound_Enrage_Buff,0,Haste,Multiplicitive,1.1,,,,ScalableFloat,registry::MC_BloodHound.Enrage.HasteScalar
+GE_MC_BloodHound_Enrage_Buff,1,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::MC_BloodHound.Enrage.DamageScaler
+GE_MC_BloodHound_Enrage_Buff,2,SizeScale,Additive,0.07,,,,ScalableFloat,registry::MC_BloodHound.Enrage.SizeIncrease
+GE_MC_BloodHound_Enrage_Buff,3,IncomingDamageMultiplier,Multiplicitive,1.1,,,,ScalableFloat,registry::MC_BloodHound.Enrage.IncomingDamageMultiplier
+GE_MC_BloodHound_Enrage_MaxHealthIncrease,0,MaxHealth,Multiplicitive,,MC_BloodHound.Enrage.MaxHealthIncrease,,,ScalableFloat,registry::MC_BloodHound.Enrage.MaxHealthIncrease
+GE_MC_BloodSummoner_ChannelSpawnBloodAnimation_SummonMaxHealthBuff,0,MaxHealth,Multiplicitive,1.05,,,,ScalableFloat,registry::MC_BloodSummoner.ChannelSpawnBloodAnimation.AnimateBloodMaxHealthMultiplierPerTick
+GE_MC_BossGuardian_Runes_RuneEffect,0,IncomingDamageMultiplier,MultiplyCompound,0.01,,,,ScalableFloat,registry::MC_BossGuardian.Runes.RuneDamageMultiplier
+GE_MC_BossGuardian_Runes_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.01,,,,ScalableFloat,registry::MC_BossGuardian.Runes.BossBuff.IncomingDamageMultiplier
+GE_MC_BossGuardian_Runes_Success,0,DamageScale,Multiplicitive,1.2,,,,ScalableFloat,registry::MC_BossGuardian.Runes.PlayerBuff.DamageScale
+GE_MC_BossGuardian_TickingDamageAllPlayers_Slow,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::MC_BossGuardian.TickingDamageAllPlayers.Stage3MovementSpeedMultiplier
+GE_MC_WanderingGhostPriest_BuffCircle_Buff,0,Haste,Multiplicitive,1.15,,,,ScalableFloat,registry::MC_WanderingGhostPriest.BuffCircle.HasteMultiplier
+GE_MF_BossNecrolord_CooldownReduction,0,CooldownReduction,Additive,0.01,,,,ScalableFloat,registry::MF_BossNecrolord.CooldownReduction.CooldownReductionPerStack
+GE_MF_BossNecrolord_CooldownReduction,1,Haste,Additive,0.01,,,,ScalableFloat,registry::MF_BossNecrolord.CooldownReduction.HastePerStack
+GE_MF_BossNecrolord_DeathCast_Debuff,0,IncomingDamageMultiplier,Multiplicitive,5.0,,,,ScalableFloat,registry::MF_BossNecrolord.DeathCast.DamageTakenFromDeathCastMultiplier
+GE_MF_BossNecrolord_SpreadingDot_Debuff,0,IncomingDamageMultiplier,Multiplicitive,1.0,,,,ScalableFloat,registry::MF_BossNecrolord.SpreadingDot.Debuff.DamageTakenMultiplier
+GE_MF_BossUnicorn_BossVulnerabilityDebuff,0,IncomingDamageMultiplier,MultiplyCompound,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_MF_BossUnicorn_BossVulnerabilityDebuff,1,IncomingDamageMultiplier,MultiplyCompound,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_MF_BossUnicorn_BossVulnerabilityDebuff,2,IncomingDamageMultiplier,MultiplyCompound,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_MF_BossUnicorn_BossVulnerabilityDebuff,3,IncomingDamageMultiplier,MultiplyCompound,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_MF_BossUnicorn_Passive_IncreasedHealingTaken,0,IncomingHealMultiplier,Multiplicitive,4.0,,,,ScalableFloat,registry::MF_BossUnicorn.Passive.IncreasedHealingTaken.Multiplier
+GE_MF_DawnstoneGuardian_DamageReflect_Buff,0,SizeScale,Multiplicitive,1.3,,,,ScalableFloat,registry::MF_DawnstoneGuardian.ReflectDamage.SizeScalePerStack
+GE_MF_Skittershard_Debuff,0,MoveSpeed,Multiplicitive,0.9,,,,ScalableFloat,registry::MF_Skittershard.Debuff.MoveSpeedMultiplierPerStack
+GE_MF_Skittershard_OnDeath_HealReduction,0,IncomingHealMultiplier,Multiplicitive,0.9,,,,ScalableFloat,registry::MF_Skittershard.OnDeath.Debuff.IncomingHealMultiplier
+GE_Mara_AoEAttackBuilder_Cost,0,Resources,Additive,35.0,,,,ScalableFloat,registry::Mara.AoeAttackBuilder.Cost
+GE_Mara_AoEAttackSpender_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mara_BleedAttackSpender_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mara_ChargedDoubleAttackBuilder_Poison_Buff,0,AttackSpeed,Multiplicitive,1.0,,,,ScalableFloat,registry::Mara.ChargedDoubleAttackBuilder.Poison.AttackSpeedMultiplier
+GE_Mara_ChargedTeleportBehindTarget_IncreasedDamageOrMovementSpeed_IncreasedMovementSpeed,0,PassiveMoveSpeed,MultiplyCompound,1.5,,,,ScalableFloat,registry::Mara.ChargedTeleportBehindTarget.Talent.IncreasedDamageOrMovementSpeed.MovementSpeedIncrease.SpeedMultiplier
+GE_Mara_ComboPointGain,0,ResourcesSecond,Additive,1.0,,,,ScalableFloat,
+GE_Mara_CopyCharacterDamage_Cost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mara_CopyCharacterDamage_SelfBuff,0,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::Mara.CopyCharacterDamage.DamageIncreaseBuff.DamageScaler
+GE_Mara_HeavyAttackSpender_Cost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mara_SelfDefenceBuff_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.6,,,,ScalableFloat,registry::Mara.SelfDefenceBuff.IncomingDamageReduction
+GE_Mara_Stealth,0,Subtlety,Override,,Mara.Stealth.Subtlety,,,ScalableFloat,registry::Mara.Stealth.Subtlety
+GE_Mara_StrongerBehindAttackBuilder_Cost,0,Resources,Additive,20.0,,,,ScalableFloat,registry::Mara.StrongerBehindAttackBuilder.Cost
+GE_Mara_Talent_BleedAttackSpender_HasteIncrease_Buff,0,CritChance,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Mara_Talent_ChargedDoubleAttackBuilder_SpiritBuff,0,Spirit,Additive,0.2,,,,ScalableFloat,
+GE_Mara_Talent_ChargedResourceRefillSelfBuff_IncreasedDamage_Buff,0,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::Mara.ChargedResourceRefillSelfBuff.Talent.IncreasedDamage.DamageMultiplier
+GE_Mara_Talent_ChargedResourceRefillSelfBuff_IncreasedDamage_Buff,1,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::Mara.ChargedResourceRefillSelfBuff.Talent.IncreasedDamage.DamageMultiplier
+GE_Mara_Talent_ChargedResourceRefillSelfBuff_IncreasedDamage_Buff,2,DamageScale,MultiplyCompound,1.4,,,,ScalableFloat,registry::Mara.ChargedResourceRefillSelfBuff.Talent.IncreasedDamage.DamageMultiplierAtLowHealth
+GE_Mara_Talent_ChargedTeleportBehindTarget_IncreasedDamageOrMovementSpeed_DamageIncrease_Owner,0,IncomingDamageMultiplier,MultiplyCompound,1.1,,,,ScalableFloat,registry::Mara.ChargedTeleportBehindTarget.Talent.IncreasedDamageOrMovementSpeed.DamageIncrease.DamageMultiplier
+GE_Mara_Talent_IncomingAoeDamageReduction,0,Avoidance,Additive,0.1,,,,ScalableFloat,registry::Mara.Talent.IncomingAoeDamageReduction.AdditionalAvoidance
+GE_Mara_Talent_IncreasedMovementSpeed,0,PassiveMoveSpeed,MultiplyCompound,1.2,,,,ScalableFloat,registry::Mara.Talent.IncreasedMovementSpeed.SpeedMultiplier
+GE_Mara_Talent_ReducedIncomingMagicDamage,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Mara.Talent.ReducedIncomingMagicDamage.DamageMultiplier
+GE_Mara_Talent_SelfDefenceBuff_IncreasedDurationAndDodge_Dodge,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Mara.SelfDefenceBuff.Talent.IncreasedDurationAndDodge.BonusIncomingMagicDamageReductionMultiplier
+GE_Mara_Talent_SpiritRefundToExpertise_Buff,0,Expertise,Additive,0.24,,,,ScalableFloat,registry::Mara.Talent.SpiritProcToExpertise.Buff.AdditionalExpertise
+GE_Meiko_DamageSoakBuff_Buff,0,Armor,Multiplicitive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Meiko_DamageSoakBuff_Buff,1,MaxHealth,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Meiko_DamageSoakBuff_IncomingDamageMultiplier,0,IncomingDamageMultiplier,MultiplyCompound,0.65,,,,ScalableFloat,registry::Meiko.DamageSoakBuff.IncomnigDamageMultiplier
+GE_Meiko_DurationalAoeBuff_EnfeeblingEffect,0,DamageScale,MultiplyCompound,0.9,,,,ScalableFloat,registry::Meiko.DurationalAoeDamageBuff.Enfeeble.TargetDamageScaleMultiplier
+GE_Meiko_DurationalAoeDamageBuff_BuffIcon,0,DodgeChance,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Meiko_DurationalAoeDamageBuff_DecreasedMovementSpeed,0,MoveSpeed,Multiplicitive,0.65,,,,ScalableFloat,registry::Meiko.DurationalAoeDamageBuff.MovementSpeed.Multiplier
+GE_Meiko_DurationalMultipleTeleportDamage_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.6,,,,ScalableFloat,registry::Meiko.DurationalMultipleTeleportDamage.IncomingDamageMultiplier
+GE_Meiko_DurationalMultipleTeleportDamage_SelfBuff,1,SizeScale,Override,1.3,,,,ScalableFloat,
+GE_Meiko_DurationalMultipleTeleportDamage_SelfBuff,2,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::Meiko.DurationalMultipleTeleportDamage.DamageBuff.DamageScaler
+GE_Meiko_DurationalMultipleTeleportDamage_SpiritCost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Meiko_MeleeDamageImmediateSelfBuff_SelfBuff,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,registry::Meiko.MeleeDamageImmediateSelfBuff.Buff.IncomingMagicDamageMultiplier
+GE_Meiko_MeleeDamageImmediateSelfBuff_SelfBuff,1,ParryChance,Additive,0.05,,,,ScalableFloat,registry::Meiko.MeleeDamageImmediateSelfBuff.ParryChanceIncrease
+GE_Meiko_MoveToLocationAoeDamage_Cost,0,Resources,Additive,75.0,,,,ScalableFloat,registry::Meiko.MoveToLocationAoeDamage.Cost
+GE_Meiko_PlaceHolderFinisher_Cost,0,MaxResourcesSecond,Additive,-9999.0,,,,ScalableFloat,
+GE_Meiko_SpiritProc_IncreasedArmorBuff,0,Armor,MultiplyCompound,1.2,,,,ScalableFloat,registry::Meiko.Passive.SpiritProc.IncreasedArmorBuff.ArmorScaler
+GE_Meiko_Talent_ChargedForwardDash_AoeSlow_Debuff,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::Meiko.ChargedForwardDash.Talent.AoeSlow.SpeedMultiplier
+GE_Meiko_Talent_ChargedForwardDash_MoveSpeedIncrease,0,MoveSpeed,Multiplicitive,1.5,,,,ScalableFloat,registry::Meiko.ChargedForwardDash.Talent.MoveSpeedIncrease.SpeedIncrease
+GE_Meiko_Talent_DamageSoakBuff_IncreasedIncomingHealing_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Meiko.DamageSoakBuff.Talent.IncomingDamageMultiplier.DamageMultiplier
+GE_Meiko_Talent_DurationalAoeDamageBuff_FinisherIncreasedDodgeChance_DodgeChance,0,DodgeChance,Additive,0.2,,,,ScalableFloat,registry::Meiko.DurationalAoeDamageBuff.Talent.FinisherIncreasedDodgeChance.AdditionalDodgeChance
+GE_Meiko_Talent_DurationalAoeDamageBuff_ReducedAttackSpeed_Debuff,0,AttackSpeed,MultiplyCompound,0.8,,,,ScalableFloat,registry::Meiko.DurationalAoeDamageBuff.Talent.ReducedAttackSpeed.AttackSpeedMultiplier
+GE_Meiko_Talent_IncreasedMovementSpeed,0,PassiveMoveSpeed,MultiplyCompound,1.2,,,,ScalableFloat,registry::Meiko.Talent.IncreasedMovementSpeed.SpeedMultiplier
+GE_Meiko_Talent_InstantSelfDefensive_DamageReductionLessHeal,0,IncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Meiko_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_Buff,0,PhysicalDamageReduction,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Meiko_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_Buff,1,MagicDamageReduction,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Meiko_Talent_ReducedIncomingMagicDamage,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Meiko.Talent.ReducedIncomingMagicDamage.DamageMultiplier
+GE_Meiko_Talent_TauntTotem_BuffAfterDestroyed_Buff,0,Armor,MultiplyCompound,1.8,,,,ScalableFloat,registry::Meiko.TauntTotem.Talent.BuffAfterDestroyed.ArmorMultiplier
+GE_Mosse_BlueButterfly_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_CastedSingleTargetProjectile_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_DurationalAoeHealPlacement_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_HealingAoeTotem_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_InstantSelfEscapeBuff_Buff,0,MoveSpeed,Multiplicitive,1.5,,,,ScalableFloat,CT_AbilityConstants::Mosse.InstantSelfEscapeBuff.Buff.MoveSpeedScaler
+GE_Mosse_InstantSelfEscapeBuff_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_Passive_IncreasedMoveSpeed_Buff,0,MoveSpeed,Multiplicitive,1.1,,,,ScalableFloat,CT_AbilityConstants::Mosse.Passive.IncreasedMoveSpeed
+GE_Mosse_Passive_PartyStaminaBuff_Buff,0,Stamina,Multiplicitive,1.25,,,,ScalableFloat,CT_AbilityConstants::Mosse.Passive.PartyStaminaBuff.StaminaMultiplier
+GE_Mosse_PinkButterfly_Double_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_PinkButterfly_Simple_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_PlacedAoeBuff_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_PlacedAoeBuff_IncreasedHealingTakenBuff,0,IncomingHealMultiplier,MultiplyCompound,1.4,,,,ScalableFloat,registry::Mosse.PlacedAoeBuff.Buff.IncomingHealMultiplier
+GE_Mosse_ProjectileTurrets_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_SharedHealthBuff_Buff,0,OutOfCombatHealthRegenRate,Override,1.0,,,,AttributeBased,
+GE_Mosse_SharedHealthBuff_Cost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_SingleTargetCastedDamageReductionBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,CT_AbilityConstants::Mosse.SingleTargetCastedDamageReduction.DamageMultiplier
+GE_Mosse_SingleTargetCastedDamageReductionBuff_CastingCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_SingleTargetDispel_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mosse_Talent_BlueFlutterflyTargetBonus_DamageReduction_OnTargetEffect,0,IncomingDamageMultiplier,MultiplyCompound,0.95,,,,ScalableFloat,registry::Mosse.BlueButterfly.Talent.BlueFlutterflyTargetBonus.BonusDamageReduction
+GE_Mosse_Talent_BlueFlutterflyTargetBonus_DamageTakenReduction,0,IncomingDamageMultiplier,MultiplyCompound,0.95,,,,ScalableFloat,registry::Mosse.BlueButterfly.Talent.BlueFlutterflyTargetBonus.BonusDamageReduction
+GE_Mosse_Talent_IncreasedMovementSpeed,0,PassiveMoveSpeed,MultiplyCompound,1.2,,,,ScalableFloat,registry::Mosse.Talent.IncreasedMovementSpeed.SpeedMultiplier
+GE_Mosse_Talent_InstantSelfEscapeBuff_ReducedIncomingDamage,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,registry::Mosse.InstantSelfEscapeBuff.Talent.ReducedIncomingDamage.DamageMultiplier
+GE_Mosse_Talent_MagicDamageReduction,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,CT_AbilityConstants::Mosse.Talent.ReducedIncomingMagicDamage.AdditionalReduction
+GE_Mosse_Talent_PinkButterflyDouble_IncreaseHealingToSimplePinkFlutterfly_OwnerEffect,0,IncomingHealMultiplier,Multiplicitive,1.25,,,,ScalableFloat,registry::Mosse.PinkButterfly.Double.Talent.IncreaseHealingToSimplePinkFlutterfly.HealScaler
+GE_Mosse_Talent_PlacedAoeBuff_IncreasedDamageReduction,0,PhysicalDamageReduction,Additive,0.1,,,,ScalableFloat,registry::Mosse.PlacedAoeBuff.Talent.IncreasedDamageReduction.DamageReductionMultiplier
+GE_Mosse_Talent_PlacedAoeBuff_IncreasedDamageReduction,1,MagicDamageReduction,Additive,0.1,,,,ScalableFloat,registry::Mosse.PlacedAoeBuff.Talent.IncreasedDamageReduction.DamageReductionMultiplier
+GE_Mosse_Talent_ReducedIncomingAoeDamage,0,Avoidance,Additive,0.1,,,,ScalableFloat,registry::Mosse.Talent.ReducedIncomingAoeDamage.AdditionalReduction
+GE_Mosse_Talent_TurretChannelHeal_FocusTargetIncreasedDamage_OwnerEffect,0,IncomingDamageMultiplier,MultiplyCompound,2.5,,,,ScalableFloat,registry::Mosse.TurretChannelHeal.Talent.FocusTargetIncreasedDamage.DamageMultiplier
+GE_Mosse_Talent_TurretChannelHeal_ReducedSpeedAoeDebuff_AttackSpeedDebuff,0,AttackSpeed,Division,1.5,,,,ScalableFloat,registry::Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.AttackSpeedDivider
+GE_Mosse_Talent_TurretChannelHeal_ReducedSpeedAoeDebuff_SlowDebuff,0,MoveSpeed,Division,1.5,,,,ScalableFloat,registry::Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.MovementSpeedDivider
+GE_Mosse_TurretChannelHeal_Debuff,0,DamageScale,MultiplyCompound,0.8,,,,ScalableFloat,registry::Mosse.TurretChannelHeal.Debuff.OutgoingDamageScale
+GE_Mosse_TurretChannelHeal_ManaCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Mount_Mounted,0,MoveSpeed,Multiplicitive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_NPCAttributesBase,0,BlockDamageReductionFlat,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_NPCAttributesBase,1,BlockDamageReductionMultiplier,Multiplicitive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_NPC_MalevolentSpirits_OnDeathAbility_ReplenishHealthandMana_Effect,0,Mana,Additive,0.5,,,,AttributeBased,
+GE_NPC_MalevolentSpirits_Spirit_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::MalevolentSpirits.IncomingDamageMultiplier
+GE_NPC_MalevolentSpirits_Spirit_Buff,1,Haste,Multiplicitive,1.2,,,,ScalableFloat,registry::MalevolentSpirits.HasteMultiplier
+GE_NP_BossHellcaller_MinHealth,0,MinHealth,Override,0.01,,,,AttributeBased,
+GE_NP_BullyBasher_BuffAllies_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::NP_BullyBasher.BuffAllies.IncomingDamageMultiplier
+GE_NP_HalfMancatcher_Grip_Slow,0,MoveSpeed,MultiplyCompound,0.35,,,,ScalableFloat,registry::NP_HalfMancatcher.Grip.Slow.MovementSpeedMultiplier
+GE_PR_BarbarousLasher_ReflectDamage,0,TargetDamageReflect,Additive,0.15,,,,ScalableFloat,registry::PR_BarbarousLasher.ReflectDamage.Fraction
+GE_PR_BarbarousLasher_ShatterArmor_Debuff,0,Armor,Multiplicitive,0.9,,,,ScalableFloat,registry::PR_BarbarousLasher.ShatterArmor.ArmorMultiplier
+GE_PR_BossAnchor_CastedGrowingTankWave_Slow,0,MoveSpeed,MultiplyCompound,0.3,,,,ScalableFloat,registry::PR_BossAnchor.CastedGrowingTankWave.DebuffSlow.MoveSpeedMultiplier
+GE_PR_BossAnchor_CastedGrowingTankWave_Slow,1,Haste,Additive,0.5,,,,ScalableFloat,registry::PR_BossAnchor.CastedGrowingTankWave.DebuffSlow.HasteReduction
+GE_PR_BossAnchor_HighTide_SlowAndKillMyMinions,0,MoveSpeed,Multiplicitive,0.3,,,,ScalableFloat,registry::PR_BossAnchor.HighTide.NPCMoveSpeedMultiplier
+GE_PR_BossAnchor_PeriodicMultiSoak_Debuff,0,IncomingHealMultiplier,Multiplicitive,0.5,,,,ScalableFloat,registry::PR_BossAnchor.PeriodicMultiSoak.Debuff.IncomingHealScaler
+GE_PR_BossPirateCaptain_BecomeGhost_NoMinHealth,0,MinHealth,Override,0.0,,,,ScalableFloat,
+GE_PR_BossPirateCaptain_DebuffAoePool_PoolSlow,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::PR_BossPirateCaptain.DebuffAoePool.Pool.Debuff.MovementSpeedMultiplier
+GE_PR_BossPirateCaptain_ObstacleCourse_PlayerGhost,0,DamageScale,MultiplyCompound,1.0,,,,ScalableFloat,registry::PR_BossPirateCaptain.ObstacleCourse.Debuff.DamageScale
+GE_PR_BossPirateCaptain_ObstacleCourse_PlayerGhost,1,MoveSpeed,Multiplicitive,1.5,,,,ScalableFloat,registry::PR_BossPirateCaptain.ObstacleCourse.Debuff.MoveSpeedMultiplier
+GE_PR_BossPirateCaptain_ObstacleCourse_ReturnBuff,0,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::PR_BossPirateCaptain.ObstacleCourse.ReturnBuff.DamageScale
+GE_PR_BossPirateCaptain_ObstacleCourse_ReturnBuff,1,HealScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::PR_BossPirateCaptain.ObstacleCourse.ReturnBuff.HealScale
+GE_PR_BossPirateCaptain_Spin_Slow,0,MoveSpeed,Multiplicitive,0.25,,,,ScalableFloat,registry::PR_BossPirateCaptain.Spin.MoveSpeedMultiplier
+GE_PR_BossTreasureDemon_Ball_AbsorbedCoin,0,MoveSpeed,Multiplicitive,0.0125,,,,ScalableFloat,registry::PR_BossTreasureDemon_Ball.AbsorbCoins.SlowPerCoin
+GE_PR_BossTreasureDemon_Ball_AbsorbedCoin,1,SizeScale,Additive,0.075,,,,ScalableFloat,registry::PR_BossTreasureDemon_Ball.AbsorbCoins.SizeIncreasePerCoin
+GE_PR_BossTreasureDemon__StackingSelfBuff,0,Haste,Additive,0.006,,,,ScalableFloat,registry::PR_BossTreasureDemon.CastedRangedProjectile.RampingDamageDebuff.HasteIncrease
+GE_PR_FoB_ChanneledSlowedMoveToTarget_Slow,0,MoveSpeed,Multiplicitive,0.25,,,,ScalableFloat,registry::PR_FoB.ChanneledSlowedMoveToTarget.MoveSpeedScale
+GE_PR_PirateGrunt_ChanneledAoe_SelfSlow,0,MoveSpeed,Multiplicitive,0.2,,,,ScalableFloat,registry::PR_PirateGrunt.ChanneledAoe.SelfSlow.SpeedScale
+GE_PR_PossessedArmor_ChanneledSelfBuff_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.2,,,,ScalableFloat,registry::PR_PossessedArmor.ChanneledSelfBuff.DamageReduction
+GE_PR_PossessedArmor_RampingDamageDebuff_Buff,0,Haste,Multiplicitive,1.04,,,,ScalableFloat,registry::PR_PossessedArmor.RampingDamageDebuff.HasteIncrease
+GE_PR_ShipRat_MoveToTarget_Buff,0,MoveSpeed,Multiplicitive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_PR_ShipRat_SaveSelf,0,Health,Override,1.0,,,,AttributeBased,
+GE_PR_WaterCaster_CastedAoeProjectile_Slow,0,MoveSpeed,MultiplyCompound,0.2,,,,ScalableFloat,registry::PR_WaterCaster.CastedAoeProjectile.Projectile.MoveSpeedMultiplier
+GE_Perk_DamageReductionOrMoveSpeed_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,registry::Perk.DamageReductionOrMoveSpeed.Healer.IncomingDamageReduction
+GE_Perk_DamageReductionOrMoveSpeed_Buff,1,MoveSpeed,Multiplicitive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Perk_DamageReductionOrMoveSpeed_BuffDurational,0,IncomingDamageMultiplier,MultiplyCompound,0.88,,,,ScalableFloat,registry::Perk.DamageReductionOrMoveSpeed.Tank.IncomingDamageReduction
+GE_Perk_DamageReductionOrMoveSpeed_BuffDurational,1,MoveSpeed,Multiplicitive,1.3,,,,ScalableFloat,registry::Perk.DamageReductionOrMoveSpeed.Healer.MoveSpeedMultiplier
+GE_Perk_InstantHealDamageReductionBuff_Buff,0,IncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Perk_MagicDamageReductionBuff_Buff,0,MagicalIncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Perk_Passive_IncomingAoeDamageReduction,0,Avoidance,Additive,0.2,,,,ScalableFloat,registry::Perk.Passive.IncomingAoeDamageReduction.AdditionalReduction
+GE_Perk_Passive_IncreasedArmor,0,Armor,Multiplicitive,1.35,,,,ScalableFloat,registry::Perk.Passive.IncreasedArmor.ArmorMultiplier
+GE_Perk_Passive_ReducedIncomingMagicDamage,0,MagicDamageReduction,Additive,0.1,,,,ScalableFloat,registry::Perk.Passive.IncreasedIncomingMagicDamage.AdditionalReduction
+GE_PrimaryAttributeAgility,0,PrimaryAttribute,Additive,1.0,,,,AttributeBased,
+GE_PrimaryAttributeAgility,1,Agility,Additive,1.0,,,,AttributeBased,
+GE_PrimaryAttributeAgility,2,Agility,MultiplyCompound,1.0,,,,AttributeBased,
+GE_PrimaryAttributeIntellect,0,PrimaryAttribute,Additive,1.0,,,,AttributeBased,
+GE_PrimaryAttributeIntellect,1,Intellect,Additive,1.0,,,,AttributeBased,
+GE_PrimaryAttributeIntellect,2,Intellect,MultiplyCompound,1.0,,,,AttributeBased,
+GE_PrimaryAttributeStrength,0,PrimaryAttribute,Additive,1.0,,,,AttributeBased,
+GE_PrimaryAttributeStrength,1,Strength,Additive,1.0,,,,AttributeBased,
+GE_PrimaryAttributeStrength,2,Strength,MultiplyCompound,1.0,,,,AttributeBased,
+GE_RelicPower_CastedSingleTargetRevive_SetHealthAndMana,0,Health,Override,0.4,,,,AttributeBased,
+GE_RelicPower_DamagePotion,0,PrimaryAttributeFlatBonus,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_RelicPower_ManaPotion,0,Mana,Additive,0.4,,,,AttributeBased,
+GE_RelicPower_PartyDamageReductionBuff_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.85,,,,ScalableFloat,CT_RelicPowers::RelicPower.PartyDamageReductionBuff.IncommingDamageScalar
+GE_RelicPower_PartyMoveSpeedBuff_Buff,0,MoveSpeed,Multiplicitive,1.5,,,,ScalableFloat,CT_RelicPowers::RelicPower.PartyMoveSpeedBuff.MoveSpeedScaler
+GE_RelicPower_PersonalDamageReductionBuff_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.7,,,,ScalableFloat,CT_RelicPowers::RelicPower.PersonalDamageReductionBuff.IncommingDamageScalar
+GE_Rime_AutoProjectileOnResourceGainBuff_Buff,0,DamageScale,MultiplyCompound,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Rime_CastedDebuffAoeDamage_Talent_BuffWhileActive,0,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::Rime.CastedDebuffAoeDamage.Talent.BuffWhileActive.DamageScaleOtherAbilities
+GE_Rime_CastedProjectileDamageOrbSpender_Cost,0,ResourcesTertiary,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Rime_DamageAsAoeHealingBuff_SpiritBuff,0,Spirit,Additive,0.2,,,,ScalableFloat,CT_AbilityConstants::Rime.DamageAsAoeHealingBuff.SpiritIncrease
+GE_Rime_FullResourcesSelfBuff_Buff,0,DamageScale,MultiplyCompound,1.2,,,,ScalableFloat,registry::Rime.Ultimate.DamageBonus
+GE_Rime_FullResourcesSelfBuff_SpiritCost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Rime_InstantConeKnockback_Debuff,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,CT_AbilityConstants::Rime.InstantConeKnockback.MovementSpeedReductionScale
+GE_Rime_OnTargetPulsatingAoe_Cost,0,ResourcesTertiary,Additive,-2.0,,,,ScalableFloat,CT_AbilityConstants::Rime.OnTargetPulsatingAoe.OrbCost
+GE_Rime_SelfDefenceBuff_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.6,,,,ScalableFloat,CT_AbilityConstants::Rime.SelfDefenceBuff.IncomingDamageScaler
+GE_Rime_Talent_CriticalStrikePower,0,CritMultiplier,MultiplyCompound,1.1,,,,ScalableFloat,CT_AbilityConstants::Rime.OnTargetPulsatingAoe.Talent.Multistrike.Passive.CritStrikePowerIncrease
+GE_Rime_Talent_IncomingAoeDamageReduction,0,Avoidance,Additive,0.1,,,,ScalableFloat,CT_AbilityConstants::Rime.Talent.IncomingAoeDamageReduction.AvoidanceIncrease
+GE_Rime_Talent_IncreasedMovementSpeed,0,PassiveMoveSpeed,Multiplicitive,1.2,,,,ScalableFloat,CT_AbilityConstants::Rime.Talent.IncreasedMovementSpeed.SpeedScaler
+GE_Rime_Talent_InstantSingleDamage_HasteWhileCastinigOrbSpender_Buff,0,Haste,Additive,0.5,,,,ScalableFloat,registry::Rime.InstantSingleDamage.Talent.ReducesCastTimeOnOrbSpender.AddedHasteWhileCastingOrbSpender
+GE_Rime_Talent_MagicDamageReduction,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,CT_AbilityConstants::Rime.Talents.MagicDamageReduction.MagicIncomingDamageMultiplier
+GE_Rime_Talent_SpendersSwap_Cost,0,ResourcesTertiary,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Rime_TargetedPeriodicProjectileAoe_Cost,0,ResourcesTertiary,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_SG_BossSiren_Bubble_Debuff,0,MoveSpeed,Multiplicitive,0.65,,,,ScalableFloat,registry::SG_BossSiren.Bubble.MoveSpeedMultiplier
+GE_SG_BossSiren_WalkOverEdge_Walk,0,MoveSpeed,Override,0.85,,,,ScalableFloat,registry::SG_BossSiren.WalkOverEdge.MoveSpeedOverride
+GE_SG_DrownedSailor_DaggerThrow_Debuff,0,MoveSpeed,MultiplyCompound,0.7,,,,ScalableFloat,registry::SG_DrownedSailor.PoisonDagger.HasteReductionMultiplier.MoveSpeedMultiplier
+GE_SG_DrownedSailor_EnrageTarget_Buff,0,Haste,Additive,0.3,,,,ScalableFloat,registry::SG_DrownedSailor.CastedEnrageTarget.HasteAdded
+GE_SG_GhostEruptor_CastedPartyAoeDebuff_Debuff,0,MagicalIncomingDamageMultiplier,MultiplyCompound,1.5,,,,ScalableFloat,registry::SG_GhostEruptor.CastedPartyAoeDebuff.Debuff.IncomingMagicDamageScaler
+GE_SG_GhostEruptor_ChanneledFriendlyBuff_Buff,0,DamageScale,Multiplicitive,,SG_GhostEruptor.ChanneledFriendlyBuff.DamageScaleIncrease,,,ScalableFloat,registry::SG_GhostEruptor.ChanneledFriendlyBuff.DamageScaleIncrease
+GE_SG_GhostFerventSoldier_MeleeAutoAttack_Buff,0,Haste,Additive,0.02,,,,ScalableFloat,registry::SG_GhostFerventSoldier.MeleeAutoAttack.Buff.HasteGainPerStack
+GE_SG_GhostOrc_Cleave_Debuff,0,PhysicalIncomingDamageMultiplier,MultiplyCompound,,SG_GhostOrc.Cleave.Debuff.ReducedMaxHealthFraction,,,ScalableFloat,registry::SG_GhostOrc.Cleave.Debuff.ReducedMaxHealthFraction
+GE_SG_GreaterWaterElemental_EarthBreaker_Slow,0,MoveSpeed,Multiplicitive,0.4,,,,ScalableFloat,registry::SG_GreaterWaterElemental.EarthBreaker.MovementSpeedMultiplier
+GE_SG_WaterElemental_CastedAoeProjectile_Slow,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::SG_WaterElemental.CastedAoeProjectile.Projectile.MoveSpeedMultiplier
+GE_SG_Wisp_SaveSelf,0,Health,Override,1.0,,,,ScalableFloat,
+GE_SH_BossSpider_AOEDotAndBuff_Buff,0,MaxHealth,Multiplicitive,1.1,,,,ScalableFloat,registry::SH_BossSpider.AOEDotAndBuff.SpiderBuff.MaxHealthMultiplierPerStack
+GE_SH_BossSpider_AOEDotAndBuff_Buff,1,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::SH_BossSpider.AOEDotAndBuff.SpiderBuff.DamageScalePerStack
+GE_SH_BossSpider_AOEDotAndBuff_Slow,0,MoveSpeed,Multiplicitive,0.95,,,,ScalableFloat,registry::SH_BossSpider.AOEDotAndBuff.Dot.MoveSpeedMultiplier
+GE_SH_BossSpider_SpawnAdds_ReducedMaxHealth,0,MaxHealth,MultiplyCompound,0.6,,,,ScalableFloat,registry::SH_BossSpider.SpawnAdds.MaxHealthMultiplier
+GE_SH_GravesnareKidnapper_ConeAoeProjectiles_Slow,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::SH_GravesnareKidnapper.ConeAoeProjectiles.Dot.MoveSpeedMultiplier
+GE_SH_GravesnareKidnapper_SlowCone_Slow,0,MoveSpeed,Multiplicitive,0.6,,,,ScalableFloat,registry::SH_GravesnareKidnapper.SlowCone.MoveSpeedMultiplier
+GE_SH_RotheartRecluse_DotProjectile_Slow,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,registry::SH_RotheartRecluse.DotProjectile.Slow.MoveSpeedMultiplier
+GE_SH_Venomdrinker_HealingReduction,0,IncomingHealMultiplier,Multiplicitive,0.95,,,,ScalableFloat,registry::SH_Venomdrinker.Dot.IncomingHealMultiplier
+GE_SP_BossMarcass_BloodRain_Buff,0,DamageScale,Multiplicitive,1.05,,,,ScalableFloat,registry::SP_BossMarcass.BloodRain.Buff.DamageScale
+GE_SP_BossMarcass_TankBuster_DamageIncreaseDebuff,0,IncomingDamageMultiplier,Multiplicitive,1.5,,,,ScalableFloat,registry::SP_BossMarcass.TankBuster.Debuff.IncomingDamageMultiplier
+GE_SP_FrostWolf_Bite_Debuff,0,PhysicalIncomingDamageMultiplier,Multiplicitive,1.05,,,,ScalableFloat,registry::SP_FrostWolf.Bite.Debuff.IncomingPhysicalDamageMultiplier
+GE_SP_FrostWolf_Pursuit_SelfSlow,0,MoveSpeed,MultiplyCompound,1.3,,,,ScalableFloat,registry::SP_FrostWolf.Pursuit.SelfSlow.MovementSpeedMultiplier
+GE_SP_PolarBear_Tornadoes_Slow,0,MoveSpeed,Multiplicitive,0.85,,,,ScalableFloat,registry::SP_PolarBear.Tornadoes.Slow.MovementSpeedMultiplier
+GE_ST_BloodBrute_TankSlam_IncreaseDamageTakenDebuff,0,IncomingDamageMultiplier,Additive,0.02,,,,ScalableFloat,registry::ST_BloodBrute.TankSlam.IncreaseDamageTakenDebuff.PercentageDamageBonus
+GE_ST_BloodCreationBig_SaveSelf,0,Health,Override,1.0,,,,AttributeBased,
+GE_ST_BloodCreation_SaveSelf,0,Health,Override,1.0,,,,AttributeBased,
+GE_ST_BloodOrb_BuffBoss_Buff,0,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::ST_BloodOrb.BuffBoss.DamageScale
+GE_ST_BossArbiter_GiveTruesight_StackingDebuff,0,IncomingDamageMultiplier,Multiplicitive,1.01,,,,ScalableFloat,registry::ST_BossArbiter.GiveTruesight.StackingDebuff.IncomingDamageMultiplier
+GE_ST_BossArbiter_GiveTruesight_StackingDebuff_Linger,0,IncomingDamageMultiplier,Multiplicitive,1.01,,,,ScalableFloat,registry::ST_BossArbiter.GiveTruesight.StackingDebuff.IncomingDamageMultiplier
+GE_ST_BossArbiter_Maze_Debuff,0,IncomingDamageMultiplier,Multiplicitive,1.25,,,,ScalableFloat,registry::ST_BossArbiter.Maze.Debuff.IncomingDamageMultiplier
+GE_ST_BossArbiter_Runes_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.01,,,,ScalableFloat,registry::ST_BossArbiter.Runes.SelfBuff.IncomingDamageMultiplier
+GE_ST_BossArbiter_Runes_Success,0,Haste,Multiplicitive,1.15,,,,ScalableFloat,registry::ST_BossArbiter.Runes.Buff.HasteMultiplier
+GE_ST_BossArbiter_SingleEnemyEnrage_Buff,0,AttackSpeed,Multiplicitive,1.5,,,,ScalableFloat,registry::ST_BossArbiter.SingleEnemyEnrage.Buff.AttackSpeedMultiplier
+GE_ST_BossArbiter_SingleEnemyEnrage_Buff,1,DamageScale,Multiplicitive,3.0,,,,ScalableFloat,registry::ST_BossArbiter.SingleEnemyEnrage.Buff.AutoAttackDamageMultiplier
+GE_ST_BossArbiter_SingleEnemyEnrage_Buff,2,CritChance,Additive,1.0,,,,ScalableFloat,registry::ST_BossArbiter.SingleEnemyEnrage.Buff.AddedCritChance
+GE_ST_BossArbiter_TankSlam_Debuff,0,IncomingDamageMultiplier,MultiplyCompound,1.2,,,,ScalableFloat,registry::ST_BossArbiter.TankSlam.Debuff.IncomingDamageMultiplier
+GE_ST_BossDefenseEye_PlatformAoEDamage_SlowEffect,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,registry::ST_BossDefenseEye.PlatformAoEDamage.Debuff.MovementSpeedMultiplier
+GE_ST_BossDefenseEye_SearchLight_PlayerHasteBuff,0,Haste,Additive,0.1,,,,ScalableFloat,registry::ST_BossDefenseEye.SearchLight.PlayerHasteBuff.HasteIncrease
+GE_ST_BossDefenseEye_SlowDotAoe_SlowEffect,0,MoveSpeed,Multiplicitive,0.6,,,,ScalableFloat,registry::ST_BossDefenseEye.SlowDotAoe.MovementSpeedMultiplier
+GE_ST_BossGateKeeper_AuraHealingReduction_HealingReductionDebuff,0,HealScale,Multiplicitive,0.8,,,,ScalableFloat,registry::ST_BossGatekeeper.Aura.HealingReduction.HealScale
+GE_ST_BossGateKeeper_AuraSlow_SlowDebuff,0,MoveSpeed,MultiplyCompound,0.7,,,,ScalableFloat,registry::ST_BossGatekeeper.Aura.Slow.MovementSpeedMultiplier
+GE_ST_BossGatekeeper_Enrage_Buff,0,DamageScale,Multiplicitive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_ST_BossGatekeeper_MultiCastedMeleeStrike_Debuff,0,IncomingDamageMultiplier,MultiplyCompound,1.1,,,,ScalableFloat,registry::ST_BossGatekeeper.MultiCastedMeleeStrike.Debuff.IncomingDamageBonus
+GE_ST_BossGatekeeper_TankCone_DestroyConduitBossBuff,0,DamageScale,Multiplicitive,1.2,,,,ScalableFloat,registry::ST_BossGatekeeper.TankCone.DestroyConduitBuff.DamageScalePerStack
+GE_ST_BossGatekeeper_TankCone_DestroyConduitBossBuff,1,DamageScale,Multiplicitive,1.25,,,,ScalableFloat,registry::ST_BossGatekeeper.TankCone.DestroyConduitBuff.EmpoweredConduitDamageScalePerStack
+GE_ST_BossGatekeeper_TankCone_DestroyConduitBossBuff,2,Haste,Multiplicitive,1.1,,,,ScalableFloat,registry::ST_BossGatekeeper.TankCone.DestroyConduitBuff.EmpoweredHasteMultiplierPerStack
+GE_Shared_Allies_SetSpeed,0,MoveSpeed,Multiplicitive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerAnyResource,0,Mana,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerAnyResource,1,Resources,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerAnyResource,2,ResourcesSecond,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerAnyResource,3,ResourcesTertiary,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerAnyResource,4,SpiritPoints,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerMana,0,Mana,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerResource,0,Resources,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerResourceSecond,0,ResourcesSecond,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSetByCallerResourceTertiary,0,ResourcesTertiary,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_GainSingleMana,0,Mana,Additive,1.0,,,,ScalableFloat,
+GE_Shared_GainSingleResource,0,Resources,Additive,1.0,,,,ScalableFloat,
+GE_Shared_GainSingleResourceSecond,0,ResourcesSecond,Additive,1.0,,,,ScalableFloat,
+GE_Shared_GemOvercapBonus,0,PrimaryAttributeMultiplier,Multiplicitive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Shared_GemOvercapBonus,1,Stamina,Multiplicitive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Shared_HeroZoneOutOfCombatRegenBuff,0,OutOfCombatHealthRegenRate,MultiplyCompound,2.0,,,,ScalableFloat,registry::FM.Shared.HeroOutOfCombatRegenBuff.HealthRegenRateMultiplier
+GE_Shared_HeroZoneOutOfCombatRegenBuff,1,OutOfCombatHealthRegenTickTime,MultiplyCompound,0.5,,,,ScalableFloat,registry::FM.Shared.HeroOutOfCombatRegenBuff.HealthRegenTickMultiplier
+GE_Shared_HeroZoneOutOfCombatRegenBuff,2,OutOfCombatManaRegenRate,MultiplyCompound,2.0,,,,ScalableFloat,registry::FM.Shared.HeroOutOfCombatRegenBuff.ManaRegenRateMultiplier
+GE_Shared_HeroZoneOutOfCombatRegenBuff,3,OutOfCombatManaRegenTickTime,MultiplyCompound,0.5,,,,ScalableFloat,registry::FM.Shared.HeroOutOfCombatRegenBuff.ManaRegenTickMultiplier
+GE_Shared_InstantMaxHealth_SetByCaller,0,MaxHealth,Override,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_NPC_BackgroundFighting,0,MinHealth,Override,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_NPC_BackgroundFighting,1,IncomingDamageMultiplier,Multiplicitive,0.1,,,,ScalableFloat,registry::Shared.BackgroundFighting.IncomingDamageMultiplier
+GE_Shared_NPC_NoKillscore,0,KillScore,Override,0.0,,,,ScalableFloat,
+GE_Shared_NPC_NoSpiritPointValue,0,SpiritPointValue,Override,0.0,,,,ScalableFloat,
+GE_Shared_NPC_ReturningHomeBuff,0,MoveSpeed,Multiplicitive,2.0,,,,ScalableFloat,CT_AbilityConstants::AI.ReturnHome.MoveSpeed
+GE_Shared_NPC_Roam,0,MoveSpeed,Multiplicitive,0.25,,,,ScalableFloat,
+GE_Shared_OverrideSetByCallerTertiaryResource,0,ResourcesTertiary,Override,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_Passive_PowerScaler,0,DamageScale,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_Passive_PowerScaler,1,MaxHealth,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_Passive_PowerScaler,2,OutgoingAbsorptionMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_Passive_PowerScaler,3,HealScale,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Shared_SpendSingleResource,0,Resources,Additive,-1.0,,,,ScalableFloat,
+GE_Shared_SpendSingleResourceSecond,0,ResourcesSecond,Additive,-1.0,,,,ScalableFloat,
+GE_Shared_SpiritAbility_Cost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Shared_SpiritPointGain,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Shared_SpiritRefund_Buff,0,PrimaryAttributeMultiplier,Additive,0.05,,,,ScalableFloat,registry::Hero.SpiritProcRefundResource.Buff.AdditionalPrimaryStatBonusPerStack
+GE_Shared_SpiritTriggeredBuff,0,Haste,Additive,0.3,,,,ScalableFloat,CT_AbilityConstants::Hero.Spirit.Buff.HasteIncrease
+GE_Shared_SpiritTriggeredBuff_Healer,0,Haste,Additive,0.3,,,,ScalableFloat,CT_AbilityConstants::Hero.Spirit.Buff.HasteIncrease
+GE_Shared_SpiritTriggeredBuff_Healer,1,ManaRegenTickTime,MultiplyCompound,0.5,,,,ScalableFloat,CT_AbilityConstants::Hero.Spirit.Buff.ManaRegenTickTimeMultiplier
+GE_Shared_SpiritTriggeredBuff_Healer,2,ManaRegenRate,MultiplyCompound,3.0,,,,ScalableFloat,CT_AbilityConstants::Hero.Spirit.Buff.ManaRegenRateMultiplier
+GE_Shared_SpiritTriggeredBuff_Healer,3,DamageThreatMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::Hero.Spirit.Buff.NonTankThreatGenerationScaler
+GE_Shared_SpiritTriggeredBuff_Healer,4,HealThreatMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::Hero.Spirit.Buff.NonTankThreatGenerationScaler
+GE_Shared_SpiritTriggeredBuff_NotTank,0,Haste,Additive,0.3,,,,ScalableFloat,CT_AbilityConstants::Hero.Spirit.Buff.HasteIncrease
+GE_Shared_SpiritTriggeredBuff_NotTank,1,DamageThreatMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::Hero.Spirit.Buff.NonTankThreatGenerationScaler
+GE_Shared_SpiritTriggeredBuff_NotTank,2,HealThreatMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::Hero.Spirit.Buff.NonTankThreatGenerationScaler
+GE_Shared_Talent_AbilityCommitToSpiritRefund_GrantSpiritPointsAtDungStart,0,SpiritPoints,Additive,50.0,,,,ScalableFloat,
+GE_Shared_Talent_AbilityCommitToSpiritRefund_Proc,0,SpiritRefundChanceFlatIncrease,Additive,1.0,,,,ScalableFloat,registry::Hero.Talent.AbilityCommitToSpiritRefund.AdditionalSpiritRefundChance
+GE_Shared_Tank_ReducedIncomingDamage,0,PhysicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Shared.Tank.ReducedIncomingDamage
+GE_Shared_Tank_ReducedIncomingDamage,1,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Shared.Tank.ReducedIncomingDamage
+GE_Shared_TargetDummy_MinHealthIsMaxHealth,0,MinHealth,Override,1.0,,,,AttributeBased,
+GE_Sune_AtTargetInstantAoe_ManaCost,0,Mana,Additive,55.0,,,,ScalableFloat,registry::Sune.AtTargetInstantAoe.ManaCost
+GE_Sune_AutoAttackParryDebuff_SelfBuff,0,ParryChance,Additive,0.2,,,,ScalableFloat,registry::Sune.AutoAttackParryDebuff.ParryChanceIncrease
+GE_Sune_CastedSingleTargetHeal_ManaCost,0,Mana,Additive,132.0,,,,ScalableFloat,registry::Sune.CastedSingleTargetHeal.ManaCost
+GE_Sune_DamageTransferAura_ManaCost,0,Mana,Additive,10.0,,,,ScalableFloat,registry::Sune.DamageTransferAura.ManaCostPerPeriod
+GE_Sune_DamageTransferAura_SelfBuff,0,ParryChance,AddFinal,0.08,,,,ScalableFloat,registry::Sune.DamageTransferAura.ParryChanceIncrease
+GE_Sune_DroppedPulseAoe_ManaCost,0,Mana,Additive,218.0,,,,ScalableFloat,registry::Sune.DroppedPulseAoe.ManaCost
+GE_Sune_DroppedPulseAoe_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,registry::Sune.DroppedPulseAoe.SelfIncomingDamageMultiplier
+GE_Sune_InstantSingleTargetHealOrDamage_ResourceCost,0,Resources,Additive,1.0,,,,ScalableFloat,registry::Sune.InstantSingleTargetHealOrDamage.ResourceCost
+GE_Sune_Passive_SpiritPercentToMaxMana,0,ManaRegenRate,Multiplicitive,1.0,,,,AttributeBased,
+GE_Sune_SelfImmunityAndAoeHeal_SelfBuff_DamageReduction,0,IncomingDamageMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::Sune.SelfImmunityAndAoeHeal.SelfBuff.DamageReduction.IncomingDamageMultiplier
+GE_Sune_SelfImmunityAndAoeHeal_SelfBuff_Immunity,0,DamageMitigationScale,Override,0.0,,,,ScalableFloat,
+GE_Sune_SelfImmunityAndAoeHeal_SpiritPointCost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Sune_SingleTargetAbsorb_Absorb,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,
+GE_Sune_SingleTargetAbsorb_ManaCost,0,Mana,Additive,182.0,,,,ScalableFloat,registry::Sune.SingleTargetAbsorb.ManaCost
+GE_Sune_SpiritTriggeredBuff,0,Haste,Additive,0.3,,,,ScalableFloat,CT_AbilityConstants::Hero.Spirit.Buff.HasteIncrease
+GE_Sune_SpiritTriggeredBuff,1,ManaRegenTickTime,MultiplyCompound,0.5,,,,ScalableFloat,CT_AbilityConstants::Hero.Spirit.Buff.ManaRegenTickTimeMultiplier
+GE_Sune_SpiritTriggeredBuff,2,ManaRegenRate,MultiplyCompound,3.0,,,,ScalableFloat,CT_AbilityConstants::Hero.Spirit.Buff.ManaRegenRateMultiplier
+GE_Sune_Talent_AtTargetInstantAoe_AddsDot_SelfReducedDamage,0,IncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Sune.AtTargetInstantAoe.Talent.AddsDot.DotOutgoingDamageMultiplier
+GE_Sune_Talent_AtTargetInstantAoe_DamageReduction_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,registry::Sune.AtTargetInstantAoe.Talent.DamageReduction.IncomingDamageMultiplier
+GE_Sune_Talent_DroppedPulseAoeDebuffsTargets_AttackSpeedDebuff,0,AttackSpeed,MultiplyCompound,0.8,,,,ScalableFloat,registry::Sune.DroppedPulseAoe.Talent.DroppedPulseAoeDebuffsTargets.AttackSpeedScaler
+GE_Sune_Talent_DroppedPulseAoeDebuffsTargets_SlowDebuff,0,MoveSpeed,MultiplyCompound,0.65,,,,ScalableFloat,registry::Sune.DroppedPulseAoe.Talent.DroppedPulseAoeDebuffsTargets.MoveSpeedScaler
+GE_Sune_Talent_IncreasedParryChance_Buff,0,ParryChance,Additive,0.1,,,,ScalableFloat,registry::Sune.Talent.IncreasedParryChance.Increase
+GE_Sune_Talent_LowHealthDamageReduction,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,registry::Sune.Talent.LowHealthDamageReduction.IncomingDamageMultiplier
+GE_Sune_Talent_ParryCounterAttack_Buff,0,Spirit,Additive,0.005,,,,ScalableFloat,registry::Sune.Talent.ParryCounterAttack.Buff.AdditionalSpiritPerStack
+GE_Sune_Talent_ReducedIncomingMagicDamage_Buff,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.7,,,,ScalableFloat,registry::Sune.SingleTargetAbsorb.Talent.MagicDamageReductionBuff.IncomingMagicDamageMultiplier
+GE_Sune_Talent_SingleTargetAbsorb_SecondaryStatBoosts_Buff,0,Armor,MultiplyCompound,1.0,,,,AttributeBased,
+GE_Sune_Talent_SingleTargetAbsorb_SecondaryStatBoosts_SelfBuff,0,CooldownRecovery,AddFinal,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Sune_Talent_TargetedLeapAoe_MoveSpeedAndArmorBuff_Buff,0,MoveSpeed,MultiplyCompound,1.2,,,,ScalableFloat,registry::Sune.TargetedLeapAoe.Talent.MoveSpeedAndArmorBuff.MoveSpeedScaler
+GE_Sune_Talent_TargetedLeapAoe_MoveSpeedAndArmorBuff_Buff,1,Armor,MultiplyCompound,1.4,,,,ScalableFloat,registry::Sune.TargetedLeapAoe.Talent.MoveSpeedAndArmorBuff.ArmorScaler
+GE_Sune_Talent_TargetedLeapAoe_ParryBuff,0,ParryChance,AddFinal,0.2,,,,ScalableFloat,registry::Sune.TargetedLeapAoe.Talent.ParryBuff.Buff.ParryIncrease
+GE_Sune_TargetedCastedHealOrDamage_ManaCost,0,Mana,Additive,1.0,,,,AttributeBased,
+GE_Talent_InstantAoeDot_StacksToHaste_Buff,0,Spirit,Additive,0.0025,,,,ScalableFloat,registry::Gunde.InstantAoeDot.Talent.StacksToHaste.AdditionalHastePerStack
+GE_TauntTotem_Stats,0,IncomingDamageMultiplier,MultiplyCompound,0.3,,,,ScalableFloat,registry::Meiko.TauntTotem.IncomingDamageMultiplier
+GE_Trait_AbilityToIncreasedMainStat_Buff,0,PrimaryAttributeMultiplier,Multiplicitive,1.072,,,,ScalableFloat,registry::Trait.AbilityToIncreasedMainStat.Buff.AdditionalMainStat
+GE_Trait_CommitToHasteRatingAndWeaponCooldown_HasteRatingBuff,0,HasteRating,Additive,6.0,,,,ScalableFloat,registry::Trait.CommitToHasteRatingAndWeaponCooldown.Buff.AdditionalHasteRating
+GE_Trait_CooldownRecoveryOnWeaponAbility_Buff,0,CooldownRecovery,Multiplicitive,1.2,,,,ScalableFloat,registry::Trait.CooldownRecoveryOnWeaponAbility.Buff.CooldownRecoveryBonus
+GE_Trait_CritsToIncreasedCritRating_CritRatingBuff,0,CritRating,Additive,21.0,,,,ScalableFloat,registry::Trait.CritsToIncreasedCritRating.Buff.AdditionalCritRating
+GE_Trait_CritsToIncreasedPrimaryStatBuff_Buff,0,PrimaryAttributeMultiplier,Multiplicitive,1.03,,,,ScalableFloat,registry::Trait.CritsToIncreasedPrimaryStatBuff.Buff.AdditionalPrimaryStat
+GE_Trait_DamageReductionWhenHealthy,0,IncomingDamageMultiplier,MultiplyCompound,0.97,,,,ScalableFloat,registry::Trait.DamageReductionWhenHealthy.DamageReductionMultiplier
+GE_Trait_DeathPreventionWithImmunity_ImmunityBuff,0,DamageMitigationScale,Override,0.0,,,,ScalableFloat,
+GE_Trait_FirstIncomingHitToReducedIncomingDamageBuff_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.97,,,,ScalableFloat,registry::Trait.FirstIncomingHitToReducedIncomingDamageBuff.Buff.IncomingDamageMultiplier
+GE_Trait_GemCooldownRecoveryOnAbilityProc_Buff,0,CooldownRecovery,Multiplicitive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Trait_IncomingDamageToDefenceAndDamage_DefenceBuff,0,Armor,MultiplyCompound,1.01,,,,ScalableFloat,registry::Trait.IncomingDamageToDefenceAndDamage.FlatArmorValue
+GE_Trait_IncreasedMainStatAndSpiritRating_MainStat,0,PrimaryAttributeMultiplier,Multiplicitive,1.015,,,,ScalableFloat,CT_TraitConstants::Trait.IncreasedMainStatAndSpiritRating.Buff.MainStatAdd
+GE_Trait_IncreasedMainStatAndSpiritRating_SpiritRating,0,SpiritRating,Additive,7.0,,,,ScalableFloat,CT_TraitConstants::Trait.IncreasedMainStatAndSpiritRating.AdditionalSpiritRating
+GE_Trait_IncreasedStaminaToHealthConversion,0,StaminaToMaxHealthMultiplier,Multiplicitive,1.025,,,,ScalableFloat,registry::Trait.IncreasedStaminaToHealthConversion.Multiplier
+GE_Trait_NoDamageToDamageReduction_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.98,,,,ScalableFloat,registry::Trait.NoDamageToDamageReduction.AdditionalDamageReductionPerStack
+GE_Trait_OffensiveAbilityHasteRatingStacking_Buff,0,HasteRating,Additive,4.0,,,,ScalableFloat,registry::Trait.OffensiveAbilityHasteRatingStacking.AdditionalHasteRating
+GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Crit,0,CritRating,Additive,28.0,,,,ScalableFloat,registry::Trait.OffensiveAbilityToHighestStatBuff.Buff.AdditionalValue
+GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Expertise,0,ExpertiseRating,Additive,28.0,,,,ScalableFloat,registry::Trait.OffensiveAbilityToHighestStatBuff.Buff.AdditionalValue
+GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Haste,0,HasteRating,Additive,28.0,,,,ScalableFloat,registry::Trait.OffensiveAbilityToHighestStatBuff.Buff.AdditionalValue
+GE_Trait_OffensiveAbilityToHighestStatBuff_Buff_Spirit,0,SpiritRating,Additive,28.0,,,,ScalableFloat,registry::Trait.OffensiveAbilityToHighestStatBuff.Buff.AdditionalValue
+GE_Trait_RelicToDamageReduction_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.953,,,,ScalableFloat,registry::Trait.RelicToDamageReduction.Buff.DamageReductionMultiplier
+GE_Trait_StandingStillStaminaExpertiseRatingIncrease_Buff_Durational,0,MaxHealth,MultiplyCompound,1.05,,,,ScalableFloat,registry::Trait.StandingStillStaminaExpertiseRatingIncrease.Buff.StaminaMultiplier
+GE_Trait_StandingStillStaminaExpertiseRatingIncrease_Buff_Durational,1,ExpertiseRating,Additive,12.0,,,,ScalableFloat,registry::Trait.StandingStillStaminaExpertiseRatingIncrease.Buff.AdditionalExpertiseRating
+GE_Trait_StandingStillStaminaExpertiseRatingIncrease_Buff_Infinite,0,MaxHealth,MultiplyCompound,1.05,,,,ScalableFloat,registry::Trait.StandingStillStaminaExpertiseRatingIncrease.Buff.StaminaMultiplier
+GE_Trait_StandingStillStaminaExpertiseRatingIncrease_Buff_Infinite,1,ExpertiseRating,Additive,12.0,,,,ScalableFloat,registry::Trait.StandingStillStaminaExpertiseRatingIncrease.Buff.AdditionalExpertiseRating
+GE_Trait_WeaponCritChanceCooldownReduction_Buff,0,CritChance,Additive,0.095,,,,ScalableFloat,registry::Trait.WeaponCritChanceCooldownReduction.Buff.AddedWeaponCritChance
+GE_Trait_WeaponDamageReductionPrimaryStatIncrease_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.85,,,,ScalableFloat,registry::Trait.WeaponDamageReductionPrimaryStatIncrease.Buff.AdditionalDamageReduction
+GE_Trait_WeaponDamageReductionPrimaryStatIncrease_Buff,1,PrimaryAttributeMultiplier,Multiplicitive,1.1,,,,ScalableFloat,registry::Trait.WeaponDamageReductionPrimaryStatIncrease.Buff.PrimaryAttributeAddition
+GE_Trait_WeaponHealDamageIncrease_Buff,0,DamageScale,Multiplicitive,1.24,,,,ScalableFloat,registry::Trait.WeaponHealDamageIncrease.Buff.DamageMultiplier
+GE_Trait_WeaponHealDamageIncrease_Buff,1,HealScale,Multiplicitive,1.24,,,,ScalableFloat,registry::Trait.WeaponHealDamageIncrease.Buff.HealMultiplier
+GE_Tutorial_Shared_MinHealth,0,MinHealth,Override,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_UB_BossArchBishop_Orb_OrbOnDeathBuff_Buff,0,DamageScale,Multiplicitive,1.05,,,,ScalableFloat,registry::UB_BossArchbishop.OrbOnDeathBuff.Buff.DamageScalePerStack
+GE_UB_BossArchbishop_SpawnOrbs_Orb_BossDebuff,0,IncomingDamageMultiplier,MultiplyCompound,1.0,,,,ScalableFloat,registry::UB_BossArchbishop.OrbOfDeath.BossDebuff.IncomingDamageScale
+GE_UB_BossCaster_CastedRangedProjectile_HasteBuff,0,Haste,Additive,0.1,,,,ScalableFloat,registry::UB_BossLifebringer.Caster.CastedProjectile.HasteBuffPercentage
+GE_UB_BossLifebringer_ResurectDamageIncrease,0,DamageScale,Multiplicitive,1.25,,,,ScalableFloat,registry::UB_BossLifebringer.Ressurect.DamageIncrease
+GE_UB_BossWarMachine_LinkTargets_Slow,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,registry::UB_BossWarMachine.LinkTargets.MoveSpeedReductionScale
+GE_UB_BossWarrior_RangedDotProjectile_HealReduction,0,IncomingHealMultiplier,Multiplicitive,0.85,,,,ScalableFloat,registry::UB_BossLifebringer.Warrior.RangedDotProjectile.HealReductionPercentage
+GE_UB_CadavrianBannerman_WarHorn_Buff,0,DamageScale,Multiplicitive,1.3,,,,ScalableFloat,registry::UB_CadavrianBannerman.WarHorn.DamageMultiplier
+GE_UB_DeadeyeArbalest_LineAttack_Debuff,0,Strength,MultiplyCompound,0.75,,,,ScalableFloat,registry::UB_DeadeyeArbalest.LineAttack.Debuff.MainStatMultiplier
+GE_UB_DeadeyeArbalest_LineAttack_Debuff,1,Intellect,MultiplyCompound,0.75,,,,ScalableFloat,registry::UB_DeadeyeArbalest.LineAttack.Debuff.MainStatMultiplier
+GE_UB_DeadeyeArbalest_LineAttack_Debuff,2,Agility,MultiplyCompound,0.75,,,,ScalableFloat,registry::UB_DeadeyeArbalest.LineAttack.Debuff.MainStatMultiplier
+GE_UB_DeadeyeArbalest_LineAttack_Debuff,3,BlockChance,MultiplyCompound,0.75,,,,ScalableFloat,registry::UB_DeadeyeArbalest.LineAttack.Debuff.BlockMultiplier
+GE_UB_DeadeyeArbalest_LineAttack_Debuff,4,ParryChance,MultiplyCompound,0.75,,,,ScalableFloat,registry::UB_DeadeyeArbalest.LineAttack.Debuff.ParryMultiplier
+GE_UB_DeadeyeArbalest_LineAttack_Debuff,5,DodgeChance,MultiplyCompound,0.75,,,,ScalableFloat,registry::UB_DeadeyeArbalest.LineAttack.Debuff.DodgeMultiplier
+GE_UB_DefendingArcher_ExitCombatBuff_Buff,0,MoveSpeed,Multiplicitive,1.05,,,,ScalableFloat,registry::UB_DefendingArcher.ExitCombatBuff.MoveSpeedMultiplier
+GE_UB_DefendingKnight_ExitCombatBuff_Buff,0,DamageScale,Multiplicitive,1.05,,,,ScalableFloat,registry::UB_DefendingKnight.ExitCombatBuff.DamageMultiplier
+GE_UB_FallenCleric_HealDebuff_Debuff,0,IncomingHealMultiplier,Multiplicitive,0.75,,,,ScalableFloat,registry::UB_FallenCleric.HealDebuff.IncomingHealMultiplier
+GE_UB_FerventSoldier_MeleeAutoAttack_Buff,0,Haste,Additive,0.02,,,,ScalableFloat,registry::UB_FerventSoldier.MeleeAutoAttack.Buff.HasteGainPerStack
+GE_UB_Healer_CastedDamageReductionAoe_Buff,0,IncomingDamageMultiplier,Multiplicitive,0.75,,,,ScalableFloat,registry::UB_Healer.CastedReducedDamageAoe.DamageReduction
+GE_UB_HealingMinion_PostDeathCleanse_Buff,0,IncomingDamageMultiplier,Multiplicitive,0.5,,,,ScalableFloat,registry::UB_HealingMinion.PostDeathCleanse.DamageReduction
+GE_UB_NecroticMass_DebuffAuraPassive_Debuff,0,IncomingDamageMultiplier,Multiplicitive,1.01,,,,ScalableFloat,registry::UB_NecroticMass.DebuffAuraPassive.Debuff.IncomingDamageMultiplierPerStack
+GE_UB_RaisedKnight_FrontalCone_Debuff,0,IncomingDamageMultiplier,Multiplicitive,1.25,,,,ScalableFloat,registry::UB_RaisedKnight.FrontalCone.Debuff.DamageTakenMultiplier
+GE_UC_BossBaptist_CircleDebuff_WaveIncreaseDamageDebuff,0,IncomingDamageMultiplier,Multiplicitive,1.2,,,,ScalableFloat,CT_AbilityConstants::UC_BossBaptist.CircleDebuff.IncreaseDamageTakenDebuffPercentage
+GE_UC_BossSoulKing_ConeAOE_DestructableMissSelfBuff,0,DamageScale,Multiplicitive,1.25,,,,ScalableFloat,CT_AbilityConstants::UC_BossSoulKing.ConeAOE.DestructibleMissSelfBuff.DamageScaleIncrease
+GE_UC_BossSoulKing_LargeSpewAOE_DebuffMovementSpeedReduction,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,CT_AbilityConstants::UC_BossSoulKing.LargeSpewAOE.DebuffMovementSpeedReduction
+GE_UC_CadavrianArbalist_RangedSlow_Debuff,0,MoveSpeed,Multiplicitive,0.7,,,,ScalableFloat,registry::UC_CadavrianArbalist.RangedSlow.MovementSpeedMultiplier
+GE_UC_CadavrianDeathPriest_ChannelMultiTargetHeal_HasteBuff,0,Haste,Multiplicitive,2.0,,,,ScalableFloat,CT_AbilityConstants::UC_CadavrianDeathPriest.ChannelMultiTargetHeal.HasteBuffPercentage
+GE_UC_EvilSpirit_PassiveFixate_Buff,0,Haste,Additive,0.5,,,,ScalableFloat,CT_AbilityConstants::UC_EvilSpirit.PassiveFixate.Buff.AdditionalHaste
+GE_UC_EvilSpirit_PassiveFixate_Buff,1,LifeSteal,Additive,0.5,,,,ScalableFloat,CT_AbilityConstants::UC_EvilSpirit.PassiveFixate.Buff.AdditionalLifeSteal
+GE_UC_EvilSpirit_PassiveFixate_Buff,2,MoveSpeed,MultiplyCompound,1.2,,,,ScalableFloat,CT_AbilityConstants::UC_EvilSpirit.PassiveFixate.Buff.MoveSpeedBonus
+GE_UM_BossSlavetraderBrull_Aina_Shared_Enrage_FinalBuff,0,DamageScale,Multiplicitive,1.02,,,,ScalableFloat,registry::UM_BossDrazhulTheFleshbroker.Shared.EnragePassive.OutgoingDamageMultiplierPerStack
+GE_UM_BossSlavetraderBrull_Aina_Shared_Enrage_FinalBuff,1,SizeScale,Multiplicitive,1.01,,,,ScalableFloat,registry::UM_BossDrazhulTheFleshbroker.Shared.EnragePassive.SizeScalePerStack
+GE_UM_BossSlavetraderBrull_Aina_Shared_Enrage_StackingBuff,0,DamageScale,Multiplicitive,1.02,,,,ScalableFloat,registry::UM_BossDrazhulTheFleshbroker.Shared.EnragePassive.OutgoingDamageMultiplierPerStack
+GE_UM_BossSlavetraderBrull_Aina_Shared_Enrage_StackingBuff,1,SizeScale,Multiplicitive,1.01,,,,ScalableFloat,registry::UM_BossDrazhulTheFleshbroker.Shared.EnragePassive.SizeScalePerStack
+GE_UM_BossSlavetraderBrull_CastHealDebuff_Debuff,0,IncomingHealSign,Override,-1.0,,,,ScalableFloat,
+GE_UM_BossSlavetraderBrull_PlacedSlowAoe_SlowEffect,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::UM_BossSlavetraderBrull.PlacedSlowAOE.Area.MovementSpeedMultiplier
+GE_UM_CageDeath_Buff,0,CooldownRecovery,Multiplicitive,1.3,,,,ScalableFloat,
+GE_UM_GorestainedButcher_ChanneledAttack_SelfSlow,0,MoveSpeed,MultiplyCompound,0.25,,,,ScalableFloat,registry::UM_GorestainedButcher.ChanneledAttack.SelfMoveSpeedScaler
+GE_UM_GorestainedButcher_Enrage,0,SizeScale,Multiplicitive,1.2,,,,ScalableFloat,registry::UM_GorestainedButcher.Enrage.SizeScale
+GE_UM_GorestainedButcher_Enrage,1,AttackSpeed,Multiplicitive,1.3,,,,ScalableFloat,registry::UM_GorestainedButcher.Enrage.AttackSpeedMultiplier
+GE_UM_GorestainedButcher_Enrage,2,MoveSpeed,MultiplyCompound,1.3,,,,ScalableFloat,registry::UM_GorestainedButcher.Enrage.MoveSpeedMultiplier
+GE_UM_HornedSeer_OrbProjectile_Debuff,0,IncomingDamageMultiplier,MultiplyCompound,1.02,,,,ScalableFloat,registry::UM_HornedSeer.OrbProjectile.Debuff.DamageTakenMultiplier
+GE_UM_Outrunner_RangedSlow_Debuff,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,registry::UM_Outrunner.RangedSlow.MovementSpeedMultiplier
+GE_UM_SlaveCage_DebuffAura,0,Strength,MultiplyCompound,0.8,,,,ScalableFloat,registry::UM_SlaveCage.DebuffAura.PrimaryAttributesMultiplier
+GE_UM_SlaveCage_DebuffAura,1,Intellect,MultiplyCompound,0.8,,,,ScalableFloat,registry::UM_SlaveCage.DebuffAura.PrimaryAttributesMultiplier
+GE_UM_SlaveCage_DebuffAura,2,Agility,MultiplyCompound,0.8,,,,ScalableFloat,registry::UM_SlaveCage.DebuffAura.PrimaryAttributesMultiplier
+GE_VC_BossBrute_DropTreasure_Buff,0,MoveSpeed,Multiplicitive,1.0,,,,ScalableFloat,registry::VC_BossBrute.DropTreasure.Buff.MoveSpeedMultiplier
+GE_VC_BossBrute_DropTreasure_Buff,1,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::VC_BossBrute.DropTreasure.Buff.DamageScale
+GE_VC_BossBrute_Enrage,0,SizeScale,Multiplicitive,1.2,,,,ScalableFloat,registry::VC_BossBrute.Enrage.SizeScale
+GE_VC_BossBrute_Enrage,1,AttackSpeed,Multiplicitive,2.0,,,,ScalableFloat,registry::VC_BossBrute.Enrage.AttackSpeedMultiplier
+GE_VC_BossBrute_Enrage,2,MoveSpeed,Multiplicitive,1.4,,,,ScalableFloat,registry::VC_BossBrute.Enrage.MoveSpeedMultiplier
+GE_VV_BlackburnMystic_CastProjectile_Slow,0,MoveSpeed,Multiplicitive,0.7,,,,ScalableFloat,registry::VV_BlackburnMystic.CastProjectile.MoveSpeedMultiplier
+GE_VV_BlackburnMystic_Heal_Buff,0,SizeScale,Multiplicitive,1.15,,,,ScalableFloat,registry::VV_BlackburnMystic.Heal.Buff.SizeScale
+GE_VV_BlackburnMystic_Heal_Buff,1,DamageScale,Multiplicitive,1.25,,,,ScalableFloat,registry::VV_BlackburnMystic.Heal.Buff.DamageMultiplier
+GE_VV_BossChilgar_IceColdWater_Slow_Linger,0,MoveSpeed,Multiplicitive,0.5,,,,ScalableFloat,registry::VV_BossChilgar.IceColdWater.SlowMultiplier
+GE_VV_BossFrostTroll_Kaldurson_FireIsDeadBuff,0,DamageScale,Multiplicitive,1.05,,,,ScalableFloat,registry::VV_BossFrostTroll.Kaldurson.Fire.DamageScale
+GE_VV_BossFrostTroll_Kaldurson_IceIsDeadBuff,0,DamageScale,Multiplicitive,1.05,,,,ScalableFloat,registry::VV_BossFrostTroll.Kaldurson.Ice.DamageScale
+GE_VV_BossFrostTroll_SingleTargetDot_DamageReduction,0,IncomingDamageMultiplier,MultiplyCompound,1.0,,,,ScalableFloat,registry::VV_BossFrostTroll.SingleTargetDot.FireAbilityDamageMultiplier
+GE_VV_BossFrostTroll_SlowAura_Slow,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,registry::VV_BossFrostTroll.SlowAura.MoveSpeedMultiplier
+GE_VV_BossKaldursonIce_SlowAura_Slow,0,MoveSpeed,Multiplicitive,0.8,,,,ScalableFloat,registry::VV_BossKaldursonIce.SlowAura.MoveSpeedMultiplier
+GE_VV_BossVikingMystic_GoBackToPhase1_PartyBuff,0,Haste,Additive,,VV_BossVikingMystic.GoBackToPhase1.Buff.HastePercent,,,ScalableFloat,registry::VV_BossVikingMystic.GoBackToPhase1.Buff.HastePercent
+GE_VV_FrenziedLooter_DropTreasure_Buff,0,MoveSpeed,Multiplicitive,0.95,,,,ScalableFloat,registry::VV_FrenziedLooter.DropTreasure.Buff.MoveSpeedMultiplier
+GE_VV_FrenziedLooter_DropTreasure_Buff,1,DamageScale,Multiplicitive,1.02,,,,ScalableFloat,registry::VV_FrenziedLooter.DropTreasure.Buff.DamageScale
+GE_VV_IcebitePIllager_Enrage_Buff,0,Haste,Multiplicitive,1.1,,,,ScalableFloat,registry::VV_IcebitePillager.Enrage.HasteIncrease
+GE_VV_IcebitePIllager_Enrage_Buff,1,DamageScale,Multiplicitive,1.1,,,,ScalableFloat,registry::VV_IcebitePillager.Enrage.DamageScaler
+GE_VV_IcebitePIllager_Enrage_Buff,2,SizeScale,Multiplicitive,1.1,,,,ScalableFloat,registry::VV_IcebitePillager.Enrage.SizeIncrease
+GE_VV_IcebitePIllager_Enrage_Buff,3,IncomingDamageMultiplier,Multiplicitive,1.03,,,,ScalableFloat,registry::VV_IcebitePillager.Enrage.IncomingDamageMultiplier
+GE_VV_IcebitePIllager_Enrage_MaxHealthIncrease,0,MaxHealth,Multiplicitive,,VV_IcebitePillager.Enrage.MaxHealthIncrease,,,ScalableFloat,registry::VV_IcebitePillager.Enrage.MaxHealthIncrease
+GE_VV_IcebiteReaver_HasteBuff_Buff,0,AttackSpeed,Multiplicitive,1.25,,,,ScalableFloat,registry::VV_IcebiteReaver.HasteBuff.AttackSpeedMultiplier
+GE_VV_IcebiteReaver_HasteBuff_Buff,1,DamageScale,Multiplicitive,1.25,,,,ScalableFloat,registry::VV_IcebiteReaver.HasteBuff.DamageMultiplier
+GE_VV_IcebiteReaver_HasteBuff_Buff,2,IncomingDamageMultiplier,Multiplicitive,1.25,,,,ScalableFloat,registry::VV_IcebiteReaver.HasteBuff.IncomingDamageMultiplier
+GE_VV_Shared_IceBite,0,IncomingDamageMultiplier,Multiplicitive,1.05,,,,ScalableFloat,registry::VV_Shared.IceBite.IncomingDamageMultiplier
+GE_Vigor_CastedSingleTargetDamage_ResourceCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_CastedSingleTargetHeal_ResourceCost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_ChargedMovementSpeedSelfBuff_Cost,0,Mana,Additive,-18.0,,,,ScalableFloat,registry::Vigor.ChargedMovementSpeedSelfBuff.Cost
+GE_Vigor_ChargedMovementSpeedSelfBuff_SelfBuff,0,MoveSpeed,Multiplicitive,1.7,,,,ScalableFloat,registry::Vigor.ChargedMovementSpeedSelfBuff.SpeedIncrease
+GE_Vigor_ChargedMovementSpeedSelfBuff_SelfBuff,1,Avoidance,Additive,0.4,,,,ScalableFloat,registry::Vigor.ChargedMovementSpeedSelfBuff.AvoidanceIncrease
+GE_Vigor_DamageReductionAndImmunityBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.8,,,,ScalableFloat,CT_AbilityConstants::Vigor.DamageReductionAndImmunityBuff.ReducedIncomingDamageScale
+GE_Vigor_DamageReductionAndImmunityBuff_CastingCost,0,Mana,Additive,-63.0,,,,ScalableFloat,CT_AbilityConstants::Vigor.DamageReductionAndImmunityBuff.ManaCost
+GE_Vigor_InstantAoeHeal_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_InstantFrontalConeDamageHeal_Cost,0,Mana,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_InstantResourceGain,0,Resources,Additive,3.0,,,,ScalableFloat,CT_AbilityConstants::Vigor.InstantResourceGain.ResourceGain
+GE_Vigor_InstantResourceGain_ManaCost,0,Mana,Additive,-96.0,,,,ScalableFloat,CT_AbilityConstants::Vigor.InstantResourceGain.ManaCost
+GE_Vigor_MetaResource_Gain,0,Resources,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Vigor_PartyHealAndSelfBuff_ResourceCost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_Shared_Absorb_DamageReduction,0,IncomingDamageMultiplier,MultiplyCompound,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_SingleAllyDispel_ResourceCost,0,Mana,Additive,-82.0,,,,ScalableFloat,CT_AbilityConstants::Vigor.SingleAllyDispel.ManaCost
+GE_Vigor_SingleTargetAbsorb_Cost,0,Resources,Additive,-1.0,,,,ScalableFloat,registry::Vigor.SingleTargetAbsorb.ResourceFractionCost
+GE_Vigor_SingleTargetAbsorb_Cost,1,Resources,AddFinal,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_SingleTargetAbsorb_UponRemovalBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.85,,,,ScalableFloat,registry::Vigor.Absorbs.UponRemovalBuff.IncomingDamageScaler
+GE_Vigor_SingleTargetChargedHot_ResourceCost,0,Resources,Additive,-1.0,,,,ScalableFloat,registry::Vigor.SingleTargetChargedHot.ResourceFractionCost
+GE_Vigor_SingleTargetChargedHot_ResourceCost,1,Resources,AddFinal,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_SingleTargetDot_ResourceCost,0,Resources,Additive,-1.0,,,,ScalableFloat,registry::Vigor.SingleTargetDot.ResourceFractionCost
+GE_Vigor_SingleTargetDot_ResourceCost,1,Resources,AddFinal,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_SingleTargetProjectileStun_ResourceCost,0,Mana,Additive,-0.0,,,,ScalableFloat,CT_AbilityConstants::Vigor.SingleTargetProjectileStun.ManaCost
+GE_Vigor_SkillshotAoeProjectile_ResourceCost,0,Resources,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Vigor_Talent_CastedSingleTargetDamage_StatBonusBuff,0,Spirit,Additive,0.2,,,,ScalableFloat,registry::Vigor.CastedSingleTargetDamage.Talent.ManaRegenBuff.StatBonusIncrease
+GE_Vigor_Talent_IncreasedMaxMana,0,ManaRegenRate,MultiplyCompound,1.0,,,,AttributeBased,
+GE_Vigor_Talent_InstantAoeHeal_DamageReduction_AoeBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Vigor.InstantAoeHeal.Talent.DamageReduction.ReductionMultiplier
+GE_Vigor_Talent_ReducedIncomingAoeDamage,0,Avoidance,Additive,0.1,,,,ScalableFloat,registry::Vigor.Talent.ReducedIncomingAoeDamage.AdditionalReduction
+GE_Vigor_Talent_ReducedIncomingMagicDamage,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Vigor.Talent.ReducedIncomingMagicDamage.Scaler
+GE_Vigor_Talent_SingleTargetAbsorb_ReducedIncomingDamage,0,IncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Vigor.SingleTargetAbsorb.Talent.ReducedIncomingDamage.IncomingDamageMultiplier
+GE_Vigor_Talent_SingleTargetChargedHot_BuffIncreasesMaxHealth_Buff,0,MaxHealth,MultiplyCompound,1.05,,,,ScalableFloat,CT_AbilityConstants::Vigor.CastedSingleTargetDamage.Talent.SingleTargetChargedHot.BuffIncreasesMaxHealth.MaxHealthScaler
+GE_Vigor_Talent_SingleTargetDot_DamageToAoe_ResourceGain,0,Resources,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Warmaster_AoeIncite_FriendlyAura_Buff,0,MagicalIncomingDamageMultiplier,Multiplicitive,0.8,,,,ScalableFloat,registry::Warmaster.AoeIncite.FriendlyAura.IncomingMagicDamageScaler
+GE_Warmaster_DefenceBuff_Buff,0,BlockChance,Additive,0.25,,,,ScalableFloat,registry::Warmaster.DefenceBuff.BlockChanceScale
+GE_Warmaster_InstantMeleeCleave_BleedDebuff_EnfeeblingEffect,0,DamageScale,MultiplyCompound,0.9,,,,ScalableFloat,registry::Warmaster.InstantMeleeCleave.Enfeeble.TargetDamageScaleMultiplier
+GE_Warmaster_MeleeAoeSlow_Debuff,0,MoveSpeed,Multiplicitive,0.9,,,,ScalableFloat,registry::Warmaster.MeleeAoeSlow.SingleStackMoveSpeedScale
+GE_Warmaster_MeleeAoeSlow_ResourceCost,0,Resources,Additive,0.0,,,,ScalableFloat,registry::Warmaster.MeleeAoeSlow.ComboPointCost
+GE_Warmaster_MeleeCleave_ReducedIncomingDamageFromTarget_SelfBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.97,,,,ScalableFloat,registry::Warmaster.MeleeCleave.ReducedIncomingDamageFromTarget.OutgoingDamageScalePerStack
+GE_Warmaster_MoveSpeedBuff_AllyBuff,0,MoveSpeed,Multiplicitive,1.25,,,,ScalableFloat,registry::Warmaster.MoveSpeedBuff.AllyMoveSpeedScaler
+GE_Warmaster_MoveSpeedBuff_SelfBuff,0,MoveSpeed,Multiplicitive,1.5,,,,ScalableFloat,registry::Warmaster.MoveSpeedBuff.SelfMoveSpeedScaler
+GE_Warmaster_SharedToughnessAura_PartyBuff,0,PhysicalIncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Warmaster_SharedToughnessAura_PartyBuff,1,MagicalIncomingDamageMultiplier,MultiplyCompound,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Warmaster_SharedToughnessAura_SelfBuff,0,DamageScale,Multiplicitive,1.15,,,,ScalableFloat,registry::Warmaster.SharedToughnessAura.DamageIncreaseScaler
+GE_Warmaster_ShieldSelfBuff_Buff,0,DamageScale,MultiplyCompound,1.25,,,,ScalableFloat,registry::Warmaster.ShieldSelfBuff.DamageMultiplier
+GE_Warmaster_ShieldSelfBuff_Buff,1,SizeScale,Override,1.2,,,,ScalableFloat,
+GE_Warmaster_ShieldSelfBuff_DamageReductionBuff,0,IncomingDamageMultiplier,MultiplyCompound,0.75,,,,ScalableFloat,registry::Warmaster.ShieldSelfBuff.IncomingDamageMultiplier
+GE_Warmaster_ShieldSelfBuff_SpiritCost,0,SpiritPoints,Additive,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Warmaster_Talent_BouncyProjectile_FirstHitAoeDamageDebuff_Debuff_OwnerEffect,0,DamageScale,Division,1.2,,,,ScalableFloat,registry::Warmaster.BouncyProjectile.Talent.FirstHitAoeDamageDebuff.DamageDivision
+GE_Warmaster_Talent_DefenceBuff_IncreasedBlockChance,0,BlockChance,Additive,0.05,,,,ScalableFloat,registry::Warmaster.Talent.IncreasedBlockChance.AdditionalBlockChance
+GE_Warmaster_Talent_DefenceBuff_MeleeCleaveIncreasedDamageHeal,0,IncomingHealMultiplier,Multiplicitive,1.2,,,,ScalableFloat,registry::Warmaster.DefenceBuff.Talent.MeleeCleaveIncreasedDamageHeal.IncreasedIncomingHeal
+GE_Warmaster_Talent_DefenceBuff_MeleeCleaveIncreasedDamageHeal,1,BlockChance,Additive,0.2,,,,ScalableFloat,
+GE_Warmaster_Talent_HeavyMelee_SweepingStrikeApplied_IncreasedDamage_OwnerEffect,0,IncomingDamageMultiplier,MultiplyCompound,3.0,,,,ScalableFloat,registry::Warmaster.HeavyMelee.Talent.SweepingStrikeApplied.IncreasedDamage.DamageMultiplier
+GE_Warmaster_Talent_IncreasedArmor,0,Armor,Multiplicitive,1.2,,,,ScalableFloat,registry::Warmaster.Talent.IncreasedArmor.ArmorMultiplier
+GE_Warmaster_Talent_IncreasedArmorFromAbilities_Buff,0,Armor,Additive,,,,"the magnitude is supplied by whatever applies this effect, not by the effect",SetByCaller,
+GE_Warmaster_Talent_IncreasedBlockChance,0,BlockChance,Additive,0.05,,,,ScalableFloat,registry::Warmaster.Talent.IncreasedBlockChance.AdditionalBlockChance
+GE_Warmaster_Talent_IncreasedSpirit,0,Spirit,Additive,0.05,,,,ScalableFloat,registry::Warmaster.Talent.AddedSpiritPassive
+GE_Warmaster_Talent_IncreasedToughnessGenBuff,0,ResourcesSecond,Additive,1.0,,,,AttributeBased,
+GE_Warmaster_Talent_InstantMeleeCleave_ReducedAttackSpeed_Debuff,0,AttackSpeed,MultiplyCompound,0.8,,,,ScalableFloat,registry::Meiko.DurationalAoeDamageBuff.Talent.ReducedAttackSpeed.AttackSpeedMultiplier
+GE_Warmaster_Talent_LowHealthBuff,0,BlockChance,Additive,0.05,,,,ScalableFloat,registry::Warmaster.Talent.LowHealthBuff.AdditionalBlockChance
+GE_Warmaster_Talent_LowHealthBuff,1,IncomingHealMultiplier,Multiplicitive,1.2,,,,ScalableFloat,registry::Warmaster.Talent.LowHealthBuff.IncomingHealMultiplier
+GE_Warmaster_Talent_MeleeAoeSlow_ReducedIncomingDamageFromTarget_RealBuff,0,PhysicalIncomingDamageMultiplier,MultiplyCompound,0.95,,,,ScalableFloat,registry::Warmaster.MeleeAoeSlow.Talent.ReducedIncomingDamageFromTarget.IncomingDamageDivider
+GE_Warmaster_Talent_MeleeCleaveAbsorbBuff_ReducedDamageReflectDamage_DamageReduction,0,IncomingDamageMultiplier,Division,1.25,,,,ScalableFloat,registry::Warmaster.Talent.MeleeCleaveAbsorbBuff.ReducedDamageReflectDamage.IncomingDamageDivider
+GE_Warmaster_Talent_MeleeCleave_MeleeAoeSlow_IncreasedDamageStun_OwnerEffect,0,IncomingDamageMultiplier,Multiplicitive,1.1,,,,ScalableFloat,registry::Warmaster.MeleeCleave.Talent.MeleeAoeSlow.IncreasedDamageStun.DamageMultiplierPerStack
+GE_Warmaster_Talent_MoveSpeedBuff_PartyAndIncreasedSpeed_SelfBuff,0,MoveSpeed,Multiplicitive,1.5,,,,ScalableFloat,registry::Warmaster.MoveSpeedBuff.Talent.PartyAndIncreasedSpeed.SpeedMultiplier.Self
+GE_Warmaster_Talent_MoveSpeedBuff_PartyAndIncreasedSpeed_TargetBuff,0,MoveSpeed,Multiplicitive,1.25,,,,ScalableFloat,registry::Warmaster.MoveSpeedBuff.Talent.PartyAndIncreasedSpeed.SpeedMultiplier.Target
+GE_Warmaster_Talent_MoveToTargetStun_ArrivalMeleeAoeSlow_TargetExtraWarmasterDamage_OwnerEffect,0,IncomingDamageMultiplier,MultiplyCompound,1.2,,,,ScalableFloat,registry::Warmaster.MoveToTargetStun.Talent.ArrivalMeleeAoeSlow.TargetExtraWarmasterDamage.IncomingDamageScaler
+GE_Warmaster_Talent_MoveToTargetStun_IncreasedMoveSpeed,0,MoveSpeed,Multiplicitive,1.2,,,,ScalableFloat,registry::Warmaster.MoveToTargetStun.Talent.ChargesIncreasedSpeed.MoveSpeedIncrease
+GE_Warmaster_Talent_ReducedMagicDamageTaken,0,MagicalIncomingDamageMultiplier,MultiplyCompound,0.9,,,,ScalableFloat,registry::Warmaster.Talent.ReducedMagicDamageTaken.MagicDamageMultiplier
+GE_Warmaster_Talent_ToughnessBuff_Buff,0,Strength,MultiplyCompound,1.2,,,,ScalableFloat,registry::Warmaster.Toughness.Talent.ToughnessBuff.StrengthMultiplier
+GE_Warmaster_Toughness,0,MaxResourcesSecond,Override,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Warmaster_Toughness,1,IncomingDamageMultiplier,MultiplyCompound,,,,the magnitude is computed by a calculation class this dataset does not read,CustomCalc,
+GE_Weapon_CastedRepetitivelyAOEDamageDebuff_ExtraDamageDebuff_OwnerEffect,0,IncomingDamageMultiplier,MultiplyCompound,3.0,,,,ScalableFloat,registry::Weapon.CastedRepetitivelyAOEDamageDebuff.Aoe.DamageMultiplierWithDebuff
+GE_Weapon_ChanneledCooldownReducer_Buff,0,IncomingDamageMultiplier,MultiplyCompound,0.5,,,,ScalableFloat,registry::Weapon.ChanneledCooldownReducer.Buff.IncomingDamageMultiplier
+GE_Weapon_ChanneledCooldownReducer_Buff,1,CooldownRecovery,Multiplicitive,8.0,,,,ScalableFloat,registry::Weapon.ChanneledCooldownReducer.Channel.WhileActiveAddedCooldownRecovery
+GE_Weapon_CleaveDamageBuffCooldownReduction_Buff,0,CooldownRecovery,Multiplicitive,3.0,,,,ScalableFloat,registry::Weapon.CleaveDamageBuffCooldownReduction.Buff.CooldownRecoveryMultiplier
+GE_Weapon_CleaveDamageBuffCooldownReduction_Buff,1,Expertise,Additive,0.0,,,,ScalableFloat,registry::Weapon.CleaveDamageBuffCooldownReduction.Buff.AddedExpertise
+GE_Weapon_InstantAoeDamageBuff_Buff,0,CritChance,Additive,0.06,,,,ScalableFloat,registry::Weapon.InstantAoeDamageBuff.Buff.CriticalStrikeBonusPerStack
+GE_Weapon_StunDotAoeDamageSlow_Debuff,0,MoveSpeed,MultiplyCompound,0.35,,,,ScalableFloat,registry::Weapon.StunDotAoeDamageSlow.Debuff.MovementSpeedMultiplier
+GE_Weapon_StunDotAoeDamageSlow_Debuff,1,AttackSpeed,MultiplyCompound,0.6,,,,ScalableFloat,registry::Weapon.StunDotAoeDamageSlow.Debuff.AttackSpeedMultiplier
