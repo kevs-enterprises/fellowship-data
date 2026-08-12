@@ -1,0 +1,40 @@
+id,set_bonus_id,numeric_id,display_name,set_count,description,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source
+Quickplay,ItemID.SetBonus.Quickplay,2098,Expedition Heroism,10,"+15% Critical Chance
++20% Haste
++20% Expertise
++20% Spirit",T_UI_Icon_Rarity_Common,Other,256,256,datamine,,
+SetA_Percentage_DH,ItemID.SetBonus.SetA_Percentage_DH,1769,Draconic Deceit,2,"+4% Critical Strike Chance
+-15% Threat Generation",T_Icon_Frost_134_BetaCropped,Other,256,256,datamine,,
+SetA_Percentage_T,ItemID.SetBonus.SetA_Percentage_T,1770,Draconic Fury,2,"+4% Critical Strike Chance
++15% Threat Generation",T_Icon_Frost_134_BetaCropped,Other,256,256,datamine,,
+SetA_Proc_Agility,ItemID.SetBonus.SetA_Proc_Agility,677,Draconic Might,2,Your critical strikes have a chance (0.9 PPM) to increase your Agility by 18% for 14 seconds.,T_Icon_Frost_113,Other,256,256,datamine,,
+SetA_Proc_Intellect,ItemID.SetBonus.SetA_Proc_Intellect,678,Draconic Might,2,Your critical strikes have a chance (0.9 PPM) to increase your Intellect by 18% for 14 seconds.,T_Icon_Frost_113,Other,256,256,datamine,,
+SetA_Proc_Strength,ItemID.SetBonus.SetA_Proc_Strength,679,Draconic Might,2,Your critical strikes have a chance (0.9 PPM) to increase your Strength by 18% for 14 seconds.,T_Icon_Frost_113,Other,256,256,datamine,,
+SetB_Percentage_HDT,ItemID.SetBonus.SetB_Percentage_HDT,680,Tuzari Grace,2,"+4% Haste
++20% Movement Speed",T_Icon_Fire_162_BetaCropped,Other,256,256,datamine,,
+SetB_Proc_HDT,ItemID.SetBonus.SetB_Proc_HDT,681,Dark Prophecy,2,Your abilities have a chance (0.8 PPM) to increase your Haste by 25% for 20 seconds.,T_Icon_Fire_162_BetaCropped,Other,256,256,datamine,,
+SetC_Percentage_D,ItemID.SetBonus.SetC_Percentage_D,682,Sin Warding,2,"+4% Expertise
++5% Max Health",T_Icon_Gold_147_BetaCropped,Other,256,256,datamine,,
+SetC_Percentage_H,ItemID.SetBonus.SetC_Percentage_H,683,Sin Warding,2,"+4% Expertise
++5% Max Health",T_Icon_Gold_147_BetaCropped,Other,256,256,datamine,,
+SetC_Percentage_T,ItemID.SetBonus.SetC_Percentage_T,684,Sin Warding,2,"+4% Expertise
++5% Max Health",T_Icon_Gold_147_BetaCropped,Other,256,256,datamine,,
+SetC_Proc_Agility,ItemID.SetBonus.SetC_Proc_Agility,685,Torment of Bael'Aurum,2,"+5% Agility
+
+When dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds.",T_Icon_Gold_147_BetaCropped,Other,256,256,datamine,,
+SetC_Proc_Intellect,ItemID.SetBonus.SetC_Proc_Intellect,686,Torment of Bael'Aurum,2,"+5% Intellect
+
+When dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds.",T_Icon_Gold_147_BetaCropped,Other,256,256,datamine,,
+SetC_Proc_Strength,ItemID.SetBonus.SetC_Proc_Strength,687,Torment of Bael'Aurum,2,"+5% Strength
+
+When dipping below 20% Health, you are instantly healed for 40% of your maximum health. This can occur once every 180 seconds.",T_Icon_Gold_147_BetaCropped,Other,256,256,datamine,,
+SetD_Percentage_D,ItemID.SetBonus.SetD_Percentage_D,1771,Death's Grasp,2,"+4% Spirit
++10% damage to Low Health enemies.",LootModifier_SetBonus,Other,256,256,datamine,,
+SetD_Percentage_H,ItemID.SetBonus.SetD_Percentage_H,1772,Haunting Lament,2,"+4% Spirit
++15% Max Mana",LootModifier_SetBonus,Other,256,256,datamine,,
+SetD_Percentage_T,ItemID.SetBonus.SetD_Percentage_T,689,Sinthara's Veil,2,"+4% Spirit
++10% magic damage reduction",LootModifier_SetBonus,Other,256,256,datamine,,
+SetD_Proc_Agility,ItemID.SetBonus.SetD_Proc_Agility,690,Drakheim's Absolution,2,"Your Spirit Ability grants you Drakheim's Absolution, increasing your Agility by 20% for 20 seconds.",T_Icon_Energy_125,Other,256,256,datamine,,
+SetD_Proc_Intellect,ItemID.SetBonus.SetD_Proc_Intellect,691,Drakheim's Absolution,2,"Your Spirit Ability grants you Drakheim's Absolution, increasing your Intellect by 20% for 20 seconds.",T_Icon_Energy_125,Other,256,256,datamine,,
+SetD_Proc_Strength,ItemID.SetBonus.SetD_Proc_Strength,692,Drakheim's Absolution,2,"Your Spirit Ability grants you Drakheim's Absolution, increasing your Strength by 20% for 20 seconds.",T_Icon_Energy_125,Other,256,256,datamine,,
+SetE_Percentage_HDT,ItemID.SetBonus.SetE_Percentage_HDT,5638,Seal of the Heskyr,2,Your Gem Power is increased by 25%.,T_Icons_Generic_Placeholder,Other,128,128,datamine,,
