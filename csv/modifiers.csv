@@ -1,0 +1,114 @@
+id,modifier_id,numeric_id,kind,display_name,description,limit_to_level_type,minimum_hero_rank_required,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source
+AnomalousOrbs,Modifiers.Dungeon.AnomalousOrbs,24,Dungeon,Anomalous Orbs,"Three Anomalous Orbs spawn near enemies periodically. The orbs are targetable and can be damaged.
+
+Once spawned, the orbs cast Detonate, an interruptable cast that deals heavy damage to all players if left unchecked. The Anomalous Orbs are susceptible to all forms of Crowd Control, which will also interrupt the cast of Detonate.
+
+Anomalous Orbs take <bold>400% increased damage</> while not actively casting Detonate.
+
+<bold>BONUS</>
+Each Anomalous Orb players destroy grants <bold>+480 Gem Power</> to the corresponding color of the Orb that was destroyed for 45 seconds.",false,1,T_Nhance_RPG_Tech_17,Other,256,256,datamine,,
+Ascension1,Modifiers.Ascension.Ascension1,2,Ascension,Sahril's Madness,"Enemies receive <bold>30% Increased Threat</> from <bold>Damage Dealers</> and <bold>Healers</>.
+
+""The last peaceful night passed, as we awoke to a world of rapturous hatred.""",false,2,T_Ascension_Aggro,Other,256,256,datamine,,
+Ascension2,Modifiers.Ascension.Ascension2,3,Ascension,Elheryn's Exile,Enemy's <bold>Interruptable</> abilities and <bold>Dispellable</> effects deal 20% more damage.,false,2,T_Icon_Frost_134,Other,256,256,datamine,,
+Ascension3,Modifiers.Ascension.Ascension3,4,Ascension,Vayr's Legacy,Enemies have learned <bold>New Abilities</>.,false,4,T_Icon_Unholy_202,Other,256,256,datamine,,
+Ascension4,Modifiers.Ascension.Ascension4,5,Ascension,Asha's Dilemma,"Dungeons have a <bold>Time Limit</>.
+
+When the <bold>Time Limit</> expires:
+• Heroes gain bonus Spirit Generation.
+• Dungeon Score is reduced.",false,2,T_Icon_Energy_104,Other,256,256,datamine,,
+Ascension5,Modifiers.Ascension.Ascension5,6,Ascension,Asha's Regret,"Dungeons have a <bold>Time Limit</>.
+
+When the <bold>Time Limit</> expires:
+• Loot is reduced 1 Upgrade level.
+• Dungeon Score is reduced.",false,1,T_Nhance_RPG_Icons_ArcaneMask,Other,256,256,datamine,,
+Ascension6,Modifiers.Ascension.Ascension6,23,Ascension,Pathfinder's Guidance,"Elheryn, the Pathfinder, guides you through the dungeon.
+
+By defeating all highlighted enemies you will reach the required Kill Score and be led to the boss.
+
+<bold>BONUS</>
+While in combat with enemies marked with Pathfinder's Guidance, you gain Haste.
+Contender: +20% Haste
+Adept: +15% Haste
+Champion: +10% Haste
+Paragon: +5% Haste",false,1,T_Icon_Tech_35,Other,256,256,datamine,,
+BloodShardVolley,Modifiers.Dungeon.BloodShardVolley,8,Dungeon,Blood Shards,"Blood Shards erupt from dying enemies, dealing 1.5% of their maximum health in damage to all heroes.
+
+<bold>BONUS</>
+<bold>Heroes hit by Blood Shards gain 1% Expertise for 30 seconds, stacking up to 15 times.</>",false,3,T_BloodEye,Other,256,256,datamine,,
+Carnage,Modifiers.Dungeon.Carnage,9,Dungeon,Carnage,"All incoming damage applies a bleed for 6% of damage taken on all heroes divided evenly. When a hero's health is above 90% the Carnage bleed is removed.
+
+Carnage is dispellable.
+
+<bold>BONUS</>
+<bold>Heroes heal for 10% of all damage dealt by any hero, divided evenly in the group.</>
+
+<bold>Each time a Boss is defeated, heroes gain an additional 2.5% healing from damage dealt.</>",false,1,T_Nhance_RPG_Icons_BloodRitual,Other,256,256,datamine,,
+Challenge,Modifiers.Dungeon.Challenge,10,Dungeon,Challenge,"<bold>Non-boss enemies</> deal 10% more damage and have 10% more health.
+
+<bold>BONUS</>
+<bold>+10% Spirit</>",false,4,Tex_SpellBook06_83,Other,256,256,datamine,,
+ColdSnap,Modifiers.Dungeon.ColdSnap,11,Dungeon,Binding Ice,"Periodically, one hero is afflicted by an icy curse. After 5 seconds the curse erupts, dealing magic damage to all heroes within the radius and rooting them for 3 seconds.
+
+<bold>BONUS</>
+<bold>Enemies hit by Binding Ice are stunned for 2 seconds. Binding Ice deals 100% increased damage against enemies.</>",false,5,T_Nhance_RPG_Icons_FrozenStep,Other,256,256,datamine,,
+EmpoweredMinions,Modifiers.Dungeon.EmpoweredMinions,12,Dungeon,Empowered Minions,"Several enemies in each dungeon are empowered, gaining +100% Health and +150% Power.
+
+<bold>BONUS</>
+<bold>Empowered Minions award triple Kill Score, and upon defeating an Empowered Minion heroes gain +20% Haste and +20% Movement Speed for 40 seconds.</>",false,1,T_Nhance_RPG_Gold_01,Other,256,256,datamine,,
+MalevolentSpirits,Modifiers.Dungeon.MalevolentSpirits,13,Dungeon,Malevolent Shade,"As heroes kill enemies, eventually a Malevolent Shade will appear, reducing all damage taken by other nearby enemies by 50% and increasing their Haste by 20% until the shade is killed.
+
+<bold>BONUS</>
+<bold>Heroes instantly replenish 85% Max Health and 50% Max Mana upon defeating the Malevolent Shade</>",false,5,T_EnragedSpirit,Other,256,256,datamine,,
+MeteorRain,Modifiers.Dungeon.MeteorRain,14,Dungeon,Meteor Rain,"Periodically, burning meteors crash down on heroes, splitting up into fragments that damage and stun on impact.
+
+<bold>BONUS</>
+<bold>Each time a meteor strikes the ground, heroes generate 2 Spirit towards their Spirit Ability.</>",false,3,T_Nhance_RPG_Fire_36,Other,256,256,datamine,,
+PromotedEnemies,Modifiers.Implicit.PromotedEnemies,18,Implicit,Promoted Enemies,Some mobs & bosses have +1 difficulty stats until the dungeon timer runs out. <This modifier is hidden from the players>,false,0,,,,,datamine,,
+ShadowLord,Modifiers.Dungeon.ShadowLord,19,Dungeon,Shadow Lord's Trial,"The Shadow Lord has intervened, accumulating all kill score. As enemies are killed, Shadow Orbs are spawned nearby that can be collected by heroes.
+
+Upon collecting 30x Shadow Orbs, an Emissary of the Shadow Lord will arrive to challenge you. Defeating it will reward Kill Score.
+
+<bold>BONUS</>
+Each time an Emissary of the Shadow Lord is defeated, heroes gain <bold>Shadow's Defeat</> for 60 seconds, increased all damage dealt by 20% and increasing Haste and Movement Speed by 20%.",false,1,T_Madness,Other,256,256,datamine,,
+StoneSkin,Modifiers.Dungeon.StoneSkin,15,Dungeon,Stone Skin,"Non-boss enemies have <bold>30% increased Maximum Health</>
+
+<bold>BONUS</>
+<bold>Non-boss enemies explode on death, dealing 15% of their maximum health as physical damage over 6 seconds to all other enemies and bosses in an area around them. This effect does not stack. The highest damage Stoneskin effect overwrites existing ones.</>",false,1,T_Nhance_RPG_Icons_EarthWall,Other,256,256,datamine,,
+StormShield,Modifiers.Dungeon.StormShield,25,Dungeon,Storm Shield,"Periodically, players will charge up with red lightning for 8 seconds, after which a massive bolt strikes all players, dealing lethal damage.
+
+For the 8 seconds that players are charged up, players are granted <bold>Storm Shield</>, reducing all damage taken by 50%. In addition, damage is split among other players near you.
+
+<bold>BONUS</>
+Players who survive the massive bolt are granted <bold>Storm's Fury</> for 20 seconds, granting <bold>+20% critical strike chance</>.",false,0,T_Nhance_RPG_Shadow_43,Other,256,256,datamine,,
+Truesight,Modifiers.Dungeon.Truesight,27,Dungeon,Truesight,"Every 30% of Kill Score, an enemy will drop a Truesight Orb. Collecting a Truesight Orb will grant Truesight, revealing the next enemy marked by the Heskyr. This enemy will deal pulsating damage until killed.
+
+<bold>BONUS</>
+When a Heskyr-marked enemy is killed, all heroes gain Might of the Heskyr, increasing their damage dealt and healing done by 20%.",false,1,T_Heskyr_Truesight_icon_01,Other,1127,1127,datamine,,
+Ultimatum,Modifiers.Dungeon.Ultimatum,16,Dungeon,Ultimatum,"<bold>Bosses</> deal 5% more damage and have 10% more health.
+
+<bold>BONUS</>
+<bold>Heroes' ability cooldowns are reduced by 10%.</>",false,4,T_Nhance_RPG_Icons_ShadowRoar,Other,256,256,datamine,,
+WinterGiant,Modifiers.Dungeon.WinterGiant,20,Dungeon,Ghorn the Avalanche,"Ghorn the Avalanche is waiting for you somewhere in the dungeon. If you challenge him in combat and defeat him, he will assist you.
+
+<bold>BONUS</>
+<bold>Defeat Ghorn to gain Ghorn's Boon and gain back 20 seconds to the Dungeon Timer.</>
+
+<bold>Ghorn's Boon</>
+Ghorn will join you periodically while in boss encounters and help you.",false,0,T_Modifier_FrostGiant,Other,512,512,datamine,,
+WinterTrickster,Modifiers.Dungeon.WinterTrickster,21,Dungeon,Krumbug the Naughty,"Krumbug the Naughty is waiting for you somewhere in the dungeon. If you challenge him in combat and defeat him, you will gain access to his bag of tricks.
+
+<bold>BONUS</>
+<bold>Defeat Krumbug to gain Krumbug's Bag of Tricks and gain back 60 seconds to the Dungeon Timer.</>
+
+<bold>Krumbug's Bag of Tricks</>
+Each time you deal damage to any enemy, you have a chance (10 PPM) to release a wind-up mouse to charge at the enemy, exploding upon arrival for damage to the target and nearby enemies.",false,0,T_Modifier_WinterTrickster,Other,1090,1090,datamine,,
+WinterWitch,Modifiers.Dungeon.WinterWitch,22,Dungeon,Eira the White Witch,"Eira the White Witch is waiting for you somewhere in the dungeon. If you challenge her in combat and defeat her, she will assist you.
+
+<bold>BONUS</>
+<bold>Defeat Eira to gain The White Witch's Boon and gain back 90 seconds to the Dungeon Timer.</>
+
+<bold>The White Witch's Boon</>
+Eira will appear near you every 120 seconds and spawn a Winter Rune on the ground that persists for up to 30 seconds. When a player steps on the rune, they gain an absorb shield equal to 25% of their maximum health. While the shield is active, they take 50% reduced damage and are slowly healed.
+
+Damage taken by the shield is <bold>reduced by 50%</>.",false,0,T_Modifier_WinterWitch,Other,256,256,datamine,,
