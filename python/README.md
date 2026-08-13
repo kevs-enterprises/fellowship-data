@@ -37,17 +37,17 @@ from fellowship_data.generated import heroes, items
 `Value`, `Curve`, and `MediaHandle` all carry the same rule across every language this dataset is
 published in: a gap is a value, never a silent default, and a curve never interpolates between the
 points the data actually states. See the [main README](https://github.com/kevs-enterprises/fellowship-data#readme)
-for the full explanation and how it reads in each of the four deliveries.
+for the full explanation and how it reads in each of the five deliveries.
 
 ## Versions and freshness
 
 `fellowship_data.BUILD_ID` tells you which game build the data came from, and every delivery in
 this repository states the same one. Pin a version if you need a stable dataset.
 
-## This is one of four deliveries
+## This is one of five deliveries
 
-The same records are also published as a Rust crate, a TypeScript package, and plain JSON, all
-rendered from one description of each domain so they cannot disagree. See the
+The same records are also published as a Rust crate, a TypeScript package, plain JSON, and CSV
+rectangles, all rendered from one description of each domain so they cannot disagree. See the
 [repository](https://github.com/kevs-enterprises/fellowship-data) for the others and for what isn't
 specific to Python: images, legal, and the full set of conventions.
 
