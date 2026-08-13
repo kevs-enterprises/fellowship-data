@@ -10,7 +10,7 @@ readme = "README.md"
 license = "MIT"
 keywords = ["game-data", "dataset", "gamedev"]
 repository = "https://github.com/kevs-enterprises/fellowship-data"
-# The crate lives in a subdirectory of a four-delivery monorepo, not at the repository root.
+# The crate lives in a subdirectory of a five-delivery monorepo, not at the repository root.
 # crates.io links straight to `repository`, so this is the difference between a visitor landing on
 # the crate's own source and landing on a directory listing with no Cargo.toml in sight.
 homepage = "https://github.com/kevs-enterprises/fellowship-data/tree/main/rust"

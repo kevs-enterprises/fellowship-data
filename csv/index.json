@@ -1,0 +1,480 @@
+{
+  "build_id": "24133959",
+  "conventions": {
+    "absent_vs_empty": "An empty cell in a required column is the empty string. An empty cell in an optional column is the absence of a value — never a stand-in for zero, for the empty string, or for a value that exists but was not recovered. An optional column never holds the empty string, which is what keeps the two readings apart.",
+    "child_tables": "A field whose length varies per record is not a column: it is its own file, <domain>__<field>.csv, carrying its parent's key in its leading columns — the join_key each entry in files states. A variable-length field nested inside one of those recurses one level further out, <domain>__<field>__<nested>.csv, joined on the parent key plus the struct row's ordinal. A file with no parent and an empty join key is domain-wide rather than per-record: it is a lookup shared by every record, and its own key column names the entry.",
+    "curves": "A curve is its own file with encoding, x and value columns. encoding is dense — one value per step, x counting from 1 — or keyframes, stating only the points the data gives; values between keyframes are not interpolated here. The axis is called x rather than difficulty because it is not always difficulty: some curves are indexed by level, item level or node rank, and the dataset leaves the axis unnamed rather than mislabelled.",
+    "line_endings": "Rows end with LF, not RFC 4180's CRLF, because this repository's files are LF everywhere and a delivery that disagreed with its own repository would show a diff on every re-emit for files whose content did not change. A cell may carry a CR or an LF of its own inside quotes, so splitting a file on line breaks without honouring quotes reads one row as several; each file's row_count in files is the count a conforming reader gets.",
+    "media": "A media handle expands to <field>_id, <field>_kind, <field>_width and <field>_height, and never a path. Map the id onto wherever you serve art from.",
+    "non_finite_numbers": "CSV has no literal for these, any more than JSON does, so they appear as the strings NaN, Infinity and -Infinity — the same spellings the JSON delivery uses.",
+    "order": "Records are stable-sorted and columns are in declaration order — the same order every other delivery states its fields in — so a data refresh diffs one entity at a time. Column order is part of what this schema_version promises.",
+    "quoting": "RFC 4180: a cell containing a comma, a double quote, CR or LF is wrapped in double quotes and its own double quotes are doubled. Nothing else is quoted, so the unquoted form is what a diff of a data refresh reads."
+  },
+  "delivery": "This folder is one of this repository's deliveries of the same dataset, rendered as CSV for consumers that would rather load a dataframe or open a spreadsheet than install a package. Every file here is rendered from the same description the other deliveries are rendered from, never converted from one of them.",
+  "file_count": 51,
+  "files": [
+    {
+      "domain": "heroes",
+      "file": "heroes.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 12
+    },
+    {
+      "domain": "heroes",
+      "file": "heroes__damage_scale.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "heroes.csv",
+      "row_count": 24
+    },
+    {
+      "domain": "heroes",
+      "file": "heroes__health_scale.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "heroes.csv",
+      "row_count": 24
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 206
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__ability_tags.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "abilities.csv",
+      "row_count": 1180
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__slot_tags.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "abilities.csv",
+      "row_count": 166
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__cooldown_tags.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "abilities.csv",
+      "row_count": 135
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__effects.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "abilities.csv",
+      "row_count": 0
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__constants.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "abilities.csv",
+      "row_count": 738
+    },
+    {
+      "domain": "talents",
+      "file": "talents.csv",
+      "join_key": [
+        "hero",
+        "id"
+      ],
+      "parent": null,
+      "row_count": 319
+    },
+    {
+      "domain": "talents",
+      "file": "talents__granted_tags.csv",
+      "join_key": [
+        "hero",
+        "id"
+      ],
+      "parent": "talents.csv",
+      "row_count": 202
+    },
+    {
+      "domain": "talents",
+      "file": "talents__granted_abilities.csv",
+      "join_key": [
+        "hero",
+        "id"
+      ],
+      "parent": "talents.csv",
+      "row_count": 133
+    },
+    {
+      "domain": "talents",
+      "file": "talents__granted_ability_refs.csv",
+      "join_key": [
+        "hero",
+        "id"
+      ],
+      "parent": "talents.csv",
+      "row_count": 133
+    },
+    {
+      "domain": "items",
+      "file": "items.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 237
+    },
+    {
+      "domain": "items",
+      "file": "items__drops_in_specific_dungeons.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "items.csv",
+      "row_count": 334
+    },
+    {
+      "domain": "items",
+      "file": "items__enums.csv",
+      "join_key": [],
+      "parent": null,
+      "row_count": 37
+    },
+    {
+      "domain": "items",
+      "file": "items__armor_type_weights.csv",
+      "join_key": [],
+      "parent": null,
+      "row_count": 0
+    },
+    {
+      "domain": "attributes",
+      "file": "attributes.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 24
+    },
+    {
+      "domain": "attributes",
+      "file": "attributes__diminishing_returns.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "attributes.csv",
+      "row_count": 22
+    },
+    {
+      "domain": "constants",
+      "file": "constants.csv",
+      "join_key": [
+        "name"
+      ],
+      "parent": null,
+      "row_count": 24
+    },
+    {
+      "domain": "constants",
+      "file": "constants__rows.csv",
+      "join_key": [
+        "name"
+      ],
+      "parent": "constants.csv",
+      "row_count": 591
+    },
+    {
+      "domain": "constants",
+      "file": "constants__rows__curve.csv",
+      "join_key": [
+        "name",
+        "rows_ordinal"
+      ],
+      "parent": "constants__rows.csv",
+      "row_count": 1520
+    },
+    {
+      "domain": "effects",
+      "file": "effects.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 2515
+    },
+    {
+      "domain": "effects",
+      "file": "effects__effect_tags.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "effects.csv",
+      "row_count": 8345
+    },
+    {
+      "domain": "effects",
+      "file": "effects__applied_status.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "effects.csv",
+      "row_count": 894
+    },
+    {
+      "domain": "effects",
+      "file": "effects__modifiers.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "effects.csv",
+      "row_count": 886
+    },
+    {
+      "domain": "effects",
+      "file": "effects__modifiers__magnitude_by_rank.csv",
+      "join_key": [
+        "id",
+        "modifiers_ordinal"
+      ],
+      "parent": "effects__modifiers.csv",
+      "row_count": 71
+    },
+    {
+      "domain": "effects",
+      "file": "effects__execution_classes.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "effects.csv",
+      "row_count": 1213
+    },
+    {
+      "domain": "modifiers",
+      "file": "modifiers.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 23
+    },
+    {
+      "domain": "dungeons",
+      "file": "dungeons.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 19
+    },
+    {
+      "domain": "dungeons",
+      "file": "dungeons__enemy_placements.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "dungeons.csv",
+      "row_count": 3014
+    },
+    {
+      "domain": "mobs",
+      "file": "mobs.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 219
+    },
+    {
+      "domain": "mobs",
+      "file": "mobs__source_area.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "mobs.csv",
+      "row_count": 220
+    },
+    {
+      "domain": "mobs",
+      "file": "mobs__creature_tags.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "mobs.csv",
+      "row_count": 41
+    },
+    {
+      "domain": "mobs",
+      "file": "mobs__abilities.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "mobs.csv",
+      "row_count": 762
+    },
+    {
+      "domain": "mobs",
+      "file": "mobs__damage_scale.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "mobs.csv",
+      "row_count": 33069
+    },
+    {
+      "domain": "mobs",
+      "file": "mobs__health_scale.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "mobs.csv",
+      "row_count": 33069
+    },
+    {
+      "domain": "traits",
+      "file": "traits.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 40
+    },
+    {
+      "domain": "traits",
+      "file": "traits__categories.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "traits.csv",
+      "row_count": 38
+    },
+    {
+      "domain": "set_bonuses",
+      "file": "set_bonuses.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 21
+    },
+    {
+      "domain": "set_bonuses",
+      "file": "set_bonuses__allowed_attributes.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "set_bonuses.csv",
+      "row_count": 40
+    },
+    {
+      "domain": "finesses",
+      "file": "finesses.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 14
+    },
+    {
+      "domain": "finesses",
+      "file": "finesses__granted_abilities.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "finesses.csv",
+      "row_count": 12
+    },
+    {
+      "domain": "finesses",
+      "file": "finesses__granted_ability_refs.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "finesses.csv",
+      "row_count": 12
+    },
+    {
+      "domain": "relic_powers",
+      "file": "relic_powers.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 13
+    },
+    {
+      "domain": "tag_ids",
+      "file": "tag_ids.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 13070
+    },
+    {
+      "domain": "combat_constants",
+      "file": "combat_constants.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": null,
+      "row_count": 309
+    },
+    {
+      "domain": "ability_constants",
+      "file": "ability_constants.csv",
+      "join_key": [
+        "name"
+      ],
+      "parent": null,
+      "row_count": 12928
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions.csv",
+      "join_key": [
+        "name"
+      ],
+      "parent": null,
+      "row_count": 22
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__effects.csv",
+      "join_key": [
+        "name"
+      ],
+      "parent": "effect_executions.csv",
+      "row_count": 1214
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__captures.csv",
+      "join_key": [
+        "name"
+      ],
+      "parent": "effect_executions.csv",
+      "row_count": 166
+    }
+  ],
+  "generated": "Every file in this folder is generated, and an edit made here is silently overwritten by the next build. The other deliveries state that in the files themselves; a CSV file cannot, because a comment line is a row and a row of the wrong width breaks the rectangle, so it is stated here instead.",
+  "schema_version": 1
+}

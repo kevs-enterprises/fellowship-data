@@ -2,7 +2,7 @@
 
 # fellowship-data
 
-Fellowship game data — heroes, abilities, items, talents, enemies, dungeons — in four forms.
+Fellowship game data — heroes, abilities, items, talents, enemies, dungeons — in five forms.
 
 | | Install | Read it |
 |---|---|---|
@@ -10,6 +10,7 @@ Fellowship game data — heroes, abilities, items, talents, enemies, dungeons �
 | [`python/`](python/) | `pip install fellowship-data` | `from fellowship_data.generated.heroes import HEROES` |
 | [`typescript/`](typescript/) | `npm install fellowship-data` | `import { HEROES } from "fellowship-data";` |
 | [`json/`](json/) | — | `json/heroes.json` |
+| [`csv/`](csv/) | — | `csv/heroes.csv` |
 
 None of them is the real one. They are rendered from a single description of each domain, so a
 field cannot exist in one and not another, and every refresh checks that they still agree before
@@ -147,12 +148,12 @@ in here would just get in the way. The TypeScript package is the more direct rou
 ## Versions and freshness
 
 `BUILD_ID` tells you which game build the data came from, and every delivery states the same one.
-All four share a version, which moves when the game does, so pin it if you need a stable dataset.
+All five share a version, which moves when the game does, so pin it if you need a stable dataset.
 
 ## A note on the generated files
 
-`rust/src/generated/`, `python/fellowship_data/generated/`, `typescript/src/generated/` and `json/`
-are generated and replaced wholesale whenever the data is refreshed, so a local fix disappears
+`rust/src/generated/`, `python/fellowship_data/generated/`, `typescript/src/generated/`, `json/` and
+`csv/` are generated and replaced wholesale whenever the data is refreshed, so a local fix disappears
 without warning — and fixing one delivery alone would leave them disagreeing, which a refresh
 refuses to publish. If a value looks wrong, report it rather than patching it here.
 
