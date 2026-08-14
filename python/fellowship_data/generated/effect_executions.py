@@ -22,7 +22,7 @@ class AttributeCapture:
     #: The engine's own attribute name, e.g. `Strength` or `MaxHealth` — verbatim,
     #: never a rated-attribute id: `PrimaryAttribute` and `MaxHealth` are captures with
     #: no corresponding row in `attributes.json`'s rated list (see CONTEXT.md's
-    #: `Capture` entry and DR-0026).
+    #: `Capture` entry).
     source_or_target: str
     #: `EGameplayEffectAttributeCaptureSource`, verbatim: `Source` or `Target`.
     #: Measured against the pinned build rather than assumed — see
@@ -35,7 +35,7 @@ class AttributeCapture:
 class ExecutionClass:
     """One native class an effect's `Executions` array can name. Some compute a damage or heal
     number in compiled code; others are tag-driven state transitions — cancel, dispel,
-    revive, and similar — that compute nothing at all (DR-0026)."""
+    revive, and similar — that compute nothing at all."""
 
     name: str
     #: The native `GameplayEffectExecutionCalculation` class, e.g.
@@ -59,13 +59,13 @@ class ExecutionClass:
     #: from `docs/damage-calculation-chain.md` — which this can and does disagree with;
     #: see that module's own doc for where and why. Empty for a class whose own
     #: constructor makes no capture-shaped call at all, which is never a gap but is one
-    #: for two different reasons: the ten tag-driven utility classes DR-0026 names as
-    #: computing nothing have none by design, while the other two utility classes
-    #: DR-0026 folds into the execution tier report the same empty shape for an
-    #: unrelated reason `attribute_capture`'s own doc records (see "The other two of
-    #: the twelve utility classes"). Absent entirely for a class whose registration is
-    #: not resolved (see `unresolved_reason`): capture recovery is never attempted for
-    #: one.
+    #: for two different reasons: the ten tag-driven utility classes compute nothing at
+    #: all and so have none by design, while the other two utility classes — the ones
+    #: the execution tier carries because they do compute — report the same empty shape
+    #: for an unrelated reason `attribute_capture`'s own doc records (see "The other
+    #: two of the twelve utility classes"). Absent entirely for a class whose
+    #: registration is not resolved (see `unresolved_reason`): capture recovery is
+    #: never attempted for one.
     capture_gap: str | None
     #: Set only when this class's own constructor references something shaped like a
     #: capture call that could not be followed all the way to a name — distinct from
