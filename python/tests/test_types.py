@@ -1,4 +1,4 @@
-# SOURCED FILE — do not edit here. Edit automation/publish-data/ in the generator; this copy is overwritten on the next sync.
+# SOURCED FILE — do not edit this copy; it is overwritten on the next data sync.
 
 """The vocabulary's behaviour, stated the same way every delivery states it.
 
@@ -26,6 +26,7 @@ from fellowship_data.types import (
     MediaKind,
     Origin,
     Provenance,
+    SourceAuthority,
     Unresolved,
     known,
     known_or_declared_default,
@@ -80,14 +81,23 @@ class ValueTests(unittest.TestCase):
 
 class ProvenanceTests(unittest.TestCase):
     def test_the_datamine_constant_carries_no_authored_detail(self) -> None:
-        self.assertEqual(Provenance.DATAMINE.origin, Origin.DATAMINE)
-        self.assertIsNone(Provenance.DATAMINE.dev_name)
-        self.assertIsNone(Provenance.DATAMINE.source)
+        self.assertEqual(Provenance.DATAMINE_UNCLASSIFIED.origin, Origin.DATAMINE)
+        self.assertIsNone(Provenance.DATAMINE_UNCLASSIFIED.dev_name)
+        self.assertIsNone(Provenance.DATAMINE_UNCLASSIFIED.source)
+        self.assertEqual(
+            Provenance.DATAMINE_UNCLASSIFIED.source_authority,
+            SourceAuthority.UNCLASSIFIED,
+        )
+
+    def test_a_bound_datamine_states_its_authority_explicitly(self) -> None:
+        provenance = Provenance.datamine(SourceAuthority.PRODUCER_BOUND)
+        self.assertEqual(provenance.source_authority, SourceAuthority.PRODUCER_BOUND)
 
     def test_enum_values_are_the_strings_the_other_deliveries_carry(self) -> None:
         # A consumer comparing a record read from `json/` against one imported from here must not
         # find two different spellings of the same fact.
         self.assertEqual(Origin.DATAMINE.value, "datamine")
+        self.assertEqual(SourceAuthority.PRODUCER_BOUND.value, "producer_bound")
         self.assertEqual(MediaKind.AbilityIcon.value, "AbilityIcon")
 
 

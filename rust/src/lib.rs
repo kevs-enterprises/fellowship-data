@@ -1,4 +1,4 @@
-// SOURCED FILE — do not edit here. Edit automation/publish-data/ in the generator; this copy is overwritten on the next sync.
+// SOURCED FILE — do not edit this copy; it is overwritten on the next data sync.
 
 //! Fellowship game data, as a plain Rust library.
 //!
@@ -40,7 +40,8 @@ pub mod generated;
 pub use generated::ABILITY_GUID_SCHEME;
 pub use types::{
     AbilityGuid, AbilityGuidScheme, AbilityId, AbilityRef, AttributeId, Curve, DungeonId, EffectId,
-    HeroId, ItemId, MediaHandle, MediaKind, MobId, Origin, Provenance, TalentId, Value,
+    HeroId, ItemId, MediaHandle, MediaKind, MobId, Origin, Provenance, SourceAuthority, TalentId,
+    Value,
 };
 
 /// The game build this data was extracted from.
@@ -63,5 +64,17 @@ mod tests {
             "strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/"
         );
         assert_eq!(ABILITY_GUID_SCHEME.origin, Origin::Derived);
+    }
+
+    #[test]
+    fn provenance_never_defaults_to_bound_authority() {
+        assert_eq!(
+            Provenance::DATAMINE_UNCLASSIFIED.source_authority,
+            SourceAuthority::Unclassified
+        );
+        assert_eq!(
+            Provenance::datamine(SourceAuthority::ProducerBound).source_authority,
+            SourceAuthority::ProducerBound
+        );
     }
 }

@@ -1,4 +1,4 @@
-# SOURCED FILE — do not edit here. Edit automation/publish-data/ in the generator; this copy is overwritten on the next sync.
+# SOURCED FILE — do not edit this copy; it is overwritten on the next data sync.
 
 """Fellowship game data, as a plain Python package.
 
@@ -62,6 +62,7 @@ from .types import (
     MobId,
     Origin,
     Provenance,
+    SourceAuthority,
     TalentId,
     Unresolved,
     Value,
@@ -91,6 +92,7 @@ __all__ = [
     "MobId",
     "Origin",
     "Provenance",
+    "SourceAuthority",
     "TalentId",
     "Unresolved",
     "Value",

@@ -11,7 +11,7 @@
     "quoting": "RFC 4180: a cell containing a comma, a double quote, CR or LF is wrapped in double quotes and its own double quotes are doubled. Nothing else is quoted, so the unquoted form is what a diff of a data refresh reads."
   },
   "delivery": "This folder is one of this repository's deliveries of the same dataset, rendered as CSV for consumers that would rather load a dataframe or open a spreadsheet than install a package. Every file here is rendered from the same description the other deliveries are rendered from, never converted from one of them.",
-  "file_count": 51,
+  "file_count": 59,
   "files": [
     {
       "domain": "heroes",
@@ -20,7 +20,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 12
+      "row_count": 12,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "heroes",
@@ -29,7 +30,8 @@
         "id"
       ],
       "parent": "heroes.csv",
-      "row_count": 24
+      "row_count": 24,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "heroes",
@@ -38,7 +40,8 @@
         "id"
       ],
       "parent": "heroes.csv",
-      "row_count": 24
+      "row_count": 24,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "abilities",
@@ -47,7 +50,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 206
+      "row_count": 206,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "abilities",
@@ -56,7 +60,8 @@
         "id"
       ],
       "parent": "abilities.csv",
-      "row_count": 1180
+      "row_count": 1180,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "abilities",
@@ -65,7 +70,8 @@
         "id"
       ],
       "parent": "abilities.csv",
-      "row_count": 166
+      "row_count": 166,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "abilities",
@@ -74,7 +80,8 @@
         "id"
       ],
       "parent": "abilities.csv",
-      "row_count": 135
+      "row_count": 135,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "abilities",
@@ -83,7 +90,30 @@
         "id"
       ],
       "parent": "abilities.csv",
-      "row_count": 0
+      "row_count": 822,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__effects__applied_tags.csv",
+      "join_key": [
+        "id",
+        "effects_ordinal"
+      ],
+      "parent": "abilities__effects.csv",
+      "row_count": 310,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__effects__effect_tags.csv",
+      "join_key": [
+        "id",
+        "effects_ordinal"
+      ],
+      "parent": "abilities__effects.csv",
+      "row_count": 2257,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "abilities",
@@ -92,7 +122,29 @@
         "id"
       ],
       "parent": "abilities.csv",
-      "row_count": 738
+      "row_count": 866,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__mechanics_effects.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "abilities.csv",
+      "row_count": 607,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "abilities",
+      "file": "abilities__mechanics_effects__context_path.csv",
+      "join_key": [
+        "id",
+        "mechanics_effects_ordinal"
+      ],
+      "parent": "abilities__mechanics_effects.csv",
+      "row_count": 613,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "talents",
@@ -102,7 +154,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 319
+      "row_count": 319,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "talents",
@@ -112,7 +165,8 @@
         "id"
       ],
       "parent": "talents.csv",
-      "row_count": 202
+      "row_count": 202,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "talents",
@@ -122,7 +176,8 @@
         "id"
       ],
       "parent": "talents.csv",
-      "row_count": 133
+      "row_count": 133,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "talents",
@@ -132,7 +187,42 @@
         "id"
       ],
       "parent": "talents.csv",
-      "row_count": 133
+      "row_count": 133,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "talents",
+      "file": "talents__effects.csv",
+      "join_key": [
+        "hero",
+        "id"
+      ],
+      "parent": "talents.csv",
+      "row_count": 57,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "talents",
+      "file": "talents__numeric_params.csv",
+      "join_key": [
+        "hero",
+        "id"
+      ],
+      "parent": "talents.csv",
+      "row_count": 202,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "talents",
+      "file": "talents__numeric_params__path.csv",
+      "join_key": [
+        "hero",
+        "id",
+        "numeric_params_ordinal"
+      ],
+      "parent": "talents__numeric_params.csv",
+      "row_count": 349,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "items",
@@ -141,7 +231,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 237
+      "row_count": 237,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "items",
@@ -150,21 +241,24 @@
         "id"
       ],
       "parent": "items.csv",
-      "row_count": 334
+      "row_count": 334,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "items",
       "file": "items__enums.csv",
       "join_key": [],
       "parent": null,
-      "row_count": 37
+      "row_count": 37,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "items",
       "file": "items__armor_type_weights.csv",
       "join_key": [],
       "parent": null,
-      "row_count": 0
+      "row_count": 0,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "attributes",
@@ -173,7 +267,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 24
+      "row_count": 24,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "attributes",
@@ -182,7 +277,8 @@
         "id"
       ],
       "parent": "attributes.csv",
-      "row_count": 22
+      "row_count": 22,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "constants",
@@ -191,7 +287,8 @@
         "name"
       ],
       "parent": null,
-      "row_count": 24
+      "row_count": 24,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "constants",
@@ -200,7 +297,8 @@
         "name"
       ],
       "parent": "constants.csv",
-      "row_count": 591
+      "row_count": 591,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "constants",
@@ -210,7 +308,8 @@
         "rows_ordinal"
       ],
       "parent": "constants__rows.csv",
-      "row_count": 1520
+      "row_count": 1520,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "effects",
@@ -219,7 +318,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 2515
+      "row_count": 2515,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "effects",
@@ -228,7 +328,8 @@
         "id"
       ],
       "parent": "effects.csv",
-      "row_count": 8345
+      "row_count": 8345,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "effects",
@@ -237,7 +338,8 @@
         "id"
       ],
       "parent": "effects.csv",
-      "row_count": 894
+      "row_count": 894,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "effects",
@@ -246,7 +348,8 @@
         "id"
       ],
       "parent": "effects.csv",
-      "row_count": 886
+      "row_count": 886,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "effects",
@@ -256,7 +359,8 @@
         "modifiers_ordinal"
       ],
       "parent": "effects__modifiers.csv",
-      "row_count": 71
+      "row_count": 71,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "effects",
@@ -265,7 +369,16 @@
         "id"
       ],
       "parent": "effects.csv",
-      "row_count": 1213
+      "row_count": 1213,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "effects",
+      "file": "effects__unresolved_effect_executions.csv",
+      "join_key": [],
+      "parent": null,
+      "row_count": 1,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "modifiers",
@@ -274,7 +387,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 23
+      "row_count": 23,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "dungeons",
@@ -283,7 +397,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 19
+      "row_count": 19,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "dungeons",
@@ -292,7 +407,8 @@
         "id"
       ],
       "parent": "dungeons.csv",
-      "row_count": 3014
+      "row_count": 3014,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "mobs",
@@ -301,7 +417,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 219
+      "row_count": 219,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "mobs",
@@ -310,7 +427,8 @@
         "id"
       ],
       "parent": "mobs.csv",
-      "row_count": 220
+      "row_count": 220,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "mobs",
@@ -319,7 +437,8 @@
         "id"
       ],
       "parent": "mobs.csv",
-      "row_count": 41
+      "row_count": 41,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "mobs",
@@ -328,7 +447,8 @@
         "id"
       ],
       "parent": "mobs.csv",
-      "row_count": 762
+      "row_count": 762,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "mobs",
@@ -337,7 +457,8 @@
         "id"
       ],
       "parent": "mobs.csv",
-      "row_count": 33069
+      "row_count": 33069,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "mobs",
@@ -346,7 +467,8 @@
         "id"
       ],
       "parent": "mobs.csv",
-      "row_count": 33069
+      "row_count": 33069,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "traits",
@@ -355,7 +477,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 40
+      "row_count": 40,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "traits",
@@ -364,7 +487,8 @@
         "id"
       ],
       "parent": "traits.csv",
-      "row_count": 38
+      "row_count": 38,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "set_bonuses",
@@ -373,7 +497,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 21
+      "row_count": 21,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "set_bonuses",
@@ -382,7 +507,8 @@
         "id"
       ],
       "parent": "set_bonuses.csv",
-      "row_count": 40
+      "row_count": 40,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "finesses",
@@ -391,7 +517,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 14
+      "row_count": 14,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "finesses",
@@ -400,7 +527,8 @@
         "id"
       ],
       "parent": "finesses.csv",
-      "row_count": 12
+      "row_count": 12,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "finesses",
@@ -409,7 +537,8 @@
         "id"
       ],
       "parent": "finesses.csv",
-      "row_count": 12
+      "row_count": 12,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "relic_powers",
@@ -418,7 +547,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 13
+      "row_count": 13,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "tag_ids",
@@ -427,7 +557,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 13070
+      "row_count": 13070,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "combat_constants",
@@ -436,7 +567,8 @@
         "id"
       ],
       "parent": null,
-      "row_count": 309
+      "row_count": 309,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "ability_constants",
@@ -445,7 +577,8 @@
         "name"
       ],
       "parent": null,
-      "row_count": 12928
+      "row_count": 12928,
+      "source_authority": "producer_bound"
     },
     {
       "domain": "effect_executions",
@@ -454,7 +587,8 @@
         "name"
       ],
       "parent": null,
-      "row_count": 22
+      "row_count": 22,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "effect_executions",
@@ -463,7 +597,8 @@
         "name"
       ],
       "parent": "effect_executions.csv",
-      "row_count": 1214
+      "row_count": 1214,
+      "source_authority": "legacy_unbound"
     },
     {
       "domain": "effect_executions",
@@ -472,9 +607,10 @@
         "name"
       ],
       "parent": "effect_executions.csv",
-      "row_count": 166
+      "row_count": 166,
+      "source_authority": "legacy_unbound"
     }
   ],
   "generated": "Every file in this folder is generated, and an edit made here is silently overwritten by the next build. The other deliveries state that in the files themselves; a CSV file cannot, because a comment line is a row and a row of the wrong width breaks the rectangle, so it is stated here instead.",
-  "schema_version": 1
+  "schema_version": 2
 }

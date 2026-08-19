@@ -1,4 +1,4 @@
-// SOURCED FILE — do not edit here. Edit automation/publish-data/ in the generator; this copy is overwritten on the next sync.
+// SOURCED FILE — do not edit this copy; it is overwritten on the next data sync.
 
 /**
  * The vocabulary's behaviour, stated the same way every delivery states it.
@@ -17,7 +17,7 @@ import {
   isEmpty,
   known,
   knownOrDeclaredDefault,
-  DATAMINE,
+  DATAMINE_UNCLASSIFIED,
 } from "../src/index.js";
 import type { AbilityGuid, AbilityId, AbilityRef, Curve, Value } from "../src/types.js";
 
@@ -71,9 +71,10 @@ test("an unresolved value offers nothing", () => {
 });
 
 test("the datamine constant carries no authored detail", () => {
-  assert.equal(DATAMINE.origin, "datamine");
-  assert.equal(DATAMINE.dev_name, null);
-  assert.equal(DATAMINE.source, null);
+  assert.equal(DATAMINE_UNCLASSIFIED.origin, "datamine");
+  assert.equal(DATAMINE_UNCLASSIFIED.dev_name, null);
+  assert.equal(DATAMINE_UNCLASSIFIED.source, null);
+  assert.equal(DATAMINE_UNCLASSIFIED.source_authority, "unclassified");
 });
 
 test("the package root exports the frozen Ability GUID scheme", () => {

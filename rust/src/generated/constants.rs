@@ -10,7 +10,10 @@
 // every value on every refresh for no reader's benefit.
 #![allow(clippy::unreadable_literal)]
 
-use crate::types::Curve;
+use crate::types::{Curve, SourceAuthority};
+
+/// Weakest acquisition authority across every immutable input behind this module.
+pub const SOURCE_AUTHORITY: SourceAuthority = SourceAuthority::LegacyUnbound;
 
 /// A named curve within a constant table.
 #[derive(Debug, Clone, Copy, PartialEq)]

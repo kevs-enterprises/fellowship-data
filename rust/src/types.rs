@@ -1,4 +1,4 @@
-// SOURCED FILE — do not edit here. Edit automation/publish-data/ in the generator; this copy is overwritten on the next sync.
+// SOURCED FILE — do not edit this copy; it is overwritten on the next data sync.
 
 //! The vocabulary the data is expressed in.
 //!
@@ -155,6 +155,17 @@ pub enum Origin {
     Overlay,
 }
 
+/// Strength of the immutable source binding behind a published fact.
+#[derive(Debug, Clone, Copy, PartialEq, Eq)]
+pub enum SourceAuthority {
+    /// Written by an authenticated, allowlisted producer for the stated build.
+    ProducerBound,
+    /// Exact reviewed bytes whose original acquisition/build ancestry is not authenticated.
+    LegacyUnbound,
+    /// Loaded outside the authenticated source-binding gate.
+    Unclassified,
+}
+
 /// The public protocol used to derive Ability GUIDs.
 #[derive(Debug, Clone, Copy, PartialEq, Eq)]
 pub struct AbilityGuidScheme {
@@ -174,15 +185,29 @@ pub struct Provenance {
     pub dev_name: Option<&'static str>,
     /// For [`Origin::Derived`], the transform. For [`Origin::Overlay`], the reason.
     pub source: Option<&'static str>,
+    /// Acquisition authority of the weakest immutable input behind this record.
+    pub source_authority: SourceAuthority,
 }
 
 impl Provenance {
     /// Read directly from the game's own data.
-    pub const DATAMINE: Self = Self {
+    pub const DATAMINE_UNCLASSIFIED: Self = Self {
         origin: Origin::Datamine,
         dev_name: None,
         source: None,
+        source_authority: SourceAuthority::Unclassified,
     };
+
+    /// A datamined record with its acquisition authority stated explicitly.
+    #[must_use]
+    pub const fn datamine(source_authority: SourceAuthority) -> Self {
+        Self {
+            origin: Origin::Datamine,
+            dev_name: None,
+            source: None,
+            source_authority,
+        }
+    }
 }
 
 /// A reference to an image this crate does not contain.

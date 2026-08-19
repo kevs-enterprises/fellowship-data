@@ -7,8 +7,11 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from ..types import Curve, Dense, Keyframes
+from ..types import Curve, Dense, Keyframes, SourceAuthority
 
+
+#: Weakest acquisition authority across every immutable input behind this module.
+SOURCE_AUTHORITY: SourceAuthority = SourceAuthority.LEGACY_UNBOUND
 
 @dataclass(frozen=True)
 class ConstantRow:

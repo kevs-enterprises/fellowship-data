@@ -1,25 +1,25 @@
-id,attribute_id,display_name,attribute_name,attribute_set,is_percent,display_as_reduction,round_to_decimals,base_stat_multiplier,final_penalty_percentage,provenance_origin,provenance_dev_name,provenance_source
-Agility,CRBasicAttributeSet.Agility,Agility,Agility,CRBasicAttributeSet,false,false,0,1.0,0.0,datamine,,
-Armor,CRBasicAttributeSet.Armor,Armor,Armor,CRBasicAttributeSet,false,false,0,1.0,1.0,datamine,,
-AttackSpeed,CRBasicAttributeSet.AttackSpeed,Attack Speed,AttackSpeed,CRBasicAttributeSet,true,false,0,0.05,1.0,datamine,,
-BlockChance,CRBasicAttributeSet.BlockChance,Block Chance,BlockChance,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,
-BonusArmor,CRBasicAttributeSet.Armor,Armor,Armor,CRBasicAttributeSet,false,false,0,1.0,1.0,datamine,,
-CooldownReduction,CRBasicAttributeSet.CooldownReduction,Cooldown Reduction,CooldownReduction,CRBasicAttributeSet,true,false,0,0.01,0.6,datamine,,
-CritChance,CRHeroAttributeSet.CritRating,Critical Strike,CritRating,CRHeroAttributeSet,false,false,0,0.16,0.92,datamine,,
-Dodge,CRBasicAttributeSet.DodgeChance,Dodge,DodgeChance,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,
-Expertise,CRHeroAttributeSet.ExpertiseRating,Expertise,ExpertiseRating,CRHeroAttributeSet,false,false,0,0.16,0.92,datamine,,
-FlatHealth,CRBasicAttributeSet.BaseHealth,Health,BaseHealth,CRBasicAttributeSet,false,false,0,1.0,1.0,datamine,,
-FlatMana,CRBasicAttributeSet.MaxMana,Mana,MaxMana,CRBasicAttributeSet,true,false,0,1.0,1.0,datamine,,
-Haste,CRHeroAttributeSet.HasteRating,Haste,HasteRating,CRHeroAttributeSet,false,false,0,0.16,0.92,datamine,,
-HealthRegen,CRBasicAttributeSet.HealthRegenTickTime,Health Regen Rate,HealthRegenTickTime,CRBasicAttributeSet,true,false,2,0.03,1.0,datamine,,
-Intellect,CRBasicAttributeSet.Intellect,Intellect,Intellect,CRBasicAttributeSet,false,false,0,1.0,0.0,datamine,,
-LifeSteal,CRBasicAttributeSet.LifeSteal,Life Steal,LifeSteal,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,
-Mana,CRBasicAttributeSet.MaxMana,Max Mana,MaxMana,CRBasicAttributeSet,true,false,2,0.03,1.0,datamine,,
-ManaRegen,CRBasicAttributeSet.ManaRegenTickTime,Mana Regen Rate,ManaRegenTickTime,CRBasicAttributeSet,true,false,2,0.015,1.0,datamine,,
-MoveSpeed,CRBasicAttributeSet.MoveSpeed,Move Speed,MoveSpeed,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,
-Parry,CRBasicAttributeSet.ParryChance,Parry,ParryChance,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,
-ReflectHeal,CRBasicAttributeSet.ReflectHeal,Reflect Heal,ReflectHeal,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,
-Spirit,CRHeroAttributeSet.SpiritRating,Spirit,SpiritRating,CRHeroAttributeSet,false,false,0,0.16,0.92,datamine,,
-Stamina,CRBasicAttributeSet.Stamina,Stamina,Stamina,CRBasicAttributeSet,false,false,0,1.0,0.0,datamine,,
-Strength,CRBasicAttributeSet.Strength,Strength,Strength,CRBasicAttributeSet,false,false,0,1.0,0.0,datamine,,
-Tenacity,CRBasicAttributeSet.Tenacity,Tenacity,Tenacity,CRBasicAttributeSet,false,false,0,1.0,1.0,datamine,,
+id,attribute_id,display_name,attribute_name,attribute_set,is_percent,display_as_reduction,round_to_decimals,base_stat_multiplier,final_penalty_percentage,provenance_origin,provenance_dev_name,provenance_source,provenance_source_authority
+Agility,CRBasicAttributeSet.Agility,Agility,Agility,CRBasicAttributeSet,false,false,0,1.0,0.0,datamine,,,legacy_unbound
+Armor,CRBasicAttributeSet.Armor,Armor,Armor,CRBasicAttributeSet,false,false,0,1.0,1.0,datamine,,,legacy_unbound
+AttackSpeed,CRBasicAttributeSet.AttackSpeed,Attack Speed,AttackSpeed,CRBasicAttributeSet,true,false,0,0.05,1.0,datamine,,,legacy_unbound
+BlockChance,CRBasicAttributeSet.BlockChance,Block Chance,BlockChance,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,,legacy_unbound
+BonusArmor,CRBasicAttributeSet.Armor,Armor,Armor,CRBasicAttributeSet,false,false,0,1.0,1.0,datamine,,,legacy_unbound
+CooldownReduction,CRBasicAttributeSet.CooldownReduction,Cooldown Reduction,CooldownReduction,CRBasicAttributeSet,true,false,0,0.01,0.6,datamine,,,legacy_unbound
+CritChance,CRHeroAttributeSet.CritRating,Critical Strike,CritRating,CRHeroAttributeSet,false,false,0,0.16,0.92,datamine,,,legacy_unbound
+Dodge,CRBasicAttributeSet.DodgeChance,Dodge,DodgeChance,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,,legacy_unbound
+Expertise,CRHeroAttributeSet.ExpertiseRating,Expertise,ExpertiseRating,CRHeroAttributeSet,false,false,0,0.16,0.92,datamine,,,legacy_unbound
+FlatHealth,CRBasicAttributeSet.BaseHealth,Health,BaseHealth,CRBasicAttributeSet,false,false,0,1.0,1.0,datamine,,,legacy_unbound
+FlatMana,CRBasicAttributeSet.MaxMana,Mana,MaxMana,CRBasicAttributeSet,true,false,0,1.0,1.0,datamine,,,legacy_unbound
+Haste,CRHeroAttributeSet.HasteRating,Haste,HasteRating,CRHeroAttributeSet,false,false,0,0.16,0.92,datamine,,,legacy_unbound
+HealthRegen,CRBasicAttributeSet.HealthRegenTickTime,Health Regen Rate,HealthRegenTickTime,CRBasicAttributeSet,true,false,2,0.03,1.0,datamine,,,legacy_unbound
+Intellect,CRBasicAttributeSet.Intellect,Intellect,Intellect,CRBasicAttributeSet,false,false,0,1.0,0.0,datamine,,,legacy_unbound
+LifeSteal,CRBasicAttributeSet.LifeSteal,Life Steal,LifeSteal,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,,legacy_unbound
+Mana,CRBasicAttributeSet.MaxMana,Max Mana,MaxMana,CRBasicAttributeSet,true,false,2,0.03,1.0,datamine,,,legacy_unbound
+ManaRegen,CRBasicAttributeSet.ManaRegenTickTime,Mana Regen Rate,ManaRegenTickTime,CRBasicAttributeSet,true,false,2,0.015,1.0,datamine,,,legacy_unbound
+MoveSpeed,CRBasicAttributeSet.MoveSpeed,Move Speed,MoveSpeed,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,,legacy_unbound
+Parry,CRBasicAttributeSet.ParryChance,Parry,ParryChance,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,,legacy_unbound
+ReflectHeal,CRBasicAttributeSet.ReflectHeal,Reflect Heal,ReflectHeal,CRBasicAttributeSet,true,false,4,0.001,1.0,datamine,,,legacy_unbound
+Spirit,CRHeroAttributeSet.SpiritRating,Spirit,SpiritRating,CRHeroAttributeSet,false,false,0,0.16,0.92,datamine,,,legacy_unbound
+Stamina,CRBasicAttributeSet.Stamina,Stamina,Stamina,CRBasicAttributeSet,false,false,0,1.0,0.0,datamine,,,legacy_unbound
+Strength,CRBasicAttributeSet.Strength,Strength,Strength,CRBasicAttributeSet,false,false,0,1.0,0.0,datamine,,,legacy_unbound
+Tenacity,CRBasicAttributeSet.Tenacity,Tenacity,Tenacity,CRBasicAttributeSet,false,false,0,1.0,1.0,datamine,,,legacy_unbound

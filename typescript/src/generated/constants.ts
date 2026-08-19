@@ -2,7 +2,10 @@
 //
 // Rendered from the published `game_constants.json`. Edits are overwritten on the next refresh.
 
-import type { Curve } from "../types.js";
+import type { Curve, SourceAuthority } from "../types.js";
+
+/** Weakest acquisition authority across every immutable input behind this module. */
+export const CONSTANT_TABLES_SOURCE_AUTHORITY: SourceAuthority = "legacy_unbound";
 
 /** A named curve within a constant table. */
 export interface ConstantRow {
