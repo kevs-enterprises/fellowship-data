@@ -1,4 +1,4 @@
-// SOURCED FILE — do not edit here. Edit automation/publish-data/ in the generator; this copy is overwritten on the next sync.
+// SOURCED FILE — do not edit this copy; it is overwritten on the next data sync.
 
 /**
  * The vocabulary the data is expressed in.
@@ -81,6 +81,9 @@ export function knownOrDeclaredDefault<T>(value: Value<T>): T | null {
  */
 export type Origin = "datamine" | "derived" | "overlay";
 
+/** Strength of the immutable source binding behind a published fact. */
+export type SourceAuthority = "producer_bound" | "legacy_unbound" | "unclassified";
+
 /** Provenance carried alongside a record. */
 export interface Provenance {
   readonly origin: Origin;
@@ -88,10 +91,17 @@ export interface Provenance {
   readonly dev_name: string | null;
   /** For `"derived"`, the transform. For `"overlay"`, the reason. */
   readonly source: string | null;
+  /** Acquisition authority of the weakest immutable input behind this record. */
+  readonly source_authority: SourceAuthority;
 }
 
 /** Read directly from the game's own data. */
-export const DATAMINE: Provenance = { origin: "datamine", dev_name: null, source: null };
+export const DATAMINE_UNCLASSIFIED: Provenance = {
+  origin: "datamine",
+  dev_name: null,
+  source: null,
+  source_authority: "unclassified",
+};
 
 /** Stable consumer identity for an Ability, represented as a canonical UUID string. */
 export type AbilityGuid = string & { readonly __brand: "AbilityGuid" };

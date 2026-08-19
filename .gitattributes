@@ -1,4 +1,4 @@
-# SOURCED FILE — do not edit here. Edit automation/publish-data/ in the generator; this copy is overwritten on the next sync.
+# SOURCED FILE — do not edit this copy; it is overwritten on the next data sync.
 # The generator writes LF. Without this, core.autocrlf=true rewrites files to CRLF on checkout and
 # every re-emit shows a diff for files whose content did not change — which destroys the property
 # this repository depends on: that a data refresh reads as a reviewed diff.

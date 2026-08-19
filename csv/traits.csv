@@ -1,113 +1,113 @@
-id,trait_id,numeric_id,name,description,max_rank,random_chance,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source
+id,trait_id,numeric_id,name,description,max_rank,random_chance,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source,provenance_source_authority
 AbilityToIncreasedMainStat,ItemTrait.ID.AbilityToIncreasedMainStat,1,Hidden Power,"Your <rt.warning>abilities</> have a <rt.bold>chance</> to grant you 1 stack of <rt.bold>Hidden Power</> for <rt.bold>60 seconds</>. When you have <rt.bold>5 stacks</>, <rt.warning>Hidden Power is consumed</> and <rt.bold>Power Revealed</> is granted to you for <rt.bold>15 seconds</>, increasing your <rt.warning>Main Stat</> by <rt.effect>7.2%</> / <rt.effect>12.8%</> / <rt.effect>18.4%</> / <rt.effect>24%</>.
 
 You can not gain <rt.bold>Hidden Power</> stacks while <rt.bold>Power Revealed</> is active on you.
 
-<rt.bold>(2.6 PPM)</>",4,2,Tex_SpellBook01_89,Other,256,256,datamine,,
+<rt.bold>(2.6 PPM)</>",4,2,Tex_SpellBook01_89,Other,256,256,datamine,,,legacy_unbound
 AgainstAllOdds,ItemTrait.ID.BigBlowMitigation,52,The Beetle,"When you take damage equal to <bold>40% of your max health or more in a single hit</>, the damage is <bold>reduced by 30%</>.
 
-This can only occur once every 20 seconds.",1,0,Tex_WitchCraftIcons_75_b,Other,256,256,datamine,,
-Basilisk,ItemTrait.ID.Basilisk,54,The Shadow,Your <bold>Magic Damage Reduction</> is increased by <bold>10%</>.,1,0,T_Icon_Shadow_119,Other,256,256,datamine,,
-Bat,ItemTrait.ID.Bat,55,The Dune,,1,0,T_Perk_Dune,Other,512,512,datamine,,
-Bull,ItemTrait.ID.Bull,56,The Lake,You take <bold>20% reduced Area of Effect damage</>.,1,0,T_Perk_River,Other,512,512,datamine,,
+This can only occur once every 20 seconds.",1,0,Tex_WitchCraftIcons_75_b,Other,256,256,datamine,,,legacy_unbound
+Basilisk,ItemTrait.ID.Basilisk,54,The Shadow,Your <bold>Magic Damage Reduction</> is increased by <bold>10%</>.,1,0,T_Icon_Shadow_119,Other,256,256,datamine,,,legacy_unbound
+Bat,ItemTrait.ID.Bat,55,The Dune,,1,0,T_Perk_Dune,Other,512,512,datamine,,,legacy_unbound
+Bull,ItemTrait.ID.Bull,56,The Lake,You take <bold>20% reduced Area of Effect damage</>.,1,0,T_Perk_River,Other,512,512,datamine,,,legacy_unbound
 CommitToHasteRatingAndWeaponCooldown,ItemTrait.ID.CommitToHasteRatingAndWeaponCooldown,2,Inspired Allegiance,"Your <rt.warning>abilities</> have a <rt.bold>chance</> to reduce the <rt.bold>Cooldown</> of your <rt.absorb>Weapon Ability</> by <rt.effect>1.5</> / <rt.effect>4</> / <rt.effect>6</> / <rt.effect>8</> seconds and grant you and <rt.effect>1</> / <rt.effect>2</> / <rt.effect>3</> / <rt.effect>3</> allies <rt.effect>6</> / <rt.effect>10</> / <rt.effect>13</> / <rt.effect>17</> <rt.warning>Haste</> rating for <rt.bold>8 seconds</>.
 
-<rt.bold>(1.2 PPM)</>",4,2,Tex_b_26_layered,Other,512,512,datamine,,
-CooldownRecoveryOnWeaponAbility,ItemTrait.ID.CooldownRecoveryOnWeaponAbility,3,Inspired Arms,"Upon using your Weapon Ability, you gain 10% Cooldown Acceleration for a duration equal to 10% / 12% / 14% / 16% of your Weapon Ability's default cooldown duration.",4,0,Tex_SpellBook06_93,Other,256,256,datamine,,
+<rt.bold>(1.2 PPM)</>",4,2,Tex_b_26_layered,Other,512,512,datamine,,,legacy_unbound
+CooldownRecoveryOnWeaponAbility,ItemTrait.ID.CooldownRecoveryOnWeaponAbility,3,Inspired Arms,"Upon using your Weapon Ability, you gain 10% Cooldown Acceleration for a duration equal to 10% / 12% / 14% / 16% of your Weapon Ability's default cooldown duration.",4,0,Tex_SpellBook06_93,Other,256,256,datamine,,,legacy_unbound
 CritsToIncreasedCritRating,ItemTrait.ID.CritsToIncreasedCritRating,4,Seized Opportunity,"<rt.warning>Every 20 Critical Strikes</> you gain <rt.effect>21</> / <rt.effect>39</> / <rt.effect>57</> / <rt.effect>75</> <rt.warning>Critical Strike</> rating for <rt.bold>12 seconds</>.
 
-You can not gain stacks while <rt.bold>Seized Opportunity</> is active on you.",4,2,Tex_violet_27,Other,256,256,datamine,,
+You can not gain stacks while <rt.bold>Seized Opportunity</> is active on you.",4,2,Tex_violet_27,Other,256,256,datamine,,,legacy_unbound
 CritsToIncreasedPrimaryStatBuff,ItemTrait.ID.CritsToIncreasedPrimaryStatBuff,5,Vengeful Soul,"Your <rt.warning>critical strikes</> have a <rt.bold>chance</> to increase your <rt.warning>Main Stat</> by <rt.effect>3.0%</> / <rt.effect>5.1%</> / <rt.effect>7.2%</> / <rt.effect>9.3%</> for <rt.bold>8 seconds</>.
 
 <rt.warning>If you are below 50% health</> when <rt.bold>Vengeful Soul</> triggers, you are also <rt.heal>healed</> for an amount equal to <rt.effect>370%</> / <rt.effect>630%</> / <rt.effect>890%</> / <rt.effect>1150%</> of your <rt.heal>Main Stat</> over <rt.bold>6 seconds</>.
 
-<rt.bold>(3.0 PPM)</>",4,2,Berserker16,Other,256,256,datamine,,
-DamageReductionWhenHealthy,ItemTrait.ID.DamageReductionWhenHealthy,6,King of the Hill,You take <rt.effect>3%</> / <rt.effect>6%</> / <rt.effect>9%</> / <rt.effect>12%</> <rt.bold>Reduced Damage</> while you are above <rt.bold>80% health</>.,4,3,Geomancer5,Other,256,256,datamine,,
+<rt.bold>(3.0 PPM)</>",4,2,Berserker16,Other,256,256,datamine,,,legacy_unbound
+DamageReductionWhenHealthy,ItemTrait.ID.DamageReductionWhenHealthy,6,King of the Hill,You take <rt.effect>3%</> / <rt.effect>6%</> / <rt.effect>9%</> / <rt.effect>12%</> <rt.bold>Reduced Damage</> while you are above <rt.bold>80% health</>.,4,3,Geomancer5,Other,256,256,datamine,,,legacy_unbound
 DeathPreventionWithImmunity,ItemTrait.ID.DeathPreventionWithImmunity,53,The Mountain,"When you take damage that would kill you, your health is set to <bold>1</> and you are <bold>Immune to damage for 3 seconds</>.
 
-This effect can only happen once every 480 seconds.",1,0,Tex_artifact_14_b,Other,256,256,datamine,,
-Drake,ItemTrait.ID.Drake,57,The Viper,,1,0,T_Nhance_RPG_Icons_NatureVision,Other,256,256,datamine,,
+This effect can only happen once every 480 seconds.",1,0,Tex_artifact_14_b,Other,256,256,datamine,,,legacy_unbound
+Drake,ItemTrait.ID.Drake,57,The Viper,,1,0,T_Nhance_RPG_Icons_NatureVision,Other,256,256,datamine,,,legacy_unbound
 ExtraDotHotOnEffectApplicationProc,ItemTrait.ID.ExtraDotHotOnEffectApplicationProc,28,Kindling,"Your <rt.warning>Damage Effects</> have a chance <rt.bold>(2.1 PPM)</> to burn the target, dealing <rt.effect>483%</> / <rt.effect>882%</> / <rt.effect>1281%</> / <rt.effect>1680%</> of your <rt.warning>Main Stat</> in fire damage to them <rt.bold>over 9 seconds</>.
 
-Your <rt.heal>Healing Effects</> have a chance <rt.bold>(2.1 PPM)</> to cauterize the target, healing them for <rt.effect>483%</> / <rt.effect>882%</> / <rt.effect>1281%</> / <rt.effect>1680%</> of your <rt.warning>Main Stat</> over <rt.bold>9 seconds</>.",4,2,T_Nhance_RPG_Gold_10,Other,256,256,datamine,,
-FirstIncomingHitToReducedIncomingDamageBuff,ItemTrait.ID.FirstIncomingHitToReducedIncomingDamageBuff,29,First Man Standing,"<rt.warning>Each time an enemy deals damage to you for the first time</>, you gain <rt.bold>First Man Standing</>, <rt.bold>reducing all damage</> you take by <rt.effect>3.0%</> / <rt.effect>5.2%</> / <rt.effect>7.4%</> / <rt.effect>9.6%</> for <rt.bold>20 seconds</>.",4,3,T_Nhance_RPG_Elements_24,Other,256,256,datamine,,
-Fox,ItemTrait.ID.Fox,58,The Stag,,1,0,T_Perk_stag,Other,256,256,datamine,,
+Your <rt.heal>Healing Effects</> have a chance <rt.bold>(2.1 PPM)</> to cauterize the target, healing them for <rt.effect>483%</> / <rt.effect>882%</> / <rt.effect>1281%</> / <rt.effect>1680%</> of your <rt.warning>Main Stat</> over <rt.bold>9 seconds</>.",4,2,T_Nhance_RPG_Gold_10,Other,256,256,datamine,,,legacy_unbound
+FirstIncomingHitToReducedIncomingDamageBuff,ItemTrait.ID.FirstIncomingHitToReducedIncomingDamageBuff,29,First Man Standing,"<rt.warning>Each time an enemy deals damage to you for the first time</>, you gain <rt.bold>First Man Standing</>, <rt.bold>reducing all damage</> you take by <rt.effect>3.0%</> / <rt.effect>5.2%</> / <rt.effect>7.4%</> / <rt.effect>9.6%</> for <rt.bold>20 seconds</>.",4,3,T_Nhance_RPG_Elements_24,Other,256,256,datamine,,,legacy_unbound
+Fox,ItemTrait.ID.Fox,58,The Stag,,1,0,T_Perk_stag,Other,256,256,datamine,,,legacy_unbound
 GemCooldownRecoveryOnAbilityProc,ItemTrait.ID.GemCooldownRecoveryOnAbilityProc,30,Topaz Winds,"Your abilities have a chance to increase your Cooldown Recovery by 30% / 36% / 42% / 48% for 15 seconds.
 
-(1.0 PPM)",4,0,Tex_y_12_layered,Other,512,512,datamine,,
+(1.0 PPM)",4,0,Tex_y_12_layered,Other,512,512,datamine,,,legacy_unbound
 GemDotHotOnCrit,ItemTrait.ID.GemDotHotOnCrit,31,Amethyst Splinters,"When you deal <rt.warning>Critical Damage to an enemy</>, you deal an additional <rt.effect>4%</> / <rt.effect>6%</> / <rt.effect>8%</> / <rt.effect>11%</> of that damage to them over <rt.bold>8 seconds</>.
 
 When you <rt.heal>Critically Heal an ally</>, they are healed for an additional <rt.effect>4%</> / <rt.effect>6%</> / <rt.effect>8%</> / <rt.effect>11%</> of that amount over <rt.bold>8 seconds</>.
 
-<rt.bold>Amethyst Splinters</> can not critically strike.",4,1,Tex_SpellBook07_83,Other,256,256,datamine,,
+<rt.bold>Amethyst Splinters</> can not critically strike.",4,1,Tex_SpellBook07_83,Other,256,256,datamine,,,legacy_unbound
 GemPulsatingOnAbilityTotemProc,ItemTrait.ID.GemPulsatingOnAbilityTotemProc,32,Sapphire Aurastone,"Your <rt.absorb>Spirit Ability</> causes you to conjure a <rt.bold>Sapphire Aurastone</> near you or your selected target on activation. The Sapphire Aurastone lasts as long as the <rt.effect>Spirit of Heroism</> effect from your <rt.absorb>Spirit Ability</> is active on you.
 
 While active, <rt.effect>3.4%</> / <rt.effect>6.3%</> / <rt.effect>9.1%</> / <rt.effect>12%</> of <rt.warning>all damage you deal is accumulated</> into the <rt.bold>Sapphire Aurastone</> and released in a <rt.warning>pulse of damage</>, evenly split between nearby enemies every <rt.bold>3 seconds</>.
 
 While active, <rt.effect>4.6%</> / <rt.effect>8.4%</> / <rt.effect>12%</> / <rt.effect>16%</> of <rt.heal>all healing you do is accumulated</> into the <rt.bold>Sapphire Aurastone</> and released in a <rt.heal>pulse of healing</>, evenly split between nearby allies every <rt.bold>3 seconds</>.
 
-Each pulse empties the accumulated <rt.warning>Damage</> or <rt.heal>Healing</> stored within it.",4,1,T_Nhance_RPG_Frost_27,Other,256,256,datamine,,
+Each pulse empties the accumulated <rt.warning>Damage</> or <rt.heal>Healing</> stored within it.",4,1,T_Nhance_RPG_Frost_27,Other,256,256,datamine,,,legacy_unbound
 GemSingleTargetProcOnDamageHeal,ItemTrait.ID.GemSingleTargetProcOnDamageHeal,33,Diamond Strike,"Your <rt.warning>Damage</> has a <rt.bold>chance (6.7 PPM)</> to conjure a Spectral Beam from above, dealing <rt.effect>72%</> / <rt.effect>127%</> / <rt.effect>182%</> / <rt.effect>237%</> <rt.warning>Main Stat</> damage to them.
 
 Your <rt.heal>Heals</> have a <rt.bold>chance (6.7 PPM)</> to conjure a Spectral Beam from above, healing them for an additional <rt.effect>72%</> / <rt.effect>127%</> / <rt.effect>182%</> / <rt.effect>237%</> of your <rt.heal>Main Stat</>.
 
 <rt.bold>Diamond Strike</> applies an amplifying effect for <rt.bold>20 seconds</> on targets it strikes, increasing its <rt.warning>Damage</> and <rt.heal>Healing</> to that target by <rt.bold>40%</>, <rt.bold>stacking up to 5 times</>.
 
-<rt.bold>Diamond Strike</> gains an additional <rt.bold>+35%</> increased <rt.warning>Damage</> and <rt.heal>Healing</> for every stack of <rt.MeikoAbility3>Harmonious Soul</> you have active <rt.MeikoAbility3>(Diamond Gem Power)</>.",4,1,T_Nhance_RPG_Arcane_27,Other,256,256,datamine,,
+<rt.bold>Diamond Strike</> gains an additional <rt.bold>+35%</> increased <rt.warning>Damage</> and <rt.heal>Healing</> for every stack of <rt.MeikoAbility3>Harmonious Soul</> you have active <rt.MeikoAbility3>(Diamond Gem Power)</>.",4,1,T_Nhance_RPG_Arcane_27,Other,256,256,datamine,,,legacy_unbound
 GemTargetedSpikeProc,ItemTrait.ID.GemTargetedSpikeProc,34,Emerald Judgement,"Each time you <rt.warning>deal damage to an enemy</>, you have a <rt.bold>chance</> <rt.bold>(</><rt.effect>0.8 PPM</> / <rt.effect>1.30 PPM</> / <rt.effect>1.80 PPM</> / <rt.effect>2.30 PPM</><rt.bold>)</> to conjure an Emerald Spike out of the ground, <rt.bold>knocking that enemy into the air</> and dealing  <rt.warning>800% Main Stat damage</> to them.
 
-<rt.bold>Emerald Judgement</> triggers your current rank of <rt.MeikoAbility3>First Strike (Emerald Gem Power)</>.",4,1,T_Nhance_RPG_Icons_NatureStaff,Other,256,256,datamine,,
+<rt.bold>Emerald Judgement</> triggers your current rank of <rt.MeikoAbility3>First Strike (Emerald Gem Power)</>.",4,1,T_Nhance_RPG_Icons_NatureStaff,Other,256,256,datamine,,,legacy_unbound
 GemWhirlwindProc,ItemTrait.ID.GemWhirlwindProc,35,Ruby Storm,"Your targeted, offensive abilities have a chance to spawn a <rt.bold>Ruby Storm</> that travels forward, <rt.warning>dealing damage to all enemies it touches</> equal to <rt.effect>2.4%</> / <rt.effect>4.0%</> / <rt.effect>5.4%</> / <rt.effect>7.0%</> of your <rt.bold>Current Health</>.
 
-<rt.bold>(1.3 PPM)</>",4,1,T_Nhance_RPG_Fire_57,Other,256,256,datamine,,
-Gorilla,ItemTrait.ID.Gorilla,59,The Tower,,1,0,Tex_mage_tower,Other,256,256,datamine,,
+<rt.bold>(1.3 PPM)</>",4,1,T_Nhance_RPG_Fire_57,Other,256,256,datamine,,,legacy_unbound
+Gorilla,ItemTrait.ID.Gorilla,59,The Tower,,1,0,Tex_mage_tower,Other,256,256,datamine,,,legacy_unbound
 IncomingDamageToDefenceAndDamage,ItemTrait.ID.IncomingDamageToDefenceAndDamage,36,Iron Spikes,"<rt.warning>Taking damage</> has a <rt.bold>chance</> to increase your <rt.bold>Armor</> by <rt.effect>10%</> / <rt.effect>17%</> / <rt.effect>24%</> / <rt.effect>32%</> for <rt.bold>10 seconds</>. While this is active, you deal <rt.effect>16%</> / <rt.effect>29%</> / <rt.effect>42%</> / <rt.effect>55%</> <rt.warning>Main Stat physical damage</> to enemies who deal damage to you.
 
-<rt.bold>(1.5 PPM)</>",4,3,T_Nhance_RPG_Fire_19,Other,256,256,datamine,,
+<rt.bold>(1.5 PPM)</>",4,3,T_Nhance_RPG_Fire_19,Other,256,256,datamine,,,legacy_unbound
 IncomingDamageToHotAndAbsorb,ItemTrait.ID.IncomingDamageToHotAndAbsorb,37,Divine Mediation,"<rt.warning>Taking damage</> has a <rt.bold>chance</> to <rt.heal>Heal you</> for <rt.effect>332%</> / <rt.effect>572%</> / <rt.effect>816%</> / <rt.effect>1056%</> <rt.heal>Main Stat</> over <rt.bold>6 seconds</>.
 
 <rt.warning>Once the heal expires</>, you apply an <rt.heal>Absorb Shield on yourself and all allies</> equal to <rt.effect>240%</> / <rt.effect>416%</> / <rt.effect>592%</> / <rt.effect>768%</> <rt.heal>Main Stat</>.
 
 Damage dealt to the shield is <rt.heal>reduced by 50%</>.
 
-<rt.bold>(1.0 PPM)</>",4,3,Priest12,Other,256,256,datamine,,
+<rt.bold>(1.0 PPM)</>",4,3,Priest12,Other,256,256,datamine,,,legacy_unbound
 IncomingHealToStackingHealWithThreshold,ItemTrait.ID.IncomingHealToStackingHealWithThreshold,38,Latent Resurgence,"<rt.warning>When you are healed</>, you have a <rt.bold>chance</> to gain 1 stack of <rt.bold>Latent Resurgence</> up to a maximum of <rt.bold>10 stacks</>.
 
 <rt.warning>When your health dips below 50%</> all stacks of <rt.bold>Latent Resurgence</> are consumed, instantly <rt.heal>Healing</> you for an amount equal to <rt.effect>108%</> / <rt.effect>188%</> / <rt.effect>268%</> / <rt.effect>348%</> of your <rt.heal>Main Stat</> <rt.bold>per stack</>.
 
 <rt.bold>Latent Resurgence</> will attempt to save your life if the damage brings you below zero health.
 
-<rt.bold>(3.3 PPM)</>",4,3,Tex_SpellBook03_57,Other,256,256,datamine,,
+<rt.bold>(3.3 PPM)</>",4,3,Tex_SpellBook03_57,Other,256,256,datamine,,,legacy_unbound
 IncreasedMainStatAndSpiritRating,ItemTrait.ID.IncreasedMainStatAndSpiritRating,39,Willful Momentum,"Your <rt.warning>Spirit</> Rating is increased by <rt.effect>7</> / <rt.effect>11</> / <rt.effect>17</> / <rt.effect>23</>.
 
-Whenever you trigger a <rt.effect>Spirit Refund</> your <rt.warning>Main Stat</> is increased by <rt.effect>1.5%</> / <rt.effect>2.6%</> / <rt.effect>3.7%</> / <rt.effect>4.8%</> for <rt.bold>4 seconds</>.",4,2,T_Nhance_RPG_Icons_SpiritFire,Other,256,256,datamine,,
-IncreasedStaminaToHealthConversion,ItemTrait.ID.IncreasedStaminaToHealthConversion,40,Heart of Stone,You gain <rt.effect>2.5%</> / <rt.effect>4.7%</> / <rt.effect>7.0%</> / <rt.effect>9.3%</> more <rt.bold>Health</> from <rt.bold>Stamina</>.,4,3,Tex_orb_11_b,Other,256,256,datamine,,
+Whenever you trigger a <rt.effect>Spirit Refund</> your <rt.warning>Main Stat</> is increased by <rt.effect>1.5%</> / <rt.effect>2.6%</> / <rt.effect>3.7%</> / <rt.effect>4.8%</> for <rt.bold>4 seconds</>.",4,2,T_Nhance_RPG_Icons_SpiritFire,Other,256,256,datamine,,,legacy_unbound
+IncreasedStaminaToHealthConversion,ItemTrait.ID.IncreasedStaminaToHealthConversion,40,Heart of Stone,You gain <rt.effect>2.5%</> / <rt.effect>4.7%</> / <rt.effect>7.0%</> / <rt.effect>9.3%</> more <rt.bold>Health</> from <rt.bold>Stamina</>.,4,3,Tex_orb_11_b,Other,256,256,datamine,,,legacy_unbound
 NoDamageToDamageReduction,ItemTrait.ID.NoDamageToDamageReduction,41,Stalwart Readiness,"Every <rt.bold>4 seconds</> in combat that you do not take damage, you gain 1 stack of <rt.bold>Stalwart Readiness</>.
 
 The <rt.warning>next time you take any damage</> it is <rt.bold>Reduced by</> <rt.effect>2% / 3% / 4.5% / 6%</> for each stack of <rt.bold>Stalwart Readiness</> you have and <rt.bold>1 stack is removed</>.
 
-You can have a maximum of <rt.bold>3</> stacks of <rt.bold>Stalwart Readiness</>.",4,3,Tex_SpellBook06_78,Other,256,256,datamine,,
+You can have a maximum of <rt.bold>3</> stacks of <rt.bold>Stalwart Readiness</>.",4,3,Tex_SpellBook06_78,Other,256,256,datamine,,,legacy_unbound
 OffensiveAbilityHasteRatingStacking,ItemTrait.ID.OffensiveAbilityHasteRatingStacking,42,Hunter's Focus,"Your <rt.warning>targeted offensive abilities</> grant you <rt.effect>4</> / <rt.effect>8</> / <rt.effect>12</> / <rt.effect>16</> <rt.warning>Haste</> rating for <rt.bold>8 seconds</>, stacking up to <rt.bold>5</> times.
 
-The <rt.warning>Haste</> is lost if you use a targeted offensive ability on any other enemy.",4,2,Tex_SpellBook01_82,Other,256,256,datamine,,
+The <rt.warning>Haste</> is lost if you use a targeted offensive ability on any other enemy.",4,2,Tex_SpellBook01_82,Other,256,256,datamine,,,legacy_unbound
 OffensiveAbilityToHighestStattBuff,ItemTrait.ID.OffensiveAbilityToHighestStatBuff,43,Navigator's Intuition,"Your offensive abilities have a <rt.bold>20% chance</> to grant you <rt.effect>28</> / <rt.effect>66</> / <rt.effect>104</> / <rt.effect>142</> <rt.warning>Critical Strike</>, <rt.warning>Haste</>, <rt.warning>Expertise</> <rt.bold>or</> <rt.warning>Spirit</> rating for <rt.bold>30 seconds</>. Your highest secondary stat is always the one that gets increased.
 
-<rt.bold>Navigator's Intuition</> can trigger <rt.bold>once every 90 seconds</>.",4,2,Tex_SpellBook03_42,Other,256,256,datamine,,
-RelicToDamageReduction,ItemTrait.ID.RelicToDamageReduction,44,Treasure Hunter's Delight,"<rt.warning>When you use a</> <rt.absorb>Relic Ability</>, all <rt.bold>damage you take is reduced</> by <rt.effect>4.7%</> / <rt.effect>7.8%</> / <rt.effect>10.9%</> / <rt.effect>14%</> for <rt.bold>12 seconds</>.",4,3,Tex_TrophyIcons_12_b,Other,256,256,datamine,,
-Salamander,ItemTrait.ID.Salamander,61,The Dragon,,1,0,Dragonknight3,Other,256,256,datamine,,
+<rt.bold>Navigator's Intuition</> can trigger <rt.bold>once every 90 seconds</>.",4,2,Tex_SpellBook03_42,Other,256,256,datamine,,,legacy_unbound
+RelicToDamageReduction,ItemTrait.ID.RelicToDamageReduction,44,Treasure Hunter's Delight,"<rt.warning>When you use a</> <rt.absorb>Relic Ability</>, all <rt.bold>damage you take is reduced</> by <rt.effect>4.7%</> / <rt.effect>7.8%</> / <rt.effect>10.9%</> / <rt.effect>14%</> for <rt.bold>12 seconds</>.",4,3,Tex_TrophyIcons_12_b,Other,256,256,datamine,,,legacy_unbound
+Salamander,ItemTrait.ID.Salamander,61,The Dragon,,1,0,Dragonknight3,Other,256,256,datamine,,,legacy_unbound
 StandingStillHealStacking,ItemTrait.ID.StandingStillHealStacking,45,Grounded Spirit,"<rt.warning>Every 1 second that you stand still</>, you gain 1 stack of <rt.bold>Grounded Spirit</> up to <rt.bold>10 stacks</>.
 
-<rt.warning>Upon moving</>, all stacks of <rt.bold>Grounded Spirit</> are consumed, <rt.heal>healing you and 1 other ally with low health</> for <rt.effect>60%</> / <rt.effect>116%</> / <rt.effect>172%</> / <rt.effect>228%</> <rt.heal>Main Stat</> <rt.bold>per stack consumed</>.",4,3,Druid20,Other,256,256,datamine,,
+<rt.warning>Upon moving</>, all stacks of <rt.bold>Grounded Spirit</> are consumed, <rt.heal>healing you and 1 other ally with low health</> for <rt.effect>60%</> / <rt.effect>116%</> / <rt.effect>172%</> / <rt.effect>228%</> <rt.heal>Main Stat</> <rt.bold>per stack consumed</>.",4,3,Druid20,Other,256,256,datamine,,,legacy_unbound
 StandingStillStaminaExpertiseRatingIncrease,ItemTrait.ID.StandingStillStaminaExpertiseRatingIncrease,46,Patient Soul,"<rt.warning>Standing still for 3 seconds</> grants you <rt.bold>Patient Soul</>, increasing your <rt.heal>Max Health</> by <rt.heal>5%</> and your <rt.warning>Expertise</> rating by <rt.effect>12</> / <rt.effect>22</> / <rt.effect>32</> / <rt.effect>42</>.
 
-<rt.bold>Patient Soul</> <rt.bold>persists for 6 seconds</> after you start moving.",4,2,Tex_SpellBook06_99,Other,256,256,datamine,,
-Turtoise,ItemTrait.ID.Turtoise,62,The Oak,Your <bold>Armor is increased by 35%</>.,1,0,T_Perk_Oak,Other,256,256,datamine,,
+<rt.bold>Patient Soul</> <rt.bold>persists for 6 seconds</> after you start moving.",4,2,Tex_SpellBook06_99,Other,256,256,datamine,,,legacy_unbound
+Turtoise,ItemTrait.ID.Turtoise,62,The Oak,Your <bold>Armor is increased by 35%</>.,1,0,T_Perk_Oak,Other,256,256,datamine,,,legacy_unbound
 WeaponAndSpiritPoints,ItemTrait.ID.WeaponAndSpiritPoints,47,Visions of Grandeur,"Your <rt.absorb>Weapon Ability</> generates <rt.warning>2.5 Spirit Points</> multiplied by a value equal to your <rt.absorb>Weapon Ability's</> default cooldown, divided by 30.
 
-Your <rt.absorb>Weapon Ability's</> <rt.bold>Cooldown</> is reduced by <rt.effect>25%</> / <rt.effect>50%</> / <rt.effect>75%</> / <rt.effect>100%</> when you activate your <rt.absorb>Spirit Ability</>.",4,1,Tex_SpellBook06_08,Other,256,256,datamine,,
+Your <rt.absorb>Weapon Ability's</> <rt.bold>Cooldown</> is reduced by <rt.effect>25%</> / <rt.effect>50%</> / <rt.effect>75%</> / <rt.effect>100%</> when you activate your <rt.absorb>Spirit Ability</>.",4,1,Tex_SpellBook06_08,Other,256,256,datamine,,,legacy_unbound
 WeaponCritChanceCooldownReduction,ItemTrait.ID.WeaponCritChanceCooldownReduction,48,Brave Machinations,"Your <rt.absorb>Weapon Ability's</> <rt.warning>Critical Strike chance</> is increased by <rt.effect>9.5%</> / <rt.effect>17%</> / <rt.effect>24%</> / <rt.effect>32%</>.
 
-If your <rt.absorb>Weapon Ability</> deals a <rt.warning>Critical Strike</>, its <rt.bold>Cooldown</> is reduced by <rt.effect>15%</> / <rt.effect>20%</> / <rt.effect>25%</> / <rt.effect>30%</>.",4,1,Tex_violet_4,Other,256,256,datamine,,
-WeaponDamageReductionPrimaryStatIncrease,ItemTrait.ID.WeaponDamageReductionPrimaryStatIncrease,51,Martial Initiative,Your <rt.absorb>Weapon Ability</> grants you <rt.warning>10% increased Main Stat</> and <rt.bold>15% Damage Reduction</> for a duration equal to <rt.effect>10%</> / <rt.effect>18%</> / <rt.effect>25%</> / <rt.effect>32%</> of your <rt.absorb>Weapon Ability's</> default cooldown.,4,1,Guardian5,Other,256,256,datamine,,
-WeaponHealDamageIncrease,ItemTrait.ID.WeaponHealDamageIncrease,50,Heroic Brand,Your <rt.absorb>Weapon Ability</> <rt.warning>Damage</> and <rt.heal>Healing</> is increased by <rt.effect>24%</> / <rt.effect>42%</> / <rt.effect>60%</> / <rt.effect>80%</>.,4,1,Tex_SpellBook01_25,Other,256,256,datamine,,
-Wolf,ItemTrait.ID.Wolf,63,The Wolf,,1,0,T_Perk_Wolf,Other,256,256,datamine,,
+If your <rt.absorb>Weapon Ability</> deals a <rt.warning>Critical Strike</>, its <rt.bold>Cooldown</> is reduced by <rt.effect>15%</> / <rt.effect>20%</> / <rt.effect>25%</> / <rt.effect>30%</>.",4,1,Tex_violet_4,Other,256,256,datamine,,,legacy_unbound
+WeaponDamageReductionPrimaryStatIncrease,ItemTrait.ID.WeaponDamageReductionPrimaryStatIncrease,51,Martial Initiative,Your <rt.absorb>Weapon Ability</> grants you <rt.warning>10% increased Main Stat</> and <rt.bold>15% Damage Reduction</> for a duration equal to <rt.effect>10%</> / <rt.effect>18%</> / <rt.effect>25%</> / <rt.effect>32%</> of your <rt.absorb>Weapon Ability's</> default cooldown.,4,1,Guardian5,Other,256,256,datamine,,,legacy_unbound
+WeaponHealDamageIncrease,ItemTrait.ID.WeaponHealDamageIncrease,50,Heroic Brand,Your <rt.absorb>Weapon Ability</> <rt.warning>Damage</> and <rt.heal>Healing</> is increased by <rt.effect>24%</> / <rt.effect>42%</> / <rt.effect>60%</> / <rt.effect>80%</>.,4,1,Tex_SpellBook01_25,Other,256,256,datamine,,,legacy_unbound
+Wolf,ItemTrait.ID.Wolf,63,The Wolf,,1,0,T_Perk_Wolf,Other,256,256,datamine,,,legacy_unbound

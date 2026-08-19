@@ -1,91 +1,91 @@
-id,guid,hero,name,gameplay_ability_asset,enabled_in_game,category,damage_school,attack_range,offensive,description,dynamic_description,cost_effect,global_cooldown_effect,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source
+id,guid,hero,name,gameplay_ability_asset,enabled_in_game,category,damage_school,attack_range,offensive,description,dynamic_description,effects_state,cost_effect,global_cooldown_effect,icon_id,icon_kind,icon_width,icon_height,mechanics_state,provenance_origin,provenance_dev_name,provenance_source,provenance_source_authority
 GA_Bowguy_AoeProjectileDamage_C,305f651e-7a7d-5be8-8934-bcba82fc4068,Bowguy,Multishot,GA_Bowguy_AoeProjectileDamage_C,true,Core,Physical,,true,,"Fire multiple arrows at your enemies, each dealing <rt.warning>{Multishot}</> physical damage to them.
 
-When your <rt.absorb>Highwind Arrow</> <rt.effect>Ricochets</> to at least <rt.bold>3 enemies</>, you gain <rt.bold>1 charge</> of <rt.absorb>Multishot</>.",GE_Bowguy_AoeProjectileDamage_Cost,GE_GlobalCooldown,Bowguy_Multishot,AbilityIcon,512,512,datamine,,
+When your <rt.absorb>Highwind Arrow</> <rt.effect>Ricochets</> to at least <rt.bold>3 enemies</>, you gain <rt.bold>1 charge</> of <rt.absorb>Multishot</>.",authored,GE_Bowguy_AoeProjectileDamage_Cost,GE_GlobalCooldown,Bowguy_Multishot,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Bowguy_CastedBouncyProjectileDamage_C,227ef7b8-2409-541c-a469-3cb9b7b11041,Bowguy,Deadly Shot (old),GA_Bowguy_CastedBouncyProjectileDamage_C,true,Power,Physical,Ranged,true,"Deals 275% Agility damage to target.
 
 Deadly Shot riccochets to all targets with ""Marked"".
 
 Deals 100% increased damage against targets that have ""Exposed Weakness"".
 
-Riccochets include damage bonus if the initial target had ""Exposed Weakness"".",,GE_Bowguy_CastedBouncyProjectileDamage_Cost,GE_GlobalCooldown,Tex_SpellBook05_98,AbilityIcon,256,256,datamine,,
+Riccochets include damage bonus if the initial target had ""Exposed Weakness"".",,authored,GE_Bowguy_CastedBouncyProjectileDamage_Cost,GE_GlobalCooldown,Tex_SpellBook05_98,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Bowguy_CastedProjectileDamage_C,fa1867c5-5ce8-55b8-85ee-8967b86404f7,Bowguy,Focused Shot,GA_Bowguy_CastedProjectileDamage_C,true,Basic,Physical,Ranged,true,,"Fire a well-aimed arrow at target enemy, dealing <rt.warning>{FocusedShot}</> physical damage.
 
 <rt.mana>Generates 20 Focus</>
 
 <rt.mana>FOCUS</>
-<rt.mana>Focus</> is a resource shown on the UI under your hero as a bar of celestial energy. Many of your abilities require <rt.mana>Focus</> to use. <rt.mana>Focus</> is passively generated over time. The generation rate is affected by your haste.",,GE_GlobalCooldown,Bowguy_FocusShot,AbilityIcon,256,256,datamine,,
+<rt.mana>Focus</> is a resource shown on the UI under your hero as a bar of celestial energy. Many of your abilities require <rt.mana>Focus</> to use. <rt.mana>Focus</> is passively generated over time. The generation rate is affected by your haste.",authored,,GE_GlobalCooldown,Bowguy_FocusShot,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Bowguy_CastedProjectileHeavyDamage_C,9d88b83d-8563-5ce5-8d49-cc294802c5ae,Bowguy,Highwind Arrow,GA_Bowguy_CastedProjectileHeavyDamage_C,true,Power,Physical,Ranged,true,,"Fire a <rt.absorb>Highwind Arrow</>, dealing <rt.warning>{Highwind}</> physical damage to target enemy. <rt.absorb>Highwind Arrow</> <rt.effect>Ricochets</> to up to <rt.bold>2 additional enemies</> near your target, dealing <rt.warning>{HighwindBounceDmg}</> physical damage to them.
 
-<rt.absorb>Highwind Arrow</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.",GE_Bowguy_CastedProjectileHeavyDamage_Cost,GE_GlobalCooldown,Bowguy_Ricochet,AbilityIcon,256,256,datamine,,
+<rt.absorb>Highwind Arrow</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.",authored,GE_Bowguy_CastedProjectileHeavyDamage_Cost,GE_GlobalCooldown,Bowguy_Ricochet,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Bowguy_ChanneledMultiProjectileDebuff_C,9dd1baae-1db8-54e6-8f47-24bfc0549831,Bowguy,Heartseeker Barrage,GA_Bowguy_ChanneledMultiProjectileDebuff_C,true,Power,Physical,Ranged,true,,"Let loose a barrage of arrows in quick succession at your target, dealing <rt.warning>{HeartSeekDmg}</> physical damage <rt.bold>every</> <rt.warning>{HeartSeekPeriod}</> <rt.bold>seconds for 2 seconds while channeling</>.
 
 Damage dealt by <rt.absorb>Heartseeker Barrage</> that triggers a <rt.effect>Lunarlight Salvo</> has a <rt.bold>25% chance</> to cause it to <rt.effect>Erupt</>, dealing <rt.warning>{AoeLunarLightDmg}</> magic damage to enemies near the target.
 
-<rt.meikoability2>Can not be used while rolling</>",GE_Bowguy_ChanneledMultiProjectileDebuff_Cost,GE_GlobalCooldown,Bowguy_Spray,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can not be used while rolling</>",authored,GE_Bowguy_ChanneledMultiProjectileDebuff_Cost,GE_GlobalCooldown,Bowguy_Spray,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Bowguy_ChargedMoveWithDirection_C,77e4127a-3654-5ed0-a9ac-999a0b8e5033,Bowguy,Roll,GA_Bowguy_ChargedMoveWithDirection_C,true,Movement,,,,"Swiftly <rt.absorb>Roll</> in the direction you are moving. <rt.absorb>Roll</> does not cancel casting or channeling abilities.
 
-<rt.meikoability2>Can be used during Global Cooldown and while Casting</>",,,,Bowguy_Abilityicon_Roll,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown and while Casting</>",,authored,,,Bowguy_Abilityicon_Roll,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Bowguy_DurationalAoeDamage_C,4a4382ff-8b41-54b2-ac6a-3e114f327e77,Bowguy,Event Horizon (old),GA_Bowguy_DurationalAoeDamage_C,true,Spirit,Magic.Arcane,,true,"The wrath of the stars rains down on your enemies for 12 seconds, causing <rt.absorb>Lunarlight Salvo's</> to hit up to 5 enemies in combat with you every 2 seconds, each dealing <rt.warning>211% Agility</> arcane damage.
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,GE_Bowguy_DurationalAoeDamage_Cost,,Bowguy_Spirit,AbilityIcon,512,512,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,authored,GE_Bowguy_DurationalAoeDamage_Cost,,Bowguy_Spirit,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Bowguy_InstantMarkTarget_C,b08c5811-7bcc-5d2c-af18-9a5d9740f98e,Bowguy,Lunarlight Mark,GA_Bowguy_InstantMarkTarget_C,true,Major,Magic.Arcane,,,,"Instantly apply <rt.bold>3 stacks</> of <rt.absorb>Lunarlight Mark</> to target enemy and up to <rt.bold>11 additional enemies</> near your target.
 
 Ability damage you deal to enemies with <rt.absorb>Lunarlight Mark</> has a <rt.bold>25% chance</> to trigger <rt.effect>Lunarlight Salvo</>, causing a beam of celestial energy to strike them from above, dealing <rt.warning>{LunarSalvoDmg}</> magic damage.
 
 <rt.bold>Critical Strikes</> have a <rt.bold>50% chance</> to trigger <rt.effect>Lunarlight Salvo</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Bowguy_Mark,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Bowguy_Mark,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Bowguy_InstantSingleInterrupt_C,30b1b369-a60f-59f1-8a25-11eab88cda22,Bowguy,Disrupt,GA_Bowguy_InstantSingleInterrupt_C,true,Utility,,Ranged,,"Instantly <rt.absorb>Interrupt</> target casting enemy and prevent them from casting for 4 seconds. Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Bowguy_Interrupt,AbilityIcon,512,512,datamine,,
-GA_Bowguy_Passive_InstantMarkTarget_Monitor_C,59536753-6228-5884-8000-417e0ee75b78,Bowguy,Lunarlight Salvo,GA_Bowguy_Passive_InstantMarkTarget_Monitor_C,true,,,,,Lunarlight Mark triggered.,,,,Bowguy_Mark,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Bowguy_Interrupt,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Bowguy_Passive_InstantMarkTarget_Monitor_C,59536753-6228-5884-8000-417e0ee75b78,Bowguy,Lunarlight Salvo,GA_Bowguy_Passive_InstantMarkTarget_Monitor_C,true,,,,,Lunarlight Mark triggered.,,authored,,,Bowguy_Mark,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Bowguy_ProcHasteBuff_C,1ee06afe-5fb8-5e43-9532-8e2b9685c3af,Bowguy,Skystrider's Grace,GA_Bowguy_ProcHasteBuff_C,true,Major,,,,"You are granted <rt.warning>+30% Haste</> for <rt.bold>20 seconds</>.
 
-<rt.meikoability2>Can be used during Global Cooldown and while Casting or Channeling</>",,,,Bowguy_HasteBuff,AbilityIcon,512,512,datamine,,
-GA_Bowguy_RangedAutoAttack_C,faf295c9-9758-5dc6-abb9-c4b2cef8d531,Bowguy,Shoot,GA_Bowguy_RangedAutoAttack_C,true,,Physical,Ranged,true,,,,,Bowguy_FocusShot,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown and while Casting or Channeling</>",,authored,,,Bowguy_HasteBuff,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Bowguy_RangedAutoAttack_C,faf295c9-9758-5dc6-abb9-c4b2cef8d531,Bowguy,Shoot,GA_Bowguy_RangedAutoAttack_C,true,,Physical,Ranged,true,,,authored,,,Bowguy_FocusShot,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Bowguy_ReducedCostCooldownRecoveryBuff_C,678fd4df-d14c-57c9-9eb7-369a1a55886d,Bowguy,Event Horizon,GA_Bowguy_ReducedCostCooldownRecoveryBuff_C,true,Spirit,Magic.Arcane,,true,"The power of the stars flow through you as you prepare to decimate your foes. For the next <rt.bold>20 seconds</>, you deal <rt.warning>20% more damage</>, gain <rt.meikoability2>Cooldown Acceleration</> equal to your Haste and all <rt.mana>Focus costs are reduced by 50%</>.
 
 While <rt.absorb>Event Horizon</> is active, your <rt.absorb>Highwind Arrow</> reduces the cooldown of <rt.absorb>Heartseeker Barrage</> by <rt.bold>0.5 seconds</>, and every hit from your <rt.absorb>Heartseeker Barrage</> reduces the cooldown of <rt.absorb>Starfall Volley</> by <rt.bold>1.5 seconds</>.
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.effect> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,GE_Bowguy_ReducedCostCooldownRecoveryBuff_Cost,,Bowguy_Spirit,AbilityIcon,512,512,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.effect> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,authored,GE_Bowguy_ReducedCostCooldownRecoveryBuff_Cost,,Bowguy_Spirit,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Bowguy_SelfBuffForAoeProjectile_C,cf799361-8bee-5e33-a6a5-8bca964bb0dc,Bowguy,Skystrider's Supremacy,GA_Bowguy_SelfBuffForAoeProjectile_C,true,Major,,,,"For the next <rt.bold>4 seconds</> you are enraptured in celestial energy, causing your <rt.absorb>Multishot</> ability to shoot <rt.effect>Empowered Multishots</>.
 
 <rt.meikoability2>Can be used during Global Cooldown.</>
 
 <rt.effect>EMPOWERED MULTISHOT</>
-<rt.effect>Empowered Multishots</> always fire at least <rt.bold>3 arrows</> regardless of how many targets are in range, costs <rt.mana>50% less Focus</>, and deals magic damage.",,,,Bowguy_Supremacy,AbilityIcon,256,256,datamine,,
+<rt.effect>Empowered Multishots</> always fire at least <rt.bold>3 arrows</> regardless of how many targets are in range, costs <rt.mana>50% less Focus</>, and deals magic damage.",,authored,,,Bowguy_Supremacy,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Bowguy_SelfDefenceBuff_C,cf4704a1-7b51-5bbb-92ed-a9e485db4a06,Bowguy,Celestial Veil,GA_Bowguy_SelfDefenceBuff_C,true,Defensive,,,,"You take <rt.absorb>40% reduced damage</> for 4 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Bowguy_Abilityicon_Defensive,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Bowguy_Abilityicon_Defensive,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Bowguy_SingleProjectileDamage_C,ee535b44-3259-55da-a9c6-357b6816e171,Bowguy,Celestial Shot,GA_Bowguy_SingleProjectileDamage_C,true,Basic,Magic.Arcane,Ranged,true,,"Fire a magical arrow at target enemy , dealing <rt.warning>{CelestShot}</> magic damage to it.
 
 <rt.effect>CELESTIAL IMPETUS</>
 Your <rt.absorb>Focused Shot</> hits have a chance to grant you <rt.effect>Celestial Impetus</> for <rt.bold>15 seconds</>, causing your next <rt.absorb>Celestial Shot</> to be <rt.mana>Free</> and apply <rt.bold>3 stacks</> of <rt.absorb>Lunarlight Mark</> to the target.
 
-You can have up to <rt.bold>2 charges</> of <rt.effect>Celestial Impetus</> at any one time. (2.0 PPM)",GE_Bowguy_SingleProjectileDamage_Cost,GE_GlobalCooldown,Bowguy_Shot,AbilityIcon,256,256,datamine,,
+You can have up to <rt.bold>2 charges</> of <rt.effect>Celestial Impetus</> at any one time. (2.0 PPM)",authored,GE_Bowguy_SingleProjectileDamage_Cost,GE_GlobalCooldown,Bowguy_Shot,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Bowguy_TargetedAoeDamage_C,e2eea18f-7c9a-58b8-8d26-aafce5a8b681,Bowguy,Starfall Volley,GA_Bowguy_TargetedAoeDamage_C,true,Power,Magic.Arcane,,true,,"Fire a volley of celestial arrows into the sky that pelt the area around target enemy for <rt.bold>8 seconds</>, dealing <rt.warning>{StarfallDmg}</> magic damage <rt.bold>every</> <rt.warning>{StarfallPeriod}</> <rt.bold>seconds</> to the target and any nearby enemies.
 
-<rt.absorb>Starfall Volley</> follows the target for its duration.",GE_Bowguy_TargetedAoeDamage_Cost,GE_GlobalCooldown,Bowguy_Rain,AbilityIcon,256,256,datamine,,
+<rt.absorb>Starfall Volley</> follows the target for its duration.",authored,GE_Bowguy_TargetedAoeDamage_Cost,GE_GlobalCooldown,Bowguy_Rain,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Bowguy_TargetedAoePull_C,b1841a3a-0d58-5e6b-95e8-3079e3192c6b,Bowguy,Grappling Arrow,GA_Bowguy_TargetedAoePull_C,true,Control,,,,"Fire a <rt.absorb>Grappling Arrow</> at the targeted area. Once the arrow lands, it grapples and <rt.meikoability1>pulls all enemies within 800 radius</> to the arrow's location and reduces their movement speed by 65% for 8 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Bowguy_GrappleShot,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Bowguy_GrappleShot,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Firemage_CastedDotBoostProjectile,81cb8ea2-e3df-5fad-a70d-3f156930dd1d,Firemage,Infernal Wave,GA_Firemage_CastedDotBoostProjectile_C,true,Basic,Magic.Fire,Ranged,true,,"Conjure a fiery wave to cascade toward your target, dealing <rt.warning>{InfernWaveDirect}</> fire damage.
 
 <rt.mana>Generates 40 Cinders</>.
 
 <rt.mana>CINDERS</>
-For every <rt.mana>100 Cinder</> you generate, you gain <rt.mana>1 Burning Ember</>, shown in the UI below your character as four orbs. Your <rt.mana>Burning Embers</> are used to cast your powerful <rt.absorb>Detonate</> ability.",,GE_GlobalCooldown,Firemage_Bolt,AbilityIcon,512,512,datamine,,
-GA_Firemage_CastedDotDetonate,783c45af-bed3-5e5e-94c1-ff781d87493f,Firemage,Detonate,GA_Firemage_CastedDotDetonate_C,true,Power,Magic.Fire,Ranged,true,"Instantly <rt.absorb>Detonate</> all active fire damage over time effects from Ardeos abilities on enemies, dealing damage equal to <rt.warning>3.0 seconds of average ticking damage</> to each enemy.",,,GE_Firemage_CastedDotDetonate_CustomGlobalCooldown,Firemage_detonate,AbilityIcon,512,512,datamine,,
-GA_Firemage_CastedPlacedAoe,8fbb59fe-b18d-5947-91f0-10945de3f968,Firemage,Apocalypse,GA_Firemage_CastedPlacedAoe_C,true,Major,Magic.Fire,Ranged,true,,"Conjure a major eruption of fire in the targeted area, dealing <rt.warning>{ApocDirect}</> fire damage and applying <rt.absorb>Searing Blaze</> to all enemies in a large radius.",,GE_GlobalCooldown,Firemage_Apocalypse,AbilityIcon,256,256,datamine,,
+For every <rt.mana>100 Cinder</> you generate, you gain <rt.mana>1 Burning Ember</>, shown in the UI below your character as four orbs. Your <rt.mana>Burning Embers</> are used to cast your powerful <rt.absorb>Detonate</> ability.",authored,,GE_GlobalCooldown,Firemage_Bolt,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Firemage_CastedDotDetonate,783c45af-bed3-5e5e-94c1-ff781d87493f,Firemage,Detonate,GA_Firemage_CastedDotDetonate_C,true,Power,Magic.Fire,Ranged,true,"Instantly <rt.absorb>Detonate</> all active fire damage over time effects from Ardeos abilities on enemies, dealing damage equal to <rt.warning>3.0 seconds of average ticking damage</> to each enemy.",,authored,,GE_Firemage_CastedDotDetonate_CustomGlobalCooldown,Firemage_detonate,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Firemage_CastedPlacedAoe,8fbb59fe-b18d-5947-91f0-10945de3f968,Firemage,Apocalypse,GA_Firemage_CastedPlacedAoe_C,true,Major,Magic.Fire,Ranged,true,,"Conjure a major eruption of fire in the targeted area, dealing <rt.warning>{ApocDirect}</> fire damage and applying <rt.absorb>Searing Blaze</> to all enemies in a large radius.",authored,,GE_GlobalCooldown,Firemage_Apocalypse,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Firemage_CastedSingleDot2_C,3597d8fc-ba1a-520b-8365-08fe0b265b9a,Firemage,Searing Blaze,GA_Firemage_CastedSingleDot2_C,true,Core,Magic.Fire,Ranged,true,,"Target enemy burns for <rt.warning>{SearingBlaze}</> fire damage <rt.bold>every</> <rt.warning>{EngulfPeriod}</> <rt.bold>seconds for 30 seconds</>
 
 <rt.mana>Generates 12 Cinders over its full duration</>.
 
 <rt.mana>CINDERS</>
-For every <rt.mana>100 Cinder</> you generate, you gain <rt.mana>1 Burning Ember</>, shown in the UI below your character as four orbs. Your <rt.mana>Burning Embers</> are used to cast your powerful <rt.absorb>Detonate</> ability.",,GE_GlobalCooldown,Firemage_Dot_02,AbilityIcon,512,512,datamine,,
+For every <rt.mana>100 Cinder</> you generate, you gain <rt.mana>1 Burning Ember</>, shown in the UI below your character as four orbs. Your <rt.mana>Burning Embers</> are used to cast your powerful <rt.absorb>Detonate</> ability.",authored,,GE_GlobalCooldown,Firemage_Dot_02,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Firemage_CastedSingleHeavyDot_C,44279af2-ae30-5233-ae27-3cd5d8cd12ed,Firemage,Engulfing Flames,GA_Firemage_CastedSingleHeavyDot_C,true,Core,Magic.Fire,Ranged,true,,"Engulf your target in flames, dealing  <rt.warning>{EngulfingFlames}</> fire damage <rt.bold>every</> <rt.warning>{EngulfPeriod}</> <rt.bold>seconds for 9 seconds</>.
 
 <rt.effect>REKINDLED FLAME</>
@@ -94,43 +94,43 @@ Each stack of <rt.absorb>Engulfing Flames</> that is active on an enemy as it di
 <rt.mana>Generates 30 Cinders over its full duration</>.
 
 <rt.mana>CINDERS</>
-For every <rt.mana>100 Cinder</> you generate, you gain <rt.mana>1 Burning Ember</>, shown in the UI below your character as four orbs. Your <rt.mana>Burning Embers</> are used to cast your powerful <rt.absorb>Detonate</> ability.",,GE_GlobalCooldown,Firemage_Dot_01,AbilityIcon,512,512,datamine,,
+For every <rt.mana>100 Cinder</> you generate, you gain <rt.mana>1 Burning Ember</>, shown in the UI below your character as four orbs. Your <rt.mana>Burning Embers</> are used to cast your powerful <rt.absorb>Detonate</> ability.",authored,,GE_GlobalCooldown,Firemage_Dot_01,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Firemage_ChanneledForwardAoeDamage,6bd7604c-af7a-5913-a580-b37487b3576f,Firemage,Incinerate,GA_Firemage_ChanneledForwardAoeDamage_C,true,Spirit,Magic.Fire,,true,,"A jet of fire erupts from your hands as you <rt.bold>channel for 2.5 seconds</>, dealing <rt.warning>{IncinerateDirect}</> fire damage <rt.bold>every</> <rt.warning>{IncinerateChannelInterval}</> <rt.bold>seconds</> to all enemies in a cone in front of you.
 
 Each hit <rt.effect>extends the duration of your active damage over time effects by 1.5 seconds</> on the targets and applies a stacking damage over time to them dealing <rt.warning>{IncinerateDot}</> fire damage <rt.bold>every</> <rt.warning>{IncinerateDoTPeriod}</> <rt.bold>seconds for 12 seconds</>. The damage over time portion is increased by <rt.warning>+30%</> for each stack that is applied to an enemy.
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",GE_Firemage_ChanneledForwardAoeDamage_Cost,GE_Shared_Cooldown_HasteScale,Firemage_Spirit,AbilityIcon,512,512,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",authored,GE_Firemage_ChanneledForwardAoeDamage_Cost,GE_Shared_Cooldown_HasteScale,Firemage_Spirit,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Firemage_DashForward,e1e4435d-8af5-54be-b9e1-f5fdc0de6867,Firemage,Flickerstep,GA_Firemage_DashForward_C,true,Movement,,,,"Instantly teleport forward a short distance.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Firemage_Blink,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Firemage_Blink,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Firemage_Firefrogs,0c1c8851-b7e0-5990-8bd1-6b087cba723a,Firemage,Fire Frogs,GA_Firemage_FireFrogs_C,true,Core,Magic.Fire,,true,,"Conjure five <rt.absorb>Fire Frogs</> to leap at your enemies dealing <rt.warning>{FireFrogDirect}</> fire damage and burning them for an additional <rt.warning>100% of the initial damage dealt</> <rt.bold>over 12 seconds</>.
 
 <rt.absorb>Fire Frogs'</> damage over time can not critically strike.
 
-Each Fire Frog will perform 3 attacks before dissipating.",,GE_GlobalCooldown,Firemage_Firefrog,AbilityIcon,256,256,datamine,,
+Each Fire Frog will perform 3 attacks before dissipating.",authored,,GE_GlobalCooldown,Firemage_Firefrog,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Firemage_InstantDotSpread,d2a9c076-a1b0-54a8-95c8-d014bf29916e,Firemage,Wildfire,GA_Firemage_InstantDotSpread_C,true,Major,Magic.Fire,Ranged,true,"All damage over time effects from your hero abilities <rt.warning>tick 30% faster</> for <rt.bold>9 sec</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Firemage_Wildfire,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Firemage_Wildfire,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Firemage_InstantMultiTargetDot_C,03abd8e5-0e6f-5dc5-bbb4-fe5e29f94e67,Firemage,Pyromania,GA_Firemage_InstantMultiTargetDot_C,true,Major,Magic.Fire,,true,,"Instantly adds an <rt.absorb>Engulfing Flames</> effect on the target, and apply it to up to 2 other nearby enemies. Enemies without an already active <rt.absorb>Engulfing Flames</> and with the highest amount of health will be highest priority.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Firemage_Pyromania,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Firemage_Pyromania,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Firemage_InstantSingleDisorient,229688ab-ee5e-5753-94df-24cfc3ea116d,Firemage,Fireflash,GA_Firemage_InstantSingleDisorient_C,true,Control,Magic.Fire,Ranged,true,"Conjure a bright flash of fire in front of the target's eyes, causing them to become <rt.effect>Disoriented</> for 30 seconds.
 
 <rt.effect>Disorient</>
 Disoriented enemies are incapacitated, left to wander around aimlessly for the duration. Any damage dealt to a disoriented enemy will break the effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Firemage_Disorient,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Firemage_Disorient,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Firemage_InstantSingleInterrupt,ac0c0e46-872e-5211-add4-62a43b9f0cd5,Firemage,Scorch,GA_Firemage_InstantSingleInterrupt_C,true,Utility,Magic.Fire,Ranged,,"<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. 
 Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Firemage_interrupt,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Firemage_interrupt,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Firemage_Passive_FrogDamageMonitor,547f95c8-ba6b-563a-9e79-8e4a053526c3,Firemage,Fire Frogs,GA_Firemage_Passive_FrogDamageMonitor_C,true,,,,,,"Conjure five <rt.absorb>Fire Frogs</> to leap at your enemies dealing <rt.warning>{FireFrogDirect}</> fire damage and burning them for an additional <rt.warning>100% of the initial damage dealt</> <rt.bold>over 12 seconds</>.
 
 <rt.absorb>Fire Frogs'</> damage over time can not critically strike.
 
-Each Fire Frog will perform 3 attacks before dissipating.",,,Firemage_Firefrog,AbilityIcon,256,256,datamine,,
-GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_Dot,0a98000d-0582-5916-b70c-e4909630bf6e,Firemage,Fire Ball,GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_Dot_C,true,,,,,,Inflicting fire damage every 2 seconds.,,,Firemage_Inferno,AbilityIcon,256,256,datamine,,
+Each Fire Frog will perform 3 attacks before dissipating.",authored,,,Firemage_Firefrog,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_Dot,0a98000d-0582-5916-b70c-e4909630bf6e,Firemage,Fire Ball,GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_Dot_C,true,,,,,,Inflicting fire damage every 2 seconds.,authored,,,Firemage_Inferno,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Firemage_PlacedProjectileAoe,0a255f1d-b406-5efa-9ee8-f49c4d61a58e,Firemage,Fire Ball,GA_Firemage_PlacedProjectileAoe_C,true,Core,Magic.Fire,Ranged,true,,"Throw a ball of fiery devestation at the targeted area, dealing <rt.warning>{FireBallDirect}</> fire damage to all enemies in the radius and setting them on fire, dealing an additional <rt.warning>20% of the initial damage dealt</> <rt.bold>over 12 seconds</>.
 
 <rt.absorb>Fire Ball's</> damage over time can not critically strike.
@@ -140,81 +140,81 @@ Your Haste is also applied as <rt.meikoability2>Cooldown Acceleration</> on <rt.
 <rt.mana>Each tick of Fireball has a 50% chance to generate 2 Cinders</>.
 
 <rt.mana>CINDERS</>
-For every <rt.mana>100 Cinder</> you generate, you gain <rt.mana>1 Burning Ember</>, shown in the UI below your character as four orbs. Your <rt.mana>Burning Embers</> are used to cast your powerful <rt.absorb>Detonate</> ability.",,GE_GlobalCooldown,Firemage_Inferno,AbilityIcon,256,256,datamine,,
+For every <rt.mana>100 Cinder</> you generate, you gain <rt.mana>1 Burning Ember</>, shown in the UI below your character as four orbs. Your <rt.mana>Burning Embers</> are used to cast your powerful <rt.absorb>Detonate</> ability.",authored,,GE_GlobalCooldown,Firemage_Inferno,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Firemage_SelfDefenceBuff,273ca570-3c6b-51ec-b2cd-f03d9d529db7,Firemage,Flame Ward,GA_Firemage_SelfDefenceBuff_C,true,Defensive,Magic.Fire,,,"You take <rt.absorb>40% reduced damage</> for 4 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Firemage_FlameShield,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Firemage_FlameShield,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_BasicSingleTargetAttack,b599982c-d771-5c43-b575-e30a58dc0d40,Gunde,Double Strike,GA_Gunde_BasicSingleTargetAttack_C,true,Basic,Physical,,true,,"Strike the target enemy with both axes in swift succession, dealing {DoubleStrikeDmg} per hit.
 
 <rt.absorb>Double Strike</> can be used both in melee and at range.
 
-Applies <rt.warning>Rend</> to the target for {Rend} of the damage dealt.",,GE_GlobalCooldown,T_Gunde_DoubleStrike,AbilityIcon,512,512,datamine,,
+Applies <rt.warning>Rend</> to the target for {Rend} of the damage dealt.",authored,,GE_GlobalCooldown,T_Gunde_DoubleStrike,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_DamageReductionSelfBuff,7b5fc1b6-144e-5d40-b1e2-ac5920045ba9,Gunde,Reckless Abandon,GA_Gunde_DamageReductionSelfBuff_C,true,Defensive,Physical,,,,"You take <rt.absorb>40% reduced damage</> for 4 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Gunde_Defensive,AbilityIcon,256,256,datamine,,
-GA_Gunde_DashAttack,76b4a27f-ce77-5f78-8323-782528e4f38c,Gunde,Warbound,GA_Gunde_DashAttack_C,true,Movement,,,true,,"Quickly leap in the direction you are moving, dealing {WarboundDmg} to all enemies in your path.",,,T_Gunde_Charge,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Gunde_Defensive,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Gunde_DashAttack,76b4a27f-ce77-5f78-8323-782528e4f38c,Gunde,Warbound,GA_Gunde_DashAttack_C,true,Movement,,,true,,"Quickly leap in the direction you are moving, dealing {WarboundDmg} to all enemies in your path.",authored,,,T_Gunde_Charge,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_DotTransfer,8ad7c228-10ea-579d-9b57-31714d647d50,Gunde,Owed in Blood,GA_Gunde_DotTransfer_C,true,Utility,Physical,,true,,"Each time <rt.warning>Rend</> deals damage there is a chance a <rt.effect>Blood Feather</> is spawned near the enemy on the ground that you can pick up to gain 1 stack of <rt.effect>Owed in Blood</> for 30 seconds, up to maximum of 150 stacks.
 
 Enemies that die with your <rt.warning>Rend</> active on them have a 25% chance to create a <rt.effect>Blood Feather</>.
 
-When you use your <rt.absorb>Owed in Blood</> ability, all stacks of <rt.effect>Owed in Blood</> you have accumulated from <rt.effect>Blood Feathers</> are applied to the targeted enemy as <rt.warning>Rend</> stacks.",,,T_Gunde_SanguineFeast,AbilityIcon,512,512,datamine,,
+When you use your <rt.absorb>Owed in Blood</> ability, all stacks of <rt.effect>Owed in Blood</> you have accumulated from <rt.effect>Blood Feathers</> are applied to the targeted enemy as <rt.warning>Rend</> stacks.",authored,,,T_Gunde_SanguineFeast,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_DurationalAoeDotAndBuff,34a72ac1-1b06-5045-b96b-3ff1e9136a1f,Gunde,Bloodbound Spirit,GA_Gunde_DurationalAoeDotAndBuff_C,true,Spirit,,,,,"Call forth your <rt.absorb>Bloodbound Spirit</>, dealing <rt.warning>{BloodboundSpiritDmg}</> magic damage to all nearby enemies as it emerges and every <rt.bold>1.5 seconds</> for <rt.bold>6 seconds</>, applying <rt.warning>Rend</> to the targets for <rt.warning>{Rend} of the damage dealt</>.
 
 For the next <rt.bold>20 seconds</> your <rt.absorb>Heart Splitter</> and <rt.absorb>Grim Carve</> deal <rt.warning>{BloodboundBuff} increased damage</>.
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 seconds.</>",GE_Shared_SpiritAbility_Cost,GE_GlobalCooldown,T_Gunde_Spirit,AbilityIcon,512,512,datamine,,
-GA_Gunde_ExtraDotDamageBuff,709aef91-acef-5848-9028-d517ac236b5c,Gunde,Reign in Blood,GA_Gunde_ExtraDotDamageBuff_C,true,Major,Physical,,,,"For the next {duration}, your abilities apply an additional <rt.warning>{AddedTransfer} of the damage dealt</> to <rt.warning>Rend</>.",,,T_Gunde_HPDrain,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 seconds.</>",authored,GE_Shared_SpiritAbility_Cost,GE_GlobalCooldown,T_Gunde_Spirit,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Gunde_ExtraDotDamageBuff,709aef91-acef-5848-9028-d517ac236b5c,Gunde,Reign in Blood,GA_Gunde_ExtraDotDamageBuff_C,true,Major,Physical,,,,"For the next {duration}, your abilities apply an additional <rt.warning>{AddedTransfer} of the damage dealt</> to <rt.warning>Rend</>.",authored,,,T_Gunde_HPDrain,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Gunde_HeavyMeleeDotBased,1306cddf-a69b-54bb-bb36-4228ca4de0e2,Gunde,Heart Splitter,GA_Gunde_HeavyMeleeDotBased_C,true,Core,Physical,,true,,"Jump and strike at your enemy from above, dealing {ReckoningDmg} to the target.
 
 <rt.warning>100%</> of the direct damage dealt by <rt.absorb>Heart Splitter</> is added to <rt.warning>Rend</>.
 
 <rt.effect>Exsanguinate</>
-<rt.absorb>Heart Splitter</> exsanguinates the target's wounds, dealing an additional <rt.warning>{BonusOfRend}</> of the <rt.warning>Total Rend Damage</> active on the target.",,GE_GlobalCooldown,T_Gunde_Cleave,AbilityIcon,512,512,datamine,,
+<rt.absorb>Heart Splitter</> exsanguinates the target's wounds, dealing an additional <rt.warning>{BonusOfRend}</> of the <rt.warning>Total Rend Damage</> active on the target.",authored,,GE_GlobalCooldown,T_Gunde_Cleave,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_HeavyMeleeDotBoost,cf7e539f-a810-5d57-a541-745449e61baa,Gunde,Rupture,GA_Gunde_HeavyMeleeDotBoost_C,true,Power,Physical,,true,,"Strike target enemy by driving both axes upwards through their torso and splitting their anatomy open, dealing {RuptureDmg} and applying <rt.effect>Open Wounds</> for <rt.bold>18 seconds</>.
 
 <rt.absorb>Rupture</> applies <rt.warning>Rend</> to the target for {Rend} of the damage dealt.
 
 <rt.effect>Open Wounds</>
-Your next <rt.absorb>Slaughter</> consumes <rt.effect>Open Wounds</>, <rt.warning>increasing</> <rt.absorb>Slaughter's</> <rt.warning>damage against that enemy by 20%</>.",,GE_GlobalCooldown,T_Gunde_Rupture,AbilityIcon,512,512,datamine,,
+Your next <rt.absorb>Slaughter</> consumes <rt.effect>Open Wounds</>, <rt.warning>increasing</> <rt.absorb>Slaughter's</> <rt.warning>damage against that enemy by 20%</>.",authored,,GE_GlobalCooldown,T_Gunde_Rupture,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_InstantAoeDot,32a30e14-13de-56d5-aab7-86f0c63a28cc,Gunde,Slaughter,GA_Gunde_InstantAoeDot_C,true,Major,Physical,,true,,"Strike with immense power around you, consuming all <rt.warning>Rend</> stacks on enemies hit and applying <rt.effect>Slaughter</> to them.
 
-<rt.effect>Slaughter</> is a bleed that deals <rt.warning>{Slaughter} of the total Rend damage</> consumed from each enemy, to each enemy over <rt.bold>3 seconds</>.",,,T_Gunde_Slaughter,AbilityIcon,256,256,datamine,,
+<rt.effect>Slaughter</> is a bleed that deals <rt.warning>{Slaughter} of the total Rend damage</> consumed from each enemy, to each enemy over <rt.bold>3 seconds</>.",authored,,,T_Gunde_Slaughter,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Gunde_InstantAoeWithBuff,ca0a2d39-2e2a-5019-adcb-44303fccd01f,Gunde,Blood Arc,GA_Gunde_InstantAoeWithBuff_C,true,Core,,,true,,"Cleave all enemies in front of you, dealing {BloodArcDmg} and granting you <rt.effect>Serrated Edge</> for 10 seconds, causing your next damaging ability to transfer an additional <rt.warning>20%</> of its damage to <rt.warning>Rend</>.
 
 <rt.effect>Serrated Edge</> does not interact with your <rt.absorb>Bloodbound Spirit</> ability.
 
-<rt.absorb>Blood Arc</> applies <rt.warning>Rend</> to the targets for {Rend} of the damage dealt.",,GE_GlobalCooldown,Gunde_Frontal,AbilityIcon,512,512,datamine,,
+<rt.absorb>Blood Arc</> applies <rt.warning>Rend</> to the targets for {Rend} of the damage dealt.",authored,,GE_GlobalCooldown,Gunde_Frontal,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_InstantWhirlwindAoe,0907c7b2-98ff-5beb-be95-33afca3f39f4,Gunde,Reaver's Edge,GA_Gunde_InstantWhirlwindAoe_C,true,Basic,,,true,,"Jump into a spinning strike, dealing {ReaversEdgeDmg} to all nearby enemies.
 
-Applies <rt.warning>Rend</> to the targets for {Rend} of the damage dealt.",,GE_GlobalCooldown,Gunde_AOESwing_01,AbilityIcon,256,256,datamine,,
-GA_Gunde_JumpToLocation,2bc25598-4f96-570e-813d-9724581db41f,Gunde,Warbound (old),GA_Gunde_JumpToLocation_C,false,,Physical,,true,Leap to target location,,,,T_Gunde_Charge,AbilityIcon,512,512,datamine,,
-GA_Gunde_MeleeAutoAttack,e1071692-0451-55e2-b2ba-6f1d614c0366,Gunde,Attack,GA_Gunde_MeleeAutoAttack_C,true,,Physical,,true,,,,,Gunde_AOESwing_01,AbilityIcon,256,256,datamine,,
-GA_Gunde_Passive_PerTargetAccumulatedBleed_DotManager,b9777518-6e6e-5c63-8ae6-a417a9f37975,Gunde,Rend,GA_Gunde_Passive_PerTargetAccumulatedBleed_DotManager_C,true,,,,,,[no data],,,T_Gunde_BloodBuff,AbilityIcon,256,256,datamine,,
+Applies <rt.warning>Rend</> to the targets for {Rend} of the damage dealt.",authored,,GE_GlobalCooldown,Gunde_AOESwing_01,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Gunde_JumpToLocation,2bc25598-4f96-570e-813d-9724581db41f,Gunde,Warbound (old),GA_Gunde_JumpToLocation_C,false,,Physical,,true,Leap to target location,,authored,,,T_Gunde_Charge,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Gunde_MeleeAutoAttack,e1071692-0451-55e2-b2ba-6f1d614c0366,Gunde,Attack,GA_Gunde_MeleeAutoAttack_C,true,,Physical,,true,,,absent,,,Gunde_AOESwing_01,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Gunde_Passive_PerTargetAccumulatedBleed_DotManager,b9777518-6e6e-5c63-8ae6-a417a9f37975,Gunde,Rend,GA_Gunde_Passive_PerTargetAccumulatedBleed_DotManager_C,true,,,,,,[no data],authored,,,T_Gunde_BloodBuff,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Gunde_SingleTargetInterrupt,910af1dd-fba7-515d-b58c-7c8a2a5fb866,Gunde,Jawbreaker,GA_Gunde_SingleTargetInterrupt_C,true,Utility,Physical,,,,"<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. 
 Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,t_gunde_Interrupt,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,t_gunde_Interrupt,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_SingleTargetPull,a05af413-a222-512b-a58f-ca272e54e522,Gunde,Butcher's Hook,GA_Gunde_SingleTargetPull_C,true,Control,Physical,Ranged,true,,"Throw a chained axe at target enemy, dealing {ButchersHookDmg} and pulling them to you.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Gunde_Grip,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Gunde_Grip,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Gunde_Talent_DotTransfer_Aoe,24da2b16-6e16-54f9-8a3e-6b7866b8b7c1,Gunde,Owed in Blood,GA_Gunde_Talent_DotTransfer_Aoe_C,true,,Physical,,true,,"Consumes <rt.warning>Rend</> on all nearby targets and applies ""<rt.absorb>Owed in Blood</>"" buff on you for 10 seconds.
-When used again, applies the ""Saved Rend"" (<rt.absorb>Owed in Blood</> buff) on the new target.",,GE_GlobalCooldown,T_Gunde_SanguineFeast,AbilityIcon,512,512,datamine,,
+When used again, applies the ""Saved Rend"" (<rt.absorb>Owed in Blood</> buff) on the new target.",authored,,GE_GlobalCooldown,T_Gunde_SanguineFeast,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Gunde_TargetedAoeProjectile,d48763a8-5c23-5392-b185-8c96a8aea545,Gunde,Grim Carve,GA_Gunde_TargetedAoeProjectile_C,true,Power,Physical,,true,,"Throw your axe at the target enemy, where it spins like a sawblade, hitting all nearby enemies three times and dealing {GrimCarveDmg} with each spin.
 
-Applies <rt.warning>Rend</> to the targets for {Rend} of the damage dealt.",,GE_GlobalCooldown,T_Gunde_Sawblade,AbilityIcon,512,512,datamine,,
+Applies <rt.warning>Rend</> to the targets for {Rend} of the damage dealt.",authored,,GE_GlobalCooldown,T_Gunde_Sawblade,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Ink_AoeAttack_C,b17b3905-bcc3-559d-9517-5cf009fbb1f0,Ink,Hammer Storm,GA_Ink_AoeAttack_C,true,Power,Physical,,true,,"Spin with your Hammer <rt.warning>up to 3 times</>, dealing <rt.warning>{HamrStormTickDmg}</> physical damage to all nearby enemies <rt.bold>every</> <rt.warning>{HamrStormPeriod}</> <rt.bold>seconds</>.
 
 <rt.absorb>Hammer Storm</> deals <rt.warning>35% more damage</> with each spin.
 
 <rt.effect>Thunder Call</>
-<rt.absorb>Hammer Storm</> causes lightning to strike you as you spin, shocking enemies for an additional <rt.warning>{HamrStormLightningDmg}</> lightning damage each time they are hit.",GE_Ink_AoeAttack_Cost,GE_GlobalCooldown,T_Ink_Hammerstorm,AbilityIcon,256,256,datamine,,
+<rt.absorb>Hammer Storm</> causes lightning to strike you as you spin, shocking enemies for an additional <rt.warning>{HamrStormLightningDmg}</> lightning damage each time they are hit.",authored,GE_Ink_AoeAttack_Cost,GE_GlobalCooldown,T_Ink_Hammerstorm,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_AoeFear_C,a0f51600-0459-5cc0-bd9d-24c87888d7f0,Ink,Intimidate,GA_Ink_AoeFear_C,true,Control,,,true,,"Instantly <rt.effect>Intimidate</> up to 40 nearby enemies, causing them to cower in place for <rt.bold>12 seconds</>.
 
 If an enemy afflicted by <rt.effect>Intimidate</> takes damage equal to <rt.warning>{IntimidateDmgBreak}</>, they will break out of the effect. (Strength scaled)
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Ink_IntimidatingRoar,AbilityIcon,256,256,datamine,,
-GA_Ink_AutoAttackBuff_Attack_C,17d8f97a-c597-54d6-9775-576af67ddea2,Ink,Heavy Strike,GA_Ink_AutoAttackBuff_Attack_C,true,Core,Physical,,true,,,,,T_Ink_TimerAbility,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Ink_IntimidatingRoar,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Ink_AutoAttackBuff_Attack_C,17d8f97a-c597-54d6-9775-576af67ddea2,Ink,Heavy Strike,GA_Ink_AutoAttackBuff_Attack_C,true,Core,Physical,,true,,,absent,,,T_Ink_TimerAbility,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Ink_AutoAttackBuff_C,c6a55c38-4d6f-5fb6-a874-4a285ab935c8,Ink,Heavy Strike,GA_Ink_AutoAttackBuff_C,true,Core,,,,,"When the <rt.meikoability2>Swing Timer</> is in the red, <rt.absorb>Heavy Strike</> instantly smashes the target for <rt.warning>{HeavyStrikeDmg}</> physical damage and deals <rt.warning>{HeavyStrikeClvDmg}</> physical damage to all enemies near the target.
 
 <rt.effect>Thunder Call</>
@@ -229,13 +229,13 @@ GA_Ink_AutoAttackBuff_C,c6a55c38-4d6f-5fb6-a874-4a285ab935c8,Ink,Heavy Strike,GA
 Your swing timer is displayed as a bar to the right of your hero. When you see the red area light up on the swing timer it is time to queue your <rt.absorb>Heavy Strike</> and wait for it to finish.
 
 <rt.meikoability2>Queueing Heavy Strike</>
-<rt.absorb>Heavy Strike's</> queue is displayed as a golden border around the ability icon on your action bar. The queue is canceled when you use any other ability, so make sure the last button you press before the swing timer reaches the end of the red area is Heavy Strike.",,,T_Ink_TimerAbility,AbilityIcon,512,512,datamine,,
+<rt.absorb>Heavy Strike's</> queue is displayed as a golden border around the ability icon on your action bar. The queue is canceled when you use any other ability, so make sure the last button you press before the swing timer reaches the end of the red area is Heavy Strike.",absent,,,T_Ink_TimerAbility,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Ink_AutoAttackBuff_InstantAttack_C,63d865c3-dc13-581e-8d87-33f3ce55a149,Ink,Heavy Strike,GA_Ink_AutoAttackBuff_InstantAttack_C,true,Core,Physical,,true,,"Instantly smash the target for <rt.warning>{HeavyStrikeDmg}</> physical damage and deal <rt.warning>{HeavyStrikeClvDmg}</> physical damage to all enemies near the target.
 
 <rt.effect>Thunder Call</>
 <rt.absorb>Heavy Strike</> also charges the ground in front of you with lightning, dealing <rt.warning>{HeavyStrikeLightnDmg}</> lightning damage to the target and nearby enemies.
 
-<rt.mana>Generates 12 Fury</>",,GE_GlobalCooldown,T_Ink_TimerAbility,AbilityIcon,512,512,datamine,,
+<rt.mana>Generates 12 Fury</>",authored,,GE_GlobalCooldown,T_Ink_TimerAbility,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Ink_BouncyProjectile_C,410f0c05-6d6d-53e3-ae5f-29f206788326,Ink,Chain Lightning,GA_Ink_BouncyProjectile_C,true,Core,Magic.Lightning,Ranged,true,,"Conjure an arc of lightning onto target enemy that chains between you and other enemies until it has <rt.warning>dealt damage a total of 6 times</>. Each hit of <rt.absorb>Chain Lightning</> deals <rt.warning>{ChainLightDmg}</> lightning damage.
 
 <rt.absorb>Chain Lightning</> does not deal damage to you.
@@ -243,10 +243,10 @@ GA_Ink_BouncyProjectile_C,410f0c05-6d6d-53e3-ae5f-29f206788326,Ink,Chain Lightni
 <rt.effect>Thunder Call</>
 You can only cast <rt.absorb>Chain Lightning</> while <rt.effect>Thunder Call</> is active.
 
-<rt.mana>Generates 1.2 Fury per hit</>",,GE_GlobalCooldown,T_Ink_ChainLightning,AbilityIcon,256,256,datamine,,
+<rt.mana>Generates 1.2 Fury per hit</>",authored,,GE_GlobalCooldown,T_Ink_ChainLightning,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_ChargedBuff_C,cd4c8701-9bb2-59d8-b1e8-82cad47eb27a,Ink,Thunder Call,GA_Ink_ChargedBuff_C,true,Major,Magic.Lightning,,,"Call on thunder to charge your hammer with immense power, <rt.effect>enhancing your abilities for 21 seconds</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Ink_Selfbuff,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Ink_Selfbuff,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_CleaveAttack_C,216d932e-cf2f-5025-8bc2-4c18b67b391e,Ink,Wild Swing,GA_Ink_CleaveAttack_C,true,Basic,Physical,,true,,"Swing your hammer in a wide arc toward target enemy dealing <rt.warning>{WildSwingDmg}</> physical damage to it and any nearby enemies.
 
 <rt.absorb>Recklessness</>
@@ -254,10 +254,10 @@ GA_Ink_CleaveAttack_C,216d932e-cf2f-5025-8bc2-4c18b67b391e,Ink,Wild Swing,GA_Ink
 - Wild Swing cannot critically strike.
 - The damage of <rt.absorb>Wild Swing</> is increased by an amount equal to your critical strike chance percentage.
 
-<rt.mana>Generates 3 Fury</>",GE_Ink_CleaveAttack_Cost,GE_GlobalCooldown,T_Ink_Wildswing,AbilityIcon,256,256,datamine,,
+<rt.mana>Generates 3 Fury</>",authored,GE_Ink_CleaveAttack_Cost,GE_GlobalCooldown,T_Ink_Wildswing,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_CostReductionBuff_C,0ed1fd9d-a654-5850-9931-aa63cf8f1ade,Ink,Focused Wrath,GA_Ink_CostReductionBuff_C,true,Major,,,,"Your next two casts of <rt.absorb>Skull Crusher</> or <rt.absorb>Hammer Storm</> cost <rt.mana>52% less Fury</> and deal <rt.warning>10% more damage</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Ink_FocusedWrath,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Ink_FocusedWrath,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_EnhancedChargedBuff,438ae986-8517-59f0-83d8-a1929f238d7a,Ink,Raging Tempest,GA_Ink_EnhancedChargedBuff_C,true,Spirit,Magic.Lightning,,true,,"Instantly Leap to target area and smash the ground, dealing <rt.warning>{TempestLeapDmg}</> lightning damage to all nearby enemies.You also gain an <rt.effect>Enhanced Thunder Call</> for 20 seconds that causes you to release <rt.effect>Raging Currents</> at enemies over time.
 
 <rt.effect>Raging Currents</>
@@ -266,24 +266,24 @@ Strike a random nearby enemy <rt.bold>every</> <rt.warning>{RagingCurPeriod}</> 
 <rt.absorb>SPIRIT ABILITY</>
 <rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GE_Ink_EnhancedChargedBuff_Cost,,T_Ink_Spirit,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,GE_Ink_EnhancedChargedBuff_Cost,,T_Ink_Spirit,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Ink_HeavySingleTargetAttack_C,abf40831-0fbc-5f46-8645-1621811fa6b7,Ink,Skull Crusher,GA_Ink_HeavySingleTargetAttack_C,true,Power,Physical,,true,,"Instantly deal <rt.warning>{SkullCrushDmg}</> physical damage to target enemy.
 
 <rt.meikoability2>Skull Crusher triggers a shortened Global Cooldown</>
 
 <rt.effect>Thunder Call</>
-<rt.absorb>Skull Crusher</> beckons a thunder bolt to strike the target from above, dealing <rt.warning>{SkullCrushLightnDmg}</> lightning damage.",GE_Ink_HeavySingleTargetAttack_Cost,GE_GlobalCooldown_TariqHeavySingleTarget,T_Ink_Skullcrusher,AbilityIcon,256,256,datamine,,
+<rt.absorb>Skull Crusher</> beckons a thunder bolt to strike the target from above, dealing <rt.warning>{SkullCrushLightnDmg}</> lightning damage.",authored,GE_Ink_HeavySingleTargetAttack_Cost,GE_GlobalCooldown_TariqHeavySingleTarget,T_Ink_Skullcrusher,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_LowHealthSingleTargetResourceDamage_C,976d40fd-e749-5294-a65b-e010149dca1e,Ink,Culling Strike,GA_Ink_LowHealthSingleTargetResourceDamage_C,true,Power,Physical,,true,,"Instantly deal <rt.warning>{CullStrikeDmg}</> physical damage to target enemy. <rt.absorb>Culling Strike</> spends up to <rt.mana>10 Fury</>, <rt.warning>increasing the damage it deals by up to 400%</>. The more <rt.mana>Fury</> it consumes, the higher the damage it deals.
 
 <rt.absorb>Execution</>
-Can only be used against enemies that have 30% or less health.",,,T_Ink_Cullingstrike,AbilityIcon,256,256,datamine,,
-GA_Ink_MeleeAutoAttack_C,544876df-f223-56d1-8b53-b0fec431b81d,Ink,Attack,GA_Ink_MeleeAutoAttack_C,true,,Physical,,true,,,,,Tex_bl_04_bg,AbilityIcon,256,256,datamine,,
+Can only be used against enemies that have 30% or less health.",authored,,,T_Ink_Cullingstrike,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Ink_MeleeAutoAttack_C,544876df-f223-56d1-8b53-b0fec431b81d,Ink,Attack,GA_Ink_MeleeAutoAttack_C,true,,Physical,,true,,,absent,,,Tex_bl_04_bg,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_MeleeInterrupt_C,8e235349-16cc-5de5-b294-8c9a286f77d1,Ink,Pummel,GA_Ink_MeleeInterrupt_C,true,Utility,Physical,,,"Instantly interrupt target enemy's spell cast, and silence them for 4 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_InkPummel,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_InkPummel,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_MoveToLocationAoeDamage_C,661ffadc-ad14-5f92-bb09-3937838042cc,Ink,Leap Smash,GA_Ink_MoveToLocationAoeDamage_C,true,Movement,Physical,,true,,"Instantly Leap to target area and smash the ground, dealing <rt.warning>{LeapSmashDmg}</> physical damage to all nearby enemies.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Ink_Leap,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Ink_Leap,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Ink_SecondChanceSingleTargetAttack_C,0a8d316b-eeaa-5d19-9850-5b828c8ec90a,Ink,Face Breaker (old),GA_Ink_SecondChanceSingleTargetAttack_C,true,Basic,Physical,,true,,"Instantly attack target enemy dealing <rt.warning>{FaceBreakDmg}</> physical damage.
 
 <rt.meikoability2>Face Breaker resets the Swing Timer</>
@@ -293,18 +293,18 @@ Whenever one of your attacks <rt.bold>Misses</> or is <rt.bold>Dodged</> by an e
 
 <rt.mana>Generates 6 Fury plus an amount based on the total damage it dealt</>
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GE_Ink_SecondChanceSingleTargetAttack_Cost,GE_GlobalCooldown,T_Ink_Facebreaker,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,GE_Ink_SecondChanceSingleTargetAttack_Cost,GE_GlobalCooldown,T_Ink_Facebreaker,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_SelfDefenceBuff_C,f8296722-6121-5094-a096-f2c62dd58fcb,Ink,Unbreakable Will,GA_Ink_SelfDefenceBuff_C,true,Defensive,,,,"You take <rt.absorb>40% reduced damage</> for 4 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Ink_TankBuff,AbilityIcon,1098,1098,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Ink_TankBuff,AbilityIcon,1098,1098,authored,datamine,,,legacy_unbound
 GA_Ink_SingleTargetHeavyNonSpender_C,7e51d2f9-be3a-5952-a2c4-40b269858a99,Ink,Face Breaker,GA_Ink_SingleTargetHeavyNonSpender_C,true,Basic,Physical,,true,,"Instantly attack target enemy dealing <rt.warning>{FaceBreakDmg}</> physical damage to the target.
 
 <rt.absorb>Face Breaker</> deals <rt.warning>50% of its damage to enemies near your target</>.
 
-<rt.mana>Generates 7 Fury</>",GE_Ink_SecondChanceSingleTargetAttack_Cost,GE_GlobalCooldown,T_Ink_Facebreaker,AbilityIcon,256,256,datamine,,
+<rt.mana>Generates 7 Fury</>",authored,GE_Ink_SecondChanceSingleTargetAttack_Cost,GE_GlobalCooldown,T_Ink_Facebreaker,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Ink_Taunt_C,55e5796f-ad0e-5355-b5d6-876b5b3a3679,Ink,Taunt,GA_Ink_Talent_SelfDefenceBuff_IncreasedDurationAndTaunt_Taunt_C,true,,Physical,,true,"Taunt target enemy, forcing it to attack you for 6 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Ink_Taunt,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Ink_Taunt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_AoeStaggerRemovalSpender_C,b80815fd-16e4-5b81-b06e-22fd2873c49c,Lisa,Restore Continuity,GA_Lisa_AoeStaggerRemovalSpender_C,true,Power,Magic.Arcane,Ranged,,,"Rearrange the flow of events unfolding around you, instantly <rt.bold>cleansing all allies</> of up to <rt.effect>{StaggerCleanse}</> accumulated <rt.effect>stagger</> stored in <rt.absorb>Aura of Deferred Fate</>.
 
 <rt.absorb>Restore Continuity</> heals each ally for <rt.heal>{CleanHeal} of the amount cleansed</>.
@@ -312,26 +312,26 @@ GA_Lisa_AoeStaggerRemovalSpender_C,b80815fd-16e4-5b81-b06e-22fd2873c49c,Lisa,Res
 <rt.effect>CONVERGING TIMELINES</>
 Each time you cast <rt.absorb>Restore Continuity</> you gain <rt.meikoability2>+100% Cooldown Acceleration</> for <rt.bold>0.5 seconds</>.
 
-<rt.mana>Generates Mana based on the amount of Stagger cleansed</>",GE_Lisa_AoeStaggerRemovalSpender_Cost,GE_GlobalCooldown,T_Lisa_ChronaWave,AbilityIcon,256,256,datamine,,
+<rt.mana>Generates Mana based on the amount of Stagger cleansed</>",authored,GE_Lisa_AoeStaggerRemovalSpender_Cost,GE_GlobalCooldown,T_Lisa_ChronaWave,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_CastedHeal_C,0f21a9a8-6901-5657-8d4c-7ca116d3cd18,Lisa,Flash Revision,GA_Lisa_CastedHeal_C,true,Core,Magic.Arcane,Ranged,,,"Borrow time to mend a single ally, healing them for {LisaCastHeal}.
 
 <rt.effect>Stagger</> is applied to the target for <rt.warning>{percentage} of the healing</> as temporal debt ripples through their being.
 
-<rt.mana>Generates 5 Chrona.</>",GE_Lisa_CastedHeal_Cost,GE_GlobalCooldown,T_Lisa_TimeMend,AbilityIcon,256,256,datamine,,
+<rt.mana>Generates 5 Chrona.</>",authored,GE_Lisa_CastedHeal_Cost,GE_GlobalCooldown,T_Lisa_TimeMend,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_CastedProjectileDamageIncreaseDebuff_C,78cef4ba-c6d5-5c11-99ab-16dc9652fae8,Lisa,Unfolding Doom,GA_Lisa_CastedProjectileDamageIncreaseDebuff_C,true,Major,Magic.Arcane,Ranged,true,Affects Arcane Beacon.,"Deliver a heavy strike of temporal energy to the target, dealing <rt.warning>{UnfoldDoomDmg}</> magic damage. <rt.effect>Unfolding Doom</> tears at the threads of their destiny, <rt.warning>increasing all damage you deal to them by 20% for 20 seconds</>.
 
 <rt.effect>DEFERRED FATE: RELAY</>
 100% of any damage dealt by <rt.absorb>Unfolding Doom</> heals an ally within your <rt.absorb>Aura of Deferred Fate</>. The lowest health ally is preferred.
 
 <rt.mana>Generates 20 Chrona.</>
-<rt.mana>Critical Strike chance to generate 30 Chrona.</>",GE_Lisa_CastedProjectileDamageIncreaseDebuff_Cost,GE_GlobalCooldown,T_Lisa_StrandsofTime,AbilityIcon,256,256,datamine,,
+<rt.mana>Critical Strike chance to generate 30 Chrona.</>",authored,GE_Lisa_CastedProjectileDamageIncreaseDebuff_Cost,GE_GlobalCooldown,T_Lisa_StrandsofTime,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_CastedSingleTargetDamage_C,bdfb78a5-d4e0-56f9-9e61-2f36dc5a2fd8,Lisa,Time Shard,GA_Lisa_CastedSingleTargetProjectile_C,true,Basic,Magic.Arcane,Ranged,true,,"Hurl a fragment of condensed time at target enemy, dealing <rt.warning>{TimeShardDmg}</> magic damage to it.
 
 <rt.effect>DEFERRED FATE: RELAY</>
 100% of any damage dealt by <rt.absorb>Time Shard</> heals an ally within your <rt.absorb>Aura of Deferred Fate</>. The lowest health ally is preferred.
 
 <rt.mana>Generates 6 Chrona.</>
-<rt.mana>Critical Strike chance to generate 9 Chrona.</>",GE_Lisa_CastedSingleTargetProjectile_Cost,GE_GlobalCooldown,T_Lisa_FillerCast,AbilityIcon,256,256,datamine,,
+<rt.mana>Critical Strike chance to generate 9 Chrona.</>",authored,GE_Lisa_CastedSingleTargetProjectile_Cost,GE_GlobalCooldown,T_Lisa_FillerCast,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_ChanneledHealOrDamageProjectiles_C,069b72cc-60be-5cc9-a880-99bea2f087aa,Lisa,Temporal Barrage,GA_Lisa_ChanneledHealOrDamageProjectiles_C,true,Core,Magic.Arcane,Ranged,true,,"Launch a series of bolts of temporal energy at a single target, each fracturing the flow of fate and turning the tide of battle in your favor.
 
 Each bolt of <rt.absorb>Temporal Barrage</> deals <rt.warning>{TemporBarrDmg}</> magic damage to an enemy or <rt.heal>{TemporBarrHeal}</> healing to an ally.
@@ -342,7 +342,7 @@ Each bolt of <rt.absorb>Temporal Barrage</> deals <rt.warning>{TemporBarrDmg}</>
 100% of any damage dealt by <rt.absorb>Temporal Barrage</> heals an ally within your <rt.absorb>Aura of Deferred Fate</>. The lowest health ally is preferred.
 
 <rt.mana>Generates 4 Chrona per bolt.</>
-<rt.mana>Critical Strike chance to generate 6 Chrona.</>",GE_Lisa_ChanneledHealOrDamageProjectiles_Cost,GE_GlobalCooldown,T_Lisa_Barrage,AbilityIcon,512,512,datamine,,
+<rt.mana>Critical Strike chance to generate 6 Chrona.</>",authored,GE_Lisa_ChanneledHealOrDamageProjectiles_Cost,GE_GlobalCooldown,T_Lisa_Barrage,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Lisa_InstantDamageSpender_C,7526dae7-cb00-5898-b77b-c73f8d02905e,Lisa,Oblivion,GA_Lisa_InstantDamageSpender_C,true,Power,Magic.Arcane,Ranged,true,,"Instantly unleash a concentrated pulse of destructive temporal energy at the target, shattering the threads of fate around them.
 
 Deals <rt.warning>{ChronaBurstDmg}</> magic damage to the target.
@@ -351,19 +351,19 @@ Deals <rt.warning>{ChronaBurstDmg}</> magic damage to the target.
 Each time you cast <rt.absorb>Oblivion</> you gain <rt.meikoability2>+100% Cooldown Acceleration</> for <rt.bold>0.5 seconds</>.
 
 <rt.effect>DEFERRED FATE: MASS RELAY</>
-50% of any damage dealt by <rt.absorb>Oblivion</> heals all allies within your <rt.absorb>Aura of Deferred Fate</>.",GE_Lisa_InstantDamageSpender_Cost,GE_GlobalCooldown,T_Lisa_ChronaBlast,AbilityIcon,256,256,datamine,,
+50% of any damage dealt by <rt.absorb>Oblivion</> heals all allies within your <rt.absorb>Aura of Deferred Fate</>.",authored,GE_Lisa_InstantDamageSpender_Cost,GE_GlobalCooldown,T_Lisa_ChronaBlast,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_InstantSelfBuff_C,841ab490-98d6-562e-8a08-98885e553646,Lisa,Fleeting Hour,GA_Lisa_InstantSelfBuff_C,true,Major,Magic.Arcane,,,,"You step into the flow of time itself, and it quickens at your touch, granting you <rt.meikoability2>+50% Cooldown Acceleration</> for <rt.bold>15 seconds</>.
 
 The cooldown of <rt.absorb>Fleeting Hour</> does not count down until its active duration ends.
 
-<rt.meikoability2>Can be used during Global Cooldown and while casting or channeling</>",GE_Lisa_InstantSelfBuff_Cost,,T_Lisa_TimeBuff,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown and while casting or channeling</>",authored,GE_Lisa_InstantSelfBuff_Cost,,T_Lisa_TimeBuff,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_InstantSingleTargetDamageAndDot_C,fd93450d-6040-54a2-a1d7-1d7edc263c25,Lisa,Echoes of Ruin,GA_Lisa_InstantSingleTargetDamageAndDot_C,true,Core,Magic.Arcane,,true,,"Release splinters of ruinous energy into the target and up to 2 additional nearby enemies, dealing <rt.warning>{SplinterTickDmg}</> magic damage every <rt.warning>{SplinterPeriod} seconds</> over <rt.bold>{SplinterDuration} seconds</>. 
 
 <rt.effect>DEFERRED FATE: RELAY</>
 100% of any damage dealt by <rt.absorb>Echoes of Ruin</> heals an ally within your <rt.absorb>Aura of Deferred Fate</>. The lowest health ally is preferred.
 
 <rt.mana>Generates 6 Chrona.</>
-<rt.mana>Critical Strike chance to generate 9 Chrona.</>",GE_Lisa_InstantSingleTargetDamageAndDot_Cost,GE_GlobalCooldown,T_Lisa_Burst,AbilityIcon,256,256,datamine,,
+<rt.mana>Critical Strike chance to generate 9 Chrona.</>",authored,GE_Lisa_InstantSingleTargetDamageAndDot_Cost,GE_GlobalCooldown,T_Lisa_Burst,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_PauseResourcesAndPartyHealth_C,4d1c9914-f6c4-5b39-bb8c-840e4d46c771,Lisa,Epoch Break,GA_Lisa_PauseResourcesAndPartyHealth_C,true,Spirit,Magic.Arcane,,,"Invoke the strands of time to reshape a pivotal moment. Time stops for the next <rt.bold>6 seconds</>, pausing all allies' health bars.
 
 Any <rt.heal>Damage and Healing dealt during</> <rt.absorb>Epoch Break</> is <rt.heal>stored</> to be dealt all at once when <rt.absorb>Epoch Break</> expires.
@@ -371,16 +371,16 @@ Any <rt.heal>Damage and Healing dealt during</> <rt.absorb>Epoch Break</> is <rt
 During <rt.absorb>Epoch Break</>, your abilities have no <rt.mana>Mana</> or <rt.mana>Chrona</> costs.
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",,GE_Lisa_PauseResourcesAndPartyHealth_Cost,GE_GlobalCooldown,T_Lisa_Spirit,AbilityIcon,256,256,datamine,,
-GA_Lisa_SingleAllyDispel_C,1922147f-ecc7-5fac-884f-f7e36152c94e,Lisa,Revert Magic,GA_Lisa_SingleAllyDispel_C,true,Utility,Magic.Arcane,,,Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally.,,GE_Lisa_SingleAllyDispel_ResourceCost,GE_GlobalCooldown,T_Lisa_Dispel,AbilityIcon,256,256,datamine,,
-GA_Lisa_SingleTargetDamageImmunityBuff_C,b110b018-1ae4-5b35-8990-a91a7f8abcf6,Lisa,Chrono Veil (OLD),GA_Lisa_SingleTargetDamageImmunityBuff_C,true,,Magic.Arcane,,,"Protect an ally in a Veil of Time and sand for X seconds, making them immune to all damage and removes the targets current threat.",,GE_Lisa_SingleTargetDamageImmunityBuff_Cost,GE_GlobalCooldown,Tex_SpellBook06_54,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",,authored,GE_Lisa_PauseResourcesAndPartyHealth_Cost,GE_GlobalCooldown,T_Lisa_Spirit,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Lisa_SingleAllyDispel_C,1922147f-ecc7-5fac-884f-f7e36152c94e,Lisa,Revert Magic,GA_Lisa_SingleAllyDispel_C,true,Utility,Magic.Arcane,,,Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally.,,authored,GE_Lisa_SingleAllyDispel_ResourceCost,GE_GlobalCooldown,T_Lisa_Dispel,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Lisa_SingleTargetDamageImmunityBuff_C,b110b018-1ae4-5b35-8990-a91a7f8abcf6,Lisa,Chrono Veil (OLD),GA_Lisa_SingleTargetDamageImmunityBuff_C,true,,Magic.Arcane,,,"Protect an ally in a Veil of Time and sand for X seconds, making them immune to all damage and removes the targets current threat.",,authored,GE_Lisa_SingleTargetDamageImmunityBuff_Cost,GE_GlobalCooldown,Tex_SpellBook06_54,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_SingleTargetDot_C,387e65fd-d429-5e2c-b918-e1b39f541116,Lisa,Entropy's Claim,GA_Lisa_SingleTargetDot_C,true,Core,Magic.Arcane,,true,,"Erode the vitality of target enemy, dealing <rt.warning>{ErodeVitalityTickDmg}</> magic damage every <rt.warning>{ErodeVitalityPeriod} seconds</> over <rt.bold>{ErodeVitalityDuration} seconds</> as their life force begins to slip away.
 
 <rt.effect>DEFERRED FATE: RELAY</>
 100% of any damage dealt by <rt.absorb>Entropy's Claim</> heals an ally within your <rt.absorb>Aura of Deferred Fate</>. The lowest health ally is preferred.
 
 <rt.mana>Each time</> <rt.absorb>Entrropy's Claim</> <rt.mana>deals damage, it generates 4 Chrona.</>
-<rt.mana>Critical Strike chance to generate 6 Chrona.</>",GE_Lisa_SingleTargetDot_Cost,GE_GlobalCooldown,T_Lisa_Wither,AbilityIcon,256,256,datamine,,
+<rt.mana>Critical Strike chance to generate 6 Chrona.</>",authored,GE_Lisa_SingleTargetDot_Cost,GE_GlobalCooldown,T_Lisa_Wither,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_SingleTargetrRemovalSpender_C,42dd9a5e-1506-52b9-8259-e83ec810d18a,Lisa,Amend Fate,GA_Lisa_SingleTargetStaggerRemovalSpender_C,true,Power,Magic.Arcane,Ranged,,,"Redesign an ally's fate as it unfolds, instantly <rt.bold>cleansing target ally</> of up to <rt.effect>{StaggerCleanse}</> accumulated <rt.effect>stagger</> stored in <rt.absorb>Aura of Deferred Fate</>.
 
 <rt.absorb>Amend Fate</> heals the target for <rt.heal>{CleanHeal} of the amount cleansed</>.
@@ -388,14 +388,14 @@ GA_Lisa_SingleTargetrRemovalSpender_C,42dd9a5e-1506-52b9-8259-e83ec810d18a,Lisa,
 <rt.effect>CONVERGING TIMELINES</>
 Each time you cast <rt.absorb>Amend Fate</> you gain <rt.meikoability2>+100% Cooldown Acceleration</> for <rt.bold>0.5 seconds</>.
 
-<rt.mana>Generates Mana based on the amount of Stagger cleansed</>",GE_Lisa_SingleTargetStaggerRemovalSpender_Cost,GE_GlobalCooldown,T_Lisa_Stagger,AbilityIcon,256,256,datamine,,
-GA_Lisa_TargetedAoeSilence_C,202ddeb3-b95e-5178-916b-7d061a19f085,Lisa,Intercession,GA_Lisa_TargetedAoeSilence_C,true,Control,Magic.Arcane,,true,,Instantly <rt.effect>Silence</> all enemies in the target area for <rt.bold>7 seconds</>.,GE_Lisa_TargetedAoeSilence_Cost,GE_GlobalCooldown,T_Lisa_AoESilence,AbilityIcon,256,256,datamine,,
+<rt.mana>Generates Mana based on the amount of Stagger cleansed</>",authored,GE_Lisa_SingleTargetStaggerRemovalSpender_Cost,GE_GlobalCooldown,T_Lisa_Stagger,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Lisa_TargetedAoeSilence_C,202ddeb3-b95e-5178-916b-7d061a19f085,Lisa,Intercession,GA_Lisa_TargetedAoeSilence_C,true,Control,Magic.Arcane,,true,,Instantly <rt.effect>Silence</> all enemies in the target area for <rt.bold>7 seconds</>.,authored,GE_Lisa_TargetedAoeSilence_Cost,GE_GlobalCooldown,T_Lisa_AoESilence,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Lisa_TeleportForward_C,a2a41189-cab9-5c1a-addd-6c926a259700,Lisa,Time Skip,GA_Lisa_TeleportForward_C,true,Defensive,,,,,"Instantly teleport forward a short distance and gain <rt.absorb>{movespeed} Movement Speed</> for {duration}.
 
-<rt.meikoability2>Can be used during Global Cooldown and while casting or channeling</>",,,T_Lisa_Blink,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown and while casting or channeling</>",authored,,,T_Lisa_Blink,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mara_AoeAttackBuilder_C,37d3a136-c5c5-5aed-89c2-e46b2e6fe21e,Mara,Skittering Blades,GA_Mara_AoeAttackBuilder_C,true,Basic,Physical,,true,,"Spins and throws daggers in all direction, dealing <rt.warning>{SkitterDmg}</> to all nearby enemies.
 
-<rt.meikoability1>Generates 1 Combo Point for each enemy hit. Critical Strikes generate 2 Combo Points.</>",GE_Mara_AoEAttackBuilder_Cost,GE_GlobalCooldownStatic,Mara_AOEBuilder,AbilityIcon,256,256,datamine,,
+<rt.meikoability1>Generates 1 Combo Point for each enemy hit. Critical Strikes generate 2 Combo Points.</>",authored,GE_Mara_AoEAttackBuilder_Cost,GE_GlobalCooldownStatic,Mara_AOEBuilder,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mara_AoeAttackSpender_C,2b02feae-437a-533a-b0ca-32dc15ccabb9,Mara,Arachnid Assault,GA_Mara_AoeAttackSpender_C,true,Power,Physical,,true,,"Deal <rt.warning>{ArachniedDmg}</> to all targets in a radius around Mara. The damage is increased per combo point spent.
 
 <rt.meikoability1>1 Combo Point: +20% damage</>
@@ -403,8 +403,8 @@ GA_Mara_AoeAttackSpender_C,2b02feae-437a-533a-b0ca-32dc15ccabb9,Mara,Arachnid As
 <rt.meikoability1>3 Combo Points: +60% damage</>
 <rt.meikoability1>4 Combo Points: +80% damage</>
 <rt.meikoability1>5 Combo Points: +100% damage</>
-<rt.meikoability1>6 Combo Points: +120% damage</>",GE_Mara_AoEAttackSpender_Cost,GE_GlobalCooldownStatic,Mara_SpiderAOE,AbilityIcon,256,256,datamine,,
-GA_Mara_AutoAttack_C,1a642a27-1d6a-5b0f-a510-08a5e87ca5d6,Mara,Attack,GA_Mara_AutoAttack_C,true,,Physical,,true,,,,,Tex_swords_05_bg,AbilityIcon,256,256,datamine,,
+<rt.meikoability1>6 Combo Points: +120% damage</>",authored,GE_Mara_AoEAttackSpender_Cost,GE_GlobalCooldownStatic,Mara_SpiderAOE,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Mara_AutoAttack_C,1a642a27-1d6a-5b0f-a510-08a5e87ca5d6,Mara,Attack,GA_Mara_AutoAttack_C,true,,Physical,,true,,,absent,,,Tex_swords_05_bg,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mara_BleedAttackSpender_C,ec6094b8-1c0a-5992-af74-8579e816731a,Mara,Hemorrhaging Strike,GA_Mara_BleedAttackSpender_C,true,Power,,,true,,"Strike the target dealing <rt.warning>{HemoStrikeDirect}</> damage and apply a bleed dealing <rt.warning>{HemoStrikeTickDmg}</> <rt.bold>every</> <rt.warning>{HemoStrikePeriod}</> <rt.bold>seconds for 12 seconds</>. The bleed's duration is increased per combo point spent.
 
 <rt.meikoability2>1 Combo Point: 15 seconds</>
@@ -417,28 +417,28 @@ GA_Mara_BleedAttackSpender_C,ec6094b8-1c0a-5992-af74-8579e816731a,Mara,Hemorrhag
 <rt.effect>CREEPING DEATH</>
 <rt.absorb>Hemorrhaging Strike</> deals <rt.warning>0.5% increased</> <rt.effect>Bleed damage</> for every <rt.warning>1% Haste you have</>.
 
-<rt.mana>Each tick of Hemorrhaging Strike's bleed replenishes 2 energy.</>",GE_Mara_BleedAttackSpender_Cost,GE_GlobalCooldownStatic,Mara_Bleed,AbilityIcon,512,512,datamine,,
+<rt.mana>Each tick of Hemorrhaging Strike's bleed replenishes 2 energy.</>",authored,GE_Mara_BleedAttackSpender_Cost,GE_GlobalCooldownStatic,Mara_Bleed,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mara_ChargedDoubleAttackBuilder_C,fe273b0e-285c-5580-bca7-4750735bc82a,Mara,Widow's Bite,GA_Mara_ChargedDoubleAttackBuilder_C,true,Core,Physical,,true,,"Plunges both daggers into single target, dealing <rt.warning>{WidowBiteDmg1}</> with the right hand and <rt.warning>{WidowBiteDmg2}</> with the left hand.
 
 <rt.absorb>Widow's Bite</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.
 
 <rt.meikoability1>Generates 2 Combo Points with each strike. Critical Strikes generate 3 Combo Points.</>
 
-<rt.mana>Generates 30 Energy</>",,GE_GlobalCooldownStatic,Mara_RegainEnergyHit,AbilityIcon,512,512,datamine,,
+<rt.mana>Generates 30 Energy</>",authored,,GE_GlobalCooldownStatic,Mara_RegainEnergyHit,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mara_ChargedResourceRefillSelfBuff_C,26f72ea5-ba4e-536c-8740-f38c867829b5,Mara,Maiden of Death,GA_Mara_ChargedResourceRefillSelfBuff_C,true,Major,,,,"For the next 10 seconds, you deal <rt.warning>20% more damage</> and all combo point generating abilities generate <rt.meikoability1>6 Combo Points</>.
 
 Additionally, your <rt.mana>Energy Generation is increased by 20%</> while <rt.absorb>Maiden of Death</> is active.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Mara_Maiden,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Mara_Maiden,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mara_ChargedTeleportBehindTarget_C,fb6ea0aa-76ba-52f0-a6b4-ac5aa0e59221,Mara,Stalker Step,GA_Mara_ChargedTeleportBehindTarget_C,true,Movement,,,,"Instantly teleport behind target enemy or player and increase your movement speed by <rt.bold>50%</> for 4 seconds.
 
 <rt.absorb>Stalker Step</> does not break <rt.effect>Stealth</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Mara_Stalkerstep,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Mara_Stalkerstep,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mara_CopyCharacterDamage_C,ec94e4fe-31d8-5b70-94c4-2df3f120ef81,Mara,Matriarch Macabre,GA_Mara_CopyCharacterDamage_C,true,Spirit,,,,"For the next 20 seconds, you deal <rt.warning>20% more damage</> and your <rt.absorb>Queen's Fang</> and <rt.absorb>Arachnid Assault</> abilities summon two shadowy clones that both imitate the attack for 50% of your power.
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,GE_Mara_CopyCharacterDamage_Cost,,Mara_Spirit,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,authored,GE_Mara_CopyCharacterDamage_Cost,,Mara_Spirit,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mara_HeavyAttackSpender_C,61a8558c-1a7c-51f3-b900-5cfd39a757b6,Mara,Queen's Fang,GA_Mara_HeavyAttackSpender_C,true,Power,Physical,,true,,"Deals <rt.warning>{QueenFangDmg}</> to target enemy. Damage increased for each combo point spent.
 
 <rt.meikoability1>1 Combo Point: +20% damage</>
@@ -446,17 +446,17 @@ GA_Mara_HeavyAttackSpender_C,61a8558c-1a7c-51f3-b900-5cfd39a757b6,Mara,Queen's F
 <rt.meikoability1>3 Combo Points: +60% damage</>
 <rt.meikoability1>4 Combo Points: +80% damage</>
 <rt.meikoability1>5 Combo Points: +100% damage</>
-<rt.meikoability1>6 Combo Points: +120% damage</>",GE_Mara_HeavyAttackSpender_Cost,GE_GlobalCooldownStatic,Mara_SingleTargetFinisher,AbilityIcon,256,256,datamine,,
+<rt.meikoability1>6 Combo Points: +120% damage</>",authored,GE_Mara_HeavyAttackSpender_Cost,GE_GlobalCooldownStatic,Mara_SingleTargetFinisher,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mara_MeleeInterrupt_C,3258646e-d6d3-51ce-a3b0-8d184cc947f3,Mara,Kick,GA_Mara_MeleeInterrupt_C,true,Utility,Physical,,,"<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. 
 Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Mara_Kick,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Mara_Kick,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mara_ResetCooldownRefillResouces_C,ded7363f-233c-5876-8fd9-265630cca62e,Mara,Final Stratagem,GA_Mara_ResetCooldownRefillResources_C,true,Major,,,,"Your <rt.mana>Energy</> and <rt.mana>Combo Points</> are instantly refilled and all your <rt.absorb>Hero Ability</> cooldowns are reset.
 
-<rt.meikoability2>Can be used during Global Cooldown.</>",,,,Mara_Strategem,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown.</>",,authored,,,Mara_Strategem,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mara_SelfDefenceBuff_C,e2538202-368e-57e7-8bc0-8099ff3ea227,Mara,Shadow Ward,GA_Mara_SelfDefenceBuff_C,true,Defensive,,,,"You take <rt.absorb>40% reduced damage</> for 4 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Mara_Defensive,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Mara_Defensive,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mara_Stealth_C,f203ba48-565f-5672-aed3-a9cba5a69874,Mara,Brooding Shadows,GA_Mara_Stealth_C,true,Utility,,,,,"Instantly enter <rt.absorb>Stealth</>, making it difficult for enemies to detect you. When used in combat, <rt.absorb>Brooding Shadows</> triggers its cooldown.
 
 <rt.meikoability2>Can be used during Global Cooldown</>
@@ -476,19 +476,19 @@ Applies Seething Poison to the target, dealing <rt.warning>{SeethingDmg}</> pois
 Applies Volatile Poison to all enemies hit by your Skittering Blades, dealing <rt.warning>{VolatileTotalDmg}</> poison damage over 6 seconds. Upon expiration, Volatile Poison erupts dealing <rt.warning>{VolatileAoeDmg}</> poison damage to the target.
 
 <rt.effect>CREEPING DEATH</>
-<rt.absorb>Caustic Poison</>, <rt.absorb>Seething Poisons</>, and <rt.absorb>Volatile Poison</> deal <rt.warning>0.5% increased</> <rt.effect>Poison damage</> for every <rt.warning>1% Haste you have</>.",,,Mara_stealth,AbilityIcon,512,512,datamine,,
+<rt.absorb>Caustic Poison</>, <rt.absorb>Seething Poisons</>, and <rt.absorb>Volatile Poison</> deal <rt.warning>0.5% increased</> <rt.effect>Poison damage</> for every <rt.warning>1% Haste you have</>.",authored,,,Mara_stealth,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mara_StrongerBehindAttackBuilder_C,ab8761ab-8138-5b09-90d2-88b7f8a238c7,Mara,Backstab,GA_Mara_StrongerBehindAttackBuilder_C,true,Basic,Physical,,true,,"Deals <rt.warning>{BackstabDmg}</> damage to target enemy. Deals <rt.warning>40% more damage when attacking from behind</>.
 
-<rt.meikoability1>Generates 2 Combo Points. Critical Strikes generate 3 Combo Points.</>",GE_Mara_StrongerBehindAttackBuilder_Cost,GE_GlobalCooldownStatic,Mara_backstab,AbilityIcon,512,512,datamine,,
+<rt.meikoability1>Generates 2 Combo Points. Critical Strikes generate 3 Combo Points.</>",authored,GE_Mara_StrongerBehindAttackBuilder_Cost,GE_GlobalCooldownStatic,Mara_backstab,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mara_StunSpender_C,4909d7bd-f50e-5f34-b487-145f94e1d914,Mara,Web Crack,GA_Mara_StunSpender_C,true,Control,Physical,,true,"Instantly <rt.effect>Stun</> target enemy for 4 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown.</>",,,,Mara_Stun,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown.</>",,authored,,,Mara_Stun,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mara_Talent_ResetCooldownRefillResources_AbilityReplacer_C,56c7238d-bdd1-52bb-a0e9-8f660d83f077,Mara,Macabre Stratagem,GA_Mara_Talent_ResetCooldownRefillResources_AbilityReplacer_NewAbility_C,true,,,,,"You gain <rt.effect>Matriarch Macabre</> for <rt.bold>10 seconds</>.
 
-If used while <rt.absorb>Matriarch Macabre</> is already active, its duration is extended by <rt.bold>10 seconds</>.",,,,T_Nhance_RPG_Shadow_16,AbilityIcon,256,256,datamine,,
+If used while <rt.absorb>Matriarch Macabre</> is already active, its duration is extended by <rt.bold>10 seconds</>.",,authored,,,T_Nhance_RPG_Shadow_16,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Meiko_AoePull_C,6f784590-9cce-528d-891f-56861ea4d663,Meiko,Cyclone,GA_Meiko_AoePull_C,true,Control,Physical,,true,"Create a <rt.absorb>Cyclone</> of strong winds that instantly pulls in all enemies within the radius to you.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Meiko_Massgrip,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Meiko_Massgrip,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Meiko_ChanneledHeavyDamage_C,99677105-500b-5137-96d2-b1b70127c4bd,Meiko,Earthfist Barrage,GA_Meiko_ChanneledHeavyDamage_C,true,Power,Physical,,true,,"Pummel your target with 4 quick punches, dealing <rt.warning>{EarthBarrTickDmg}</> physical damage <rt.bold>every</> <rt.warning>{EarthBarrPeriod}</> <rt.bold>seconds</>, leading in to a final powerful uppercut for <rt.warning>{EarthBarrFinalDmg}</> damage.
 
 You can move while channeling <rt.absorb>Earthfist Barrage</>.
@@ -498,10 +498,10 @@ You can move while channeling <rt.absorb>Earthfist Barrage</>.
 <rt.bold>AFFECTED BY EARTHFALL</>
 <rt.absorb>Earthfist Barrage</> deals <rt.warning>+100% increased damage</> when it can consume a stack of <rt.mana>Earthfall</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Meiko_AbilityIcon_09,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Meiko_AbilityIcon_09,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_ChargedForwardDash_C,392c52b0-0579-5781-9dd8-c7deae8572c5,Meiko,Gust,GA_Meiko_ChargedForwardDash_C,true,Movement,,,,"Quickly travel forward a short distance.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,Meiko_AbilityIcon_10,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,Meiko_AbilityIcon_10,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_DamageSoakBuff_C,8156c19e-e593-52a8-a42c-56e97f339309,Meiko,Stone Shield,GA_Meiko_DamageSoakBuff_C,true,Defensive,,,true,,"Summon 3 protective stones around you that spin in a wide circle, dealing <rt.warning>{StoneShieldDmg}</> physical damage <rt.warning>4 times</> to all nearby enemies.
 
 Your armor is increased by <rt.bold>20%</> for every 1 stone that is active on you, up to a maximum of <rt.bold>60%</> increased armor with 3 stones.
@@ -512,12 +512,12 @@ While at least one stone is active, they <rt.heal>soak 35% of all damage you tak
 
 <rt.absorb>Stone Shield</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Meiko_StoneShield,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Meiko_StoneShield,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Meiko_DurationalAoeDamageBuff_C,5f1838c5-9008-5a6a-a956-411c30db2211,Meiko,Spirited Vortex,GA_Meiko_DurationalAoeDamageBuff_C,true,Core,Physical,,true,,"Meiko creates a vortex of winds around her, providing <rt.mana>+15% Dodge Chance</> and dealing <rt.warning>{SpiritVortexDmg}</> damage <rt.bold>every</> <rt.warning>{SpiritVortexPeriod}</> <rt.bold>seconds for 30 seconds</> to all nearby enemies.
 
 Enemies that take damage from <rt.absorb>Spirited Vortex</> have <rt.effect>35% reduced Movement Speed</> for 5 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Meiko_AbilityIcon_07,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Meiko_AbilityIcon_07,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_DurationalMultipleTeleportDamage_New,66f99672-00dd-5b8f-aca5-74b462d3b87a,Meiko,Twin Souls: Army of One,GA_Meiko_DurationalMultipleTeleportDamage_New_C,true,Spirit,,,true,,"You split your soul into the <rt.meikoability2>Sibling of Wind</> and the <rt.meikoability3>Sibling of Earth</> for 20 seconds. You deal <rt.warning>20% more damage</> for the duration.
 
 <rt.meikoability3>SIBLING OF EARTH (controlled)</>
@@ -529,10 +529,10 @@ The Sibling of Wind swiftly teleports to, and strikes, nearby enemies up to 40 t
 <rt.meikoability2>Can be used during Global Cooldown</>
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb>Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 seconds.</>",GE_Meiko_DurationalMultipleTeleportDamage_SpiritCost,,T_Meiko_SpiritUltimate,AbilityIcon,512,512,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb>Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 seconds.</>",authored,GE_Meiko_DurationalMultipleTeleportDamage_SpiritCost,,T_Meiko_SpiritUltimate,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Meiko_FrontalAoeDebuff_C,fe98e56f-3939-505e-8d16-2d415a175439,Meiko,Stone Stomp,GA_Meiko_FrontalAoeDebuff_C,true,Control,Physical,,true,,"Send a shockwave through the ground in front of you, dealing <rt.warning>{StoneStompDmg}</> damage to enemies in its wake and <rt.absorb>Stunning</> them for 3 sec.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Meiko_AbilityIcon_11,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Meiko_AbilityIcon_11,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_HighDamageCleave_C,91c4d620-ccd4-5d91-9ac4-d83510de67fe,Meiko,Lashing Stormkick,GA_Meiko_HighDamageCleave_C,true,Power,Physical,,true,,"Perform a roundhouse kick, dealing <rt.warning>{LashStrmDmg}</> damage to your target and nearby enemies.
 
 <rt.absorb>Lashing Stormkick</> heals you for <rt.heal>50% of the damage it deals</>.
@@ -540,58 +540,58 @@ GA_Meiko_HighDamageCleave_C,91c4d620-ccd4-5d91-9ac4-d83510de67fe,Meiko,Lashing S
 <rt.bold>AFFECTED BY STORMFALL</>
 <rt.absorb>Lashing Stormkick</> deals <rt.warning>+100% increased damage</> when it can consume a stack of <rt.mana>Stormfall</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Meiko_AbilityIcon_08,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Meiko_AbilityIcon_08,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_InstantSelfDefensive_C,86762671-0ebb-5d49-a58b-9b907c6ecc22,Meiko,Serenity,GA_Meiko_InstantSelfDefensive_C,true,Utility,Magic,,,,"Instantly heal yourself for <rt.heal>{SerenityHeal}</>.
 
 Each time you <rt.bold>Auto Attack</> an enemy, your <rt.absorb>Serenity</> gains <rt.heal>+40% increased healing</>, stacking up to 50 times.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Meiko_Selfheal,AbilityIcon,256,256,datamine,,
-GA_Meiko_MeleeAutoAttack_C,157da6ef-7e97-5e2a-aa97-4c2ca7433d95,Meiko,Attack,GA_Meiko_MeleeAutoAttack_C,true,,Physical,,true,,,,,T_Nhance_RPG_Icons_HolyHand,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Meiko_Selfheal,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Meiko_MeleeAutoAttack_C,157da6ef-7e97-5e2a-aa97-4c2ca7433d95,Meiko,Attack,GA_Meiko_MeleeAutoAttack_C,true,,Physical,,true,,,absent,,,T_Nhance_RPG_Icons_HolyHand,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Meiko_MeleeDamageImmediateSelfBuff_C,80fcc003-4d9d-5080-af08-eb53f80eb4a8,Meiko,Double Palm Strike,GA_Meiko_MeleeDamageImmediateSelfBuff_C,true,Core,Physical,,true,,"Strike target enemy with both palms, dealing <rt.warning>{DoublePalmDmg}</> damage. Grants <rt.absorb>Spirited Strikes</> for 30 seconds.
 
 <rt.absorb>SPIRITED STRIKES</>
 +20% Magic Damage Reduction
 +5% Parry
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Meiko_AbilityIcon_04,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Meiko_AbilityIcon_04,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_MeleeDamageLowHealthSelfBuff_C,c27e9d06-7c44-5e4b-b671-ff62e9503e54,Meiko,Rising Earth,GA_Meiko_MeleeDamageLowHealthSelfBuff_C,true,Core,Physical,,true,,"Uppercut target enemy, dealing <rt.warning>{RisingEarthDmg}</>. Grants you 2 charges of <rt.mana>Earthfall</>.
 
 <rt.absorb>Earthfall</>
 Your next <rt.bold>Earthfist Barrage</> deals 100% increased damage.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Meiko_AbilityIcon_06,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Meiko_AbilityIcon_06,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_MeleeDamageSelfBuff_C,bd1e75a2-f00a-53da-9347-07876a2c319c,Meiko,Rising Storm,GA_Meiko_MeleeDamageSelfBuff_C,true,Core,Physical,,true,,"Perform a powerful jump kick, dealing <rt.warning>{RisingStrmDmg}</> damage to your target and nearby enemies. Grants you 2 charges of <rt.mana>Stormfall</>.
 
 <rt.absorb>Stormfall</>
 Your next <rt.bold>Lashing Stormkick</> deals 100% increased damage.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,Meiko_AbilityIcon_05,AbilityIcon,1024,1024,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,Meiko_AbilityIcon_05,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_MeleeDown_C,fda868fe-111c-5ff0-8d39-adc3561446be,Meiko,Wind Kick,GA_Meiko_MeleeDown_C,true,Basic,Physical,,true,,"Deals <rt.warning>{WindKickDmg}</> damage to your target and other enemies near your target.
 
 Grants access to <rt.meikoability2>Kick Technique</> finishers.
 
-<rt.mana>Combo Builder</>",,GE_GlobalCooldownStatic,Meiko_AbilityIcon_02,AbilityIcon,1024,1024,datamine,,
+<rt.mana>Combo Builder</>",authored,,GE_GlobalCooldownStatic,Meiko_AbilityIcon_02,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_MeleeInterrupt,1cc3725a-b4a9-5328-b973-9451111359e7,Meiko,Stagger,GA_Meiko_MeleeInterrupt_C,true,Utility,Physical,,,"<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. 
 Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Meiko_Interrupt,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Meiko_Interrupt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Meiko_MeleeLeft_C,fd17a7f5-b8d5-57fd-911d-2471d24c855c,Meiko,Spirit Palm,GA_Meiko_MeleeLeft_C,true,Basic,Physical,,true,,"Deals <rt.warning>{SpiritPalmDmg}</> damage to target enemy.
 
 Grants access to <rt.meikoability1>Palm Technique</> finishers.
 
-<rt.mana>Combo Builder</>",,GE_GlobalCooldownStatic,Meiko_AbilityIcon_01,AbilityIcon,1024,1024,datamine,,
+<rt.mana>Combo Builder</>",authored,,GE_GlobalCooldownStatic,Meiko_AbilityIcon_01,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_MeleeRight_C,c5e08e21-2c45-566b-acfc-a906463c2e09,Meiko,Earth Fist,GA_Meiko_MeleeRight_C,true,Basic,Physical,,true,,"Deals <rt.warning>{EarthFistDmg}</> damage to target enemy.
 
 Grants access to <rt.meikoability3>Fist Technique</> finishers.
 
-<rt.mana>Combo Builder</>",,GE_GlobalCooldownStatic,Meiko_AbilityIcon_03,AbilityIcon,1024,1024,datamine,,
-GA_Meiko_MoveToLocationAoeDamage_C,5c749572-ba83-5888-823f-01b81bc720be,Meiko,Shatter Earth,GA_Meiko_MoveToLocationAoeDamage_C,true,Major,Physical,,true,,"Leap and slam the ground at a target location, dealing <rt.warning>{ShatterEarthAoeDmg}</> damage to all enemies in the area and leaving an area of quaking earth for 6 seconds that deals <rt.warning>{ShatterEarthTickDmg}</> damage <rt.bold>every</> <rt.warning>{ShatterEarthPeriod}</> <rt.bold>seconds</> to any enemy standing in in the effect.",GE_Meiko_MoveToLocationAoeDamage_Cost,GE_GlobalCooldownStatic,T_Meiko_SlamStun,AbilityIcon,256,256,datamine,,
-GA_Meiko_Passive_DamageSoakBuff_Monitor_C,c1a55d80-0b9e-5b1c-aea9-de0a3e74c05f,Meiko,Stone Shield,GA_Meiko_Passive_DamageSoakBuff_Monitor_C,true,,,,,,,,,T_Meiko_StoneShield,AbilityIcon,256,256,datamine,,
+<rt.mana>Combo Builder</>",authored,,GE_GlobalCooldownStatic,Meiko_AbilityIcon_03,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
+GA_Meiko_MoveToLocationAoeDamage_C,5c749572-ba83-5888-823f-01b81bc720be,Meiko,Shatter Earth,GA_Meiko_MoveToLocationAoeDamage_C,true,Major,Physical,,true,,"Leap and slam the ground at a target location, dealing <rt.warning>{ShatterEarthAoeDmg}</> damage to all enemies in the area and leaving an area of quaking earth for 6 seconds that deals <rt.warning>{ShatterEarthTickDmg}</> damage <rt.bold>every</> <rt.warning>{ShatterEarthPeriod}</> <rt.bold>seconds</> to any enemy standing in in the effect.",authored,GE_Meiko_MoveToLocationAoeDamage_Cost,GE_GlobalCooldownStatic,T_Meiko_SlamStun,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Meiko_Passive_DamageSoakBuff_Monitor_C,c1a55d80-0b9e-5b1c-aea9-de0a3e74c05f,Meiko,Stone Shield,GA_Meiko_Passive_DamageSoakBuff_Monitor_C,true,,,,,,,authored,,,T_Meiko_StoneShield,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Meiko_Passive_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_C,e0e0d18a-56c3-521e-bb80-45070d0efa40,Meiko,Forbidden Technique,GA_Meiko_Passive_Talent_MeleeDamageImmediateSelfBuff_DamageBuilder_C,true,,,,,"Your <rt.absorb>Double Palm Strike</> finisher applies <bold>Forbidden Technique</> to the target for 15 seconds.
 
 <bold>Forbidden Technique</> accumulates 18% of all damage you deal to the target. Once it expires, is removed, or if the enemy dies while it is active -  the accumulated amount explodes on the target and onto nearby enemies. You are healed for 100% of the damage dealt by <bold>Forbidden Technique</>.
 
-You can only have one <bold>Forbidden Technique</> active at any time.",,,,Meiko_AbilityIcon_04,AbilityIcon,1024,1024,datamine,,
+You can only have one <bold>Forbidden Technique</> active at any time.",,authored,,,Meiko_AbilityIcon_04,AbilityIcon,1024,1024,authored,datamine,,,legacy_unbound
 GA_Meiko_PlaceHolderFinisher_C,e17d6973-53e3-5f05-8bfb-56d5836d7a1a,Meiko,Fighting Techniques,GA_Meiko_PlaceHolderFinisher_C,true,,,,,"Grants access to <rt.mana>Finishing Moves</>  based on <rt.mana>Combo Builders</> used:
 
 <rt.meikoability2>Finisher Techniques can be used during Global Cooldown</>
@@ -612,86 +612,86 @@ GA_Meiko_PlaceHolderFinisher_C,e17d6973-53e3-5f05-8bfb-56d5836d7a1a,Meiko,Fighti
 <rt.meikoability3>Rising Earth</> (CORE ABILITY)
 • Deals damage to the target and grants <rt.bold>2 Earthfall</> charges, increasing the damage of your next 2 Earthfist Barrages by 100%.
 <rt.meikoability3>Earthfist Barrage</> (POWER ABILITY)
-• Pummels target enemy over 1 second and heals you for 50% of the damage it deals.",,GE_Meiko_PlaceHolderFinisher_Cost,,Tex_SpellBook03_73,AbilityIcon,256,256,datamine,,
+• Pummels target enemy over 1 second and heals you for 50% of the damage it deals.",,authored,GE_Meiko_PlaceHolderFinisher_Cost,,Tex_SpellBook03_73,AbilityIcon,256,256,absent,datamine,,,legacy_unbound
 GA_Meiko_RangedTaunt_C,88392d70-0e3d-5cdf-a52f-b6b2268fbc7a,Meiko,Taunt,GA_Meiko_RangedTaunt_C,true,Utility,Physical,,true,"<rt.absorb>Taunt</> the target, forcing it to attack you for 6 sec.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Meiko_Taunt,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Meiko_Taunt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Meiko_TauntTotem,2fc854f6-dac5-55a8-bda3-33e7ff072fa7,Meiko,Twin Souls: Bulwark,GA_Meiko_TauntTotem_C,true,Major,,,,,"Split your soul into the <rt.meikoability2>Sibling of Wind</> and the <rt.meikoability3>Sibling of Earth</> for up to 20 seconds. You are in control of the <rt.meikoability2>Sibling of Wind</>.
 
 <rt.meikoability3>SIBLING OF EARTH</>
-While active, the <rt.meikoability3>Sibling of Earth</> forces all enemies within a 1000 radius to attack it. The <rt.meikoability3>Sibling of Earth's</> Health <rt.heal>({TotemMaxHealth})</> is equal to your maximum health, increased by 2% for every 1% Critical Strike, Haste, Expertise, and Spirit you have.",,,T_Meiko_TauntTotem,AbilityIcon,256,256,datamine,,
+While active, the <rt.meikoability3>Sibling of Earth</> forces all enemies within a 1000 radius to attack it. The <rt.meikoability3>Sibling of Earth's</> Health <rt.heal>({TotemMaxHealth})</> is equal to your maximum health, increased by 2% for every 1% Critical Strike, Haste, Expertise, and Spirit you have.",authored,,,T_Meiko_TauntTotem,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_BlueButterfly_Recall,3ed90275-633d-5b3b-904b-c6372dde644c,Mosse,Fluttercall: Embrace,GA_Mosse_BlueButterfly_Recall_C,true,Utility,Magic.Nature,Ranged,,"Recall your <rt.bold>Blue Flutterfly</> to you.
 
 While the <rt.bold>Blue Flutterfly</> is on you, Your <rt.meikoability1>Flutterfly Healing</> on all allies is <rt.heal>increased by 50%</> and all your abilities have <rt.mana>20% reduced mana cost</>.
 
-While your <rt.bold>Blue Flutterfly</> is attached to an ally, that player receives <rt.heal>100% increased healing</> from your <rt.meikoability1>Flutterfly Healing</> effects.",,,GE_GlobalCooldown,T_Mosse_BlueButterfly,AbilityIcon,256,256,datamine,,
+While your <rt.bold>Blue Flutterfly</> is attached to an ally, that player receives <rt.heal>100% increased healing</> from your <rt.meikoability1>Flutterfly Healing</> effects.",,authored,,GE_GlobalCooldown,T_Mosse_BlueButterfly,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_BlueButterfly_SendOut,85fa60e1-bf8b-556a-a3ec-78e27370d9ee,Mosse,Fluttercall: Protect,GA_Mosse_BlueButterfly_SendOut_C,true,Utility,Magic.Nature,Ranged,,"Send your <rt.mana>Blue Flutterfly</> to protect target ally.
 
 While your <rt.bold>Blue Flutterfly</> is attached to an ally, that player receives <rt.heal>100% increased healing</> from your <rt.meikoability1>Flutterfly Healing</> effects.
 
-While the <rt.bold>Blue Flutterfly</> is on you, Your <rt.meikoability1>Flutterfly Healing</> on all allies is <rt.heal>increased by 50%</> and all your abilities have <rt.mana>20% reduced mana cost</>.",,GE_Mosse_BlueButterfly_ManaCost,GE_GlobalCooldown,T_Mosse_BlueButterfly,AbilityIcon,256,256,datamine,,
+While the <rt.bold>Blue Flutterfly</> is on you, Your <rt.meikoability1>Flutterfly Healing</> on all allies is <rt.heal>increased by 50%</> and all your abilities have <rt.mana>20% reduced mana cost</>.",,authored,GE_Mosse_BlueButterfly_ManaCost,GE_GlobalCooldown,T_Mosse_BlueButterfly,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_CastedSingleTargetProjectile_C,83d40cee-adcc-59ee-b072-78f2595d21db,Mosse,Nettlebolt,GA_Mosse_CastedSingleTargetProjectile_C,true,Basic,Magic.Nature,Ranged,true,,"Cast a bolt of nettles at target enemy, dealing <rt.warning>{NettleDmg}</> damage to them.
 
 <rt.absorb>Nettlebolt</> replenishes the <rt.mana>Mana Cost</> it spends once it deals damage to an enemy.
 
 <rt.Absorb>Petal Germination</>
-The cooldown of your <rt.absorb>Life Petal</> is reduced by 1.5 seconds each time you deal damage with <rt.absorb>Nettlebolt</> and 3 seconds if it critically strikes.",GE_Mosse_CastedSingleTargetProjectile_ManaCost,GE_GlobalCooldown,Sylvie_AbilityIcon_02,AbilityIcon,256,256,datamine,,
+The cooldown of your <rt.absorb>Life Petal</> is reduced by 1.5 seconds each time you deal damage with <rt.absorb>Nettlebolt</> and 3 seconds if it critically strikes.",authored,GE_Mosse_CastedSingleTargetProjectile_ManaCost,GE_GlobalCooldown,Sylvie_AbilityIcon_02,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_DurationalAoeHealPlacement_C,46c80f02-84a1-5402-93a0-7295ac8a2a03,Mosse,Heart Bloom,GA_Mosse_DurationalAoeHealPlacement_C,true,Power,,,,"Conjure a <rt.absorb>Heart Bloom</> at your side that stores <rt.meikoability1>12% of all Flutterfly healing</> you do inside it.
 
 Every 2 seconds, the <rt.absorb>Heart Bloom</> releases a pulse, healing all allies within 4000 radius for an amount equal to the healing it has stored. Lasts 16 seconds.
 
-<rt.absorb>Heart Bloom</> spawns <rt.effect>3 Boomshrooms</> when it withers.",,GE_Mosse_DurationalAoeHealPlacement_ManaCost,GE_GlobalCooldown,T_Mosse_Bigheal,AbilityIcon,256,256,datamine,,
+<rt.absorb>Heart Bloom</> spawns <rt.effect>3 Boomshrooms</> when it withers.",,authored,GE_Mosse_DurationalAoeHealPlacement_ManaCost,GE_GlobalCooldown,T_Mosse_Bigheal,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_ExplosiveMinion_C,416eb519-f1ec-5d99-a19e-4d042289c548,Mosse,Shroomsplosion,GA_Mosse_ExplosiveMinion_C,true,Core,Magic.Nature,,true,,"Command all mature <rt.absorb>Boomshrooms</> to attack causing them to leap at target enemy and explode, dealing <rt.warning>{ShroomSplDmg}</> magic damage to the target and nearby enemies.
 
 <rt.absorb>Boomshrooms</>
-Each time one of your plants expire, budding <rt.absorb>Boomshrooms</> start growing in that location. After 3 seconds, the <rt.absorb>Boomshroom</> has reached full maturity and is ready to be called into battle.",,GE_GlobalCooldown,T_Mosse_Boomshroom,AbilityIcon,256,256,datamine,,
+Each time one of your plants expire, budding <rt.absorb>Boomshrooms</> start growing in that location. After 3 seconds, the <rt.absorb>Boomshroom</> has reached full maturity and is ready to be called into battle.",authored,,GE_GlobalCooldown,T_Mosse_Boomshroom,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_HealingAoeTotem,c13f88b0-a025-5411-9236-e2fdbc29099b,Mosse,Life Petal,GA_Mosse_HealingAoeTotem_C,true,Power,Magic.Nature,,,,"A <rt.absorb>Life Petal</> sprouts up near you, healing one ally for {LifePetalTickHeal} <rt.bold>every</> <rt.heal>{LifePetalPeriod}</> <rt.bold>seconds</> for 14 seconds, preferring the ally with the lowest health.
 
 <rt.absorb>Life Petal's</> healing wanes over time, healing for less the longer it has been active.
 
 <rt.absorb>Life Petal</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.
 
-<rt.absorb>Life Petal</> spawns <rt.effect>2 Boomshrooms</> when it withers.",GE_Mosse_HealingAoeTotem_ManaCost,GE_GlobalCooldown,T_Mosse_Lifepetal,AbilityIcon,512,512,datamine,,
+<rt.absorb>Life Petal</> spawns <rt.effect>2 Boomshrooms</> when it withers.",authored,GE_Mosse_HealingAoeTotem_ManaCost,GE_GlobalCooldown,T_Mosse_Lifepetal,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mosse_InstantSelfEscapeBuff,6669f15f-c5ed-5634-b1ae-dcf88c5a36a4,Mosse,Hidden Trail,GA_Mosse_InstantSelfEscapeBuff_C,true,Defensive,Magic.Nature,,,"Your Movement Speed is increased by 50% for 6 seconds.
 
 <rt.absorb>Demure</>
 Upon activating <rt.absorb>Hidden Trail</> your threat is reduced by 50% with all enemies.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,GE_Mosse_InstantSelfEscapeBuff_ManaCost,,T_Mosse_Hide,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,GE_Mosse_InstantSelfEscapeBuff_ManaCost,,T_Mosse_Hide,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_PinkButterfly_Double,8fa3fbf1-3a85-5250-b7e6-6d2a9a9f9c65,Mosse,Fluttercall: Restore Life,GA_Mosse_PinkButterfly_Double_C,true,Core,Magic.Nature,Ranged,,,"Beckon two <rt.meikoability1>Pink Flutterflies</> to dance around target ally. <rt.bold>After</> <rt.heal>{RestoreLifeDelay}</> <rt.bold>seconds</>, the target is instantly healed for {RestoreLifeDirectHeal} plus an additional {RestoreLifeHotHeal} <rt.bold>every</> <rt.heal>{RestoreLifeHotPeriod}</> <rt.bold>seconds</> for 15 seconds.
 
-All healing done by <rt.absorb>Fluttercall: Restore Life</> counts as <rt.meikoability1>Flutterfly Healing</>.",GE_Mosse_PinkButterfly_Double_ManaCost,GE_GlobalCooldown,T_Nhance_RPG_Shadow_58,AbilityIcon,256,256,datamine,,
+All healing done by <rt.absorb>Fluttercall: Restore Life</> counts as <rt.meikoability1>Flutterfly Healing</>.",authored,GE_Mosse_PinkButterfly_Double_ManaCost,GE_GlobalCooldown,T_Nhance_RPG_Shadow_58,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_PinkButterfly_Simple,85f0b459-0915-53f6-8eab-c294a39ef674,Mosse,Fluttercall: Heal,GA_Mosse_PinkButterfly_Simple_C,true,Core,Magic.Nature,Ranged,,,"Assign one of your <rt.meikoability1>Pink Flutterflies</> to an ally, healing them for {FlutterHeal} <rt.bold>every</> <rt.heal>{FlutterHealPeriod}</> <rt.bold>seconds</> until it is called away.
 
-All healing done by <rt.absorb>Fluttercall: Heal</> counts as <rt.meikoability1>Flutterfly Healing</>.",GE_Mosse_PinkButterfly_Simple_ManaCost,GE_GlobalCooldown,Sylvie_AbilityIcon_03,AbilityIcon,256,256,datamine,,
-GA_Mosse_PlacedAoeBuff,df9ea28a-7392-53f6-8551-dd53cdf0b496,Mosse,Safe Haven,GA_Mosse_PlacedAoeBuff_C,true,Major,Magic.Nature,,,"Place a <rt.absorb>Safe Haven</> in target location. For the next 15 seconds, all allies standing within the radius have <rt.absorb>40% increased healing taken</>.",,GE_Mosse_PlacedAoeBuff_Cost,GE_GlobalCooldown,T_Mosse_LinkCD,AbilityIcon,512,512,datamine,,
+All healing done by <rt.absorb>Fluttercall: Heal</> counts as <rt.meikoability1>Flutterfly Healing</>.",authored,GE_Mosse_PinkButterfly_Simple_ManaCost,GE_GlobalCooldown,Sylvie_AbilityIcon_03,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Mosse_PlacedAoeBuff,df9ea28a-7392-53f6-8551-dd53cdf0b496,Mosse,Safe Haven,GA_Mosse_PlacedAoeBuff_C,true,Major,Magic.Nature,,,"Place a <rt.absorb>Safe Haven</> in target location. For the next 15 seconds, all allies standing within the radius have <rt.absorb>40% increased healing taken</>.",,authored,GE_Mosse_PlacedAoeBuff_Cost,GE_GlobalCooldown,T_Mosse_LinkCD,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mosse_ProjectileTurrets,d6acee7b-ecd5-56c8-b9ad-2dbe3a240fb9,Mosse,Prickly Vine,GA_Mosse_ProjectileTurrets_C,true,Core,Magic.Nature,Ranged,true,,"Summon a <rt.absorb>Prickly Vine</> for 27 seconds to continuously fling thorns at target enemy, dealing <rt.warning>{PricklyVineDmg}</> magic damage <rt.bold>every</> <rt.warning>{PricklyVinePeriod}</> <rt.bold>seconds</>.
 
 For each <rt.absorb>Prickly Vine</> you have active, all <rt.meikoability1>Flutterfly Healing</> is <rt.heal>increased by 3%</>.
 
 <rt.absorb>Prickly Vines</> deal increased damage equal to your Haste.
 
-Each <rt.absorb>Prickly Vine</> spawns <rt.effect>1 Boomshroom</> when it withers.",GE_Mosse_ProjectileTurrets_ManaCost,GE_GlobalCooldown,T_Mosse_Vine,AbilityIcon,256,256,datamine,,
+Each <rt.absorb>Prickly Vine</> spawns <rt.effect>1 Boomshroom</> when it withers.",authored,GE_Mosse_ProjectileTurrets_ManaCost,GE_GlobalCooldown,T_Mosse_Vine,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_SharedHealthBuff_C,f7910169-e0ce-558c-bded-84ac3349456a,Mosse,Fluttercall: Jubilee,GA_Mosse_SharedHealthBuff_C,true,Spirit,Magic.Nature,,,"Call upon <rt.bold>Dream Flutterflies</> to protect up to 4 players by evenly distributing all health between them every 1.5 seconds over 12 sec.
 
 Upon arriving, the <rt.bold>Dream Flutterflies</> cause <rt.absorb>6 Prickly Vines</> to spontaneously  spawn near you.
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",,GE_Mosse_SharedHealthBuff_Cost,GE_GlobalCooldown,T_Mosse_Ultimate,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",,authored,GE_Mosse_SharedHealthBuff_Cost,GE_GlobalCooldown,T_Mosse_Ultimate,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Mosse_SingleTargetCastedDamageReduction,8b009e93-f902-5476-9c6a-26939636b60e,Mosse,Ironleaf Ward,GA_Mosse_SingleTargetCastedDamageReduction_C,true,Major,Magic.Nature,,,"Target ally takes <rt.absorb>20% reduced damage</> for 12 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,GE_Mosse_SingleTargetCastedDamageReductionBuff_CastingCost,,T_Mosse_DR,AbilityIcon,256,256,datamine,,
-GA_Mosse_SingleTargetDispel_C,08d45e9a-eb15-5009-998e-92f57b4ef405,Mosse,Cure Ailment,GA_Mosse_SingleTargetDispel_C,true,Utility,Magic.Nature,,,Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally.,,GE_Mosse_SingleTargetDispel_ManaCost,GE_GlobalCooldown,T_Mosse_Dispel,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,GE_Mosse_SingleTargetCastedDamageReductionBuff_CastingCost,,T_Mosse_DR,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Mosse_SingleTargetDispel_C,08d45e9a-eb15-5009-998e-92f57b4ef405,Mosse,Cure Ailment,GA_Mosse_SingleTargetDispel_C,true,Utility,Magic.Nature,,,Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally.,,authored,GE_Mosse_SingleTargetDispel_ManaCost,GE_GlobalCooldown,T_Mosse_Dispel,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Mosse_TurretChannelHeal,759c8084-2191-55e7-b5ac-9a89a25a1e6e,Mosse,Enfeebling Rootsap,GA_Mosse_TurretChannelHeal_C,true,Control,Magic.Nature,Ranged,,"Command one of your <rt.absorb>Prickly Vines</> to <rt.effect>Enfeeble</> target enemy, reducing all damage that enemy deals by 20% for 10 seconds.
 
 <rt.meikoability2>Can be used during Global Cooldown.</>
 
-The <rt.absorb>Prickly Vine</> withers upon completing it's cast of <rt.absorb>Enfeebling Rootsap</>.",,GE_Mosse_TurretChannelHeal_ManaCost,,T_Nhance_RPG_Nature_04,AbilityIcon,256,256,datamine,,
+The <rt.absorb>Prickly Vine</> withers upon completing it's cast of <rt.absorb>Enfeebling Rootsap</>.",,authored,GE_Mosse_TurretChannelHeal_ManaCost,,T_Nhance_RPG_Nature_04,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_AutoProjectileOnResourceGainBuff,d8219b69-5949-56d3-816c-9ac7d1d3adcd,Rime,Ice Blitz,GA_Rime_AutoProjectileOnResourceGainBuff_C,true,Major,Magic.Frost,,,"You enter a state of focused casting for 20 seconds, causing you to deal <rt.warning>20% more damage</> for the duration.
 
 The duration of <rt.absorb>Ice Blitz</> is extended by 0.1 seconds each time a <rt.absorb>Frost Swallow</> hits an enemy.
 
-<rt.meikoability2>Can be used during Global Cooldown and while casting</>",,,,T_Nhance_RPG_Icons_IcySpikes,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown and while casting</>",,authored,,,T_Nhance_RPG_Icons_IcySpikes,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_CastedDebuffAoeDamage,1deece0a-d08d-5078-8bcd-7ddcd037e598,Rime,Bursting Ice,GA_Rime_CastedDebuffAoeDamage_C,true,Core,Magic.Frost,Ranged,true,,"Conjures an icy crystal inside a target that pulses frost damage, dealing <rt.warning>{BurstIceTickDmg}</> <rt.bold>every</> <rt.warning>{BurstIcePeriod}</> <rt.bold>seconds for 3 seconds</> to the target and nearby enemies.
 
 <rt.effect>Winter's Embrace</>
@@ -700,37 +700,37 @@ While <rt.absorb>Bursting Ice</> is active on an enemy you gain <rt.effect>Winte
 <rt.mana>Each pulse of</> <rt.absorb>Bursting Ice</> <rt.mana>Generates 1 Anima</>
 
 <rt.mana>ANIMA</>
-Your <rt.mana>Anima</> is shown as a bar beneath your character. For every 9 Anima you generate, you gain <rt.mana>1 Winter Orb</>, used to cast your powerful spender abilities.",,GE_GlobalCooldown,T_Rime_CastedDebuffAOEdamage,AbilityIcon,256,256,datamine,,
+Your <rt.mana>Anima</> is shown as a bar beneath your character. For every 9 Anima you generate, you gain <rt.mana>1 Winter Orb</>, used to cast your powerful spender abilities.",authored,,GE_GlobalCooldown,T_Rime_CastedDebuffAOEdamage,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_CastedProjectileDamageFiller,f3689a9e-7bd0-5873-930e-0dbac32f79af,Rime,Frost Bolt,GA_Rime_CastedProjectileDamageFiller_C,true,Basic,Magic.Frost,Ranged,true,,"Hurl a bolt of frost magic at target enemy, dealing <rt.warning>{FrostBolt}</> damage.
 
 <rt.mana>Generates 3 Anima</> 
 
 <rt.mana>ANIMA</>
-Your <rt.mana>Anima</> is shown as a bar beneath your character. For every 9 Anima you generate, you gain <rt.mana>1 Winter Orb</>, used to cast your powerful spender abilities.",,GE_GlobalCooldown,T_Rime_SingleTargetBolt,AbilityIcon,256,256,datamine,,
-GA_Rime_CastedProjectileDamageOrbSpender,8722ae7b-afe6-5e53-8114-a4210e34df2c,Rime,Glacial Blast,GA_Rime_CastedProjectileDamageOrbSpender_C,true,Power,Magic.Frost,Ranged,true,,"Hurl a mass of ice at target enemy, dealing <rt.warning>{GlacialBlast}</> damage.",GE_Rime_CastedProjectileDamageOrbSpender_Cost,GE_GlobalCooldown,T_Rime_AnimaBolt,AbilityIcon,256,256,datamine,,
+Your <rt.mana>Anima</> is shown as a bar beneath your character. For every 9 Anima you generate, you gain <rt.mana>1 Winter Orb</>, used to cast your powerful spender abilities.",authored,,GE_GlobalCooldown,T_Rime_SingleTargetBolt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Rime_CastedProjectileDamageOrbSpender,8722ae7b-afe6-5e53-8114-a4210e34df2c,Rime,Glacial Blast,GA_Rime_CastedProjectileDamageOrbSpender_C,true,Power,Magic.Frost,Ranged,true,,"Hurl a mass of ice at target enemy, dealing <rt.warning>{GlacialBlast}</> damage.",authored,GE_Rime_CastedProjectileDamageOrbSpender_Cost,GE_GlobalCooldown,T_Rime_AnimaBolt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_ChanneledBeamSingleDamage,0ee03d65-d3db-55f7-94a5-5542853a268f,Rime,Freezing Torrent,GA_Rime_ChanneledBeamSingleDamage_C,true,Core,Magic.Frost,Ranged,true,,"Flay your target with a beam of frost energy, dealing <rt.warning>{FreezeTorrTickDmg}</> damage <rt.bold>every</> <rt.warning>{FreezeTorrPeriod}</> <rt.bold>seconds for 2 seconds</> while channeling. 
 
 <rt.mana>Generates 1 Anima per tick</>
 
 <rt.mana>ANIMA</>
-Your <rt.mana>Anima</> is shown as a bar beneath your character. For every 9 Anima you generate, you gain <rt.mana>1 Winter Orb</>, used to cast your powerful spender abilities.",,GE_GlobalCooldown,T_Rime_ChanneledBeam,AbilityIcon,256,256,datamine,,
+Your <rt.mana>Anima</> is shown as a bar beneath your character. For every 9 Anima you generate, you gain <rt.mana>1 Winter Orb</>, used to cast your powerful spender abilities.",authored,,GE_GlobalCooldown,T_Rime_ChanneledBeam,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_DamageAsAoeHealingBuff,bdf509ef-cc22-5341-bf5a-24b887e931b4,Rime,Winter's Blessing,GA_Rime_DamageAsAoeHealingBuff_C,true,Major,Magic.Frost,,,"Your <rt.absorb>Spirit is increased by 20%</> for 20 seconds and <rt.heal>30% of all damage you deal is replicated as healing</> divided equally between all allies.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Rime_HealingBuff,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Rime_HealingBuff,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_DashForward_C,3f12f76a-5dc3-5408-81b4-01d637caceed,Rime,Ice Dash,GA_Rime_DashForward_C,true,Movement,,,,"Quickly travel forward a short distance.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Rime_Dash,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Rime_Dash,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_FullResourcesSelfBuff,ae4fa059-6fbf-5fe6-ae4f-a38086499646,Rime,Wrath of Winter,GA_Rime_FullResourcesSelfBuff_C,true,Spirit,,,,"Invoke the spirits of the frozen tundra for 20 seconds, granting you <rt.mana>1 Winter Orb</> every 4 seconds. You deal <rt.warning>+20% increased damage</> and your <rt.absorb>Glacial Blast</> ability is instant cast while <rt.absorb>Wrath of Winter</> is active.
 
 <rt.mana>WINTER ORBS</>
 <rt.mana>Winter Orbs</> are required to cast your powerful spender abilities; <rt.absorb>Glacial Blast</> and <rt.absorb>Ice Comet</>.
 
 <rt.effect>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,GE_Rime_FullResourcesSelfBuff_SpiritCost,,T_Rime_SpiritAbility,AbilityIcon,256,256,datamine,,
-GA_Rime_Helper_AutoDamageProjectile,03d0fa5a-81d8-5182-aa90-ab7da9d9bc22,Rime,Frost Swallows,GA_Rime_Helper_AutoDamageProjectile_C,true,,,,,,Rime commands Frost Swallows to attack her target.,,,T_Rime_BirdCD,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,authored,GE_Rime_FullResourcesSelfBuff_SpiritCost,,T_Rime_SpiritAbility,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Rime_Helper_AutoDamageProjectile,03d0fa5a-81d8-5182-aa90-ab7da9d9bc22,Rime,Frost Swallows,GA_Rime_Helper_AutoDamageProjectile_C,true,,,,,,Rime commands Frost Swallows to attack her target.,absent,,,T_Rime_BirdCD,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_InstantConeKnockback_C,6523904d-23cf-51e4-9b79-8126ca9ec2ae,Rime,Frigid Winds,GA_Rime_InstantConeKnockback_C,true,Control,Magic.Water,,true,"Blast enemies in front of you with arctic winds, <rt.absorb>Knocking Back</> enemies and <rt.absorb>Slowing</> them by 50% for 12 sec.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Rime_Knockback,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Rime_Knockback,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_InstantSingleDamage,2f3c4f83-58df-5a07-ad6d-25e0709b59fc,Rime,Cold Snap,GA_Rime_InstantSingleDamage_C,true,Basic,Magic.Frost,Ranged,true,,"Assault the target with extreme cold, dealing <rt.warning>{ColdSnap}</> damage. 
 
 <rt.absorb>Cold Snap</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.
@@ -738,32 +738,32 @@ GA_Rime_InstantSingleDamage,2f3c4f83-58df-5a07-ad6d-25e0709b59fc,Rime,Cold Snap,
 <rt.mana>Generates 1 Winter Orb</>
 
 <rt.mana>WINTER ORBS</>
-<rt.mana>Winter Orbs</> are required to cast your powerful spender abilities; <rt.absorb>Glacial Blast</>, <rt.absorb>Ice Comet</>, and <rt.absorb>Flight of the Navir</>.",,GE_GlobalCooldown,T_Rime_InstantHit,AbilityIcon,256,256,datamine,,
+<rt.mana>Winter Orbs</> are required to cast your powerful spender abilities; <rt.absorb>Glacial Blast</>, <rt.absorb>Ice Comet</>, and <rt.absorb>Flight of the Navir</>.",authored,,GE_GlobalCooldown,T_Rime_InstantHit,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_InstantSingleInterrupt_C,2c75d8b6-0320-5179-8cfa-971fa5cbbca1,Rime,Brain Freeze,GA_Rime_InstantSingleInterrupt_C,true,Utility,Magic.Frost,Ranged,,"<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. 
 Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_RimeIcon_Interrupt,AbilityIcon,256,256,datamine,,
-GA_Rime_OnTargetPulsatingAoe_C,0716e738-aced-54bb-85b6-089064c28118,Rime,Ice Comet,GA_Rime_OnTargetPulsatingAoe_C,true,Power,Magic.Frost,Ranged,true,,"Unleash a large <rt.absorb>Ice Comet</> from above target enemy to crash down on them, dealing <rt.warning>{IceComet}</> damage to all enemies caught in the impact radius.",GE_Rime_OnTargetPulsatingAoe_Cost,GE_GlobalCooldown,T_Rime_OnTargetPulsatingAOE,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_RimeIcon_Interrupt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Rime_OnTargetPulsatingAoe_C,0716e738-aced-54bb-85b6-089064c28118,Rime,Ice Comet,GA_Rime_OnTargetPulsatingAoe_C,true,Power,Magic.Frost,Ranged,true,,"Unleash a large <rt.absorb>Ice Comet</> from above target enemy to crash down on them, dealing <rt.warning>{IceComet}</> damage to all enemies caught in the impact radius.",authored,GE_Rime_OnTargetPulsatingAoe_Cost,GE_GlobalCooldown,T_Rime_OnTargetPulsatingAOE,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_SelfDefenceBuff_C,a5315ea5-af7e-5dd9-9ec5-789256172a59,Rime,Frost Ward,GA_Rime_SelfDefenceBuff_C,true,Defensive,Magic.Water,,,"You take <rt.absorb>40% reduced damage</> for 4 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Rime_SelfDefenceBuff,AbilityIcon,256,258,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Rime_SelfDefenceBuff,AbilityIcon,256,258,authored,datamine,,,legacy_unbound
 GA_Rime_Talent_SpendersSwap_MultiTargets,3a1cd18e-7029-5d34-8aee-d247a77f5eb7,Rime,Rising Talons,GA_Rime_Talent_SpendersSwap_MultiTargets_C,true,Power,Magic.Frost,Ranged,true,,"Unleash mutliple <rt.absorb>Ice Talon</>s, per used Winter Orb, on the target enemy and all nearby targets, dealing <rt.warning>{Talons}</> damage per target.
 
-Costs all Winter Orbs.",GE_Rime_Talent_SpendersSwap_Cost,GE_GlobalCooldown,T_Rime_AOE_Spender,AbilityIcon,512,512,datamine,,
+Costs all Winter Orbs.",authored,GE_Rime_Talent_SpendersSwap_Cost,GE_GlobalCooldown,T_Rime_AOE_Spender,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Rime_Talent_SpendersSwap_SingleTarget,c12514d9-e2b3-528e-8655-fced4dbef163,Rime,Talon Strike,GA_Rime_Talent_SpendersSwap_SingleTarget_C,true,Power,Magic.Frost,Ranged,true,,"Unleash one huge <rt.absorb>Ice Talon</>, per used Winter Orb used, on the target enemy, dealing <rt.warning>{Talons}</> damage.
 
-Costs all Winter Orbs.",GE_Rime_Talent_SpendersSwap_Cost,GE_GlobalCooldown,T_Rime_Singletarget_spender_,AbilityIcon,256,256,datamine,,
+Costs all Winter Orbs.",authored,GE_Rime_Talent_SpendersSwap_Cost,GE_GlobalCooldown,T_Rime_Singletarget_spender_,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Rime_TargetedPeriodicProjectileAoe,8c9ca8f0-7394-5d1d-a269-12e3e8388d97,Rime,Flight of the Navir,GA_Rime_TargetedPeriodicProjectileAoe_C,true,Major,Magic.Frost,,true,,"Summon <rt.effect>5 Frost Swallows</> to circle above Rime for 20 seconds. Your <rt.absorb>Cold Snap</> and <rt.absorb>Freezing Torrent</> command the frost swallows to swoop down on enemies, each dealing <rt.warning>{FrostSwallDmg}</> damage to their target.
 
 <rt.bold>For every 1% Spirit you have</>, your <rt.absorb>Frost Swallows</> deal <rt.warning>1.5% more damage</>.
 
-<rt.greyitalic>""She needed only whisper, and the Navir appeared.""</>",GE_Rime_TargetedPeriodicProjectileAoe_Cost,GE_GlobalCooldown,T_Rime_BirdCD,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>""She needed only whisper, and the Navir appeared.""</>",authored,GE_Rime_TargetedPeriodicProjectileAoe_Cost,GE_GlobalCooldown,T_Rime_BirdCD,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Sune_AoeMelee,915f5872-d18e-542a-a947-283a319e0969,Sune,Omnistrike,GA_Sune_AoeMelee_C,true,Core,Physical,,true,,"Swing your sword in a large arc around you, dealing <rt.warning>{OmnistrikeDmg}</> physical damage to all enemies around you.
 
 <rt.mana>Generates 4 Spirit Points</>.
 
 <rt.effect>SWIFT REPRIEVAL</>
-<rt.absorb>Omnistrike</> has a 30% chance to grant you 1 stack of <rt.effect>Swift Reprieval</>, causing <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</>.",,GE_GlobalCooldown,T_Sune_Omnistrike,AbilityIcon,512,512,datamine,,
+<rt.absorb>Omnistrike</> has a 30% chance to grant you 1 stack of <rt.effect>Swift Reprieval</>, causing <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</>.",authored,,GE_GlobalCooldown,T_Sune_Omnistrike,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Sune_AtTargetInstantAoe,5d6e87b6-78ae-55af-ac8a-1f5c36b069d9,Sune,Solar Blades,GA_Sune_AtTargetInstantAoe_C,true,Core,Physical,Ranged,true,,"Conjure blades of pure sunlight to fall from above upon your target, dealing <rt.warning>{SolarBladesDmg}</> magical damage to it and other enemies within a 700 radius.
 
 The main target takes <rt.warning>100% more damage</> from <rt.absorb>Solar Blades</>.
@@ -771,7 +771,7 @@ The main target takes <rt.warning>100% more damage</> from <rt.absorb>Solar Blad
 <rt.meikoability2>Can be used during Global Cooldown</>
 
 <rt.effect>SWIFT REPRIEVAL</>
-<rt.absorb>Solar Blades</> has a 100% chance to grant you 1 stack of <rt.effect>Swift Reprieval</>, causing <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</>.",GE_Sune_AtTargetInstantAoe_ManaCost,,T_Sune_SolarBlades,AbilityIcon,512,512,datamine,,
+<rt.absorb>Solar Blades</> has a 100% chance to grant you 1 stack of <rt.effect>Swift Reprieval</>, causing <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</>.",authored,GE_Sune_AtTargetInstantAoe_ManaCost,,T_Sune_SolarBlades,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Sune_BuffedTargetedCastedHealOrDamage,a4632c9f-456d-5146-9d37-db14e444291c,Sune,Omega Reprieval,GA_Sune_BuffedTargetedCastedHealOrDamage_C,true,Major,Magic.Holy,,,"Instantly gain 2 stacks of <rt.effect>Omega Reprieval</>, causing your <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</> with <rt.bold>added enhancements</> when used to consume the 2 stacks.
 
 <rt.meikoability2>Can be used during Global Cooldown</>
@@ -783,18 +783,18 @@ When cast on a friendly target, <rt.absorb>Brilliant Flash</> is also casted on 
 
 When cast on an enemy, <rt.absorb>Brilliant Flash</> is also casted on <rt.bold>all enemies</> within a large range of that enemy.
 
-<rt.absorb>Brilliant Flash</> consumes 1 stack of <rt.effect>Omega Reprieval</>.",,,,T_Sune_OmegaReprieval,AbilityIcon,256,256,datamine,,
+<rt.absorb>Brilliant Flash</> consumes 1 stack of <rt.effect>Omega Reprieval</>.",,authored,,,T_Sune_OmegaReprieval,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Sune_CastedSingleTargetHeal,fa2ca36f-2892-58c5-8b83-7817365853ba,Sune,Brilliant Flare,GA_Sune_CastedSingleTargetHeal_C,true,Core,Magic.Holy,,,,"Heal target ally for {BrillFlareHeal} health.
 
 <rt.effect>BRILLIANT FLASH</>
-When you have a charge of <rt.effect>Swift Reprieval</> or <rt.effect>Omega Reprieval</> your <rt.absorb>Brilliant Flare</> turns into <rt.absorb>Brilliant Flash</>.",GE_Sune_CastedSingleTargetHeal_ManaCost,GE_GlobalCooldown,T_Sune_BrilliantFlare,AbilityIcon,512,512,datamine,,
+When you have a charge of <rt.effect>Swift Reprieval</> or <rt.effect>Omega Reprieval</> your <rt.absorb>Brilliant Flare</> turns into <rt.absorb>Brilliant Flash</>.",authored,GE_Sune_CastedSingleTargetHeal_ManaCost,GE_GlobalCooldown,T_Sune_BrilliantFlare,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Sune_DamageTransferAura,364e3325-dbec-540b-ae4d-d111a5744795,Sune,Aura of Solace,GA_Sune_DamageTransferAura_C,true,Utility,Physical,,true,,"Burns all enemies within a large radius for <rt.warning>{SolaceDmg}</> magical damage every <rt.bold>1.5 seconds</> while active and increases your <rt.bold>Parry chance by +8%</>
 
 <rt.absorb>Aura of Solace</> transfers <rt.heal>10% of all damage taken by nearby allies to you</>.
 
 <rt.meikoability2>Can be used during Global Cooldown</>
 
-<rt.mana>Costs 10 Mana every 1.5 seconds while active.</>",GE_Sune_DamageTransferAura_ManaCost,,T_Sune_AuraOfSolace,AbilityIcon,256,256,datamine,,
+<rt.mana>Costs 10 Mana every 1.5 seconds while active.</>",authored,GE_Sune_DamageTransferAura_ManaCost,,T_Sune_AuraOfSolace,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Sune_DroppedPulseAoe,a13db195-8af8-5264-9b2b-d5f330ddeb55,Sune,Shining Halo,GA_Sune_DroppedPulseAoe_C,true,Power,Physical,,true,,"Sunlight envelopes the ground at your feet, burning enemies within its area for <rt.warning>{ShiningHaloDmg}</> magical damage every <rt.bold>1.5 seconds</> over <rt.bold>12 seconds</>.
 
 You take <rt.heal>20% reduced damage</> while standing in your <rt.absorb>Shining Halo</>.
@@ -802,17 +802,17 @@ You take <rt.heal>20% reduced damage</> while standing in your <rt.absorb>Shinin
 <rt.meikoability2>Can be used during Global Cooldown</>
 
 <rt.effect>BRILLIANCE</>
-While <rt.absorb>Shining Halo</> is active, each <rt.absorb>Brilliant Flash</> you cast extends the duration of it by <rt.bold>2 seconds</>.",GE_Sune_DroppedPulseAoe_ManaCost,,T_Sune_ShiningHalo,AbilityIcon,512,512,datamine,,
+While <rt.absorb>Shining Halo</> is active, each <rt.absorb>Brilliant Flash</> you cast extends the duration of it by <rt.bold>2 seconds</>.",authored,GE_Sune_DroppedPulseAoe_ManaCost,,T_Sune_ShiningHalo,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Sune_InstantCleaveMelee,43ae2d0c-59c4-54f9-bbc0-d14d9f9ecb11,Sune,Blinding Slash,GA_Sune_InstantCleaveMelee_C,true,Basic,Physical,,true,,"Your sword is infused with the light of sun power as you slash at target enemy, dealing <rt.warning>{BlindSlashDmg}</> physical damage to them and other enemies near it.
 
 <rt.effect>BLIND</>
 You apply 1 stack of <rt.effect>Blind</> to enemies hit by <rt.absorb>Blinding Slash</> for up to 8 seconds, causing their Auto Attacks to have an additional <rt.bold>+20% chance to be Parried by you</>. Each time you Parry an enemy, 1 stack of <rt.effect>Blind</> is consumed on that enemy.
 
 <rt.effect>SWIFT REPRIEVAL</>
-<rt.absorb>Blinding Slash</> has a 15% chance to grant you 1 stack of <rt.effect>Swift Reprieval</>, causing <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</>.",,GE_GlobalCooldown,T_Sune_Blindingslash,AbilityIcon,512,512,datamine,,
+<rt.absorb>Blinding Slash</> has a 15% chance to grant you 1 stack of <rt.effect>Swift Reprieval</>, causing <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</>.",authored,,GE_GlobalCooldown,T_Sune_Blindingslash,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Sune_InstantConeStunAndPull,53c5adee-1627-57fe-b2ef-885515d201ad,Sune,Ruptured Dawn,GA_Sune_InstantConeStunAndPull_C,true,Control,Physical,,true,,"Rupture the ground in front of you,  dealing <rt.warning>{RisingSunDmg}</> magical damage to all enemies in a cone in front of you, <rt.effect>Stunning</> them for 2 seconds and <rt.effect>Pulling</> them to you.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Sune_RisingSun,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Sune_RisingSun,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Sune_InstantSingleTargetHealOrDamage,169e476b-95ec-5df4-bc94-f2461a86a8be,Sune,Brilliant Flash,GA_Sune_InstantSingleTargetHealOrDamage_C,true,Power,Magic.Holy,,true,,"Instantly heal target ally for {BrillFlashHeal} health or deal <rt.warning>{BrillFlashDmg}</> damage to target enemy.
 
 When you target an enemy with <rt.absorb>Brilliant Flash</>, you also heal yourself for {BrillFlashHeal} health.
@@ -820,8 +820,8 @@ When you target an enemy with <rt.absorb>Brilliant Flash</>, you also heal yours
 In all situations, <rt.absorb>Brilliant Flash</> heals you for 20% more than others.
 
 <rt.effect>BRILLIANT SPIRIT</>
-<rt.absorb>Brilliant Flash</> has a chance equal to your <rt.bold>Spirit %</> to trigger a <rt.mana>Spirit Refund</>. When it does, you gain <rt.mana>50 Mana</> instantly, in addition to all other effects that are normally activated upon triggering a <rt.mana>Spirit Refund</>.",GE_Sune_InstantSingleTargetHealOrDamage_ResourceCost,GE_GlobalCooldown,T_Sune_BrilliantFlash,AbilityIcon,512,512,datamine,,
-GA_Sune_MeleeAutoAttack,0b7f4a37-09d4-5acb-9845-0b742b4edebc,Sune,Attack,GA_Sune_MeleeAutoAttack_C,true,,,,,,,,,Tex_swords_01_bg,AbilityIcon,256,256,datamine,,
+<rt.absorb>Brilliant Flash</> has a chance equal to your <rt.bold>Spirit %</> to trigger a <rt.mana>Spirit Refund</>. When it does, you gain <rt.mana>50 Mana</> instantly, in addition to all other effects that are normally activated upon triggering a <rt.mana>Spirit Refund</>.",authored,GE_Sune_InstantSingleTargetHealOrDamage_ResourceCost,GE_GlobalCooldown,T_Sune_BrilliantFlash,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Sune_MeleeAutoAttack,0b7f4a37-09d4-5acb-9845-0b742b4edebc,Sune,Attack,GA_Sune_MeleeAutoAttack_C,true,,,,,,,absent,,,Tex_swords_01_bg,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Sune_SelfImmunityAndAoeHeal,3834e04f-5452-53d7-9b19-c1f52609e449,Sune,Decree of the Sun,GA_Sune_SelfImmunityAndAoeHeal_C,true,Spirit,Physical,,true,,"Envelope yourself in solar power, making you <rt.effect>Immune to all damage for 3 seconds</>, ending with an explosion of light that deals <rt.warning>{DecreeSunAoeDmg}</> magical damage to nearby enemies.
 
 Once the immunity fades, you take <rt.heal>50% reduced damage</> for another 5 seconds.
@@ -831,13 +831,13 @@ During <rt.absorb>Decree of the Sun</> you radiate solar magic in the area, heal
 <rt.meikoability2>Can be used during Global Cooldown</>
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",GE_Sune_SelfImmunityAndAoeHeal_SpiritPointCost,,T_Sune_Decree,AbilityIcon,512,512,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",authored,GE_Sune_SelfImmunityAndAoeHeal_SpiritPointCost,,T_Sune_Decree,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Sune_SingleTargetAbsorb,29097eea-1bd4-5319-9442-4f313887815a,Sune,Solar Shield,GA_Sune_SingleTargetAbsorb_C,true,Defensive,Physical,,,,"Instantly shield the target, absorbing up to <rt.heal>{SolarShldAbsrb} damage</>. The shield lasts for up to 8 seconds.
 
 All damage dealt to <rt.absorb>Solar Shield</> is reduced by <rt.heal>50%</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GE_Sune_SingleTargetAbsorb_ManaCost,,T_Sune_Solarshield,AbilityIcon,512,512,datamine,,
-GA_Sune_SingleTargetDamageTransfer,42f773de-07d9-5444-bc7a-efd69e2f6e19,Sune,(OLD) Gift of Solace,GA_Sune_SingleTargetDamageTransfer_C,true,,Physical,,,"For the next 8 seconds, 50% of all damage taken by target ally is transferred to you",,,,T_Nhance_RPG_Icons_CorruptionMind,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,GE_Sune_SingleTargetAbsorb_ManaCost,,T_Sune_Solarshield,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Sune_SingleTargetDamageTransfer,42f773de-07d9-5444-bc7a-efd69e2f6e19,Sune,(OLD) Gift of Solace,GA_Sune_SingleTargetDamageTransfer_C,true,,Physical,,,"For the next 8 seconds, 50% of all damage taken by target ally is transferred to you",,authored,,,T_Nhance_RPG_Icons_CorruptionMind,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Sune_SingleTargetFillerMelee,adcbca44-c82e-508d-ab66-a3eeb6f9c1b9,Sune,Sun Strike,GA_Sune_SingleTargetFillerMelee_C,true,Basic,Physical,,true,,"Strike your target, dealing <rt.warning>{SunstrikeDmg}</> physical damage to it as well as striking enemies near your target with <rt.warning>15% of the power</>.
 
 <rt.absorb>Sun Strike</> applies <rt.effect>Sunstruck</> to your main target for 30 seconds, stacking up to 10 times.
@@ -846,44 +846,44 @@ GA_Sune_SingleTargetFillerMelee,adcbca44-c82e-508d-ab66-a3eeb6f9c1b9,Sune,Sun St
 your next <rt.absorb>Omnistrike</> consumes all stacks of <rt.effect>Sunstruck</> on all targets hit, replenishing <rt.mana>100 Mana</> plus an additional <rt.mana>50 Mana for each stack beyond the first that is consumed</>.
 
 <rt.effect>SWIFT REPRIEVAL</>
-<rt.absorb>Sun Strike</> has a 15% chance to grant you 1 stack of <rt.effect>Swift Reprieval</>, causing <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</>.",,GE_GlobalCooldown,T_Sune_Sunstrike,AbilityIcon,512,512,datamine,,
+<rt.absorb>Sun Strike</> has a 15% chance to grant you 1 stack of <rt.effect>Swift Reprieval</>, causing <rt.absorb>Brilliant Flare</> to turn into <rt.absorb>Brilliant Flash</>.",authored,,GE_GlobalCooldown,T_Sune_Sunstrike,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Sune_SingleTargetInterrupt,1f03e483-5d96-5b8b-b914-a7f258f3c436,Sune,Interrupt,GA_Sune_SingleTargetInterrupt_C,true,Utility,Physical,,,"<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. 
 
 Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Sune_Interrupt,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Sune_Interrupt,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Sune_SingleTargetTaunt,fda5635c-0966-5179-9b14-6fc394c7affd,Sune,Taunt,GA_Sune_SingleTargetTaunt_C,true,Utility,Physical,,true,"<rt.absorb>Taunt</> the target, forcing it to attack you for 6 sec.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Sune_Taunt,AbilityIcon,512,512,datamine,,
-GA_Sune_TargetedCastedHealOrDamage,21d12905-5a5a-5def-8c05-a7e0b7dd8dec,Sune,(OLD) Brilliant Flash,GA_Sune_TargetedCastedHealOrDamage_C,true,Core,Physical,,true,Heal yourself or targeted ally for 1634% Strength - OR deal 623% Strength damage to target enemy.,,GE_Sune_TargetedCastedHealOrDamage_ManaCost,GE_GlobalCooldown,T_Weapon_LightRepository,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Sune_Taunt,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Sune_TargetedCastedHealOrDamage,21d12905-5a5a-5def-8c05-a7e0b7dd8dec,Sune,(OLD) Brilliant Flash,GA_Sune_TargetedCastedHealOrDamage_C,true,Core,Physical,,true,Heal yourself or targeted ally for 1634% Strength - OR deal 623% Strength damage to target enemy.,,authored,GE_Sune_TargetedCastedHealOrDamage_ManaCost,GE_GlobalCooldown,T_Weapon_LightRepository,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Sune_TargetedLeapAoe,02066716-10b3-50f2-968e-48eb6b310f90,Sune,Sky Crash,GA_Sune_TargetedLeapAoe_C,true,Movement,,,,,"Instantly ascend to the skies in a beam of light and crash down at the targeted location, dealing <rt.warning>{SkycrashDamage}</> magical damage to enemies in the area.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Sune_Skycrash,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Sune_Skycrash,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Vigor_CastedSingleTargetDamage_C,80d21acf-17e5-5251-af6c-c73f40927fa0,Vigor,Dawnflare,GA_Vigor_CastedSingleTargetDamage_C,true,Basic,Magic.Holy,,true,,"Deals <rt.warning>{DawnflareDmg}</> magic damage to target enemy.
 
 Each cast of <rt.absorb>Dawnflare</> generates <rt.mana>20% of a Radiant Rune</>.
 
-<rt.greyitalic>Vigour can call upon the light to unleash a flare of divine light from above. This flash of radiant energy strikes the enemy with a sharp but controlled force.</>",GE_Vigor_CastedSingleTargetDamage_ResourceCost,GE_Vigor_Talent_CastedSingleTargetDamage_GlobalCooldown,T_Vigor_Bolt,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>Vigour can call upon the light to unleash a flare of divine light from above. This flash of radiant energy strikes the enemy with a sharp but controlled force.</>",authored,GE_Vigor_CastedSingleTargetDamage_ResourceCost,GE_Vigor_Talent_CastedSingleTargetDamage_GlobalCooldown,T_Vigor_Bolt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Vigor_CastedSingleTargetHeal_C,ee1807da-f01a-5f15-bf59-3cef5190bd1a,Vigor,Greater Heal,GA_Vigor_CastedSingleTargetHeal_C,true,Core,Magic.Holy,,,,"Heal target ally for {GreaterHeal}.
 
-<rt.greyitalic>Vigour opens his sacred tome, drawing forth radiant power inscribed within its pages. With a solemn gesture, he calls forth a burst of healing energy to mend even the deepest wounds.</>",GE_Vigor_CastedSingleTargetHeal_ResourceCost,GE_GlobalCooldown,T_Vigor_Heal,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>Vigour opens his sacred tome, drawing forth radiant power inscribed within its pages. With a solemn gesture, he calls forth a burst of healing energy to mend even the deepest wounds.</>",authored,GE_Vigor_CastedSingleTargetHeal_ResourceCost,GE_GlobalCooldown,T_Vigor_Heal,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Vigor_ChargedMovementSpeedSelfBuff_C,026e50e0-01dd-5350-9df5-9b358649164e,Vigor,Levitate,GA_Vigor_ChargedMovementSpeedSelfBuff_C,true,Defensive,Magic.Holy,,,"Your movement speed is increased by 70% for 5 seconds and you take <rt.bold>40% reduced Area of Effect damage</> for the duration.
 
-<rt.meikoability2>Can be used during Global Cooldown and while Casting or Channeling</>",,GE_Vigor_ChargedMovementSpeedSelfBuff_Cost,,T_Vigor_Levitate,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown and while Casting or Channeling</>",,authored,GE_Vigor_ChargedMovementSpeedSelfBuff_Cost,,T_Vigor_Levitate,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Vigor_DamageReductionAndImmunityBuff_C,d7a5eae9-1039-5e3e-97a2-6c6940eeb038,Vigor,Lightshaper's Ward,GA_Vigor_DamageReductionAndImmunityBuff_C,true,Major,Magic.Holy,,,"Target ally takes <rt.absorb>20% reduced damage</> for 12 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,GE_Vigor_DamageReductionAndImmunityBuff_CastingCost,,T_Vigor_Ward,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,GE_Vigor_DamageReductionAndImmunityBuff_CastingCost,,T_Vigor_Ward,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Vigor_InstantAoeHeal_C,eadbb994-bac1-5822-a745-9da97382459e,Vigor,Circle of Light,GA_Vigor_InstantAoeHeal_C,true,Core,Magic.Holy,,,,"Place a <rt.bold>Circle of Light</> on the ground, instantly healing all allies within its radius for {CircLightHeal}.
 
-<rt.greyitalic>Vigour calls upon the power of light to create a circle of divine healing on the ground. Allies within its boundaries are restored in a sudden flash, as the light pours into them, mending their wounds.</>",GE_Vigor_InstantAoeHeal_Cost,GE_GlobalCooldown,T_Vigor_AoEHeal,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>Vigour calls upon the power of light to create a circle of divine healing on the ground. Allies within its boundaries are restored in a sudden flash, as the light pours into them, mending their wounds.</>",authored,GE_Vigor_InstantAoeHeal_Cost,GE_GlobalCooldown,T_Vigor_AoEHeal,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Vigor_InstantFrontalConeDamageHeal_C,8917a850-e104-5686-ba30-0423b1713950,Vigor,Radiant Blast,GA_Vigor_InstantFrontalConeDamageHeal_C,true,Core,Magic.Holy,,true,,"Within a cone in front of you, allies are healed for {RadiantBlastHeal} and enemies take <rt.warning>{RadiantBlastDmg}</> magic damage.
 
 When <rt.absorb>Radiant Blast</> deals damage to any number of enemies, it generates <rt.mana>30% of a Radiant Rune</>.
 
-<rt.greyitalic>Vigour expels an explosive flash of divine light from his outstretched hand, healing allies in its path, while searing enemies with its blinding brilliance.</>",GE_Vigor_InstantFrontalConeDamageHeal_Cost,GE_GlobalCooldown,T_Vigor_Cone,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>Vigour expels an explosive flash of divine light from his outstretched hand, healing allies in its path, while searing enemies with its blinding brilliance.</>",authored,GE_Vigor_InstantFrontalConeDamageHeal_Cost,GE_GlobalCooldown,T_Vigor_Cone,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Vigor_InstantResourceGain,f1e75831-02db-5815-badf-bdbf41dd6c0b,Vigor,Runic Proliferation,GA_Vigor_InstantResourceGain_C,true,Major,Magic.Holy,,,"Instantly generate <rt.mana>3 Radiant Runes</>. For the next 8 seconds, any <rt.absorb>Rune Abilities</> you cast are empowered, increasing their effectiveness by 20%.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,GE_Vigor_InstantResourceGain_ManaCost,,T_Vigor_HealRune,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,GE_Vigor_InstantResourceGain_ManaCost,,T_Vigor_HealRune,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Vigor_PartyHealAndSelfBuff_C,dd466013-c39a-5898-958e-6034f7b9bc56,Vigor,Avatar of Light,GA_Vigor_PartyHealAndSelfBuff_C,true,Spirit,Magic.Holy,,,,"Instantly heal all allies within a large radius of you for {AvatarDirectHeal} and enter an enlightened state for 9 sec, enhancing your abilities.
 
 <rt.absorb>Radiant Blast</>
@@ -897,12 +897,12 @@ Costs <rt.mana>50% less Mana</> and has no <bold>Cooldown</>.
 
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",GE_Vigor_PartyHealAndSelfBuff_ResourceCost,GE_GlobalCooldown,T_Vigor_Spirit,AbilityIcon,256,256,datamine,,
-GA_Vigor_Passive_Echo_Monitor_C,ab511449-4b9a-5feb-9acb-8fdebaa4a3e2,Vigor,Rune of Renewal,GA_Vigor_Passive_Echo_Monitor_C,true,,,,,,,,,,,,,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste and +600% Mana Recovery for 20 sec.</>",authored,GE_Vigor_PartyHealAndSelfBuff_ResourceCost,GE_GlobalCooldown,T_Vigor_Spirit,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Vigor_Passive_Echo_Monitor_C,ab511449-4b9a-5feb-9acb-8fdebaa4a3e2,Vigor,Rune of Renewal,GA_Vigor_Passive_Echo_Monitor_C,true,,,,,,,authored,,,,,,,authored,datamine,,,legacy_unbound
 GA_Vigor_SIngleTargetProjectileStun_C,4d4adb91-eed3-58ee-bd8b-616c44491a56,Vigor,Throw Book,GA_Vigor_SIngleTargetProjectileStun_C,true,,,,,"Educate a target, <rt.absorb>Stunning</> them for 2 sec.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Vigor_Book,AbilityIcon,256,256,datamine,,
-GA_Vigor_SingleAllyDispel_C,aa64398c-1366-5126-beaa-873070ead6cf,Vigor,Remove Magic,GA_Vigor_SingleAllyDispel_C,true,Utility,Magic.Holy,,,Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally.,,GE_Vigor_SingleAllyDispel_ResourceCost,GE_GlobalCooldown,T_Vigor_Dispel,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,absent,,,T_Vigor_Book,AbilityIcon,256,256,absent,datamine,,,legacy_unbound
+GA_Vigor_SingleAllyDispel_C,aa64398c-1366-5126-beaa-873070ead6cf,Vigor,Remove Magic,GA_Vigor_SingleAllyDispel_C,true,Utility,Magic.Holy,,,Remove all <rt.debuff>Harmful</> <rt.bold>Magic Effects</> from target ally.,,authored,GE_Vigor_SingleAllyDispel_ResourceCost,GE_GlobalCooldown,T_Vigor_Dispel,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Vigor_SingleTargetAbsorb,a9357b44-559f-534d-bb66-0f548bd5a849,Vigor,Luminous Barrier,GA_Vigor_SingleTargetAbsorb_C,true,Power,Magic.Holy,Ranged,,,"Apply a shield to target ally that absorbs up to <rt.heal>{LuminousAbsorb}</> damage. <rt.absorb>Luminous Barrier</> lasts for up to <rt.bold>12 seconds</>.
 
 Damage absorbed by <rt.absorb>Luminous Barrier</> is <rt.heal>reduced by {LuminousDmgRed}</>.
@@ -913,7 +913,7 @@ When <rt.absorb>Luminous Barrier</> expires or is removed from a player, they ga
 <rt.effect>GRAND DESIGN</>
 <rt.bold>Hold down the ability button</> until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires <rt.mana>2 Radiant Runes</>. 
 
-<rt.greyitalic>Vigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.</>",GE_Vigor_SingleTargetAbsorb_Cost,GE_GlobalCooldown,T_Vigor_Shield,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>Vigour inscribes a rune of protection onto an ally, causing light to be woven around them into a barrier of divine energy. The barrier stops all forms of attack, whether forged by steel or conjured by magic.</>",authored,GE_Vigor_SingleTargetAbsorb_Cost,GE_GlobalCooldown,T_Vigor_Shield,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Vigor_SingleTargetChargedHot_C,34f2f66d-a595-5701-9438-5f518ca75418,Vigor,Rune of Renewal,GA_Vigor_SingleTargetChargedHot_C,true,Power,Magic.Holy,,,,"Instantly heal target ally for {RenewalHealDirect} and apply <rt.absorb>Rune of Renewal</> on them for 30 seconds, causing all your direct healing effects on that ally to echo for an additional <rt.heal>35% of the initial heal's value</>.
 
 The bonus healing generated by <rt.absorb>Rune of Renewal</> generates <rt.mana>Radiant Rune</> resource relative to the value of the heal.
@@ -921,7 +921,7 @@ The bonus healing generated by <rt.absorb>Rune of Renewal</> generates <rt.mana>
 <rt.effect>GRAND DESIGN</>
 <rt.bold>Hold down the ability button</> until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires <rt.mana>2 Radiant Runes</>.
 
-<rt.greyitalic>Vigour inscribes a resonating rune onto the spirit of an ally. When Vigor heals that ally, the rune pulses gently, further mending any wounds that linger as its light nourishes the body and spirit.</>",GE_Vigor_SingleTargetChargedHot_ResourceCost,GE_GlobalCooldown,T_Vigor_Rune,AbilityIcon,512,512,datamine,,
+<rt.greyitalic>Vigour inscribes a resonating rune onto the spirit of an ally. When Vigor heals that ally, the rune pulses gently, further mending any wounds that linger as its light nourishes the body and spirit.</>",authored,GE_Vigor_SingleTargetChargedHot_ResourceCost,GE_GlobalCooldown,T_Vigor_Rune,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Vigor_SingleTargetDot_C,42c1adac-895d-5bc9-bf9d-a72063a4e054,Vigor,Soulbrand,GA_Vigor_SingleTargetDot_C,true,Power,Magic.Holy,,true,,"Apply a searing rune to target enemy, instantly dealing <rt.warning>{RemnantDamage}</> magic damage to them, plus an additional <rt.warning>{SoulbrandTickDmg}</> magic damage <rt.bold>every</> <rt.warning>{SoulbrandPeriod}</> <rt.bold>seconds over 24 seconds</>.
 
 <rt.absorb>Soulbrand</> generates <rt.mana>30% of a Radiant Rune</> and <rt.mana>1% Maximum Mana</> over its duration.
@@ -929,23 +929,23 @@ GA_Vigor_SingleTargetDot_C,42c1adac-895d-5bc9-bf9d-a72063a4e054,Vigor,Soulbrand,
 <rt.effect>GRAND DESIGN</>
 <rt.bold>Hold down the ability button</> until a cast bar is displayed to cast this ability on up to 4 targets at 60% power. Requires <rt.mana>2 Radiant Runes</>. 
 
-<rt.greyitalic>Vigour inscribes a searing rune onto the soul of his enemy, infusing it with radiant energy. The rune pulses painfully, steadily draining their life force while fueling Vigour’s power.</>",GE_Vigor_SingleTargetDot_ResourceCost,GE_GlobalCooldown,T_Vigor_Soulbrand,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>Vigour inscribes a searing rune onto the soul of his enemy, infusing it with radiant energy. The rune pulses painfully, steadily draining their life force while fueling Vigour’s power.</>",authored,GE_Vigor_SingleTargetDot_ResourceCost,GE_GlobalCooldown,T_Vigor_Soulbrand,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Vigor_SkillshotAoeProjectile,6a7e3cfa-7875-592c-93b9-ff70b250c534,Vigor,Dawnbreaker Orb,GA_Vigor_SkillshotAoeProjectile_C,true,Power,Magic.Holy,Ranged,true,,"Conjure an orb of light that slowly travels forward, healing all allies it touches for {DawnOrbHeal} and damaging enemies for <rt.warning>{DawnOrbDmg}</>. The power of <rt.absorb>Dawnbreaker Orb's</> damage and healing is affected by the target's maximum health. The higher maximum health the target has, the more damage or healing it does.
 
 Each ally and enemy touched by <rt.absorb>Dawnbreaker Orb</> generates <rt.mana>8% of a Radiant Rune</>.
 
-<rt.greyitalic>Vigour conjures an orb of intricate runes, humming with radiant power. The orb shines brilliantly as it slowly drifts forward, burning all darkness from its path and bolstering the lifeforce of Vigour's allies.</>",GE_Vigor_SkillshotAoeProjectile_ResourceCost,GE_GlobalCooldown,T_Vigor_DawnSphere,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>Vigour conjures an orb of intricate runes, humming with radiant power. The orb shines brilliantly as it slowly drifts forward, burning all darkness from its path and bolstering the lifeforce of Vigour's allies.</>",authored,GE_Vigor_SkillshotAoeProjectile_ResourceCost,GE_GlobalCooldown,T_Vigor_DawnSphere,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_AoeIncite,67d45f96-f598-50f6-8aeb-b5c047a06937,Warmaster,Grand Melee,GA_Warmaster_AoeIncite_C,true,Control,Physical,,true,"For the next 10 seconds, <rt.effect>Incite</> all enemies in a large radius around you, forcing them to only use <bold>Auto Attacks</> and only attack you.
 
 All allies within the radius of <rt.absorb>Grand Melee</> take <rt.effect>20% reduced magic damage</> while it is active.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_WM_Incite,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_WM_Incite,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_BouncyProjectile_C,2870bab9-74c7-5a7b-a2ee-c69f26846a80,Warmaster,Shield Throw,GA_Warmaster_BouncyProjectile_C,true,Core,Physical,Ranged,true,,"Throw your shield at target enemy dealing <rt.warning>{ShieldThrwDirect}</> physical damage. The shield bounces to up to 5 additional nearby enemies.
 
 Each time <rt.absorb>Shield Throw</> deals damage it generates <rt.mana>Toughness relative to the damage dealt</>.
 
 <rt.effect>VETERAN OF WAR</>
-<rt.absorb>Shield Throw</> reduces the cooldown of your <rt.absorb>Shockwave</> ability by 3.0 seconds.",,GE_GlobalCooldown,T_Warmaster_Shieldthrow,AbilityIcon,256,256,datamine,,
+<rt.absorb>Shield Throw</> reduces the cooldown of your <rt.absorb>Shockwave</> ability by 3.0 seconds.",authored,,GE_GlobalCooldown,T_Warmaster_Shieldthrow,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_DefenceBuff_C,8c738a97-cc72-5352-ab73-0c3e0871963b,Warmaster,Shields Up,GA_Warmaster_DefenceBuff_C,true,Defensive,,,,,"Raise your shield, increasing your <rt.mana>Toughness by 30%</> and increasing your <rt.meikoability1>Block chance by 25%</> for 12 sec.
 
 <rt.absorb>Shields Up</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.
@@ -955,18 +955,18 @@ GA_Warmaster_DefenceBuff_C,8c738a97-cc72-5352-ab73-0c3e0871963b,Warmaster,Shield
 <rt.mana>TOUGHNESS</>
 <rt.mana>Toughness</> is displayed as a bar to the right of your character. The more Toughness you have, the less damage Helena takes. Your <rt.mana>maximum Toughness value (</><rt.heal>{MaxToughness}</><rt.mana>) is equal to {StrCoefficient} strength. Every 1% of Critical Strike, Haste, Expertise, and Spirit you have further increases the final amount by 2%</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,T_Warmaster_Shieldsup,AbilityIcon,512,512,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",authored,,,T_Warmaster_Shieldsup,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
 GA_Warmaster_HeavyMelee_C,e47d4977-26a8-5c45-81ac-1e3224616ba5,Warmaster,Power Strike,GA_Warmaster_HeavyMelee_C,true,Basic,Physical,,true,,"Perform a heavy strike, dealing <rt.warning>{PwrStrkDirect}</> physical damage to target.
 
 <rt.effect>VETERAN OF WAR</>
-<rt.absorb>Power Strike</> reduces the cooldown of your <rt.absorb>Shield Slam</> and <rt.absorb>Shield Throw</> abilities by 2 seconds.",,GE_GlobalCooldown,T_Warmaster_FatalBlow,AbilityIcon,256,256,datamine,,
+<rt.absorb>Power Strike</> reduces the cooldown of your <rt.absorb>Shield Slam</> and <rt.absorb>Shield Throw</> abilities by 2 seconds.",authored,,GE_GlobalCooldown,T_Warmaster_FatalBlow,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_InstantMeleeCleave,04a9fb57-1278-5ec6-adef-f1c0fc2d553b,Warmaster,Sweeping Strike,GA_Warmaster_InstantMeleeCleave_C,true,Power,Physical,,true,,"Deals <rt.warning>{SweepStrkDirect}</> physical damage to your target and other nearby enemies and grants you <rt.effect>Blood Rally</> for {BloodRushDuration} seconds, <rt.heal>healing you for {BloodRushHeal} of your maximum Health every {BloodRushPeriod}</>.
 
-Enemies hit by <rt.absorb>Sweeping Strike</> bleed for <rt.warning>{SweepStrikDot}</> physical damage <rt.bold>every</> <rt.warning>{SweepStrikePeriod}</><rt.bold> seconds for 12 seconds</>.",,GE_GlobalCooldown,T_Warmaster_BleedStrike,AbilityIcon,256,256,datamine,,
+Enemies hit by <rt.absorb>Sweeping Strike</> bleed for <rt.warning>{SweepStrikDot}</> physical damage <rt.bold>every</> <rt.warning>{SweepStrikePeriod}</><rt.bold> seconds for 12 seconds</>.",authored,,GE_GlobalCooldown,T_Warmaster_BleedStrike,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_LightMelee_C,faad91d5-816c-5a8f-9a83-e2fbb26fa546,Warmaster,Measured Strike,GA_Warmaster_LightMelee_C,true,Basic,Physical,,true,,"Strike target enemy with your sword, dealing <rt.warning>{MeaStrikeDirect}</> physical damage to them and nearby enemies.
 
 <rt.effect>VETERAN OF WAR</>
-<rt.absorb>Measured Strike</> reduces the cooldown of your <rt.absorb>Shield Slam</> and <rt.absorb>Shield Throw</> abilities by 2 seconds.",,GE_GlobalCooldown,T_Warmaster_BasicStrike,AbilityIcon,256,256,datamine,,
+<rt.absorb>Measured Strike</> reduces the cooldown of your <rt.absorb>Shield Slam</> and <rt.absorb>Shield Throw</> abilities by 2 seconds.",authored,,GE_GlobalCooldown,T_Warmaster_BasicStrike,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_MeleeAoeSlow_C,1646a6d6-4eb8-582f-b413-81536899b2b0,Warmaster,Shockwave,GA_Warmaster_MeleeAoeSlow_C,true,Power,Physical,,true,,"Slam sword and shield together creating a forceful explosion, dealing <rt.warning>{ShockwaveDirect}</> physical damage to enemies in a large radius.
 
 Enemies that take damage from <rt.absorb>Shockwave</> have <rt.effect>reduced movement speed</> for 5 seconds, starting at 90% and dimishing by 10% every 0.5 seconds.
@@ -974,8 +974,8 @@ Enemies that take damage from <rt.absorb>Shockwave</> have <rt.effect>reduced mo
 <rt.absorb>Shockwave</> generates <rt.mana>25% Toughness</>.
 
 <rt.effect>VETERAN OF WAR</>
-<rt.absorb>Shockwave</> reduces the cooldown of your <rt.absorb>Shields Up</> ability by 6 seconds.",GE_Warmaster_MeleeAoeSlow_ResourceCost,GE_GlobalCooldown,T_Warmaster_shockwave,AbilityIcon,256,256,datamine,,
-GA_Warmaster_MeleeAutoAttack_C,60a0d38e-2aef-5a52-88c2-0fe9877cb5c2,Warmaster,Attack,GA_Warmaster_MeleeAutoAttack_C,true,,,,true,,,,,Tex_swords_01_bg,AbilityIcon,256,256,datamine,,
+<rt.absorb>Shockwave</> reduces the cooldown of your <rt.absorb>Shields Up</> ability by 6 seconds.",authored,GE_Warmaster_MeleeAoeSlow_ResourceCost,GE_GlobalCooldown,T_Warmaster_shockwave,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GA_Warmaster_MeleeAutoAttack_C,60a0d38e-2aef-5a52-88c2-0fe9877cb5c2,Warmaster,Attack,GA_Warmaster_MeleeAutoAttack_C,true,,,,true,,,absent,,,Tex_swords_01_bg,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_MeleeCleave_C,ff0f58d2-61f7-5bf2-9303-37d8ff2bcf91,Warmaster,Shield Slam,GA_Warmaster_MeleeCleave_C,true,Core,Physical,,true,,"Deals <rt.warning>{ShieldSlamDirect}</> physical damage to your target and <rt.warning>{ShieldSlamCleave}</> physical damage to other enemies near your target.
 
 <rt.absorb>Shield Slam</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.
@@ -989,11 +989,11 @@ GA_Warmaster_MeleeCleave_C,ff0f58d2-61f7-5bf2-9303-37d8ff2bcf91,Warmaster,Shield
 <rt.mana>Toughness</> is displayed as a bar to the right of your character. The more Toughness you have, the less damage Helena takes. Your <rt.mana>maximum Toughness value (</><rt.heal>{MaxToughness}</><rt.mana>) is equal to {StrCoefficient} strength. Every 1% of Critical Strike, Haste, Expertise, and Spirit you have further increases the final amount by 2%</>.
 
 <rt.effect>VETERAN OF WAR</>
-<rt.absorb>Shield Slam</> reduces the cooldown of your <rt.absorb>Shockwave</> ability by 3.0 seconds.",,GE_GlobalCooldown,T_Warmaster_ShieldSlam,AbilityIcon,256,256,datamine,,
+<rt.absorb>Shield Slam</> reduces the cooldown of your <rt.absorb>Shockwave</> ability by 3.0 seconds.",authored,,GE_GlobalCooldown,T_Warmaster_ShieldSlam,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_MeleeInterrupt_C,799d6dc9-464d-5514-9dd9-e5a21b8a884e,Warmaster,Bash,GA_Warmaster_MeleeInterrupt_C,true,Utility,Physical,,,"<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. 
 Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Warmaster_Interrupt,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Warmaster_Interrupt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_MoveSpeedBuff,d509d3b0-3ec3-5583-bbbb-ae5b7de8d685,Warmaster,Hold the Line,GA_Warmaster_MoveSpeedBuff_C,true,Major,Physical,,,,"Instantly resets the cooldown of your <rt.absorb>Shield Slam</> ability and causes your next <rt.absorb>Shield Slam</> within 12 seconds to be <rt.effect>Empowered</>.
 
 <rt.effect>Empowered Shield Slam</>
@@ -1002,18 +1002,18 @@ Your next <rt.absorb>Shield Slam</> applies a barrier on you, absorbing up to <r
 <rt.meikoability2>Can be used during Global Cooldown</>
 
 <rt.effect>VETERAN OF WAR</>
-<rt.absorb>Hold the Line</> reduces the cooldown of your <rt.absorb>Shield Slam</>, <rt.absorb>Shield Throw</>, <rt.absorb>Shields Up</>, and <rt.absorb>Shockwave</> abilities by 10 seconds.",,,T_WM_HoldTheLine,AbilityIcon,512,512,datamine,,
-GA_Warmaster_MoveToTargetStun_C,8dbfaa1b-8039-5a66-99cc-1b12598eb199,Warmaster,Charge,GA_Warmaster_MoveToTargetStun_C,true,Movement,Physical,,true,,"Charge at target enemy, dealing <rt.warning>{ChargeDirect}</> physical damage and <rt.effect>Stunning</> them for 2 seconds.",,,T_Warmaster_Charge,AbilityIcon,256,256,datamine,,
+<rt.absorb>Hold the Line</> reduces the cooldown of your <rt.absorb>Shield Slam</>, <rt.absorb>Shield Throw</>, <rt.absorb>Shields Up</>, and <rt.absorb>Shockwave</> abilities by 10 seconds.",authored,,,T_WM_HoldTheLine,AbilityIcon,512,512,authored,datamine,,,legacy_unbound
+GA_Warmaster_MoveToTargetStun_C,8dbfaa1b-8039-5a66-99cc-1b12598eb199,Warmaster,Charge,GA_Warmaster_MoveToTargetStun_C,true,Movement,Physical,,true,,"Charge at target enemy, dealing <rt.warning>{ChargeDirect}</> physical damage and <rt.effect>Stunning</> them for 2 seconds.",authored,,,T_Warmaster_Charge,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_NoResourceLossSelfBuff_C,b6d45709-f15c-5e1f-a58a-4f13a013ef91,Warmaster,Iron Wall,GA_Warmaster_NoResourceLossSelfBuff_C,true,Major,Physical,,,"Your <rt.mana>Toughness</> can not be reduced for 12 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_Warmaster_IronWall,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_Warmaster_IronWall,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_RangedTaunt_C,363f2786-c40a-527e-aa4b-1b6d151c416f,Warmaster,Taunt,GA_Warmaster_RangedTaunt_C,true,Utility,Physical,,true,"<rt.absorb>Taunt</> the target, forcing it to attack you for 6 sec.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",,,,T_warmaster_Taunt,AbilityIcon,256,256,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",,authored,,,T_warmaster_Taunt,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
 GA_Warmaster_ShieldSelfBuff,2c4a2c0b-56f5-5c84-99fb-9dd5d321f5ee,Warmaster,Siegebreaker,GA_Warmaster_ShieldSelfBuff_C,true,Spirit,,,,"For the next 20 seconds, the cooldown reduction granted by your <rt.effect>Veteran of War</> is doubled.
 
 While <rt.absorb>Siegebreaker</>is active, you take 25% reduced damage and your <rt.absorb>Shield Slam</>, <rt.absorb>Shield Throw</> and <rt.absorb>Shockwave</> abilities deal 25% increased damage.
 
 <rt.absorb>SPIRIT ABILITY</>
-<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,GE_Warmaster_ShieldSelfBuff_SpiritCost,,T_Warmaster_Ultimate,AbilityIcon,256,256,datamine,,
-GE_Firemage_PlacedProjectileAoe_DirectDamageBased_Dot,0e77bebd-b4a4-58e9-9996-40a3396593b6,Firemage,Fire Ball,GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_C,true,,,,,,Inflicting fire damage every 2 seconds.,,,Firemage_Inferno,AbilityIcon,256,256,datamine,,
+<rt.greyitalic>When you activate your Spirit ability you gain </><rt.absorb> Spirit of Heroism</><rt.greyitalic>, granting +30% Haste for 20 sec.</>",,authored,GE_Warmaster_ShieldSelfBuff_SpiritCost,,T_Warmaster_Ultimate,AbilityIcon,256,256,authored,datamine,,,legacy_unbound
+GE_Firemage_PlacedProjectileAoe_DirectDamageBased_Dot,0e77bebd-b4a4-58e9-9996-40a3396593b6,Firemage,Fire Ball,GA_Firemage_Passive_PlacedProjectileAoeDamageMonitor_C,true,,,,,,Inflicting fire damage every 2 seconds.,authored,,,Firemage_Inferno,AbilityIcon,256,256,authored,datamine,,,legacy_unbound

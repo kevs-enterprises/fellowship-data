@@ -1,259 +1,259 @@
-id,hero,numeric_id,name,description,tier_row,unlock_level,point_cost,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source
+id,hero,numeric_id,name,description,tier_row,unlock_level,point_cost,disabled_in_game,augmentation_asset,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source,provenance_source_authority
 Talent.ID.Talent1,Bowguy,1,Repeating Stars,"Your <rt.absorb>Multishot</> reduces the cooldown of your <rt.absorb>Starfall Volley</> by <rt.bold>1.5 seconds</>.
 
-<rt.effect>Empowered Multishot</> reduces the cooldown by <rt.bold>3.0 seconds</>.",3,0,2,Bowguy_Rain,TalentIcon,256,256,datamine,,
+<rt.effect>Empowered Multishot</> reduces the cooldown by <rt.bold>3.0 seconds</>.",3,0,2,false,CAA_Talent_Bowguy_Talent1,Bowguy_Rain,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent10,Bowguy,10,Lunarlight Affinity,"Your <rt.absorb>Starfall Volley</> no longer consumes <rt.absorb>Lunarlight Mark</> stacks when triggering <rt.effect>Lunarlight Salvo</>.
 
-Additionally, your <rt.effect>Lunarlight Salvo</> has <rt.warning>+20% increased critical strike chance</>.",4,0,1,T_Icon_Energy_108,TalentIcon,256,256,datamine,,
+Additionally, your <rt.effect>Lunarlight Salvo</> has <rt.warning>+20% increased critical strike chance</>.",4,0,1,false,CAA_Talent_Bowguy_PassiveTalent7,T_Icon_Energy_108,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent11,Bowguy,11,Striker's Aim,"Your <rt.absorb>Highwind Arrow</> grants you 1 stack of <rt.effect>Striker's Aim</> for every <rt.effect>Ricochet</> that does not find its target, granting you <rt.warning>+2% Expertise</> per stack.
 
 Every <rt.bold>2 seconds</> 1 stack of <rt.effect>Striker's Aim</> is removed.
 
-<rt.effect>Striker's Aim</> is only reapplied if missing <rt.effect>Ricochets</> exceed the current effect stack count.",4,0,1,T_Nhance_RPG_Icons_MagicShot,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Bowguy,12,Swift Reload,The cooldown of your <rt.absorb>Highwind Arrow</> is reduced by <rt.bold>0.5 seconds</> each time it deals damage.,6,0,1,Tex_SpellBook01_16,TalentIcon,256,256,datamine,,
+<rt.effect>Striker's Aim</> is only reapplied if missing <rt.effect>Ricochets</> exceed the current effect stack count.",4,0,1,false,CAA_Talent_Bowguy_Talent14,T_Nhance_RPG_Icons_MagicShot,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Bowguy,12,Swift Reload,The cooldown of your <rt.absorb>Highwind Arrow</> is reduced by <rt.bold>0.5 seconds</> each time it deals damage.,6,0,1,false,CAA_Talent_Bowguy_PassiveTalent10,Tex_SpellBook01_16,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent13,Bowguy,13,Fervent Supremacy,"Your <rt.absorb>Skystrider's Supremacy's</> cooldown is reduced by <rt.bold>10 seconds</> and grants <rt.bold>4 charges</> of <rt.effect>Empowered Multishot</> that lasts for up to <rt.bold>15 seconds</>.
 
-While <rt.effect>Fervant Supremacy</> is active, your <rt.absorb>Multishot</> deals <rt.warning>50% more damage</>.",5,0,3,Bowguy_Supremacy,TalentIcon,256,256,datamine,,
+While <rt.effect>Fervant Supremacy</> is active, your <rt.absorb>Multishot</> deals <rt.warning>50% more damage</>.",5,0,3,false,CAA_Talent_Bowguy_Talent7,Bowguy_Supremacy,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent14,Bowguy,14,Impending Heartseeker,"When your <rt.absorb>Celestial Shot</> consumes <rt.effect>Celestial Impetus</> the cooldown of your <rt.absorb>Heartseeker Barrage</> is reset and you gain <rt.effect>Impending Heartseeker</>.
 
 <rt.effect>IMPENDING HEARTSEEKER</>
-Your <rt.absorb>Heartseeker Barrage</> deals <rt.warning>+10% increased damage</> with each arrow during its channel.",5,0,3,Bowguy_Spray,TalentIcon,256,256,datamine,,
-Talent.ID.Talent15,Bowguy,15,Final Crescendo,Every <rt.bold>3</> <rt.absorb>Highwind Arrow</> casts deals <rt.warning>+100% increased damage</> and <rt.effect>Ricochets</> up to <rt.bold>9 times</>.,5,0,3,Bowguy_Ricochet,TalentIcon,256,256,datamine,,
-Talent.ID.Talent16,Bowguy,16,Last Lights,Your attacks and abilities have <rt.warning>+20% additional critical strike chance</> when striking targets <rt.bold>below 30% health</>.,6,0,1,T_NatureArrow,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Bowguy,17,Deadly Focus,Your <rt.absorb>Focused Shot</> and <rt.absorb>Celestial Shot</> deal <rt.warning>100% more damage</> but <rt.absorb>Focused Shot</> generates 50% less <rt.mana>Focus</>.,2,0,1,Bowguy_FocusShot,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Heartseeker Barrage</> deals <rt.warning>+10% increased damage</> with each arrow during its channel.",5,0,3,false,CAA_Talent_Bowguy_Talent11,Bowguy_Spray,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent15,Bowguy,15,Final Crescendo,Every <rt.bold>3</> <rt.absorb>Highwind Arrow</> casts deals <rt.warning>+100% increased damage</> and <rt.effect>Ricochets</> up to <rt.bold>9 times</>.,5,0,3,false,CAA_Talent_Bowguy_Talent12,Bowguy_Ricochet,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent16,Bowguy,16,Last Lights,Your attacks and abilities have <rt.warning>+20% additional critical strike chance</> when striking targets <rt.bold>below 30% health</>.,6,0,1,false,CAA_Talent_Bowguy_Talent8,T_NatureArrow,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Bowguy,17,Deadly Focus,Your <rt.absorb>Focused Shot</> and <rt.absorb>Celestial Shot</> deal <rt.warning>100% more damage</> but <rt.absorb>Focused Shot</> generates 50% less <rt.mana>Focus</>.,2,0,1,false,CAA_Talent_Bowguy_Talent15,Bowguy_FocusShot,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent18,Bowguy,18,Lunar Fury,"Your <rt.absorb>Heartseeker Barrage</> hits have twice the chance to trigger <rt.effect>Lunarlight Salvo</> when dealing damage to enemies with <rt.absorb>Lunarlight Mark</> active.
 
-Additionally, your <rt.effect>Lunarlight Salvo</> deals <rt.warning>+30% increased damage</>.",3,0,2,Bowguy_Mark,TalentIcon,512,512,datamine,,
-Talent.ID.Talent2,Bowguy,2,Piercing Seekers,Your <rt.absorb>Heartseeker Barrage</> arrows ricochet to 1 additional nearby enemy. Ricochets have <rt.warning>70% of the power of the initial hit</>.,1,0,2,T_Nhance_RPG_Icons_SoulArrow,TalentIcon,256,256,datamine,,
+Additionally, your <rt.effect>Lunarlight Salvo</> deals <rt.warning>+30% increased damage</>.",3,0,2,false,CAA_Talent_Bowguy_Talent4,Bowguy_Mark,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent2,Bowguy,2,Piercing Seekers,Your <rt.absorb>Heartseeker Barrage</> arrows ricochet to 1 additional nearby enemy. Ricochets have <rt.warning>70% of the power of the initial hit</>.,1,0,2,false,CAA_Talent_Bowguy_Trait3,T_Nhance_RPG_Icons_SoulArrow,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent3,Bowguy,3,Resurgent Winds,"Your <rt.bold>Offensive Abilities</> have a <rt.bold>5% chance</> to grant you <rt.effect>Resurgent Winds</>. 
 
 Your <rt.absorb>Lunarlight Mark</> ability has a <rt.bold>100% chance</> to grant you <rt.effect>Resurgent Winds</>.
 
 When you gain <rt.effect>Resurgent Winds</>, you instantly gain 1 charge of <rt.absorb>Highwind Arrow</> and your next <rt.absorb>Highwind Arrow</> is <rt.bold>Instant Cast</>, <rt.mana>costs no Focus</>, and deals <rt.warning>50% more damage</>.
 
-<rt.effect>Resurgent Winds</> lasts for 15 seconds and stacks up to 2 times.",1,0,2,T_Icon_Tech_40,TalentIcon,256,256,datamine,,
-Talent.ID.Talent4,Bowguy,4,Skylit Grace,"While <rt.absorb>Starfall Volley</> is active, your <rt.absorb>Skystrider's Grace</> gains <rt.meikoability2>+120% Cooldown Acceleration</>.",6,0,1,Tex_b_03,TalentIcon,256,256,datamine,,
-Talent.ID.Talent5,Bowguy,5,Fusillade,Your <rt.absorb>Heartseeker Barrage</> channel time is increased by 0.5 seconds and its <rt.warning>critical strike chance is increased by +20%</>.,2,0,1,T_Icon_Energy_106,TalentIcon,256,256,datamine,,
+<rt.effect>Resurgent Winds</> lasts for 15 seconds and stacks up to 2 times.",1,0,2,false,CAA_Talent_Bowguy_Talent3,T_Icon_Tech_40,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent4,Bowguy,4,Skylit Grace,"While <rt.absorb>Starfall Volley</> is active, your <rt.absorb>Skystrider's Grace</> gains <rt.meikoability2>+120% Cooldown Acceleration</>.",6,0,1,false,CAA_Talent_Bowguy_PassiveTalent8,Tex_b_03,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent5,Bowguy,5,Fusillade,Your <rt.absorb>Heartseeker Barrage</> channel time is increased by 0.5 seconds and its <rt.warning>critical strike chance is increased by +20%</>.,2,0,1,false,CAA_Talent_Bowguy_PassiveTalent2,T_Icon_Energy_106,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent6,Bowguy,6,Lethal Shots,"Your <rt.absorb>Highwind Arrow</> has a <rt.bold>40% chance</> to have <rt.warning>+100% increased critical strike chance</>.
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",3,0,2,Tex_arrow,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",3,0,2,false,CAA_Talent_Bowguy_PassiveTalent9,Tex_arrow,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent7,Bowguy,7,Focused Expanse,"Your <rt.absorb>Focused Shot</> has a 20% chance to grant you <rt.bold>1 charge</> of <rt.effect>Empowered Multishot</>.
 
 All your <rt.effect>Empowered Multishots</> deal <rt.warning>20% more damage</>.
 
 <rt.effect>EMPOWERED MULTISHOT</>
-Your next <rt.absorb>Multishot</> has <rt.mana>50% reduced Focus cost</> and always fires at least 3 arrow regardless of how many targets are in range.",1,0,2,Bowguy_Multishot,TalentIcon,512,512,datamine,,
-Talent.ID.Talent8,Bowguy,8,Rising Moon,The cooldown of <rt.absorb>Lunarlight Mark</> is <rt.bold>reduced by 2 seconds</> each time you cast <rt.absorb>Highwind Arrow</>.,4,0,1,T_Nhance_RPG_Energy_17,TalentIcon,256,256,datamine,,
-Talent.ID.Talent9,Bowguy,9,Skyward Munitions,Each time you cast <rt.absorb>Celestial Shot</> or <rt.absorb>Multishot</> the cooldown of <rt.absorb>Highwind Arrow</> & <rt.absorb>Heartseeker Barrage</> is reduced by 1 second.,2,0,1,Bowguy_Shot,TalentIcon,256,256,datamine,,
+Your next <rt.absorb>Multishot</> has <rt.mana>50% reduced Focus cost</> and always fires at least 3 arrow regardless of how many targets are in range.",1,0,2,false,CAA_Talent_Bowguy_Talent10,Bowguy_Multishot,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent8,Bowguy,8,Rising Moon,The cooldown of <rt.absorb>Lunarlight Mark</> is <rt.bold>reduced by 2 seconds</> each time you cast <rt.absorb>Highwind Arrow</>.,4,0,1,false,CAA_Talent_Bowguy_Talent13,T_Nhance_RPG_Energy_17,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent9,Bowguy,9,Skyward Munitions,Each time you cast <rt.absorb>Celestial Shot</> or <rt.absorb>Multishot</> the cooldown of <rt.absorb>Highwind Arrow</> & <rt.absorb>Heartseeker Barrage</> is reduced by 1 second.,2,0,1,false,CAA_Talent_Bowguy_Talent5,Bowguy_Shot,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent94,Bowguy,27,The Weight of Gravity (old),"Your <rt.absorb>Grappling Arrow</> now has 2 charges, but its recharge time is increased to 120 seconds.
 
-<rt.absorb>Grappling Arrow</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.",6,0,1,Bowguy_GrappleShot,TalentIcon,256,256,datamine,,
-Talent.ID.Talent95,Bowguy,26,Spirited Fortitude (old),You take 10% less <bold>Area of Effect damage</>.,6,0,1,Barbarian3,TalentIcon,256,256,datamine,,
-Talent.ID.Talent96,Bowguy,22,Magic Ward (old),You take 10% less <bold>Magic damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
-Talent.ID.Talent97,Bowguy,23,Path of Twilight (old),The duration of <rt.absorb>Pathfinder's Resilience</> is <rt.bold>increased to 8 seconds</> and all <rt.effect>dispellable harmful magic effects</> are instantly removed from you and again upon expiration.,4,0,1,Bowguy_Abilityicon_Defensive,TalentIcon,512,512,datamine,,
-Talent.ID.Talent98,Bowguy,24,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%,3,0,2,Barbarian8,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Bowguy,25,Lingering Heartseeker (old),"Your <bold>Heartseeker Barrage</> damage applies <bold>Lingering Heartseeker</> to enemies for 12 seconds, causing them to take 40% increased damage from your <bold>Celestial Shot</> and <bold>Multishot</>.",1,0,2,T_Nhance_RPG_Gold_43,TalentIcon,256,256,datamine,,
+<rt.absorb>Grappling Arrow</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.",6,0,1,true,CAA_Talent_Bowguy_Talent9,Bowguy_GrappleShot,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent95,Bowguy,26,Spirited Fortitude (old),You take 10% less <bold>Area of Effect damage</>.,6,0,1,true,CAA_Talent_Bowguy_PassiveTalent5,Barbarian3,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent96,Bowguy,22,Magic Ward (old),You take 10% less <bold>Magic damage</>.,4,0,1,true,CAA_Talent_Bowguy_PassiveTalent4,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent97,Bowguy,23,Path of Twilight (old),The duration of <rt.absorb>Pathfinder's Resilience</> is <rt.bold>increased to 8 seconds</> and all <rt.effect>dispellable harmful magic effects</> are instantly removed from you and again upon expiration.,4,0,1,true,CAA_Talent_Bowguy_Talent6,Bowguy_Abilityicon_Defensive,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent98,Bowguy,24,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%,3,0,2,true,CAA_Talent_Bowguy_PassiveTalent6,Barbarian8,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Bowguy,25,Lingering Heartseeker (old),"Your <bold>Heartseeker Barrage</> damage applies <bold>Lingering Heartseeker</> to enemies for 12 seconds, causing them to take 40% increased damage from your <bold>Celestial Shot</> and <bold>Multishot</>.",1,0,2,true,CAA_Talent_Bowguy_Talent2,T_Nhance_RPG_Gold_43,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent1,Firemage,1,Pyrophibian Frenzy,"Each time the <rt.effect>Damage Over Time</> effects from your <rt.absorb>Hero Abilities</> deal damage, you have a <rt.bold>2.5% chance</> to spawn a <rt.absorb>Fire Frog</> to leap toward your enemies.
 
-Critical Strikes have a <rt.bold>5% chance</>.",5,0,3,Firemage_Firefrog,TalentIcon,256,256,datamine,,
-Talent.ID.Talent10,Firemage,10,Backdraft,Each time you cast <rt.absorb>Detonate</> the duration of any of your active <rt.absorb>Searing Blaze</> effects is extended by <rt.bold>1.5 seconds</> up to maximum duration.,2,0,1,Firemage_Dot_02,TalentIcon,512,512,datamine,,
+Critical Strikes have a <rt.bold>5% chance</>.",5,0,3,false,CAA_Talent_Firemage_PyrophibianFrenzy,Firemage_Firefrog,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent10,Firemage,10,Backdraft,Each time you cast <rt.absorb>Detonate</> the duration of any of your active <rt.absorb>Searing Blaze</> effects is extended by <rt.bold>1.5 seconds</> up to maximum duration.,2,0,1,false,CAA_Talent_Firemage_PassiveTalent10,Firemage_Dot_02,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent11,Firemage,11,Firestarter,"All <bold>damage over time</> effects applied to enemies by your abilities gain <rt.warning>+20% critical strike chance</>.
 
-<rt.absorb>Fire Frogs</> and <rt.absorb>Fire Ball</> also gain a <rt.bold>20% chance</> to critically strike with their damage over time effects.",3,0,2,Pyromancer20,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Firemage,12,Undying Flame,The duration of your <rt.absorb>Engulfing Flames</> is increased by <rt.bold>3 seconds</>.,3,0,2,Pyromancer5,TalentIcon,256,256,datamine,,
-Talent.ID.Talent13,Firemage,13,Crackling Inferno,Your <rt.absorb>Infernal Wave</> has <rt.warning>+20% increased critical strike chance</> and its critical strikes burn the target for <rt.warning>60% of the damage it dealt</> over 24 seconds.,4,0,1,Pyromancer15,TalentIcon,256,256,datamine,,
+<rt.absorb>Fire Frogs</> and <rt.absorb>Fire Ball</> also gain a <rt.bold>20% chance</> to critically strike with their damage over time effects.",3,0,2,false,CAA_Talent_Firemage_PassiveTalent2,Pyromancer20,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Firemage,12,Undying Flame,The duration of your <rt.absorb>Engulfing Flames</> is increased by <rt.bold>3 seconds</>.,3,0,2,false,CAA_Talent_Firemage_PassiveTalent3,Pyromancer5,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent13,Firemage,13,Crackling Inferno,Your <rt.absorb>Infernal Wave</> has <rt.warning>+20% increased critical strike chance</> and its critical strikes burn the target for <rt.warning>60% of the damage it dealt</> over 24 seconds.,4,0,1,false,CAA_Talent_Firemage_PassiveTalent11,Pyromancer15,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent14,Firemage,14,Apocalyptic Surge,"Your <rt.absorb>Apocalypse</> has <rt.bold>1.5 seconds</> reduced cast time and grants you <rt.bold>2 stacks</> of <rt.effect>Apocalyptic Surge</> for 18 seconds, up to <rt.bold>4 stacks maximum</>.
 
-Your next <rt.absorb>Detonate</> consumes 1 stack of <rt.effect>Apocalyptic Surge</> and is <rt.mana>Free</>.",2,0,1,Firemage_Apocalypse,TalentIcon,256,256,datamine,,
-Talent.ID.Talent15,Firemage,15,Burning Initiative,<rt.absorb>Start each Dungeon</> with <rt.mana>50 Spirit Points</> and <rt.mana>2 Burning Embers</>.,6,0,1,Tex_SpellBook01_33,TalentIcon,256,256,datamine,,
-Talent.ID.Talent16,Firemage,16,Great Balls of Fire,Your <rt.absorb>Fire Ball</> deals <rt.warning>50% more damage</> and an additional <rt.warning>10% of the damage dealt</> is added to its damage over time effect.,1,0,2,T_Nhance_RPG_Fire_36,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Firemage,17,Flare up,"Your <rt.absorb>Infernal Wave</> hits cause all enemies near the target with <rt.absorb>Searing Blaze</> active on them to flare up, taking <rt.warning>50% of the damage</> <rt.absorb>Infernal Wave</> dealt to the initial target.",2,0,1,T_Nhance_RPG_Icons_FireRune,TalentIcon,256,256,datamine,,
-Talent.ID.Talent18,Firemage,18,Slow Burn,Your active <rt.absorb>Engulfing Flames</> and <rt.absorb>Searing Blaze</> durations are extended each time <rt.absorb>Fire Ball</> burns enemies up to a total of <rt.bold>3 seconds</> over its full duration.,1,0,2,T_Nhance_RPG_Fire_24,TalentIcon,256,256,datamine,,
+Your next <rt.absorb>Detonate</> consumes 1 stack of <rt.effect>Apocalyptic Surge</> and is <rt.mana>Free</>.",2,0,1,false,CAA_Firemage_Trait1,Firemage_Apocalypse,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent15,Firemage,15,Burning Initiative,<rt.absorb>Start each Dungeon</> with <rt.mana>50 Spirit Points</> and <rt.mana>2 Burning Embers</>.,6,0,1,false,CAA_Firemage_Trait2,Tex_SpellBook01_33,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent16,Firemage,16,Great Balls of Fire,Your <rt.absorb>Fire Ball</> deals <rt.warning>50% more damage</> and an additional <rt.warning>10% of the damage dealt</> is added to its damage over time effect.,1,0,2,false,CAA_Talent_Firemage_PassiveTalent7,T_Nhance_RPG_Fire_36,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Firemage,17,Flare up,"Your <rt.absorb>Infernal Wave</> hits cause all enemies near the target with <rt.absorb>Searing Blaze</> active on them to flare up, taking <rt.warning>50% of the damage</> <rt.absorb>Infernal Wave</> dealt to the initial target.",2,0,1,false,CAA_Talent_Firemage_BurstingFlames,T_Nhance_RPG_Icons_FireRune,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent18,Firemage,18,Slow Burn,Your active <rt.absorb>Engulfing Flames</> and <rt.absorb>Searing Blaze</> durations are extended each time <rt.absorb>Fire Ball</> burns enemies up to a total of <rt.bold>3 seconds</> over its full duration.,1,0,2,false,CAA_Talent_Firemage_PassiveTalent9,T_Nhance_RPG_Fire_24,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent2,Firemage,2,Reign of Fire,"Your <rt.absorb>Detonate</> casts have a chance to instantly grant you <rt.bold>1 charge</> of <rt.absorb>Fire Ball</> and cause your next <rt.absorb>Fire Ball</> to have <rt.warning>+200% critical strike chance</>. (1.5 PPM)
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",5,0,3,Firemage_Inferno,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",5,0,3,false,CAA_Talent_Firemage_ReignOfFire,Firemage_Inferno,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent3,Firemage,3,Agonizing Blaze,"Each tick of <rt.absorb>Searing Blaze</> on a target <rt.warning>increases the damage it deals by 4%</> up to a maximum of <rt.warning>40% increased damage</> at <rt.bold>10 stacks</>.
 
-All stacks are lost when <rt.absorb>Searing Blaze</> is removed from the target.",3,0,2,T_Nhance_RPG_Fire_30,TalentIcon,256,256,datamine,,
-Talent.ID.Talent4,Firemage,4,Intensifying Inferno,Your <rt.absorb>Infernal Wave</> deals <rt.warning>+15% increased damage</> for each of your unique damage over time effects that are active on the target.,6,0,1,Firemage_Bolt,TalentIcon,512,512,datamine,,
+All stacks are lost when <rt.absorb>Searing Blaze</> is removed from the target.",3,0,2,false,CAA_Talent_Firemage_AgonizingBlaze,T_Nhance_RPG_Fire_30,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent4,Firemage,4,Intensifying Inferno,Your <rt.absorb>Infernal Wave</> deals <rt.warning>+15% increased damage</> for each of your unique damage over time effects that are active on the target.,6,0,1,false,CAA_Talent_Firemage_IntensifyingInferno,Firemage_Bolt,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent5,Firemage,5,Cascading Inferno,"Each time you cast <rt.absorb>Detonate</> you gain 1 stack of <rt.effect>Cascading Inferno</>, up to 12 stacks.
 
 <rt.effect>Cascading Inferno</>
 When you have at least <rt.bold>4 stacks</> your next <rt.absorb>Infernal Wave</> is <rt.bold>Instant Cast</>, has <rt.warning>+100% Critical Strike chance</>, and generates <rt.mana>twice the amout of Cinders</>.
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",4,0,1,T_Icon_Fire_156,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",4,0,1,false,CAA_Firemage_Trait3,T_Icon_Fire_156,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent6,Firemage,6,Frog Squad,"Your <rt.absorb>Fire Frogs</> ability conjures <rt.bold>2 additional frogs</> and all your <rt.absorb>Fire Frogs</> now leap on enemies <rt.bold>1 additional time</>.
 
-<rt.absorb>Fire Frogs</> deal <rt.warning>20% more damage</>.",1,0,2,T_Nhance_RPG_Icons_HypnoToad,TalentIcon,256,256,datamine,,
-Talent.ID.Talent7,Firemage,7,Crash and Burn,"Each time your <rt.absorb>Searing Blaze</> deals damage to an enemy, the cooldown of <rt.absorb>Fire Ball</> is reduced by <rt.bold>0.05 seconds</>.",4,0,1,T_Nhance_RPG_Icons_FireRealm,TalentIcon,256,256,datamine,,
-Talent.ID.Talent8,Firemage,8,Rolling Flames,The cooldown of your <rt.absorb>Engulfing Flames</> is reduced by <rt.bold>0.25 seconds</> each time your <rt.absorb>Searing Blaze</> deals damage to an enemy and by <rt.bold>1 second</> each time you cast <rt.absorb>Infernal Wave</>.,5,0,3,Firemage_Dot_01,TalentIcon,512,512,datamine,,
+<rt.absorb>Fire Frogs</> deal <rt.warning>20% more damage</>.",1,0,2,false,CAA_Talent_Firemage_FrogSquad,T_Nhance_RPG_Icons_HypnoToad,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent7,Firemage,7,Crash and Burn,"Each time your <rt.absorb>Searing Blaze</> deals damage to an enemy, the cooldown of <rt.absorb>Fire Ball</> is reduced by <rt.bold>0.05 seconds</>.",4,0,1,false,CAA_Talent_Firemage_Ouroboros,T_Nhance_RPG_Icons_FireRealm,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent8,Firemage,8,Rolling Flames,The cooldown of your <rt.absorb>Engulfing Flames</> is reduced by <rt.bold>0.25 seconds</> each time your <rt.absorb>Searing Blaze</> deals damage to an enemy and by <rt.bold>1 second</> each time you cast <rt.absorb>Infernal Wave</>.,5,0,3,false,CAA_Talent_Firemage_RollingFlames_New,Firemage_Dot_01,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent9,Firemage,9,Spontaneous Combustion,"Each tick of <rt.absorb>Searing Blaze</> & <rt.absorb>Engulfing Flames</> has a <rt.bold>10% chance</> to have <rt.warning>+100% critical strike chance</>.
 
 The chance for <rt.effect>Spontaneous Combustion</> to trigger is increased by <rt.bold>+1% for every 5% critical strike chance</> you have.
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",6,0,1,Tex_r_02,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",6,0,1,false,CAA_Talent_Firemage_Warmth,Tex_r_02,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent92,Firemage,29,Fiery Resilience (old),"Your <rt.absorb>Flame Ward's</> duration is <rt.bold>extended to 6 seconds</> and now applies an absorb on you for <rt.heal>30% of your maximum health</> that lasts for 6 seconds.
 
-The absorb is applied again when <rt.absorb>Flame Ward</> expires.",4,0,1,T_Nhance_RPG_Fire_61,TalentIcon,256,256,datamine,,
-Talent.ID.Talent93,Firemage,28,Spirited Fortitude (old),You take 10% reduced <bold>Area of Effect damage</>.,6,0,1,Barbarian3,TalentIcon,256,256,datamine,,
-Talent.ID.Talent94,Firemage,27,Magic Ward (old),You take 10% reduced <bold>Magic Damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
-Talent.ID.Talent95,Firemage,26,Flickering Cinders (old),Your <rt.absorb>Searing Blaze</> and <rt.absorb>Engulfing Flames</> generate 25% more <rt.mana>Cinders</>.,2,0,1,Firemage_Dot_02,TalentIcon,512,512,datamine,,
-Talent.ID.Talent96,Firemage,22,Danger Frogs (old),Your <rt.absorb>Fire Frogs</> deal 20% increased damage over time.,2,0,1,Tex_emerald_5,TalentIcon,256,256,datamine,,
+The absorb is applied again when <rt.absorb>Flame Ward</> expires.",4,0,1,true,CAA_Talent_Firemage_FieryResilience,T_Nhance_RPG_Fire_61,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent93,Firemage,28,Spirited Fortitude (old),You take 10% reduced <bold>Area of Effect damage</>.,6,0,1,true,CAA_Talent_Firemage_PassiveTalent6,Barbarian3,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent94,Firemage,27,Magic Ward (old),You take 10% reduced <bold>Magic Damage</>.,4,0,1,true,CAA_Talent_Firemage_PassiveTalent5,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent95,Firemage,26,Flickering Cinders (old),Your <rt.absorb>Searing Blaze</> and <rt.absorb>Engulfing Flames</> generate 25% more <rt.mana>Cinders</>.,2,0,1,true,CAA_Talent_Firemage_PassiveTalent1,Firemage_Dot_02,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent96,Firemage,22,Danger Frogs (old),Your <rt.absorb>Fire Frogs</> deal 20% increased damage over time.,2,0,1,true,CAA_Talent_Firemage_PassiveTalent8,Tex_emerald_5,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent97,Firemage,23,Infernal Doom (old),"Your <rt.absorb>Detonate</> ability consumes up to <rt.mana>2 Burning Embers</> each cast.
 
 When <rt.absorb>Detonate</> consumes <rt.mana>2 Burning Embers</>, its damage is increased by 100% and you gain 1 stack of <rt.effect>Infernal Doom</> for 8 seconds.
 
 <rt.effect>INFERNAL DOOM</>
-Your next <rt.absorb>Infernal Wave</> deals +300% increased damage and causes all enemies afflicted by your <rt.absorb>Searing Blaze</> to flare up, taking fire damage equal to 30% of the damage dealt by your <rt.absorb>Infernal Wave</>.",5,0,3,T_Nhance_RPG_Icons_FireRune_2,TalentIcon,256,256,datamine,,
-Talent.ID.Talent98,Firemage,24,Swift Inferno (old),Your <bold>Infernal Wave's</> cast time is reduced by 0.5 seconds.,2,0,1,Pyromancer15,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Firemage,25,Infernal Doom (old),,5,0,3,T_Nhance_RPG_Icons_FireRune_2,TalentIcon,256,256,datamine,,
+Your next <rt.absorb>Infernal Wave</> deals +300% increased damage and causes all enemies afflicted by your <rt.absorb>Searing Blaze</> to flare up, taking fire damage equal to 30% of the damage dealt by your <rt.absorb>Infernal Wave</>.",5,0,3,true,CAA_Talent_Firemage_BurstingFlames,T_Nhance_RPG_Icons_FireRune_2,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent98,Firemage,24,Swift Inferno (old),Your <bold>Infernal Wave's</> cast time is reduced by 0.5 seconds.,2,0,1,true,CAA_Talent_Firemage_PassiveTalent4,Pyromancer15,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Firemage,25,Infernal Doom (old),,5,0,3,true,CAA_Talent_Firemage_PyroSpread,T_Nhance_RPG_Icons_FireRune_2,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent1,Gunde,1,Death's Arc,"Each time you use <rt.absorb>Blood Arc</>, it has a <rt.bold>30% chance</> to instantly reset its cooldown and cause your next <rt.absorb>Blood Arc</> to have <rt.warning>+100% Critical Strike chance</>.
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",1,0,2,T_Nhance_RPG_Icons_NightmarePuppet,TalentIcon,256,256,datamine,,
-Talent.ID.Talent10,Gunde,10,Slayer's Grin,Your <rt.absorb>Rupture</> cooldown is reduced by <rt.bold>0.4 seconds</> each time you collect a <rt.effect>Blood Feather</>.,4,0,1,T_Gunde_Rupture,TalentIcon,512,512,datamine,,
-Talent.ID.Talent11,Gunde,11,Frenzied Reign,Your <rt.absorb>Reign in Blood</> now causes the direct damage of your abilities that apply <rt.warning>Rend</> to transfer an additional <rt.warning>+25% damage</> to <rt.warning>Rend</>.,4,0,1,T_Gunde_HPDrain,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Gunde,12,Deep Rend,"Your <rt.warning>Rend</> ticks <rt.warning>10% faster</>, dealing <rt.warning>10% more damage</>.",2,0,1,T_Status_Bleed,TalentIcon,512,512,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",1,0,2,false,CAA_Gunde_Trait1,T_Nhance_RPG_Icons_NightmarePuppet,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent10,Gunde,10,Slayer's Grin,Your <rt.absorb>Rupture</> cooldown is reduced by <rt.bold>0.4 seconds</> each time you collect a <rt.effect>Blood Feather</>.,4,0,1,false,CAA_Gunde_Trait23,T_Gunde_Rupture,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent11,Gunde,11,Frenzied Reign,Your <rt.absorb>Reign in Blood</> now causes the direct damage of your abilities that apply <rt.warning>Rend</> to transfer an additional <rt.warning>+25% damage</> to <rt.warning>Rend</>.,4,0,1,false,CAA_Gunde_Trait11,T_Gunde_HPDrain,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Gunde,12,Deep Rend,"Your <rt.warning>Rend</> ticks <rt.warning>10% faster</>, dealing <rt.warning>10% more damage</>.",2,0,1,false,CAA_Gunde_Trait12,T_Status_Bleed,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent13,Gunde,13,Bloodcraze,"Your <rt.absorb>Owed in Blood</> causes you to <rt.warning>pulsate damage</> equal to <rt.warning>25% Strength</> in a 700 radius around you every 3 seconds for 6 seconds.
 
 The damage of <rt.effect>Bloodcraze</> is increased by <rt.warning>150% per stack of</> <rt.effect>Owed in Blood</> <rt.warning>that was consumed</>.
 
-(Damage reduced beyond 1 target)",5,0,3,T_Gunde_SanguineFeast_off,TalentIcon,512,512,datamine,,
+(Damage reduced beyond 1 target)",5,0,3,false,CAA_Gunde_Trait21,T_Gunde_SanguineFeast_off,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent14,Gunde,14,Oathshatter,"Your <rt.absorb>Heart Splitter</> has <rt.warning>+30% increased Critical Strike chance</>.
 
 When the direct damage portion of <rt.absorb>Heart Splitter</> <rt.bold>Critically Strikes</>, it causes <rt.effect>Exsanguinate</> to explode, <rt.warning>dealing 50% of its damage to all enemies near your target</>.
 
-(Damage reduced beyond 8 targets)",5,0,3,T_Gunde_DoubleAxe,TalentIcon,512,512,datamine,,
+(Damage reduced beyond 8 targets)",5,0,3,false,CAA_Gunde_Trait22,T_Gunde_DoubleAxe,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent15,Gunde,15,Carnage,"Each spin of <rt.absorb>Grim Carve</> reduces the cooldown of your <rt.absorb>Reaver's Edge</>, <rt.absorb>Blood Arc</>, <rt.absorb>Heart Splitter</> and <rt.absorb>Rupture</> by <rt.bold>1 second</> per spin. 
 
-<rt.absorb>Grim Carve</> deals <rt.warning>25% more damage</>.",5,0,3,t_gunde_Healstrike,TalentIcon,512,512,datamine,,
-Talent.ID.Talent16,Gunde,16,Superior Serration,Your <rt.absorb>Blood Arc's</> <rt.effect>Serrated Edge</> grants an additional <rt.warning>+10% damage applied to Rend</>.,6,0,1,Gunde_Frontal,TalentIcon,512,512,datamine,,
-Talent.ID.Talent17,Gunde,17,Ancestral Instinct,"Your <rt.absorb>Reaver's Edge</> and <rt.absorb>Grim Carve</> have a <rt.bold>40% chance</> to grant you <rt.effect>Ancestral Instinct</>, granting you <rt.warning>6% Strength</> for <rt.bold>6 seconds</>.",6,0,1,Tex_yellow_14,TalentIcon,256,256,datamine,,
-Talent.ID.Talent18,Gunde,18,Bloodbath,"Your <rt.absorb>Grim Carve</> grants you <rt.effect>Bloodbath</> for <rt.bold>3 seconds</>, causing your <rt.absorb>Reign in Blood</> ability to gain <rt.meikoability2>+200% Cooldown Acceleration</> for the duration.",4,0,1,T_Nhance_RPG_BloodCombat_22,TalentIcon,256,256,datamine,,
+<rt.absorb>Grim Carve</> deals <rt.warning>25% more damage</>.",5,0,3,false,CAA_Gunde_Trait15,t_gunde_Healstrike,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent16,Gunde,16,Superior Serration,Your <rt.absorb>Blood Arc's</> <rt.effect>Serrated Edge</> grants an additional <rt.warning>+10% damage applied to Rend</>.,6,0,1,false,CAA_Gunde_Trait10,Gunde_Frontal,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent17,Gunde,17,Ancestral Instinct,"Your <rt.absorb>Reaver's Edge</> and <rt.absorb>Grim Carve</> have a <rt.bold>40% chance</> to grant you <rt.effect>Ancestral Instinct</>, granting you <rt.warning>6% Strength</> for <rt.bold>6 seconds</>.",6,0,1,false,CAA_Gunde_Trait17,Tex_yellow_14,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent18,Gunde,18,Bloodbath,"Your <rt.absorb>Grim Carve</> grants you <rt.effect>Bloodbath</> for <rt.bold>3 seconds</>, causing your <rt.absorb>Reign in Blood</> ability to gain <rt.meikoability2>+200% Cooldown Acceleration</> for the duration.",4,0,1,false,CAA_Gunde_Trait24,T_Nhance_RPG_BloodCombat_22,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent2,Gunde,2,Raven's Precision,"Your <rt.absorb>Reaver's Edge</> collects all <rt.effect>Blood Feathers</> within a 1000 radius.
 
 Each time you <rt.bold>Pick Up</> or <rt.bold>Collect</> a <rt.effect>Blood Feather</>, it triggers an explosion of blood emanating from you, <rt.warning>dealing 37.4% Strength physical damage</> to nearby enemies.
 
-(damage is reduced beyond 5 targets).",1,0,2,Gunde_AOESwing_01,TalentIcon,256,256,datamine,,
+(damage is reduced beyond 5 targets).",1,0,2,false,CAA_Gunde_Trait20,Gunde_AOESwing_01,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent3,Gunde,3,Grim Harvest,"Your <rt.absorb>Reaver's Edge</>, <rt.absorb>Blood Arc</>, <rt.absorb>Heart Splitter</>, and <rt.absorb>Rupture</> have a <rt.bold>6% chance</> to reset the cooldown of <rt.absorb>Grim Carve</> and grant you <rt.effect>Grim Harvest</> for 8 seconds, causing your next <rt.absorb>Grim Carve</> to have <rt.warning>+100% Critical Strike chance</>.
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",1,0,2,T_Gunde_Sawblade,TalentIcon,512,512,datamine,,
-Talent.ID.Talent4,Gunde,4,Harvester's Toll,"Your <rt.absorb>Rupture</> ability grants you <rt.effect>Harvester's Toll</>, <rt.warning>increasing all damage you deal by 7.5%</> for <rt.bold>10 seconds</>.",6,0,1,T_Icon_BloodCombat_143,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",1,0,2,false,CAA_Gunde_Trait3,T_Gunde_Sawblade,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent4,Gunde,4,Harvester's Toll,"Your <rt.absorb>Rupture</> ability grants you <rt.effect>Harvester's Toll</>, <rt.warning>increasing all damage you deal by 7.5%</> for <rt.bold>10 seconds</>.",6,0,1,false,CAA_Gunde_Trait4,T_Icon_BloodCombat_143,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent5,Gunde,5,Crimson strikes,"Your <rt.absorb>Blood Arc</> grants you <rt.effect>Crimson Strikes</>, empowering your next ability that applies <rt.warning>Rend</> with <rt.warning>+15% damage</>.
 
-<rt.effect>Crimson Strikes</> does not interact with your <rt.absorb>Bloodbound Spirit</> ability.",2,0,1,T_Icon_BloodCombat_141,TalentIcon,256,256,datamine,,
+<rt.effect>Crimson Strikes</> does not interact with your <rt.absorb>Bloodbound Spirit</> ability.",2,0,1,false,CAA_Gunde_Trait5,T_Icon_BloodCombat_141,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent6,Gunde,6,Darkening Hearts,"Your <rt.absorb>Heart Splitter</> deals <rt.warning>10% more Direct Damage</>.
 
 Your <rt.absorb>Heart Splitter</> has <rt.warning>+100% Critical Strike chance</> against <rt.bold>targets with 30% health or less</>.
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",3,0,2,T_Gunde_Cleave,TalentIcon,512,512,datamine,,
-Talent.ID.Talent7,Gunde,7,Sundered Flesh,"When your <rt.warning>Rend</> or <rt.effect>Slaughter</> contains more damage than an enemy has left in remaining health, they <rt.warning>instantly take that damage</>.",2,0,1,T_Nhance_RPG_Icons_NightmareAura,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",3,0,2,false,CAA_Gunde_Trait18,T_Gunde_Cleave,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent7,Gunde,7,Sundered Flesh,"When your <rt.warning>Rend</> or <rt.effect>Slaughter</> contains more damage than an enemy has left in remaining health, they <rt.warning>instantly take that damage</>.",2,0,1,false,CAA_Gunde_Trait27,T_Nhance_RPG_Icons_NightmareAura,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent8,Gunde,8,Murder of Crows,"Your <rt.absorb>Rupture</> grants you <rt.bold>2 stacks</> of <rt.effect>Murder of Crows</> for <rt.bold>12 seconds</>.
 
-Your next ability that applies <rt.warning>Rend</> consumes 1 stack of <rt.effect>Murder of Crows</> and always triggers a <rt.mana>Spirit Refund</>.",3,0,2,T_Icon_BloodCombat_129,TalentIcon,256,256,datamine,,
-Talent.ID.Talent9,Gunde,9,Massacre,"Each <rt.warning>Rend</> that is consumed by your <rt.absorb>Slaughter</> grants you <rt.warning>+0.25% Spirit</> for 8 seconds, up to a maximum of <rt.warning>25% Spirit</>.",3,0,2,T_Gunde_Slaughter,TalentIcon,256,256,datamine,,
-Talent.ID.Talent95,Gunde,26,Harvester's Toll,"Your <rt.absorb>Owed in Blood</> ability grants you <rt.effect>Harvester's Toll</>, <rt.warning>increasing all damage you deal by 0.25% per rend stack it applied</> for <rt.bold>10 seconds</>, up to a maximum of 30 stacks.",2,0,1,T_Icon_BloodCombat_143,TalentIcon,256,256,datamine,,
+Your next ability that applies <rt.warning>Rend</> consumes 1 stack of <rt.effect>Murder of Crows</> and always triggers a <rt.mana>Spirit Refund</>.",3,0,2,false,CAA_Gunde_Trait19,T_Icon_BloodCombat_129,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent9,Gunde,9,Massacre,"Each <rt.warning>Rend</> that is consumed by your <rt.absorb>Slaughter</> grants you <rt.warning>+0.25% Spirit</> for 8 seconds, up to a maximum of <rt.warning>25% Spirit</>.",3,0,2,false,CAA_Gunde_Trait9,T_Gunde_Slaughter,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent95,Gunde,26,Harvester's Toll,"Your <rt.absorb>Owed in Blood</> ability grants you <rt.effect>Harvester's Toll</>, <rt.warning>increasing all damage you deal by 0.25% per rend stack it applied</> for <rt.bold>10 seconds</>, up to a maximum of 30 stacks.",2,0,1,true,CAA_Gunde_Trait4,T_Icon_BloodCombat_143,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent96,Gunde,22,Oathshatter,"When the direct damage portion of <rt.absorb>Heart Splitter</> <rt.bold>Critically Strikes</>, it causes <rt.effect>Exsanguinate</> to explode, <rt.warning>dealing 20% of its damage to all enemies near your target</>.
 
-Your <rt.absorb>Heart Splitter</> has <rt.warning>+30% increased Critical Strike chance</>.",5,0,3,T_Gunde_DoubleAxe,TalentIcon,512,512,datamine,,
+Your <rt.absorb>Heart Splitter</> has <rt.warning>+30% increased Critical Strike chance</>.",5,0,3,true,CAA_Gunde_Trait14,T_Gunde_DoubleAxe,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent97,Gunde,23,Bloodcraze,"Your <rt.absorb>Owed in Blood</> causes you to 
 <rt.warning>pulsate damage</> equal to <rt.warning>20% Strength</> in a 700 radius around you every 3 seconds for 6 seconds.
 
-The damage of <rt.effect>Bloodcraze</> is increased by <rt.warning>72% per stack of</> <rt.effect>Owed in Blood</> <rt.warning>that was consumed</>.",5,0,3,T_Nhance_RPG_Icons_BloodDrop,TalentIcon,256,256,datamine,,
+The damage of <rt.effect>Bloodcraze</> is increased by <rt.warning>72% per stack of</> <rt.effect>Owed in Blood</> <rt.warning>that was consumed</>.",5,0,3,true,CAA_Gunde_Trait13,T_Nhance_RPG_Icons_BloodDrop,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent98,Gunde,24,Raven's Precision,"Your <rt.absorb>Reaver's Edge</> collects all <rt.effect>Blood Feathers</> within a 700 radius.
 
 Each time you <rt.bold>Pick Up</> or <rt.bold>Collect</> a <rt.effect>Blood Feather</>, it triggers an explosion of blood eminating from you, <rt.warning>dealing 34% Strength physical damage</> to enemies in a 700 radius.
 
-(damage is reduced beyond 8 targets).",3,0,2,T_Gunde_Shockwave,TalentIcon,512,512,datamine,,
-Talent.ID.Talent99,Gunde,25,Murder of Crows,Your <rt.absorb>Rupture</> instantly creates <rt.effect>8 Blood Feathers</> around the target.,3,0,2,t_gunde_SingleTargetPain,TalentIcon,256,256,datamine,,
-Talent.ID.Talent1,Ink,1,The Motherload,Your <rt.absorb>Chain Lightning</> deals <rt.warning>+65% increased damage</> for each unique enemy other than your target that it hits.,3,0,2,T_Nhance_RPG_Icons_SoulGrave,TalentIcon,256,256,datamine,,
+(damage is reduced beyond 8 targets).",3,0,2,true,CAA_Gunde_Trait6,T_Gunde_Shockwave,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent99,Gunde,25,Murder of Crows,Your <rt.absorb>Rupture</> instantly creates <rt.effect>8 Blood Feathers</> around the target.,3,0,2,false,CAA_Gunde_Trait8,t_gunde_SingleTargetPain,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent1,Ink,1,The Motherload,Your <rt.absorb>Chain Lightning</> deals <rt.warning>+65% increased damage</> for each unique enemy other than your target that it hits.,3,0,2,false,CAA_Talent_Ink_Trait8,T_Nhance_RPG_Icons_SoulGrave,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent10,Ink,10,Them Bones,"Your <rt.absorb>Skull Crusher</> has a <rt.bold>30%</> chance to have <rt.warning>+100%</> increased critical strike chance.
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",6,0,1,T_Ink_Skullcrusher,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",6,0,1,false,CAA_Talent_Ink_PassiveTalent1,T_Ink_Skullcrusher,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent11,Ink,11,Kill Em All,"Your offensive abilities have a <rt.bold>8% chance</> to reset the cooldown of your <rt.absorb>Heavy Strike</> and grant you <rt.bold>2 stacks</> of <rt.effect>Kill Em All</> for <rt.bold>8 seconds</>
 
 While <rt.effect>Kill Em All</> is active, your <rt.absorb>Heavy Strike</> has <rt.meikoability2>+60% Cooldown Acceleration</>.
 
-Your next <rt.Absorb>Heavy Strike</> consumes <rt.bold>1 stack</> of <rt.effect>Kill Em All</>, causing it to deal <rt.warning>150% more damage</>.",5,0,3,Berserker6,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Ink,12,Killing in the Name,Your <rt.absorb>Culling Strike</> has <rt.warning>+50% increased Critical Strike chance</>.,6,0,1,T_Ink_Cullingstrike,TalentIcon,256,256,datamine,,
+Your next <rt.Absorb>Heavy Strike</> consumes <rt.bold>1 stack</> of <rt.effect>Kill Em All</>, causing it to deal <rt.warning>150% more damage</>.",5,0,3,false,CAA_Talent_Ink_Trait9,Berserker6,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Ink,12,Killing in the Name,Your <rt.absorb>Culling Strike</> has <rt.warning>+50% increased Critical Strike chance</>.,6,0,1,false,CAA_Talent_Ink_PassiveTalent6,T_Ink_Cullingstrike,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent13,Ink,13,Pneuma,"You <rt.absorb>Start each Dungeon</> with <rt.mana>50 Spirit Points</>.
 
-Your <rt.absorb>Culling Strike</> generates <rt.mana>1 Spirit Point</>.",4,0,1,T_Nhance_RPG_Energy_18,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Culling Strike</> generates <rt.mana>1 Spirit Point</>.",4,0,1,false,CAA_Talent_Ink_PassiveTalent4,T_Nhance_RPG_Energy_18,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent14,Ink,14,High Road,"When your <rt.absorb>Leap Smash</> ability does not hit an enemy, its <rt.bold>cooldown is reduced</> by <rt.bold>10 seconds</>.
 
-When your <rt.absorb>Leap Smash</> ability hits at least 1 enemy, you gain <rt.mana>20 Fury</>.",2,0,1,Barbarian8,TalentIcon,256,256,datamine,,
+When your <rt.absorb>Leap Smash</> ability hits at least 1 enemy, you gain <rt.mana>20 Fury</>.",2,0,1,false,CAA_Talent_Ink_Talent10,Barbarian8,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent15,Ink,15,Ace of Spades,"Each time your <rt.absorb>Skull Crusher</> and <rt.absorb>Hammer Storm</> deals damage to an enemy you have a <rt.bold>Chance</> (3.0 PPM) to cast a free <rt.absorb>Chain Lightning</> at them.
 
-Your <rt.absorb>Chain Lightning</> now has <rt.bold>2 charges</>.",5,0,3,T_Nhance_RPG_Icons_GhostHand,TalentIcon,256,256,datamine,,
-Talent.ID.Talent16,Ink,16,Crack the Sky,Your <bold>Lightning damage</> has <rt.warning>+20% increased critical strike chance</>.,6,0,1,Electromancer18,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Ink,17,Thunderstruck,Your <rt.absorb>Chain Lightning</> bounces <rt.warning>3</> additional times.,3,0,2,Electromancer1,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Chain Lightning</> now has <rt.bold>2 charges</>.",5,0,3,false,CAA_Talent_Ink_Trait5,T_Nhance_RPG_Icons_GhostHand,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent16,Ink,16,Crack the Sky,Your <bold>Lightning damage</> has <rt.warning>+20% increased critical strike chance</>.,6,0,1,false,CAA_Talent_Ink_PassiveTalent7,Electromancer18,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Ink,17,Thunderstruck,Your <rt.absorb>Chain Lightning</> bounces <rt.warning>3</> additional times.,3,0,2,false,CAA_Talent_Ink_PassiveTalent8,Electromancer1,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent18,Ink,18,Square Hammer,"Your <rt.absorb>Heavy Strike</> grants you <rt.bold>1 stack</> of <rt.effect>Square Hammer</> for 20 seconds, stacking up to 5 times.
 
 Your next <rt.absorb>Skull Crusher</> or <rt.absorb>Hammer Storm</> consumes all stacks, reducing the cooldown of your <rt.absorb>Thunder Call</> by <rt.bold>1 second per stack</>.
 
-Each time you consume <rt.effect>Square Hammer</> you are granted <rt.warning>+5% Expertise</> for <rt.bold>4 seconds</>.",1,0,2,T_Ink_TimerAbility,TalentIcon,512,512,datamine,,
-Talent.ID.Talent2,Ink,2,Left Hand Path,Your <rt.absorb>Face Breaker</> has <rt.warning>+40% increased Critical Strike chance</>.,1,0,2,T_Ink_Facebreaker,TalentIcon,256,256,datamine,,
-Talent.ID.Talent3,Ink,3,Blood & Thunder,Your <rt.absorb>Heavy Strike</> has a <rt.bold>20% chance</> to cast a free <rt.absorb>Chain Lightning</> at the target.,2,0,1,Tex_SpellBook01_91,TalentIcon,256,256,datamine,,
-Talent.ID.Talent4,Ink,4,Sledgehammer,Your <rt.absorb>Skull Crusher</> direct damage deals <rt.warning>10% of the damage dealt</> to enemies near your target. (Damage reduced beyond 8 targets).,4,0,1,T_Nhance_RPG_Icons_ChaoticSpikes,TalentIcon,256,256,datamine,,
-Talent.ID.Talent5,Ink,5,Mouth for War,"When your <rt.absorb>Leap Smash</> ability deals damage, you are granted <rt.bold>1 stack</> of <rt.absorb>Focused Wrath</>.",3,0,2,T_Ink_FocusedWrath,TalentIcon,256,256,datamine,,
+Each time you consume <rt.effect>Square Hammer</> you are granted <rt.warning>+5% Expertise</> for <rt.bold>4 seconds</>.",1,0,2,false,CAA_Talent_Ink_Trait7,T_Ink_TimerAbility,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent2,Ink,2,Left Hand Path,Your <rt.absorb>Face Breaker</> has <rt.warning>+40% increased Critical Strike chance</>.,1,0,2,false,CAA_Talent_Ink_Talent2,T_Ink_Facebreaker,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent3,Ink,3,Blood & Thunder,Your <rt.absorb>Heavy Strike</> has a <rt.bold>20% chance</> to cast a free <rt.absorb>Chain Lightning</> at the target.,2,0,1,false,CAA_Talent_Ink_Talent3,Tex_SpellBook01_91,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent4,Ink,4,Sledgehammer,Your <rt.absorb>Skull Crusher</> direct damage deals <rt.warning>10% of the damage dealt</> to enemies near your target. (Damage reduced beyond 8 targets).,4,0,1,false,CAA_Talent_Ink_Talent4,T_Nhance_RPG_Icons_ChaoticSpikes,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent5,Ink,5,Mouth for War,"When your <rt.absorb>Leap Smash</> ability deals damage, you are granted <rt.bold>1 stack</> of <rt.absorb>Focused Wrath</>.",3,0,2,false,CAA_Talent_Ink_Talent5,T_Ink_FocusedWrath,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent6,Ink,6,Bloodline,"You generate <rt.mana>1 Fury</> every 1 second and your <rt.bold>movement speed is increased by 20%</>.
 
-You no longer lose <rt.mana>Fury</> while out of combat.",2,0,1,T_Icon_BloodCombat_141,TalentIcon,256,256,datamine,,
-Talent.ID.Talent7,Ink,7,Ride the Lightning,Your <rt.absorb>Thunder Call</> generates <rt.mana>30</> Fury over its duration and grants you <rt.warning>+5% Haste</> while it is active.,1,0,2,T_Ink_Selfbuff,TalentIcon,256,256,datamine,,
+You no longer lose <rt.mana>Fury</> while out of combat.",2,0,1,false,CAA_Talent_Ink_Talent6,T_Icon_BloodCombat_141,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent7,Ink,7,Ride the Lightning,Your <rt.absorb>Thunder Call</> generates <rt.mana>30</> Fury over its duration and grants you <rt.warning>+5% Haste</> while it is active.,1,0,2,false,CAA_Talent_Ink_Talent7,T_Ink_Selfbuff,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent8,Ink,8,Far Beyond Driven,"Each time you use <rt.absorb>Heavy Strike</> you gain 1 stack of <rt.effect>Far Beyond Driven</> for 20 seconds, <rt.warning>increasing your Spirit by +1.5%</>.
 
-<rt.effect>Far Beyond Driven</> stacks up to 5 times.",4,0,1,T_Nhance_RPG_Energy_13,TalentIcon,256,256,datamine,,
+<rt.effect>Far Beyond Driven</> stacks up to 5 times.",4,0,1,false,CAA_Talent_Ink_Talent8,T_Nhance_RPG_Energy_13,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent9,Ink,9,Schism,"Your <rt.absorb>Skull Crusher</> has a <rt.bold>35% chance</> to make your next <rt.absorb>Hammer Storm</> deal <rt.warning>+150% increased damage</>.
 
 Your <rt.absorb>Hammer Storm</> has a <rt.bold>35% chance</> to make your next <rt.absorb>Skull Crusher</> deal <rt.warning>+150% increased damage</>.
 
-You can have up to <rt.bold>2 stacks</> of each <rt.effect>Schism</> at any one time.",5,0,3,T_Nhance_RPG_Icons_TwoFace,TalentIcon,256,256,datamine,,
+You can have up to <rt.bold>2 stacks</> of each <rt.effect>Schism</> at any one time.",5,0,3,false,CAA_Talent_Ink_Talent9,T_Nhance_RPG_Icons_TwoFace,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent93,Ink,28,Kill Em All (old),"Your <rt.bold>Swing Timer</> is faster, allowing you to perform a strong <rt.absorb>Heavy Strike</> as every 3rd ability, instead of every 4th ability.
 
-Your <rt.absorb>Hammer Storm</> now spins 3 times per use for the same <rt.mana>Fury</> cost, but each consecutive spin deals <rt.warning>35% more damage</>.",5,0,3,Berserker6,TalentIcon,256,256,datamine,,
-Talent.ID.Talent94,Ink,27,Spit It Out (old),Your <rt.warning>Critical Strike Power is increased by 10%</>.,6,0,1,T_Nhance_RPG_Icons_FieryHammer,TalentIcon,256,256,datamine,,
-Talent.ID.Talent95,Ink,26,Kill 'Em All (old),"Your <rt.absorb>Hammer Storm</> now spins 3 times per use for the same <rt.mana>Fury</> cost, but each consecutive spin deals <rt.warning>35% more damage</>.",3,0,2,T_Ink_Hammerstorm,TalentIcon,256,256,datamine,,
-Talent.ID.Talent96,Ink,22,Concatenation (old),"Your <rt.bold>Swing Timer</> is faster, allowing you to perform a strong <rt.absorb>Heavy Strike</> as every 3rd ability, instead of every 4th ability.",1,0,2,Berserker6,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Hammer Storm</> now spins 3 times per use for the same <rt.mana>Fury</> cost, but each consecutive spin deals <rt.warning>35% more damage</>.",5,0,3,true,CAA_Talent_Ink_Trait6,Berserker6,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent94,Ink,27,Spit It Out (old),Your <rt.warning>Critical Strike Power is increased by 10%</>.,6,0,1,true,CAA_Talent_Ink_PassiveTalent3,T_Nhance_RPG_Icons_FieryHammer,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent95,Ink,26,Kill 'Em All (old),"Your <rt.absorb>Hammer Storm</> now spins 3 times per use for the same <rt.mana>Fury</> cost, but each consecutive spin deals <rt.warning>35% more damage</>.",3,0,2,true,CAA_Talent_Ink_Trait1,T_Ink_Hammerstorm,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent96,Ink,22,Concatenation (old),"Your <rt.bold>Swing Timer</> is faster, allowing you to perform a strong <rt.absorb>Heavy Strike</> as every 3rd ability, instead of every 4th ability.",1,0,2,true,CAA_Talent_Ink_PassiveTalent2,Berserker6,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent97,Ink,23,Square Hammer (old),"<rt.absorb>Wild Swing</>, <rt.absorb>Face Breaker</>  & <rt.absorb>Chain Lightning</> each grant you 1 stack of <rt.effect>Square Hammer</>, up to <rt.bold>3</> stacks.
 
 Your next <rt.absorb>Heavy Strike</> consumes all stacks of <rt.effect>Square Hammer</> and deals <rt.warning>8%</> more damage per stack consumed. Each stack of <rt.effect>Square Hammer</> that is consumed grants you a benefit.
 
 While <rt.absorb>Thunder Call</> is active, you gain 1 stack of <rt.effect>Charged Up</> for every 1 <rt.effect>Square Hammer</> you consume. Once you have 5 stacks of <rt.effect>Charged Up</> your next <rt.absorb>Chain Lightning</> deals <rt.warning>200% more damage</>.
 
-Outside of <rt.absorb>Thunder Call</>, each stack of <rt.effect>Square Hammer</> consumed grants you 0.4 seconds cooldown reduction on <rt.absorb>Thunder Call</>.",5,0,3,T_Ink_TimerAbility,TalentIcon,512,512,datamine,,
-Talent.ID.Talent98,Ink,24,Pneuma (old),While <rt.absorb>Thunder Call</> is active you take <rt.bold>10%</> reduced damage and you passively restore health equal to <rt.heal>5% of any damage you deal</> for the duration.,4,0,1,T_Nhance_RPG_Energy_18,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Ink,25,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%,4,0,1,Barbarian8,TalentIcon,256,256,datamine,,
+Outside of <rt.absorb>Thunder Call</>, each stack of <rt.effect>Square Hammer</> consumed grants you 0.4 seconds cooldown reduction on <rt.absorb>Thunder Call</>.",5,0,3,true,CAA_Talent_Ink_Talent1,T_Ink_TimerAbility,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent98,Ink,24,Pneuma (old),While <rt.absorb>Thunder Call</> is active you take <rt.bold>10%</> reduced damage and you passively restore health equal to <rt.heal>5% of any damage you deal</> for the duration.,4,0,1,true,CAA_Talent_Ink_Talent4,T_Nhance_RPG_Energy_18,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Ink,25,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%,4,0,1,true,CAA_Talent_Ink_PassiveTalent5,Barbarian8,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent1,Lisa,1,Entropic Burst,"When your <rt.absorb>Entropy's Claim</> expires it erupts, applying <rt.effect>Entropic Burst</> on all enemies near the target, dealing <rt.warning>246% Intellect magic damage over 9 seconds</> to them.
 
-Damage is reduced beyond 5 targets.",1,0,2,Tex_SpellBook01_69,TalentIcon,256,256,datamine,,
+Damage is reduced beyond 5 targets.",1,0,2,false,CAA_Talent_Lisa_Talent14,Tex_SpellBook01_69,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent10,Lisa,10,Echoes of Divinity,"Each time your <rt.absorb>Amend Fate</> or <rt.absorb>Restore Continuity</> cleanses <rt.effect>Stagger</> from an ally, they are granted <rt.effect>Echoes of Divinity</>. 
 
-<rt.effect>Echoes of Divinity</> clears additional <rt.effect>Stagger</> equal to <rt.heal>10% of the target's max health</> over <rt.bold>4 seconds</>.",6,0,1,T_Lisa_BeaconOfTime,TalentIcon,256,256,datamine,,
+<rt.effect>Echoes of Divinity</> clears additional <rt.effect>Stagger</> equal to <rt.heal>10% of the target's max health</> over <rt.bold>4 seconds</>.",6,0,1,false,CAA_Talent_Lisa_Talent26,T_Lisa_BeaconOfTime,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent11,Lisa,11,Edge of Ruin,"Your <rt.absorb>Fleeting Hour</> causes all enemies with <rt.absorb>Echoes of Ruin</> to languish in ruin, instantly taking damage equal to a full duration of <rt.absorb>Echoes of Ruin</>.
 
-Damage is reduced beyond 3 targets.",3,0,2,T_Lisa_Burst,TalentIcon,256,256,datamine,,
+Damage is reduced beyond 3 targets.",3,0,2,false,CAA_Talent_Lisa_Talent13,T_Lisa_Burst,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent12,Lisa,12,Resonant Fate,"When your <rt.effect>Deferred Fate: Relay</> or <rt.effect>Deferred Fate: Mass Relay</> overheals, you gain stacks of <rt.effect>Resonant Fate</> relative to the amount of overhealing.
 
 Once you reach <rt.bold>100 stacks</> of <rt.effect>Resonant Fate</>, your next <rt.absorb>Amend Fate</> that removes Stagger on a player also grants that player <rt.heal>12% Damage Reduction</> for <rt.bold>15 seconds</>
 
-<rt.effect>Resonant Fate</> cannot gain stacks for 20 seconds after it has been consumed.",4,0,1,T_Lisa_Stagger,TalentIcon,256,256,datamine,,
+<rt.effect>Resonant Fate</> cannot gain stacks for 20 seconds after it has been consumed.",4,0,1,false,CAA_Talent_Lisa_Talent3,T_Lisa_Stagger,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent13,Lisa,13,Paradoxical Twist,"While <rt.absorb>Fleeting Hour</> is active on you, <rt.absorb>Temporal Barrage</> is empowered.
 
 When targeting an enemy, <rt.absorb>Temporal Barrage</> deals <rt.warning>50% more damage to your primary target</> and causes <rt.warning>additional bolts to hit up to 2 enemies near the target for 40% of the power</>.
 
-When targeting an ally, each bolt of <rt.absorb>Temporal Barrage</> <rt.heal>cleanses the target of 3% Stagger</>.",5,0,3,T_Lisa_Barrage,TalentIcon,512,512,datamine,,
+When targeting an ally, each bolt of <rt.absorb>Temporal Barrage</> <rt.heal>cleanses the target of 3% Stagger</>.",5,0,3,false,CAA_Talent_Lisa_Talent27,T_Lisa_Barrage,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent14,Lisa,14,Oblivion's Embrace,"Any overhealing done by <rt.absorb>Oblivion</> on a player applies a shield to them <rt.heal>absorbing 25% of the overhealing amount</>, stacking up to 15% of their maximum health. <rt.effect>Oblivion's Embrace</> lasts for 8 seconds.
 
 Damage absorbed by <rt.effect>Oblivion's Embrace</> is reduced by <rt.bold>50%</>.
 
-<rt.absorb>Oblivion</> <rt.warning>critical strikes deal 20% more damage</>.",5,0,3,T_Nhance_RPG_Icons_ArcaneLoad,TalentIcon,256,256,datamine,,
+<rt.absorb>Oblivion</> <rt.warning>critical strikes deal 20% more damage</>.",5,0,3,false,CAA_Talent_Lisa_Talent23,T_Nhance_RPG_Icons_ArcaneLoad,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent15,Lisa,15,Continuum Shift,"Your <rt.absorb>Entropy's Claim</> deals <rt.warning>25% more damage</>.
 
 When you cast <rt.absorb>Unfolding Doom</>, Your next <rt.absorb>Time Shard</>, <rt.absorb>Echoes of Ruin</>, or <rt.absorb>Entropy's Claim</> is enhanced.
@@ -262,110 +262,110 @@ When you cast <rt.absorb>Unfolding Doom</>, Your next <rt.absorb>Time Shard</>, 
 
 <rt.absorb>Echoes of Ruin</> Applies to up to 20 targets.
 
-<rt.absorb>Entropy's Claim</> <rt.effect>Stuns</> the target while it is active.",5,0,3,Tex_SpellBook06_59,TalentIcon,256,256,datamine,,
+<rt.absorb>Entropy's Claim</> <rt.effect>Stuns</> the target while it is active.",5,0,3,false,CAA_Talent_Lisa_Talent28,Tex_SpellBook06_59,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent16,Lisa,16,Synchronicity,"When you are <rt.mana>above 50% Chrona</> you <rt.warning>deal 15% more damage</> with your abilities that do not spend <rt.mana>Chrona</>.
 
-When you are <rt.mana>below 50% Chrona</> you <rt.mana>generate 25% more Chrona</>.",3,0,2,Tex_SpellBook06_85,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Lisa,17,Vestige of Eternity,The <rt.heal>Healing</> caused by your <rt.effect>Deferred Fate: Relay</> and <rt.effect>Deferred Fate: Mass Relay</> <rt.heal>is increased by 10%</>.,6,0,1,T_Nhance_RPG_Arcane_10,TalentIcon,256,256,datamine,,
-Talent.ID.Talent18,Lisa,18,Karmic Dispersion,"Your <rt.absorb>Entropy's Claim</> now has <rt.effect>Deferred Fate: Mass Relay</>, causing it to <rt.heal>heal up to 4 allies for 50% of any damage it deals</>.",6,0,1,T_Lisa_Wither,TalentIcon,256,256,datamine,,
-Talent.ID.Talent2,Lisa,2,Erasure,"Each time your <rt.absorb>Oblivion</> deals damage, it deals an <rt.warning>additional 20% damage over 12 seconds</>, accumulatively.",1,0,2,T_Lisa_ChronaBlast,TalentIcon,256,256,datamine,,
-Talent.ID.Talent3,Lisa,3,Kind Rewind,"Your <rt.absorb>Time Shard</> reduces the cooldown of <rt.absorb>Temporal Barrage</> by 2 seconds when cast toward an enemy with <rt.absorb>Echoes of Ruin</> active,",2,0,1,T_Lisa_FillerCast,TalentIcon,256,256,datamine,,
+When you are <rt.mana>below 50% Chrona</> you <rt.mana>generate 25% more Chrona</>.",3,0,2,false,CAA_Talent_Lisa_Talent2,Tex_SpellBook06_85,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Lisa,17,Vestige of Eternity,The <rt.heal>Healing</> caused by your <rt.effect>Deferred Fate: Relay</> and <rt.effect>Deferred Fate: Mass Relay</> <rt.heal>is increased by 10%</>.,6,0,1,false,CAA_Talent_Lisa_Talent29,T_Nhance_RPG_Arcane_10,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent18,Lisa,18,Karmic Dispersion,"Your <rt.absorb>Entropy's Claim</> now has <rt.effect>Deferred Fate: Mass Relay</>, causing it to <rt.heal>heal up to 4 allies for 50% of any damage it deals</>.",6,0,1,false,CAA_Talent_Lisa_Talent30,T_Lisa_Wither,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent2,Lisa,2,Erasure,"Each time your <rt.absorb>Oblivion</> deals damage, it deals an <rt.warning>additional 20% damage over 12 seconds</>, accumulatively.",1,0,2,false,CAA_Talent_Lisa_Talent20,T_Lisa_ChronaBlast,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent3,Lisa,3,Kind Rewind,"Your <rt.absorb>Time Shard</> reduces the cooldown of <rt.absorb>Temporal Barrage</> by 2 seconds when cast toward an enemy with <rt.absorb>Echoes of Ruin</> active,",2,0,1,false,CAA_Talent_Lisa_Talent21,T_Lisa_FillerCast,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent4,Lisa,4,Chrona Tap,"Each time you use <rt.mana>Chrona</> you gain 1 stack of <rt.effect>Chrona Tap</> for 9 seconds, up to 10 stacks.
 
 <rt.effect>Chrona Tap</> replenishes <rt.mana>1.3% of your Maximum Mana per stack</> when it expires.
 
-The duration is not refreshed when stacks are added.",2,0,1,Tex_p_30,TalentIcon,256,256,datamine,,
-Talent.ID.Talent5,Lisa,5,Quickening,"Your <rt.absorb>Time Shard</> has a 25% chance to grant you <rt.effect>Quickening</>, causing your next <rt.absorb>Flash Revision</> to be <rt.mana>Free</>, <rt.bold>Instant Cast</>, and it does not apply <rt.effect>Stagger</>.",2,0,1,T_Lisa_TimeMend,TalentIcon,256,256,datamine,,
+The duration is not refreshed when stacks are added.",2,0,1,false,CAA_Talent_Lisa_Talent4,Tex_p_30,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent5,Lisa,5,Quickening,"Your <rt.absorb>Time Shard</> has a 25% chance to grant you <rt.effect>Quickening</>, causing your next <rt.absorb>Flash Revision</> to be <rt.mana>Free</>, <rt.bold>Instant Cast</>, and it does not apply <rt.effect>Stagger</>.",2,0,1,false,CAA_Talent_Lisa_Talent5,T_Lisa_TimeMend,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent6,Lisa,6,Uchronia,"Each time you spend <rt.mana>Chrona</>, you are granted 1 stack of <rt.effect>Uchronia</>.
 
-Once you have 3 stacks of <rt.effect>Uchronia</> your next <rt.absorb>Oblivion</>, <rt.absorb>Amend Fate</>, or <rt.absorb>Restore Continuity</> is <rt.mana>Free</>.",1,0,2,T_Nhance_RPG_Icons_ArcanePotion,TalentIcon,256,256,datamine,,
-Talent.ID.Talent7,Lisa,7,Hastening Doom,"While <rt.absorb>Unfolding Doom</> is active on an enemy, your <rt.warning>Haste is increased by +20%</>.",3,0,2,T_Lisa_StrandsofTime,TalentIcon,256,256,datamine,,
-Talent.ID.Talent8,Lisa,8,Surging Chrona,"When you cast <rt.absorb>Fleeting Hour</>, you gain <rt.mana>30 Chrona</>.",4,0,1,T_Nhance_RPG_Shadow_56,TalentIcon,256,256,datamine,,
-Talent.ID.Talent89,Lisa,40,Vestige of Truth (old),Your <rt.heal>self-healing is increased by 20%</>.,6,0,1,T_Nhance_RPG_Arcane_10,TalentIcon,256,256,datamine,,
+Once you have 3 stacks of <rt.effect>Uchronia</> your next <rt.absorb>Oblivion</>, <rt.absorb>Amend Fate</>, or <rt.absorb>Restore Continuity</> is <rt.mana>Free</>.",1,0,2,false,CAA_Talent_Lisa_Talent16,T_Nhance_RPG_Icons_ArcanePotion,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent7,Lisa,7,Hastening Doom,"While <rt.absorb>Unfolding Doom</> is active on an enemy, your <rt.warning>Haste is increased by +20%</>.",3,0,2,false,CAA_Talent_Lisa_Talent25,T_Lisa_StrandsofTime,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent8,Lisa,8,Surging Chrona,"When you cast <rt.absorb>Fleeting Hour</>, you gain <rt.mana>30 Chrona</>.",4,0,1,false,CAA_Talent_Lisa_Talent22,T_Nhance_RPG_Shadow_56,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent89,Lisa,40,Vestige of Truth (old),Your <rt.heal>self-healing is increased by 20%</>.,6,0,1,true,CAA_Talent_Lisa_Talent24,T_Nhance_RPG_Arcane_10,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent9,Lisa,9,Temporal Shift,"While channeling <rt.absorb>Temporal Barrage</>, each tick grants a benefit to <rt.absorb>Fleeting Hour</>.
 
 While <rt.absorb>Fleeting Hour</> is <rt.bold>active</>, its duration is extended by 0.3 seconds.
 
-While <rt.absorb>Fleeting Hour</> is <rt.bold>on cooldown</>, its cooldown is reduced by 0.3 seconds.",4,0,1,T_Lisa_TimeBuff,TalentIcon,256,256,datamine,,
-Talent.ID.Talent90,Lisa,31,Magic Ward (old),You take <rt.bold>10% reduced Magic damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
-Talent.ID.Talent91,Lisa,30,Improved Shifting Sands,Shifting Sands now has 2 charges and its critical strike chance is increased by 50%,5,0,3,T_Nhance_RPG_Arcane_11,TalentIcon,256,256,datamine,,
-Talent.ID.Talent93,Lisa,28,Echoes of Time,"Rewind heals now also echoes its healing on a nearby ally, preferring low health allies.",3,0,2,Tex_SpellBook06_103,TalentIcon,256,256,datamine,,
-Talent.ID.Talent95,Lisa,26,Temporal Protection,"When you use Chrono Barrage as healing, overhealing done by Chrono Barrage applies as an absorb shield to the target.",3,0,2,T_Nhance_RPG_Arcane_39,TalentIcon,256,256,datamine,,
-Talent.ID.Talent96,Lisa,22,Wears of Time,Time Burn also decreases damage that target deals by 5%.,2,0,1,Tex_SpellBook06_105,TalentIcon,256,256,datamine,,
-Talent.ID.Talent97,Lisa,23,Chrono Dynamic,"Time Slip also applies a buff to you for 4 seconds, causing you to take 15% less damage.",4,0,1,Tex_SpellBook06_52,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Lisa,25,Fractions of Time,Hold in cast: Splinter of Time; Casting it on up to 4 enemies near your target. But they generate 50% less resource and the DoT duration is 20% shorter.,1,0,2,T_Nhance_RPG_Icons_ArcaneSandWatch,TalentIcon,256,256,datamine,,
+While <rt.absorb>Fleeting Hour</> is <rt.bold>on cooldown</>, its cooldown is reduced by 0.3 seconds.",4,0,1,false,CAA_Talent_Lisa_Talent17,T_Lisa_TimeBuff,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent90,Lisa,31,Magic Ward (old),You take <rt.bold>10% reduced Magic damage</>.,4,0,1,true,CAA_Talent_Lisa_Talent11,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent91,Lisa,30,Improved Shifting Sands,Shifting Sands now has 2 charges and its critical strike chance is increased by 50%,5,0,3,true,CAA_Talent_Lisa_Talent19,T_Nhance_RPG_Arcane_11,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent93,Lisa,28,Echoes of Time,"Rewind heals now also echoes its healing on a nearby ally, preferring low health allies.",3,0,2,true,CAA_Talent_Lisa_Talent8,Tex_SpellBook06_103,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent95,Lisa,26,Temporal Protection,"When you use Chrono Barrage as healing, overhealing done by Chrono Barrage applies as an absorb shield to the target.",3,0,2,true,CAA_Talent_Lisa_Talent7,T_Nhance_RPG_Arcane_39,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent96,Lisa,22,Wears of Time,Time Burn also decreases damage that target deals by 5%.,2,0,1,true,CAA_Talent_Lisa_Talent6,Tex_SpellBook06_105,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent97,Lisa,23,Chrono Dynamic,"Time Slip also applies a buff to you for 4 seconds, causing you to take 15% less damage.",4,0,1,true,CAA_Talent_Lisa_Talent12,Tex_SpellBook06_52,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Lisa,25,Fractions of Time,Hold in cast: Splinter of Time; Casting it on up to 4 enemies near your target. But they generate 50% less resource and the DoT duration is 20% shorter.,1,0,2,true,CAA_Talent_Lisa_Talent1,T_Nhance_RPG_Icons_ArcaneSandWatch,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent1,Mara,1,Red Ledger,"When your <rt.absorb>Hemorrhaging Strike</> bleed is applied to an enemy you gain <rt.warning>+5% Critical Strike chance</>.
 
-You gain an additional <rt.warning>+1% Critical Strike chance</> for every additional enemy that has your <rt.absorb>Hemorrhaging Strike</> bleed applied, up to a maximum total of <rt.warning>+10% Critical Strike chance</>.",1,0,2,Mara_Bleed,TalentIcon,512,512,datamine,,
+You gain an additional <rt.warning>+1% Critical Strike chance</> for every additional enemy that has your <rt.absorb>Hemorrhaging Strike</> bleed applied, up to a maximum total of <rt.warning>+10% Critical Strike chance</>.",1,0,2,false,CAA_Talent_Mara_Talent1,Mara_Bleed,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent10,Mara,10,Seething Burst,"Each time your <rt.effect>Seething Poison</> deals damage to an enemy, it has a <rt.bold>20% chance</> to erupt, dealing <rt.warning>150% Agility</> poison damage to nearby enemies.
 
 <rt.effect>CREEPING DEATH</>
-<rt.absorb>Seething Burst</> deals <rt.warning>0.5% increased</> <rt.effect>Poison damage</> for every <rt.warning>1% Haste you have</>.",4,0,1,T_TurtleShield,TalentIcon,256,256,datamine,,
+<rt.absorb>Seething Burst</> deals <rt.warning>0.5% increased</> <rt.effect>Poison damage</> for every <rt.warning>1% Haste you have</>.",4,0,1,false,CAA_Mara_Trait1,T_TurtleShield,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent11,Mara,11,Caustic Wounds,"Your <rt.absorb>Backstab</> has a <rt.bold>30% chance</> to apply <rt.effect>Caustic Poison</> outside of <rt.absorb>Brooding Shadows</> if the target has <rt.effect>Hemorrhaging Strike's Bleed</> active on them.
 
 <rt.effect>CREEPING DEATH</>
-<rt.absorb>Caustic Poison</> deals <rt.warning>0.5% increased</> <rt.effect>Poison damage</> for every <rt.warning>1% Haste you have</>.",6,0,1,Mara_backstab,TalentIcon,512,512,datamine,,
-Talent.ID.Talent12,Mara,12,Sinner's Pride,Each <rt.mana>Combo Point</> you spend reduces the cooldown of your <rt.absorb>Maiden of Death</> ability by <rt.bold>0.6 seconds</>.,5,0,3,T_Nhance_RPG_Icons_SoulDarkening,TalentIcon,256,256,datamine,,
-Talent.ID.Talent13,Mara,13,Assassin's Guile,"After attacking from <rt.bold>Stealth</>, you gain <rt.effect>Assassin's Guile</> for 5 seconds, causing your <rt.absorb>Queen's Fang</> & <rt.absorb>Arachnid Assault</> to deal <rt.warning>40% more damage</>.",1,0,2,T_Icon_Shadow_121,TalentIcon,256,256,datamine,,
+<rt.absorb>Caustic Poison</> deals <rt.warning>0.5% increased</> <rt.effect>Poison damage</> for every <rt.warning>1% Haste you have</>.",6,0,1,false,CAA_Mara_Trait2,Mara_backstab,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent12,Mara,12,Sinner's Pride,Each <rt.mana>Combo Point</> you spend reduces the cooldown of your <rt.absorb>Maiden of Death</> ability by <rt.bold>0.6 seconds</>.,5,0,3,false,CAA_Talent_Mara_Talent16,T_Nhance_RPG_Icons_SoulDarkening,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent13,Mara,13,Assassin's Guile,"After attacking from <rt.bold>Stealth</>, you gain <rt.effect>Assassin's Guile</> for 5 seconds, causing your <rt.absorb>Queen's Fang</> & <rt.absorb>Arachnid Assault</> to deal <rt.warning>40% more damage</>.",1,0,2,false,CAA_Talent_Mara_Trait1,T_Icon_Shadow_121,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent14,Mara,14,Hemotoxin,"Your <rt.absorb>Backstab</>, <rt.absorb>Widow's Bite</>, and <rt.absorb>Auto Attacks</> have a <rt.bold>12% chance</> to apply 1 stack of <rt.effect>Hemotoxin</> to the target. causing it to take <rt.warning>20% Agility</> poison damage <rt.bold>every 1.5 seconds</> over <rt.bold>9 seconds</>.
 
 Using <rt.absorb>Hemorrhaging Strike</> on a target afflicted with <rt.effect>Hemotoxin</> consumes 1 stack, instantly dealing <rt.warning>100% of Hemorrhaging Strike's bleed damage</> to the target and <rt.warning>67% of Hemorrhaging Strike's bleed damage</> to other nearby targets as poison damage.
 
 The damage is affected by the amount of combo points spent on the <rt.absorb>Hemorrhaging Strike</> that triggers <rt.effect>Hemotoxin</>.
 
-<rt.absorb>Hemotoxin's</> area damage is reduced beyond 1 target.",5,0,3,T_PoisonBlister,TalentIcon,256,256,datamine,,
+<rt.absorb>Hemotoxin's</> area damage is reduced beyond 1 target.",5,0,3,false,CAA_Talent_Mara_Talent13,T_PoisonBlister,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent15,Mara,15,Feed the Queen,"Each time your <rt.absorb>Skittering Blades</> deals damage you are granted <rt.effect>Feed the Queen</>, causing the next <rt.absorb>Queen's Fang</> you perform to deal <rt.warning>12% more damage</> per stack.
 
-<rt.effect>Feed the Queen</> stacks up to <rt.bold>6 times</>.",3,0,2,T_Nhance_RPG_Shadow_41,TalentIcon,256,256,datamine,,
+<rt.effect>Feed the Queen</> stacks up to <rt.bold>6 times</>.",3,0,2,false,CAA_Talent_Mara_Talent8,T_Nhance_RPG_Shadow_41,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent16,Mara,16,Gushing Blood,"While <rt.absorb>Maiden of Death</> is active, your <rt.absorb>Hemorrhaging Strike</> applies it's bleed to up to <rt.bold>4 additional nearby enemies</>.
 
-Your <rt.absorb>Hemorrhaging Strike's</> <rt.effect>Bleed</> deals <rt.warning>50% more damage</> to enemies that are afflicted by your <rt.effect>Seething Poison</>.",3,0,2,Berserker5,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Mara,17,Puncture,Your <rt.absorb>Widow's Bite</> has <rt.warning>+100% increased critical strike chance</>.,6,0,1,Mara_RegainEnergyHit,TalentIcon,512,512,datamine,,
-Talent.ID.Talent18,Mara,18,Arachnid Onslaught,Your <rt.absorb>Arachnid Assault</> deals <rt.warning>20% more damage</> against enemies that have your <rt.absorb>Hemorrhaging Strike</> bleed active.,6,0,1,Mara_SpiderAOE,TalentIcon,256,256,datamine,,
-Talent.ID.Talent19,Mara,19,Bloodrush,Your <rt.absorb>Hemorrhaging Strike</> bleed <rt.warning>ticks 20% faster</>.,2,0,1,T_Nhance_RPG_BloodCombat_24,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Hemorrhaging Strike's</> <rt.effect>Bleed</> deals <rt.warning>50% more damage</> to enemies that are afflicted by your <rt.effect>Seething Poison</>.",3,0,2,false,CAA_Talent_Mara_Talent9,Berserker5,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Mara,17,Puncture,Your <rt.absorb>Widow's Bite</> has <rt.warning>+100% increased critical strike chance</>.,6,0,1,false,CAA_Talent_Mara_PassiveTalent4,Mara_RegainEnergyHit,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent18,Mara,18,Arachnid Onslaught,Your <rt.absorb>Arachnid Assault</> deals <rt.warning>20% more damage</> against enemies that have your <rt.absorb>Hemorrhaging Strike</> bleed active.,6,0,1,false,CAA_Talent_Mara_Talent11,Mara_SpiderAOE,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent19,Mara,19,Bloodrush,Your <rt.absorb>Hemorrhaging Strike</> bleed <rt.warning>ticks 20% faster</>.,2,0,1,false,CAA_Talent_Mara_Talent10,T_Nhance_RPG_BloodCombat_24,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent2,Mara,2,Malevolence,"Your <rt.absorb>Queen's Fang</> and <rt.absorb>Arachnid's Assault</> abilities grant you 1 stack of <rt.effect>Malevolence: Arachnid Assault</> or 1 stack of <rt.effect>Malevolence: Queen's Fang</> respectively for 20 seconds.
 
 <rt.effect>Malevolence</> increases the damage of the matching ability by <rt.warning>100%</>.
 
-Each <rt.effect>Malevolence</> buff type stacks up to 2 times.",5,0,3,Tex_violet_7,TalentIcon,256,256,datamine,,
+Each <rt.effect>Malevolence</> buff type stacks up to 2 times.",5,0,3,false,CAA_Talent_Mara_Talent15,Tex_violet_7,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent3,Mara,3,Deadly Scheme,"For every <rt.mana>5 Energy</> you spend you gain 1 stack of <rt.effect>Deadly Scheme</>. At 40 stacks it activates for 12 seconds, causing your next <rt.absorb>Queen's Fang</> or <rt.absorb>Arachnid Assault</> to have <rt.warning>+100% Critical Strike chance</>.
 
-<rt.absorb>Note:</><rt.mana>Mara has 200 max Energy baseline</>.",3,0,2,Tex_SpellBook08_71,TalentIcon,256,256,datamine,,
+<rt.absorb>Note:</><rt.mana>Mara has 200 max Energy baseline</>.",3,0,2,false,CAA_Talent_Mara_Talent3,Tex_SpellBook08_71,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent4,Mara,4,Corrosive Spill,"Each <rt.meikoability1>Combo Point</> you spend has a 3% chance to cause you to coat the ground in front of you with a <rt.effect>Corrosive Spill</> for 3 seconds.
 
 Enemies that stand in <rt.effect>Corrosive Spill</> take <rt.warning>158% Agility</> poison damage <rt.bold>every 1.5 seconds</>.
 
 <rt.effect>CREEPING DEATH</>
-<rt.absorb>Corrosive Spill</> deals <rt.warning>0.5% increased</> <rt.effect>Poison damage</> for every <rt.warning>1% Haste you have</>.",1,0,2,T_Icon_Unholy_197,TalentIcon,256,256,datamine,,
-Talent.ID.Talent5,Mara,5,Venomous Delight,Each time you deal <rt.absorb>Poison Damage</> to an enemy you have a 10% chance to generate <rt.mana>10 Energy</>.,2,0,1,Tex_green_23,TalentIcon,256,256,datamine,,
-Talent.ID.Talent6,Mara,6,Efficient Killer,Each <rt.meikoability1>Combo Point</> you spend causes you to generate <rt.mana>1 Energy</>.,2,0,1,T_ShadowStab,TalentIcon,256,256,datamine,,
+<rt.absorb>Corrosive Spill</> deals <rt.warning>0.5% increased</> <rt.effect>Poison damage</> for every <rt.warning>1% Haste you have</>.",1,0,2,false,CAA_Talent_Mara_Trait3,T_Icon_Unholy_197,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent5,Mara,5,Venomous Delight,Each time you deal <rt.absorb>Poison Damage</> to an enemy you have a 10% chance to generate <rt.mana>10 Energy</>.,2,0,1,false,CAA_Talent_Mara_PassiveTalent2,Tex_green_23,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent6,Mara,6,Efficient Killer,Each <rt.meikoability1>Combo Point</> you spend causes you to generate <rt.mana>1 Energy</>.,2,0,1,false,CAA_Talent_Mara_PassiveTalent3,T_ShadowStab,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent8,Mara,8,Macabre Stratagem,"Your <rt.absorb>Final Stratagem</> is replaced by <rt.absorb>Macabre Stratagem</>.
 
 Upon use, <rt.absorb>Macabre Stratagem</> grants you 10 seconds of <rt.absorb>Matriarch Macabre</>.
 
-If used while <rt.absorb>Matriarch Macabre</> is already active, its duration is extended by 10 seconds.",4,0,1,T_Nhance_RPG_Shadow_16,TalentIcon,256,256,datamine,,
-Talent.ID.Talent9,Mara,9,Maiden's Doom,"When you deal damage to enemies with <rt.bold>30% or less health</>, the damage bonus of <rt.absorb>Maiden of Death</> is increased to <rt.warning>40%</>.",4,0,1,Mara_Maiden,TalentIcon,512,512,datamine,,
+If used while <rt.absorb>Matriarch Macabre</> is already active, its duration is extended by 10 seconds.",4,0,1,false,,T_Nhance_RPG_Shadow_16,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent9,Mara,9,Maiden's Doom,"When you deal damage to enemies with <rt.bold>30% or less health</>, the damage bonus of <rt.absorb>Maiden of Death</> is increased to <rt.warning>40%</>.",4,0,1,false,CAA_Talent_Mara_Talent14,Mara_Maiden,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent91,Mara,30,Hemotoxin (old),"When your <rt.absorb>Queen's Fang</> or <rt.absorb>Arachnid Assault</> deals direct damage to an enemy that has both one of your <rt.effect>Poisons</> and <rt.effect>Bleed</> active on them, you <rt.warning>instantly deal additional poison damage to them</>.
 
 <rt.bold>Per Combo Point spent</>, <rt.absorb>Queen's Fang</> deals damage equal to <rt.warning>0.8 seconds of the active</> <rt.absorb>Hemorrhaging Strike's</> <rt.warning>Bleed</>.
 
-<rt.bold>Per Combo Point spent</>, <rt.absorb>Arachnid Assault</> deals damage equal to <rt.warning>0.4 seconds of the active</> <rt.absorb>Hemorrhaging Strike's</> <rt.warning>Bleed</>.",5,0,3,T_PoisonBlister,TalentIcon,256,256,datamine,,
-Talent.ID.Talent92,Mara,29,Veil of Shadows (old),Your <rt.absorb>Shadow Protection's</> duration is <rt.bold>increased to 8 seconds</> and reduces <rt.bold>Magic Damage</> you take by another <rt.bold>10%</> while active.,4,0,1,Mara_Defensive,TalentIcon,512,512,datamine,,
-Talent.ID.Talent93,Mara,28,Spirited Fortitude (old),You take 10% less <bold>Area of Effect damage</>.,6,0,1,Barbarian3,TalentIcon,256,256,datamine,,
-Talent.ID.Talent94,Mara,27,Magic Ward (old),You take 10% less <bold>Magic damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
+<rt.bold>Per Combo Point spent</>, <rt.absorb>Arachnid Assault</> deals damage equal to <rt.warning>0.4 seconds of the active</> <rt.absorb>Hemorrhaging Strike's</> <rt.warning>Bleed</>.",5,0,3,true,CAA_Mara_Trait3,T_PoisonBlister,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent92,Mara,29,Veil of Shadows (old),Your <rt.absorb>Shadow Protection's</> duration is <rt.bold>increased to 8 seconds</> and reduces <rt.bold>Magic Damage</> you take by another <rt.bold>10%</> while active.,4,0,1,true,CAA_Talent_Mara_Talent5,Mara_Defensive,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent93,Mara,28,Spirited Fortitude (old),You take 10% less <bold>Area of Effect damage</>.,6,0,1,true,CAA_Talent_Mara_PassiveTalent6,Barbarian3,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent94,Mara,27,Magic Ward (old),You take 10% less <bold>Magic damage</>.,4,0,1,true,CAA_Talent_Mara_PassiveTalent5,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent95,Mara,26,Maiden's Doom (old),"Your <rt.absorb>Maiden of Death</> ability no longer increases your Energy Generation by 20%, but instead causes you to deal <rt.warning>20% more damage for the duration</>.
 
-When dealing damage to an enemy with 30% or less health, you deal <rt.warning>40% more damage to them for the duration</>.",5,0,3,T_Nhance_RPG_Shadow_48,TalentIcon,256,256,datamine,,
+When dealing damage to an enemy with 30% or less health, you deal <rt.warning>40% more damage to them for the duration</>.",5,0,3,true,CAA_Talent_Mara_Talent7,T_Nhance_RPG_Shadow_48,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent96,Mara,22,Nightstalker (old),"When you use <rt.absorb>Stalker Step</> to teleport behind an enemy, that enemy takes <rt.warning>10% more damage from you for 10 seconds</>.
 
-When you use <rt.absorb>Stalker Step</> to teleport to an ally, both you and that ally gain <rt.bold>50% movement speed for 5 seconds</>.",4,0,1,Mara_Stalkerstep,TalentIcon,512,512,datamine,,
-Talent.ID.Talent97,Mara,23,Deep Cuts (old),Your <bold>Hemorrhaging Strike's</> bleed has 15% increased Critical Strike chance.,2,0,1,T_Icon_BloodCombat_126,TalentIcon,256,256,datamine,,
-Talent.ID.Talent98,Mara,24,Widow's Malice (old),"Each combo point you spend has a 2% chance to grant you <bold>Widow's Malice,</> causing your next <bold>Widow's Bite</> to increase your Spirit by 20% and generate an additional 30 energy over 10 seconds.",3,0,2,T_Nhance_RPG_Shadow_36,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Mara,25,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%,4,0,1,Barbarian8,TalentIcon,256,256,datamine,,
+When you use <rt.absorb>Stalker Step</> to teleport to an ally, both you and that ally gain <rt.bold>50% movement speed for 5 seconds</>.",4,0,1,true,CAA_Talent_Mara_Talent6,Mara_Stalkerstep,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent97,Mara,23,Deep Cuts (old),Your <bold>Hemorrhaging Strike's</> bleed has 15% increased Critical Strike chance.,2,0,1,true,CAA_Talent_Mara_PassiveTalent1,T_Icon_BloodCombat_126,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent98,Mara,24,Widow's Malice (old),"Each combo point you spend has a 2% chance to grant you <bold>Widow's Malice,</> causing your next <bold>Widow's Bite</> to increase your Spirit by 20% and generate an additional 30 energy over 10 seconds.",3,0,2,true,CAA_Talent_Mara_Talent4,T_Nhance_RPG_Shadow_36,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Mara,25,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%,4,0,1,true,CAA_Talent_Mara_PassiveTalent7,Barbarian8,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent1,Meiko,1,Earthwell,"Each hit with <rt.absorb>Earthfist Barrage</> adds <rt.bold>1 stack</> to your <rt.absorb>Serenity</> ability.
 
-<rt.absorb>Serenity</> now prevents your <rt.absorb>Stone Shield</> from losing health for 0.1 seconds per stack of <rt.absorb>Serenity</> consumed.",1,0,2,T_Icon_Cosmic_01,TalentIcon,256,256,datamine,,
-Talent.ID.Talent10,Meiko,10,Whipping Apex,"When your <rt.absorb>Lashing Stormkick</> consumes a <rt.effect>Stormfall</>, it adds 1 stack to your <rt.absorb>Serenity</> ability per target hit, up to a maximum of 5 stacks per <rt.absorb>Lashing Stormkick</>.",2,0,1,T_Nhance_RPG_Tech_26,TalentIcon,256,256,datamine,,
+<rt.absorb>Serenity</> now prevents your <rt.absorb>Stone Shield</> from losing health for 0.1 seconds per stack of <rt.absorb>Serenity</> consumed.",1,0,2,false,CAA_Talent_Meiko_Talent1,T_Icon_Cosmic_01,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent10,Meiko,10,Whipping Apex,"When your <rt.absorb>Lashing Stormkick</> consumes a <rt.effect>Stormfall</>, it adds 1 stack to your <rt.absorb>Serenity</> ability per target hit, up to a maximum of 5 stacks per <rt.absorb>Lashing Stormkick</>.",2,0,1,false,CAA_Talent_Meiko_Talent13,T_Nhance_RPG_Tech_26,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent11,Meiko,11,Shattering Obelisk,"The <rt.effect>Sibling of Earth</> created by your <rt.absorb>Twin Souls: Bulwark</> ability has <rt.bold>50% increased health and duration</>.
 
 The <rt.effect>Sibling of Earth</> accumulates <rt.warning>15%</> of all damage it takes and pulses it out to nearby enemies <rt.bold>up to 3 times</>, when reaching <rt.bold>65% Health</>, <rt.bold>35% Health</>, and finally upon being <rt.bold>destroyed</>.
@@ -374,35 +374,35 @@ If <rt.effect>Sibling of Earth</> expires due to its duration, it deals <rt.warn
 
 The pulses from <rt.effect>Shattering Obelisk</> deal <rt.meikoability2>Wind Damage</>.
 
-Damage is reduced beyond 1 targets.",5,0,3,T_Meiko_TauntTotem,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Meiko,12,Harmonic Residual,"While your <rt.absorb>Twin Souls: Bulwark</> is on cooldown your <rt.effect>Stone Shield</> is reinforced, causing it to diminish by <rt.heal>85% of the normal value when soaking damage</>.",4,0,1,Tex_yellow_29,TalentIcon,256,256,datamine,,
+Damage is reduced beyond 1 targets.",5,0,3,false,CAA_Talent_Meiko_Trait2,T_Meiko_TauntTotem,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Meiko,12,Harmonic Residual,"While your <rt.absorb>Twin Souls: Bulwark</> is on cooldown your <rt.effect>Stone Shield</> is reinforced, causing it to diminish by <rt.heal>85% of the normal value when soaking damage</>.",4,0,1,false,CAA_Talent_Meiko_PassiveTalent8,Tex_yellow_29,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent13,Meiko,13,Stone Guard,"Any time you gain health from your self healing abilities, <rt.heal>10% of the healing amount</> also replenishes your <rt.absorb>Stone Shield's</> health.
 
-When you have less than <rt.bold>3 stones</> active, fully replenishing a Stone will add a new one to your active <rt.absorb>Stone Shield</>",1,0,2,T_Nhance_RPG_Icons_EarthTranquility,TalentIcon,256,256,datamine,,
-Talent.ID.Talent14,Meiko,14,Rumbling Stone,Your <bold>Earth abilities</> deal <rt.warning>20% more damage</>.,6,0,1,T_Nhance_RPG_Icons_NatureAmbush,TalentIcon,256,256,datamine,,
+When you have less than <rt.bold>3 stones</> active, fully replenishing a Stone will add a new one to your active <rt.absorb>Stone Shield</>",1,0,2,false,CAA_Talent_Meiko_Talent11,T_Nhance_RPG_Icons_EarthTranquility,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent14,Meiko,14,Rumbling Stone,Your <bold>Earth abilities</> deal <rt.warning>20% more damage</>.,6,0,1,false,CAA_Talent_Meiko_PassiveTalent5,T_Nhance_RPG_Icons_NatureAmbush,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent15,Meiko,15,Harsh Winds,"Your <rt.absorb>Spirited Vortex</> deals <rt.warning>20% more damage</>.
 
 Each time you perform a finisher ability while <rt.effect>Spirited Vortex</> is active it grants you <rt.bold>+20% dodge chance</>, stacking up to 3 times.
 
-All stacks of the <rt.bold>bonus dodge</> are consumed upon successfully dodging an attack.",3,0,2,Electromancer5,TalentIcon,256,256,datamine,,
-Talent.ID.Talent16,Meiko,16,Peacefield,"Your <rt.absorb>Serenity</> applies <rt.effect>Peacefield</> on you, healing you for <rt.heal>45% of the initial heal's value over 9 seconds</>.",6,0,1,T_Icon_Elements_77,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Meiko,17,Guardian's Fluidity,Your <rt.absorb>Finishing Moves</> reduce the cooldown of your <rt.absorb>Stone Shield</> ability by <rt.bold>1 second</>.,3,0,2,T_Nhance_RPG_Icons_NatureStone,TalentIcon,256,256,datamine,,
-Talent.ID.Talent18,Meiko,18,Conclusive Strikes,Your <bold>Finishers</> deal <rt.warning>10% more damage</>.,6,0,1,T_Icon_Elements_71,TalentIcon,256,256,datamine,,
-Talent.ID.Talent2,Meiko,2,Resonance of Earth,When you activate <rt.absorb>Stone Shield</> you take <rt.bold>10% reduced damage</> for 8 seconds.,1,0,2,T_Nhance_RPG_Energy_19,TalentIcon,256,256,datamine,,
+All stacks of the <rt.bold>bonus dodge</> are consumed upon successfully dodging an attack.",3,0,2,false,CAA_Talent_Meiko_PassiveTalent6,Electromancer5,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent16,Meiko,16,Peacefield,"Your <rt.absorb>Serenity</> applies <rt.effect>Peacefield</> on you, healing you for <rt.heal>45% of the initial heal's value over 9 seconds</>.",6,0,1,false,CAA_Talent_Meiko_Talent10,T_Icon_Elements_77,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Meiko,17,Guardian's Fluidity,Your <rt.absorb>Finishing Moves</> reduce the cooldown of your <rt.absorb>Stone Shield</> ability by <rt.bold>1 second</>.,3,0,2,false,CAA_Talent_Meiko_Talent12,T_Nhance_RPG_Icons_NatureStone,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent18,Meiko,18,Conclusive Strikes,Your <bold>Finishers</> deal <rt.warning>10% more damage</>.,6,0,1,false,CAA_Talent_Meiko_PassiveTalent9,T_Icon_Elements_71,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent2,Meiko,2,Resonance of Earth,When you activate <rt.absorb>Stone Shield</> you take <rt.bold>10% reduced damage</> for 8 seconds.,1,0,2,false,CAA_Talent_Meiko_Talent2,T_Nhance_RPG_Energy_19,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent3,Meiko,3,Perfect Storm,"Your <rt.absorb>Lashing Stormkick</> has a <rt.bold>25% chance to deal damage an additional time</> for <rt.warning>100% of the initial hit</>.
 
-The chance for <rt.effect>Perfect Storm</> to trigger is increased by your Haste.",2,0,1,Tex_blue_6,TalentIcon,256,256,datamine,,
+The chance for <rt.effect>Perfect Storm</> to trigger is increased by your Haste.",2,0,1,false,CAA_Talent_Meiko_Talent3,Tex_blue_6,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent4,Meiko,4,Slipstream,"You <rt.absorb>Start each Dungeon</> with <rt.mana>50 Spirit Points</>.
 
-Each time you cast <rt.absorb>Gust</> you release a burst of winds at your starting location, causing all enemies within 750 radius to have <rt.effect>50% reduced movement speed</> for 6 seconds.",4,0,1,Meiko_AbilityIcon_10,TalentIcon,1024,1024,datamine,,
-Talent.ID.Talent5,Meiko,5,Will of Stone,Your <rt.absorb>Shatter Earth</> now also activates your <bold>Spirited Strikes</> and <bold>Spirited Vortex</> buffs.,2,0,1,T_Meiko_SlamStun,TalentIcon,256,256,datamine,,
-Talent.ID.Talent6,Meiko,6,Debilitating Vortex,Enemies hit by <rt.absorb>Spirited Vortex</> have <rt.effect>20% reduced attack speed</> for 5 seconds.,3,0,2,Meiko_AbilityIcon_07,TalentIcon,1024,1024,datamine,,
+Each time you cast <rt.absorb>Gust</> you release a burst of winds at your starting location, causing all enemies within 750 radius to have <rt.effect>50% reduced movement speed</> for 6 seconds.",4,0,1,false,CAA_Talent_Meiko_Talent4,Meiko_AbilityIcon_10,TalentIcon,1024,1024,datamine,,,legacy_unbound
+Talent.ID.Talent5,Meiko,5,Will of Stone,Your <rt.absorb>Shatter Earth</> now also activates your <bold>Spirited Strikes</> and <bold>Spirited Vortex</> buffs.,2,0,1,false,CAA_Talent_Meiko_Talent5,T_Meiko_SlamStun,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent6,Meiko,6,Debilitating Vortex,Enemies hit by <rt.absorb>Spirited Vortex</> have <rt.effect>20% reduced attack speed</> for 5 seconds.,3,0,2,false,CAA_Talent_Meiko_Talent6,Meiko_AbilityIcon_07,TalentIcon,1024,1024,datamine,,,legacy_unbound
 Talent.ID.Talent7,Meiko,7,Warden of the Temple,"Each time you consume <rt.effect>Earthfall</> or <rt.effect>Stormfall</>, you gain 1 stack of <rt.effect>Warden of the Temple</>. At <rt.bold>3 stacks</>, your next <rt.absorb>Palm Finisher</> is enhanced.
 
 <rt.absorb>Double Palm Strike:</> Deals <rt.warning>300% increased damage</> and grants <rt.absorb>25 Serenity</> charges.
 
-<rt.absorb>Spirited Vortex:</> Deals <rt.warning>50% increased damage</> and its <rt.bold>Dodge Bonus</> is increased to <rt.bold>+30%</>.",5,0,3,Meiko_AbilityIcon_01,TalentIcon,1024,1024,datamine,,
-Talent.ID.Talent8,Meiko,8,Earthbourne,Each cast of <rt.absorb>Shatter Earth</> reduces the cooldown of <rt.absorb>Twin Souls: Bulwark</> by <rt.bold>20%</>.,4,0,1,T_Nhance_RPG_Tech_24,TalentIcon,256,256,datamine,,
+<rt.absorb>Spirited Vortex:</> Deals <rt.warning>50% increased damage</> and its <rt.bold>Dodge Bonus</> is increased to <rt.bold>+30%</>.",5,0,3,false,CAA_Talent_Meiko_Talent7,Meiko_AbilityIcon_01,TalentIcon,1024,1024,datamine,,,legacy_unbound
+Talent.ID.Talent8,Meiko,8,Earthbourne,Each cast of <rt.absorb>Shatter Earth</> reduces the cooldown of <rt.absorb>Twin Souls: Bulwark</> by <rt.bold>20%</>.,4,0,1,false,CAA_Talent_Meiko_Talent8,T_Nhance_RPG_Tech_24,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent9,Meiko,9,Forbidden Technique,"Your <rt.absorb>Double Palm Strike</> finisher applies <rt.effect>Forbidden Technique</> to the target for 30 seconds.
 
 <rt.effect>Forbidden Technique</> accumulates <rt.warning>18% of all damage you deal to the target</>. 
@@ -411,93 +411,93 @@ The <rt.warning>accumulated damage</> erupts onto the target and nearby enemies 
 
 Each strike from your <rt.absorb>Earthfist Barrage</> to a target afflicted by <rt.effect>Forbidden Technique</> adds 1 stack to the effect, up to 50 stacks. Each time <rt.effect>Forbidden Technique</> erupts, all additional stacks are consumed and you are granted <rt.heal>1.2% Damage Reduction for each stack consumed</> for 18 seconds.
 
-You can only have one <rt.effect>Forbidden Technique</> active at any time.",5,0,3,Meiko_AbilityIcon_04,TalentIcon,1024,1024,datamine,,
-Talent.ID.Talent97,Meiko,23,Thundering Kicks (old),Your <rt.absorb>Lashing Stormkick</> has <rt.warning>+20% increased critical strike chance</>.,4,0,1,Meiko_AbilityIcon_08,TalentIcon,1024,1024,datamine,,
-Talent.ID.Talent98,Meiko,24,Magic Ward (old),You take 10% less <bold>Magic damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Meiko,25,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%.,4,0,1,Barbarian8,TalentIcon,256,256,datamine,,
-Talent.ID.Talent1,Mosse,1,Nettle to the Petal,"Each time you deal damage with <rt.absorb>Nettlebolt</>, your <rt.absorb>Life Petal</> <rt.heal>triggers an additional tick of its healing</>.",1,0,2,T_Mosse_Lifepetal,TalentIcon,512,512,datamine,,
+You can only have one <rt.effect>Forbidden Technique</> active at any time.",5,0,3,false,CAA_Talent_Meiko_Talent9,Meiko_AbilityIcon_04,TalentIcon,1024,1024,datamine,,,legacy_unbound
+Talent.ID.Talent97,Meiko,23,Thundering Kicks (old),Your <rt.absorb>Lashing Stormkick</> has <rt.warning>+20% increased critical strike chance</>.,4,0,1,true,CAA_Talent_Meiko_PassiveTalent2,Meiko_AbilityIcon_08,TalentIcon,1024,1024,datamine,,,legacy_unbound
+Talent.ID.Talent98,Meiko,24,Magic Ward (old),You take 10% less <bold>Magic damage</>.,4,0,1,true,CAA_Talent_Meiko_PassiveTalent3,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Meiko,25,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%.,4,0,1,true,CAA_Talent_Meiko_PassiveTalent4,Barbarian8,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent1,Mosse,1,Nettle to the Petal,"Each time you deal damage with <rt.absorb>Nettlebolt</>, your <rt.absorb>Life Petal</> <rt.heal>triggers an additional tick of its healing</>.",1,0,2,false,CAA_Talent_Mosse_Talent14,T_Mosse_Lifepetal,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent10,Mosse,10,Nurtured Haven,"The cooldown of your <rt.absorb>Safe Haven</> is reduced each time one of your plants wither.
 
 <rt.absorb>Prickly Vine</> - 1 second
 <rt.absorb>Life Petal</> - 2 seconds
-<rt.absorb>Heart Bloom</> - 3 seconds",4,0,1,T_Mosse_LinkCD,TalentIcon,512,512,datamine,,
+<rt.absorb>Heart Bloom</> - 3 seconds",4,0,1,false,CAA_Talent_Mosse_Talent15,T_Mosse_LinkCD,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent11,Mosse,11,Bloomin' Boomshrooms,"Your <rt.absorb>Shroomsplosion</> ability can now target allies, sending up to 5 <bold>Boomshrooms</> to detonate on them, instantly healing them for <rt.heal>231% Intellect</> each.
 
-When targeting allies in this way, the <bold>Boomshroom</> still deals its normal damage to nearby enemies.",2,0,1,T_Mosse_Boomshroom,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Mosse,12,In Bloom,The first four pulses of <rt.absorb>Heart Bloom</> have <rt.heal>50% increased healing</>.,6,0,1,Tex_p_24,TalentIcon,256,256,datamine,,
+When targeting allies in this way, the <bold>Boomshroom</> still deals its normal damage to nearby enemies.",2,0,1,false,CAA_Talent_Mosse_Talent9,T_Mosse_Boomshroom,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Mosse,12,In Bloom,The first four pulses of <rt.absorb>Heart Bloom</> have <rt.heal>50% increased healing</>.,6,0,1,false,CAA_Mosse_Trait2,Tex_p_24,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent13,Mosse,13,Natural Protector,"Your <rt.absorb>Ironleaf Ward</> and <rt.absorb>Safe Haven</> abilities shield players for 15 seconds, absorbing up to <rt.heal>1755% intellect</> damage.
 
-Damage dealt to the shield is <rt.heal>reduced by 50%</>.",5,0,3,Druid17,TalentIcon,256,256,datamine,,
-Talent.ID.Talent14,Mosse,14,Flutterswift,Your <rt.absorb>Fluttercall: Heal</> has <rt.heal>100% faster tick rate for the first 12 seconds</> each time it begins healing a player.,5,0,3,T_ArcaneWhirl,TalentIcon,256,256,datamine,,
+Damage dealt to the shield is <rt.heal>reduced by 50%</>.",5,0,3,false,CAA_Talent_Mosse_Talent12,Druid17,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent14,Mosse,14,Flutterswift,Your <rt.absorb>Fluttercall: Heal</> has <rt.heal>100% faster tick rate for the first 12 seconds</> each time it begins healing a player.,5,0,3,false,CAA_Talent_Mosse_PassiveTalent2,T_ArcaneWhirl,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent15,Mosse,15,Flower Power,"Your <rt.absorb>Heart Bloom</> has 2 charges but only accumulates 8% of all <rt.meikoability1>Flutterfly Healing</>.
 
-<rt.absorb>Heart Bloom</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.",5,0,3,T_Mosse_Bigheal,TalentIcon,256,256,datamine,,
+<rt.absorb>Heart Bloom</> gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.",5,0,3,false,CAA_Talent_Mosse_Talent8,T_Mosse_Bigheal,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent16,Mosse,16,Bluey's Gambit,"While your <bold>Blue Flutterfly</> is following you, you take 5% reduced damage.
 
-While your <bold>Blue Flutterfly</> is following another player, they take 5% reduced damage.",4,0,1,T_Nhance_RPG_Elements_32,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Mosse,17,Shimmering Wings,Your <rt.absorb>Fluttercall: Heal</> has <rt.heal>25% increased healing</> on targets that have <rt.absorb>Flutterfly: Restore Life</> active.,3,0,2,Tex_wing_b_02,TalentIcon,256,256,datamine,,
+While your <bold>Blue Flutterfly</> is following another player, they take 5% reduced damage.",4,0,1,false,CAA_Talent_Mosse_Talent6,T_Nhance_RPG_Elements_32,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Mosse,17,Shimmering Wings,Your <rt.absorb>Fluttercall: Heal</> has <rt.heal>25% increased healing</> on targets that have <rt.absorb>Flutterfly: Restore Life</> active.,3,0,2,false,CAA_Talent_Mosse_Talent19,Tex_wing_b_02,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent18,Mosse,18,Symbiosis,"Each time your <rt.absorb>Prickly Vines</> deal damage, your <rt.absorb>Life Petal</> <rt.heal>triggers an additional tick of its healing at 25% power</>.
 
-Your <rt.absorb>Prickly Vines</> deal <rt.warning>12% more damage</> for each player that has a <rt.effect>Pink Flutterfly</>.",3,0,2,T_Mosse_Vine,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Prickly Vines</> deal <rt.warning>12% more damage</> for each player that has a <rt.effect>Pink Flutterfly</>.",3,0,2,false,CAA_Talent_Mosse_Talent18,T_Mosse_Vine,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent2,Mosse,2,Synchronized Fluttering,"Hold down <rt.absorb>Fluttercall: Heal</> for 2 seconds to <rt.effect>Overcharge</> it, causing the ability to be cast on up to 4 allies within 4000 range in one cast. The <rt.mana>mana cost is increased by 100%</> when <rt.effect>Overcharged</>.
 
 <rt.effect>Overcharged Abilities</>
-Hold down the relevant ability button until a cast bar is displayed. Once the cast has completed, the overcharged version of the ability will trigger.",1,0,2,Sylvie_AbilityIcon_03,TalentIcon,256,256,datamine,,
-Talent.ID.Talent3,Mosse,3,Verdant Restoration,The initial heal of your <rt.absorb>Fluttercall: Restore Life</> has +50% increased critical strike chance.,1,0,2,T_Nhance_RPG_Shadow_58,TalentIcon,256,256,datamine,,
+Hold down the relevant ability button until a cast bar is displayed. Once the cast has completed, the overcharged version of the ability will trigger.",1,0,2,false,CAA_Talent_Mosse_Talent2,Sylvie_AbilityIcon_03,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent3,Mosse,3,Verdant Restoration,The initial heal of your <rt.absorb>Fluttercall: Restore Life</> has +50% increased critical strike chance.,1,0,2,false,CAA_Talent_Mosse_Talent10,T_Nhance_RPG_Shadow_58,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent4,Mosse,4,Sprouting Nettles,"Each tick of <rt.meikoability1>Flutterfly Healing</> has a chance to make your next <rt.absorb>Nettlebolt</> cast 3 <rt.absorb>Nettlebolts</> at once.
 
-(2.0 PPM)",4,0,1,Sylvie_AbilityIcon_02,TalentIcon,256,256,datamine,,
-Talent.ID.Talent5,Mosse,5,Natural Knowledge,"Each time your <rt.absorb>Nettlebolt</> deals damage, you replenish <rt.mana>1% of your maximum Mana</>.",2,0,1,Tex_blue_9,TalentIcon,256,256,datamine,,
-Talent.ID.Talent6,Mosse,6,Trailing Restoration,The duration of your <rt.absorb>Fluttercall: Restore Life</> is increased by 9 seconds.,6,0,1,T_ArcaneAid,TalentIcon,256,256,datamine,,
+(2.0 PPM)",4,0,1,false,CAA_Talent_Mosse_Talent20,Sylvie_AbilityIcon_02,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent5,Mosse,5,Natural Knowledge,"Each time your <rt.absorb>Nettlebolt</> deals damage, you replenish <rt.mana>1% of your maximum Mana</>.",2,0,1,false,CAA_Talent_Mosse_Talent17,Tex_blue_9,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent6,Mosse,6,Trailing Restoration,The duration of your <rt.absorb>Fluttercall: Restore Life</> is increased by 9 seconds.,6,0,1,false,CAA_Talent_Mosse_Talent13,T_ArcaneAid,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent7,Mosse,7,Every Other Flutter,"Your <rt.absorb>Fluttercall: Heal</>, <rt.absorb>Nettlebolt</>, <rt.absorb>Prickly Vine</>, <rt.absorb>Shroomsplosion</>, <rt.absorb>Life Petal</>, and <rt.absorb>Heart Bloom</> casts grant you <rt.effect>Every Other Flutter</> for 8 seconds.
 
-<rt.effect>Every Other Flutter</> causes your next cast of <rt.absorb>Fluttercall: Restore Life</> to have <rt.mana>25% reduced Mana cost</>.",2,0,1,T_Nhance_RPG_Arcane_02,TalentIcon,256,256,datamine,,
+<rt.effect>Every Other Flutter</> causes your next cast of <rt.absorb>Fluttercall: Restore Life</> to have <rt.mana>25% reduced Mana cost</>.",2,0,1,false,CAA_Mosse_Trait3,T_Nhance_RPG_Arcane_02,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent8,Mosse,8,Saving Grace,"When your <rt.absorb>Fluttercall: Heal</> or <rt.absorb>Fluttercall: Restore Life</> heals an ally at 50% health or below they gain <rt.effect>Saving Grace</> for 8 seconds.
 
 <rt.effect>SAVING GRACE</>
 The <bold>healing over time portion</> of your <rt.absorb>Fluttercall: Restore Life</> and <rt.absorb>Fluttercall: Heal</> is <rt.heal>100% more powerful on allies with</> <rt.effect>Saving Grace</>.
 
-<rt.effect>Saving Grace</> can not be applied more than once every 30 seconds.",3,0,2,T_Nhance_RPG_Arcane_04,TalentIcon,256,256,datamine,,
+<rt.effect>Saving Grace</> can not be applied more than once every 30 seconds.",3,0,2,false,CAA_Mosse_Trait1,T_Nhance_RPG_Arcane_04,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent88,Mosse,39,Sprouting Nettles (old),"Each tick of <rt.meikoability1>Flutterfly Healing</> has a chance to make your next <rt.absorb>Nettlebolt</> <rt.bold>instant cast</> and have <rt.warning>+400% critical strike chance</>.
 
 (2.0 PPM)
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",2,0,1,Sylvie_AbilityIcon_02,TalentIcon,256,256,datamine,,
-Talent.ID.Talent89,Mosse,40,Elusive Wildling (old),You take <rt.bold>20% reduced damage</> while <rt.absorb>Hidden Trail</> is active.,6,0,1,T_Mosse_Hide,TalentIcon,256,256,datamine,,
-Talent.ID.Talent9,Mosse,9,Rowdy Rootsap,Your <rt.absorb>Enfeebling Rootsap</> causes the target and all enemies within a 700 radius of the target to have <rt.bold>50% reduced Attack Speed</> and <rt.bold>50% reduced Movement Speed</> while active.,6,0,1,T_Mosse_Rootheal,TalentIcon,256,256,datamine,,
-Talent.ID.Talent90,Mosse,31,Spirited Fortitude (old),You take <rt.bold>10% less Area of effect damage</>.,6,0,1,Barbarian3,TalentIcon,256,256,datamine,,
-Talent.ID.Talent91,Mosse,30,Will of Nature (old),Your healing is increased by 25% on players with <bold>30% or less health</>.,3,0,2,T_Icon_Fel_07,TalentIcon,256,256,datamine,,
-Talent.ID.Talent92,Mosse,29,Magic Ward (old),You take <rt.bold>10% less magic damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
-Talent.ID.Talent93,Mosse,28,Symbiosis (old),Your <rt.absorb>Prickly Vines</> deal <rt.warning>12% more damage</> for each player that has a <rt.effect>Pink Flutterfly</>.,3,0,2,T_Mosse_Vine,TalentIcon,256,256,datamine,,
-Talent.ID.Talent94,Mosse,27,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%.,6,0,1,Barbarian8,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",2,0,1,true,CAA_Talent_Mosse_Talent4,Sylvie_AbilityIcon_02,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent89,Mosse,40,Elusive Wildling (old),You take <rt.bold>20% reduced damage</> while <rt.absorb>Hidden Trail</> is active.,6,0,1,true,CAA_Talent_Mosse_Talent5,T_Mosse_Hide,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent9,Mosse,9,Rowdy Rootsap,Your <rt.absorb>Enfeebling Rootsap</> causes the target and all enemies within a 700 radius of the target to have <rt.bold>50% reduced Attack Speed</> and <rt.bold>50% reduced Movement Speed</> while active.,6,0,1,false,CAA_Talent_Mosse_Talent16,T_Mosse_Rootheal,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent90,Mosse,31,Spirited Fortitude (old),You take <rt.bold>10% less Area of effect damage</>.,6,0,1,true,CAA_Talent_Mosse_PassiveTalent5,Barbarian3,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent91,Mosse,30,Will of Nature (old),Your healing is increased by 25% on players with <bold>30% or less health</>.,3,0,2,true,CAA_Talent_Mosse_PassiveTalent1,T_Icon_Fel_07,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent92,Mosse,29,Magic Ward (old),You take <rt.bold>10% less magic damage</>.,4,0,1,true,CAA_Talent_Mosse_PassiveTalent6,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent93,Mosse,28,Symbiosis (old),Your <rt.absorb>Prickly Vines</> deal <rt.warning>12% more damage</> for each player that has a <rt.effect>Pink Flutterfly</>.,3,0,2,true,CAA_Talent_Mosse_Talent3,T_Mosse_Vine,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent94,Mosse,27,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%.,6,0,1,true,CAA_Talent_Mosse_Talent11,Barbarian8,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent95,Mosse,26,Bursting Petals (old),"Your <rt.absorb>Life Petal's</> healing is increased by 20% and its healing is front loaded, causing the first tick to heal for twice the amount and ramping down with each tick thereafter.
 
-- NUUKED - waiting for new talent that procs ticks on Life Petal when Nettlebolt deals damage - Axel",1,0,2,T_Mosse_Lifepetal,TalentIcon,512,512,datamine,,
-Talent.ID.Talent96,Mosse,22,Shroomageddon (old),Your <rt.absorb>Shroomsplosion</> deals 20% increased damage.,6,0,1,T_ArcaneRitual,TalentIcon,256,256,datamine,,
-Talent.ID.Talent97,Mosse,23,In Bloom (old),Your <rt.absorb>Heart Bloom's</> mana cost is reduced by 25%.,6,0,1,T_Icon_Arcane_142,TalentIcon,256,256,datamine,,
-Talent.ID.Talent98,Mosse,24,Heavy Nettle (old),Your <rt.absorb>Nettlebolt</> deals 40% increased damage.,4,0,1,T_EntagledOrb,TalentIcon,256,256,datamine,,
+- NUUKED - waiting for new talent that procs ticks on Life Petal when Nettlebolt deals damage - Axel",1,0,2,true,CAA_Talent_Mosse_Talent7,T_Mosse_Lifepetal,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent96,Mosse,22,Shroomageddon (old),Your <rt.absorb>Shroomsplosion</> deals 20% increased damage.,6,0,1,true,CAA_Talent_Mosse_PassiveTalent9,T_ArcaneRitual,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent97,Mosse,23,In Bloom (old),Your <rt.absorb>Heart Bloom's</> mana cost is reduced by 25%.,6,0,1,true,CAA_Talent_Mosse_PassiveTalent8,T_Icon_Arcane_142,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent98,Mosse,24,Heavy Nettle (old),Your <rt.absorb>Nettlebolt</> deals 40% increased damage.,4,0,1,true,CAA_Talent_Mosse_PassiveTalent4,T_EntagledOrb,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent99,Mosse,25,Green Thumb (old),"The healing of your <rt.absorb>Life Petal</>, <rt.absorb>Heartbloom</>, and <rt.absorb>Rootsap Revival</> is increased by 20%.
 
-- Nuked for new talent revision -",5,0,3,T_HealingSwirl,TalentIcon,256,256,datamine,,
+- Nuked for new talent revision -",5,0,3,true,CAA_Talent_Mosse_PassiveTalent7,T_HealingSwirl,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent1,Rime,1,Glacial Assault,"Your <rt.absorb>Cold Snap</> ability grants you <rt.bold>1 stack</> of <rt.effect>Glacial Assault</>.
 
 Once you have <rt.bold>4 stacks</> of <rt.effect>Glacial Assault</>, your next <rt.absorb>Glacial Blast</> is <bold>instant cast</>, deals <rt.warning>40% more damage</> and has <rt.mana>no cost</>.
 
-<rt.effect>Glacial Assault</> causes your <rt.absorb>Glacial Blast</> to explode on impact, dealing <rt.warning>30% of the initial damage</> to nearby enemies.",1,0,2,T_Rime_AnimaBolt,TalentIcon,256,256,datamine,,
+<rt.effect>Glacial Assault</> causes your <rt.absorb>Glacial Blast</> to explode on impact, dealing <rt.warning>30% of the initial damage</> to nearby enemies.",1,0,2,false,CAA_Talent_Rime_GlacialAssault,T_Rime_AnimaBolt,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent10,Rime,10,Navir's Keeper,"Your <rt.absorb>Flight of the Navir</> ability grants <rt.bold>2 stacks</> of <rt.effect>Navir's Keeper</>.
 
-<rt.effect>Navir's Keeper</> causes your next <rt.absorb>Cold Snap</> to <rt.bold>not require nor cost any charge</>.",4,0,1,T_Icon_Elements_74,TalentIcon,256,256,datamine,,
+<rt.effect>Navir's Keeper</> causes your next <rt.absorb>Cold Snap</> to <rt.bold>not require nor cost any charge</>.",4,0,1,false,CAA_Talent_Rime_PassiveTalent12,T_Icon_Elements_74,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent11,Rime,11,Harrowing Ice,"Each pulse of <rt.absorb>Bursting Ice</> grants you <rt.effect>Harrowing Ice</> for <rt.bold>12 seconds</>, stacking up to <rt.bold>30 times</>.
 
 <rt.absorb>Bursting Ice</> gains <rt.warning>3% more damage per stack</> of <rt.effect>Harrowing Ice</> you have.
 
-After 30 stacks, all <rt.effect>Harrowing Ice</> stacks are consumed and your <rt.absorb>Flight of the Navir</> ability cooldown is reduced by <rt.bold>5 seconds</>.",3,0,2,T_Rime_CastedDebuffAOEdamage,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Rime,12,Supreme Torrent,Your <rt.absorb>Freezing Torrent</> deals <rt.warning>20% more damage</> and its duration is increased by <rt.bold>0.8 seconds</>.,6,0,1,T_IceSpikes,TalentIcon,256,256,datamine,,
-Talent.ID.Talent13,Rime,13,Cascading Blitz,"For each <rt.mana>Anima</> you generate while your <rt.absorb>Ice Blitz</> is active, you conjure <bold>1 Frost Swallow</> to attack your target.",3,0,2,T_Nhance_RPG_Icons_IcySpikes,TalentIcon,256,256,datamine,,
-Talent.ID.Talent14,Rime,14,Greater Glacial Blast,Your <rt.absorb>Glacial Blast</> deals <rt.warning>40% more damage</> but its cast time is increased by <rt.bold>0.5 seconds</>.,4,0,1,T_Nhance_RPG_Icons_ArcaneBolt,TalentIcon,256,256,datamine,,
-Talent.ID.Talent15,Rime,15,Bursting Swallows,Your <rt.absorb>Frost Swallow</> hits have a <rt.bold>12% chance</> to trigger a pulse of <rt.absorb>Bursting Ice</> on the target.,4,0,1,T_Icon_Frost_112,TalentIcon,256,256,datamine,,
-Talent.ID.Talent16,Rime,16,Biting Cold,The power of your <rt.warning>critical strikes is increased by 10%</>.,6,0,1,T_Nhance_RPG_Frost_01,TalentIcon,256,256,datamine,,
+After 30 stacks, all <rt.effect>Harrowing Ice</> stacks are consumed and your <rt.absorb>Flight of the Navir</> ability cooldown is reduced by <rt.bold>5 seconds</>.",3,0,2,false,CAA_Talent_Rime_PassiveTalent22,T_Rime_CastedDebuffAOEdamage,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Rime,12,Supreme Torrent,Your <rt.absorb>Freezing Torrent</> deals <rt.warning>20% more damage</> and its duration is increased by <rt.bold>0.8 seconds</>.,6,0,1,false,CAA_Talent_Rime_PassiveTalent20,T_IceSpikes,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent13,Rime,13,Cascading Blitz,"For each <rt.mana>Anima</> you generate while your <rt.absorb>Ice Blitz</> is active, you conjure <bold>1 Frost Swallow</> to attack your target.",3,0,2,false,CAA_Talent_Rime_PassiveTalent16,T_Nhance_RPG_Icons_IcySpikes,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent14,Rime,14,Greater Glacial Blast,Your <rt.absorb>Glacial Blast</> deals <rt.warning>40% more damage</> but its cast time is increased by <rt.bold>0.5 seconds</>.,4,0,1,false,CAA_Talent_Rime_PassiveTalent13,T_Nhance_RPG_Icons_ArcaneBolt,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent15,Rime,15,Bursting Swallows,Your <rt.absorb>Frost Swallow</> hits have a <rt.bold>12% chance</> to trigger a pulse of <rt.absorb>Bursting Ice</> on the target.,4,0,1,false,CAA_Talent_Rime_PassiveTalent21,T_Icon_Frost_112,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent16,Rime,16,Biting Cold,The power of your <rt.warning>critical strikes is increased by 10%</>.,6,0,1,false,CAA_Talent_Rime_PassiveTalent7,T_Nhance_RPG_Frost_01,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent17,Rime,17,Icy Talons,"Your <rt.absorb>Glacial Blast</> is replaced with <rt.absorb>Talon Strike</>
 
 Your <rt.absorb>Ice Comet</> is replaced with <rt.absorb>Rising Talons</>.
@@ -510,73 +510,73 @@ Each <rt.absorb>Rising Talons</> ice spike deals <rt.warning>40% of Ice Comet da
 
 <rt.absorb>Talon Strike</> benefits from talents that affect <rt.absorb>Glacial Blast</>.
 
-<rt.absorb>Rising Talons</> benefits from talents that affect <rt.absorb>Ice Comet</>.",5,0,3,T_Nhance_RPG_Icons_IcySpikes_2,TalentIcon,256,256,datamine,,
+<rt.absorb>Rising Talons</> benefits from talents that affect <rt.absorb>Ice Comet</>.",5,0,3,false,CAA_Rime_Trait1,T_Nhance_RPG_Icons_IcySpikes_2,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent18,Rime,18,Frostweaver's Wrath,"Each time you generate <rt.mana>Winter Orbs</>, you have a <rt.bold>20% chance</> to gain  <rt.effect>Frostweaver's Wrath</> for <rt.bold>12 seconds</>, causing the next <rt.absorb>Glacial Blast</> or <rt.absorb>Ice Comet</> that deals damage to have <rt.warning>100% additional critical strike chance</>.
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",5,0,3,T_Icon_Frost_115,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",5,0,3,false,CAA_Talent_Rime_ChanceOnOrbGain_NextSpenderCritIncrease,T_Icon_Frost_115,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent2,Rime,2,Burstbolter,"When your <rt.absorb>Frost Bolt</> deals damage to an enemy, it triggers a single pulse of <rt.absorb>Bursting Ice</>.
 
-Your <rt.absorb>Bursting Ice</> deals <rt.warning>20% more damage</>.",2,0,1,Cryomancer7,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Bursting Ice</> deals <rt.warning>20% more damage</>.",2,0,1,false,CAA_Talent_Rime_PassiveTalent17,Cryomancer7,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent3,Rime,3,Coalescing Frost,"Each hit of <rt.absorb>Freezing Torrent</> infuses the target with <rt.effect>Coalescing Frost</> for <rt.bold>3 seconds</>. Once it expires, the afflicted enemy releases a pulse of frost damage in an area around them, dealing <rt.warning>56% Intellect</> damage for each stack of <rt.effect>Coalescing Frost</> that was infused.
 
-<rt.absorb>Freezing Torrent</> critical strikes have a <rt.bold>50% chance</> to apply <rt.bold>2 stacks</> of <rt.effect>Coalescing Frost</>.",1,0,2,Cryomancer9,TalentIcon,256,256,datamine,,
+<rt.absorb>Freezing Torrent</> critical strikes have a <rt.bold>50% chance</> to apply <rt.bold>2 stacks</> of <rt.effect>Coalescing Frost</>.",1,0,2,false,CAA_Talent_Rime_Chillblain,Cryomancer9,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent4,Rime,4,Chilling Finesse,"Each tick of <rt.absorb>Freezing Torrent</> reduces the cooldown of <rt.absorb>Bursting Ice</> by <rt.bold>0.2 seconds</>.
 
-Each time you cast <rt.absorb>Cold Snap</> the cooldown of <rt.absorb>Freezing Torrent</> is reduced by <rt.bold>1.5 seconds</>.",2,0,1,Cryomancer19,TalentIcon,256,256,datamine,,
+Each time you cast <rt.absorb>Cold Snap</> the cooldown of <rt.absorb>Freezing Torrent</> is reduced by <rt.bold>1.5 seconds</>.",2,0,1,false,CAA_Talent_Rime_UnrelentingIce,Cryomancer19,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent5,Rime,5,Icy Flow,"Your <rt.absorb>Cold Snap</> grants you <rt.effect>Icy Flow</> for <rt.bold>15 seconds</>, causing your next <rt.absorb>Glacial Blast</> to apply <rt.warning>+50% Haste to you while casting</> or causing your next <rt.absorb>Ice Comet</> to have <rt.bold>0.5 seconds reduced impact delay</>.
 
 Both abilities gain <rt.warning>+20% increased critical strike chance</> when consuming a stack of <rt.effect>Icy Flow</>.
 
-You can have up to <rt.bold>2 stacks</> of <rt.effect>Icy Flow</>.",3,0,2,Tex_b_16,TalentIcon,256,256,datamine,,
-Talent.ID.Talent50,Rime,32,Magic Ward (old),You take <rt.bold>10% reduced magic damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
+You can have up to <rt.bold>2 stacks</> of <rt.effect>Icy Flow</>.",3,0,2,false,CAA_Talent_Rime_IcyFlow,Tex_b_16,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent50,Rime,32,Magic Ward (old),You take <rt.bold>10% reduced magic damage</>.,4,0,1,true,CAA_Talent_Rime_PassiveTalent6,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent52,Rime,34,Winter's Embrace (old),"While <rt.absorb>Bursting Ice</> is active on an enemy you gain <rt.effect>Winter's Embrace</>, causing you to deal <rt.warning>20% more damage</>.
 
-<rt.effect>Winter's Embrace</> does not affect <rt.absorb>Bursting Ice</>.",1,0,2,Cryomancer8,TalentIcon,256,256,datamine,,
-Talent.ID.Talent6,Rime,6,Avalanche,"Your <rt.absorb>Ice Comet</> ability has a <rt.bold>18% chance</> to cause 1 additional <rt.absorb>Ice Comet</> to strike the target, and a <rt.bold>9% chance</> to cause 2 additional <rt.absorb>Ice Comets</> to strike the target.",1,0,2,T_Rime_OnTargetPulsatingAOE,TalentIcon,256,256,datamine,,
-Talent.ID.Talent7,Rime,7,Cold Shower,Each tick of <rt.absorb>Freezing Torrent</> has a  <rt.bold>7% chance</> to cast <rt.absorb>Ice Comet</> on the target.,2,0,1,T_Nhance_RPG_Icons_MagicRune_2,TalentIcon,256,258,datamine,,
-Talent.ID.Talent8,Rime,8,Wisdom of the North,"The cooldown of <rt.absorb>Ice Blitz</>, <rt.absorb>Flight of the Navir</> & <rt.absorb>Winter's Blessing</> is reduced by <rt.bold>0.3 seconds</> for each <rt.mana>Winters Orb</> you spend or that overflows your maximum.",6,0,1,T_Nhance_RPG_Frost_04,TalentIcon,256,256,datamine,,
+<rt.effect>Winter's Embrace</> does not affect <rt.absorb>Bursting Ice</>.",1,0,2,false,CAA_Talent_Rime_PassiveTalent10,Cryomancer8,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent6,Rime,6,Avalanche,"Your <rt.absorb>Ice Comet</> ability has a <rt.bold>18% chance</> to cause 1 additional <rt.absorb>Ice Comet</> to strike the target, and a <rt.bold>9% chance</> to cause 2 additional <rt.absorb>Ice Comets</> to strike the target.",1,0,2,false,CAA_Talent_Rime_Avalanche,T_Rime_OnTargetPulsatingAOE,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent7,Rime,7,Cold Shower,Each tick of <rt.absorb>Freezing Torrent</> has a  <rt.bold>7% chance</> to cast <rt.absorb>Ice Comet</> on the target.,2,0,1,false,CAA_Talent_Rime_Talent,T_Nhance_RPG_Icons_MagicRune_2,TalentIcon,256,258,datamine,,,legacy_unbound
+Talent.ID.Talent8,Rime,8,Wisdom of the North,"The cooldown of <rt.absorb>Ice Blitz</>, <rt.absorb>Flight of the Navir</> & <rt.absorb>Winter's Blessing</> is reduced by <rt.bold>0.3 seconds</> for each <rt.mana>Winters Orb</> you spend or that overflows your maximum.",6,0,1,false,CAA_Talent_Rime_WisdomOfTheNorth,T_Nhance_RPG_Frost_04,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent87,Rime,38,Cascading Blitz (old),"For each <rt.mana>Anima</> you generate while your <rt.absorb>Ice Blitz</> is active, you conjure <bold>1 Frost Swallow</> to attack your target.
 
-The duration of <rt.absorb>Ice Blitz</> is extended by 0.2 seconds each time a <rt.absorb>Frost Swallow</> hits an enemy.",5,0,3,T_Nhance_RPG_Icons_IcySpikes,TalentIcon,256,256,datamine,,
-Talent.ID.Talent88,Rime,39,Spirited Fortitude (old),You take <rt.bold>10% reduced area of effect damage</>.,6,0,1,Barbarian3,TalentIcon,256,256,datamine,,
+The duration of <rt.absorb>Ice Blitz</> is extended by 0.2 seconds each time a <rt.absorb>Frost Swallow</> hits an enemy.",5,0,3,true,CAA_Talent_Rime_PassiveTalent16,T_Nhance_RPG_Icons_IcySpikes,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent88,Rime,39,Spirited Fortitude (old),You take <rt.bold>10% reduced area of effect damage</>.,6,0,1,true,CAA_Talent_Rime_PassiveTalent4,Barbarian3,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent89,Rime,40,Cascading Blitz (old),"For each <rt.mana>Anima</> you generate while your <rt.absorb>Ice Blitz</> is active, you conjure <bold>1 Frost Swallow</> to attack your target.
 
-The duration of <rt.absorb>Ice Blitz</> is extended by 0.2 seconds each time a <rt.absorb>Frost Swallow</> hits an enemy.",5,0,3,T_Nhance_RPG_Icons_IcySpikes,TalentIcon,256,256,datamine,,
+The duration of <rt.absorb>Ice Blitz</> is extended by 0.2 seconds each time a <rt.absorb>Frost Swallow</> hits an enemy.",5,0,3,true,CAA_Talent_Rime_PassiveTalent16,T_Nhance_RPG_Icons_IcySpikes,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent9,Rime,9,Soulfrost Torrent,"Each time you cast an ability you have a chance to gain <rt.effect>Soulfrost Torrent</> for <rt.bold>18 seconds</>, causing your next <rt.absorb>Freezing Torrent</> to have <rt.warning>40% increased tick rate</> and <rt.warning>+100% increased critical strike chance</>. (1.2 PPM)
 
 <rt.warning>GRIEVOUS CRITICAL STRIKE</>
-Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",5,0,3,T_Nhance_RPG_Frost_31,TalentIcon,256,256,datamine,,
+Any critical strike chance you have beyond 100% causes a <rt.warning>grievous critical strike</>. <rt.warning>Grievous critical strikes</> increase the base damage of the hit by an amount equal to the overflowing critical strike chance.",5,0,3,false,CAA_Talent_Rime_PassiveTalent19,T_Nhance_RPG_Frost_31,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent90,Rime,31,Talon's Edict (old),"Your <rt.absorb>Cold Snap</> critical strikes conjure <bold>3 Frost Swalllows</> to instantly attack your enemies.
 
-Additionally, your <rt.absorb>Cold Snap</> and <rt.absorb>Freezing Torrent</> damage has a 15% chance to conjure <bold>1 Frost Swalllow</>.",2,0,1,T_Icon_Elements_74,TalentIcon,256,256,datamine,,
+Additionally, your <rt.absorb>Cold Snap</> and <rt.absorb>Freezing Torrent</> damage has a 15% chance to conjure <bold>1 Frost Swalllow</>.",2,0,1,true,CAA_Talent_Rime_PassiveTalent18,T_Icon_Elements_74,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent91,Rime,30,Soulfrost Torrent (old),"Your critical strikes have a chance to cause your next <rt.absorb>Freezing Torrent</> within 12 seconds to have 100% increased tick rate and deal 100% increased damage.
 
-(1.5 PPM)",5,0,3,T_Nhance_RPG_Frost_31,TalentIcon,256,256,datamine,,
-Talent.ID.Talent92,Rime,29,Chilling Finesse (old),"While <rt.absorb>Bursting Ice</> is active on an enemy, you gain 20% Haste.",1,0,2,T_Nhance_RPG_Icons_IceSwirl,TalentIcon,256,256,datamine,,
-Talent.ID.Talent93,Rime,28,Wicked Blitz (old),Your <rt.absorb>Ice Blitz</> increases all damage you deal by an additional 10%.,6,0,1,T_Nhance_RPG_Icons_IcySpikes,TalentIcon,256,256,datamine,,
-Talent.ID.Talent94,Rime,27,Talon's Edict (old),Your <rt.absorb>Cold Snap</> conjures an additional wave of <rt.absorb>3 Frost Swallows</> in waves.,2,0,1,T_Icon_Elements_74,TalentIcon,256,256,datamine,,
-Talent.ID.Talent95,Rime,26,Greater Glacial Blast (old),Your <rt.absorb>Glacial Blast</> has 20% increased critical strike chance.,1,0,2,T_Rime_AnimaBolt,TalentIcon,256,256,datamine,,
-Talent.ID.Talent96,Rime,22,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%,4,0,1,Barbarian8,TalentIcon,256,256,datamine,,
-Talent.ID.Talent97,Rime,23,Chillblain (old),Your <bold>Freezing Torrent</> deals 20% increased damage.,2,0,1,T_Rime_ChanneledBeam,TalentIcon,256,256,datamine,,
-Talent.ID.Talent98,Rime,24,Coalescing Ice (old),When <bold>Bursting Ice</> deals damage to a single target it generates 2 additional Anima per tick.,2,0,1,T_Nhance_RPG_Icons_IceSwirl,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Rime,25,Harrowing Ice (old),Your <bold>Bursting Ice</> damage is increased by 30%.,1,0,2,Cryomancer8,TalentIcon,256,256,datamine,,
+(1.5 PPM)",5,0,3,true,CAA_Talent_Rime_SoulfrostTorrent,T_Nhance_RPG_Frost_31,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent92,Rime,29,Chilling Finesse (old),"While <rt.absorb>Bursting Ice</> is active on an enemy, you gain 20% Haste.",1,0,2,true,CAA_Talent_Rime_PassiveTalent11,T_Nhance_RPG_Icons_IceSwirl,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent93,Rime,28,Wicked Blitz (old),Your <rt.absorb>Ice Blitz</> increases all damage you deal by an additional 10%.,6,0,1,true,CAA_Talent_Rime_PassiveTalent8,T_Nhance_RPG_Icons_IcySpikes,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent94,Rime,27,Talon's Edict (old),Your <rt.absorb>Cold Snap</> conjures an additional wave of <rt.absorb>3 Frost Swallows</> in waves.,2,0,1,true,CAA_Talent_Rime_PassiveTalent14,T_Icon_Elements_74,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent95,Rime,26,Greater Glacial Blast (old),Your <rt.absorb>Glacial Blast</> has 20% increased critical strike chance.,1,0,2,true,CAA_Talent_Rime_PassiveTalent3,T_Rime_AnimaBolt,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent96,Rime,22,Spirited Advance (old),Your <bold>Movement Speed</> is increased by 20%,4,0,1,true,CAA_Talent_Rime_PassiveTalent5,Barbarian8,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent97,Rime,23,Chillblain (old),Your <bold>Freezing Torrent</> deals 20% increased damage.,2,0,1,true,CAA_Talent_Rime_PassiveTalent1,T_Rime_ChanneledBeam,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent98,Rime,24,Coalescing Ice (old),When <bold>Bursting Ice</> deals damage to a single target it generates 2 additional Anima per tick.,2,0,1,true,CAA_Talent_Rime_CoalescingIce,T_Nhance_RPG_Icons_IceSwirl,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Rime,25,Harrowing Ice (old),Your <bold>Bursting Ice</> damage is increased by 30%.,1,0,2,true,CAA_Talent_Rime_PassiveTalent2,Cryomancer8,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent1,Sune,1,Sun's Verdict,"Your <rt.absorb>Brilliant Flare</> and <rt.absorb>Brilliant Flash</> has a 15% chance to grant you <rt.effect>Sun's Verdict</> for 12 seconds.
 
 <rt.effect>Sun's Verdict</>
-Your next <rt.absorb>Sun Strike</> resets the cooldown of your <rt.absorb>Blinding Slash</> ability and causes your target and all enemies near it to be hit by Sun Beams from above, <rt.warning>dealing 124% Strength magic damage</> to each of them.",4,0,1,T_HolyFire_00,TalentIcon,256,256,datamine,,
+Your next <rt.absorb>Sun Strike</> resets the cooldown of your <rt.absorb>Blinding Slash</> ability and causes your target and all enemies near it to be hit by Sun Beams from above, <rt.warning>dealing 124% Strength magic damage</> to each of them.",4,0,1,false,CAA_Talent_Sune_Talent1,T_HolyFire_00,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent10,Sune,10,Sun's Touch,"Your <rt.absorb>Brilliant Flash</> applies <rt.effect>Sun's Touch</> to the target, causing an additional <rt.warning>30% of the damage</> or <rt.heal>30% of the healing</> to be dealt over 12 seconds.
 
-Additional <rt.absorb>Brilliant Flash</> damage or healing is accumulated into any already existing <rt.effect>Sun's Touch</> on the target.",1,0,2,T_Sune_BrilliantFlare,TalentIcon,512,512,datamine,,
-Talent.ID.Talent11,Sune,11,Magic Ward,"When you cast <rt.absorb>Solar Shield</> on yourself, it grants you <rt.effect>Magic Ward</>, reducing all Magic Damage taken by 30% for 4 seconds.",4,0,1,T_Nhance_RPG_Icons_ShadowBarrier,TalentIcon,256,256,datamine,,
+Additional <rt.absorb>Brilliant Flash</> damage or healing is accumulated into any already existing <rt.effect>Sun's Touch</> on the target.",1,0,2,false,CAA_Talent_Sune_Talent20,T_Sune_BrilliantFlare,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent11,Sune,11,Magic Ward,"When you cast <rt.absorb>Solar Shield</> on yourself, it grants you <rt.effect>Magic Ward</>, reducing all Magic Damage taken by 30% for 4 seconds.",4,0,1,false,CAA_Talent_Sune_PassiveTalent1,T_Nhance_RPG_Icons_ShadowBarrier,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent12,Sune,12,Gleaming Strikes,"Your <rt.absorb>Sun Strike</> applies 2 stacks of <rt.effect>Sunstruck</> to the target.
 
-Your <rt.absorb>Omnistrike</> deals <rt.warning>25% more damage</> to all enemies for every stack of <rt.effect>Sunstruck</> it consumes.",3,0,2,T_Sune_Sunstrike,TalentIcon,512,512,datamine,,
+Your <rt.absorb>Omnistrike</> deals <rt.warning>25% more damage</> to all enemies for every stack of <rt.effect>Sunstruck</> it consumes.",3,0,2,false,CAA_Talent_Sune_Talent12,T_Sune_Sunstrike,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent13,Sune,13,Vanguard of Vengeance,"Each time you <rt.bold>Parry</> an attack you automatically <rt.effect>counter-attack</> that enemy for <rt.warning>116% Strength physical damage</> and <rt.mana>gain 0.5% Mana</>.
 
 Each successful <rt.bold>Parry</> also grants you the <rt.effect>Vanguard of Vengeance</> buff for 20 seconds, stacking up to 20 times - increasing your <rt.warning>Spirit by +0.5% per stack</>.
 
-Your <rt.bold>Parry</> chance is increased by +10%.",5,0,3,T_Nhance_RPG_Icons_FireEnchantment,TalentIcon,256,256,datamine,,
+Your <rt.bold>Parry</> chance is increased by +10%.",5,0,3,false,CAA_Talent_Sune_Talent13,T_Nhance_RPG_Icons_FireEnchantment,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent14,Sune,14,Invictus,"Your <rt.absorb>Solar Shield</> gains additional benefits from your secondary stats.
 
 <rt.bold>Critical Strike Chance</>
@@ -589,140 +589,140 @@ While <rt.absorb>Solar Shield</> is active on anyone, <rt.bold>your</> Cooldown 
 While <rt.absorb>Solar Shield</> is active, the target's Armor is increased by an amount equal to your Expertise %.
 
 <rt.bold>Spirit</>
-Your <rt.absorb>Solar Shield</> ability cooldown is reduced by 2 seconds each time you trigger a <rt.effect>Spirit Refund</>.",5,0,3,T_Nhance_RPG_Icons_SoulBurn,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Solar Shield</> ability cooldown is reduced by 2 seconds each time you trigger a <rt.effect>Spirit Refund</>.",5,0,3,false,CAA_Talent_Sune_Trait3,T_Nhance_RPG_Icons_SoulBurn,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent15,Sune,15,Golden Hour,"Your <rt.absorb>Brilliant Flash</> deals <rt.warning>50% more damage</>.
 
-Each time you use an <rt.bold>Offensive Ability</>, you have a 6% chance to instantly reset the cooldown of <rt.absorb>Omnistrike</> and cause your next <rt.absorb>Omnistrike</> within 12 seconds to grant you 1 stack of <rt.effect>Omega Reprieval</>.",5,0,3,T_Sune_Omnistrike,TalentIcon,512,512,datamine,,
-Talent.ID.Talent16,Sune,16,Zenith Technique,"While your <rt.absorb>Shining Halo</> is active, your <rt.absorb>Skycrash</> replaces it at the destination and <rt.bold>extends its duration by 6 seconds</>.",6,0,1,T_Nhance_RPG_Tech_27,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Sune,17,Shifting Spectrum,"While at 40% health or below, you take <rt.bold>20% reduced damage</>.",6,0,1,T_ArcaneLightning_,TalentIcon,256,255,datamine,,
-Talent.ID.Talent18,Sune,18,Celestial Favor,Your <rt.absorb>Omega Reprieval</> cooldown is reduced by 3 seconds each time you cast <rt.absorb>Brilliant Flash</>.,3,0,2,T_Sune_OmegaReprieval,TalentIcon,256,256,datamine,,
-Talent.ID.Talent2,Sune,2,Healing Halo,Your <rt.absorb>Shining Halo</> heals one ally standing in its radius for <rt.heal>30% of the total damage it dealt each tick</>. The healing prefers the ally with lowest health that is standing in your <rt.absorb>Shining Halo</>.,6,0,1,T_Nhance_RPG_Icons_SpiritLiquid,TalentIcon,256,256,datamine,,
-Talent.ID.Talent3,Sune,3,Rising Sun,Your <rt.absorb>Omnistrike</> has a 50% chance to reset the cooldown of your <rt.absorb>Solar Blades</> ability.,2,0,1,Tex_SpellBook06_56,TalentIcon,256,256,datamine,,
-Talent.ID.Talent4,Sune,4,Tempered Descent,Your <rt.absorb>Sky Crash</> increases your <rt.bold>movement speed by 20%</> and your <rt.bold>Armor by 40%</> for 18 seconds.,2,0,1,T_Sune_Skycrash,TalentIcon,512,512,datamine,,
-Talent.ID.Talent5,Sune,5,Grand Halo,Your <rt.absorb>Shining Halo</> deals <rt.warning>25% increased damage</> and its duration is increased by <rt.bold>6 seconds</>.,1,0,2,T_SolarEclipse,TalentIcon,256,256,datamine,,
+Each time you use an <rt.bold>Offensive Ability</>, you have a 6% chance to instantly reset the cooldown of <rt.absorb>Omnistrike</> and cause your next <rt.absorb>Omnistrike</> within 12 seconds to grant you 1 stack of <rt.effect>Omega Reprieval</>.",5,0,3,false,CAA_Talent_Sune_Talent15,T_Sune_Omnistrike,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent16,Sune,16,Zenith Technique,"While your <rt.absorb>Shining Halo</> is active, your <rt.absorb>Skycrash</> replaces it at the destination and <rt.bold>extends its duration by 6 seconds</>.",6,0,1,false,CAA_Talent_Sune_Talent19,T_Nhance_RPG_Tech_27,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Sune,17,Shifting Spectrum,"While at 40% health or below, you take <rt.bold>20% reduced damage</>.",6,0,1,false,CAA_Talent_Sune_Talent17,T_ArcaneLightning_,TalentIcon,256,255,datamine,,,legacy_unbound
+Talent.ID.Talent18,Sune,18,Celestial Favor,Your <rt.absorb>Omega Reprieval</> cooldown is reduced by 3 seconds each time you cast <rt.absorb>Brilliant Flash</>.,3,0,2,false,CAA_Talent_Sune_Talent18,T_Sune_OmegaReprieval,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent2,Sune,2,Healing Halo,Your <rt.absorb>Shining Halo</> heals one ally standing in its radius for <rt.heal>30% of the total damage it dealt each tick</>. The healing prefers the ally with lowest health that is standing in your <rt.absorb>Shining Halo</>.,6,0,1,false,CAA_Talent_Sune_Talent2,T_Nhance_RPG_Icons_SpiritLiquid,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent3,Sune,3,Rising Sun,Your <rt.absorb>Omnistrike</> has a 50% chance to reset the cooldown of your <rt.absorb>Solar Blades</> ability.,2,0,1,false,CAA_Talent_Sune_Talent3,Tex_SpellBook06_56,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent4,Sune,4,Tempered Descent,Your <rt.absorb>Sky Crash</> increases your <rt.bold>movement speed by 20%</> and your <rt.bold>Armor by 40%</> for 18 seconds.,2,0,1,false,CAA_Talent_Sune_Talent4,T_Sune_Skycrash,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent5,Sune,5,Grand Halo,Your <rt.absorb>Shining Halo</> deals <rt.warning>25% increased damage</> and its duration is increased by <rt.bold>6 seconds</>.,1,0,2,false,CAA_Talent_Sune_Talent5,T_SolarEclipse,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent6,Sune,6,Solar Burn,"The main target of <rt.absorb>Solar Blades</> is afflicted by <rt.effect>Sunburn</>, dealing <rt.warning>100% of</> <rt.absorb>Solar Blades'</> <rt.warning>damage over 9 seconds</>.
 
-<rt.effect>Sunburn</> causes the enemy to <rt.heal>deal 10% reduced damage to you for the duration</>.",1,0,2,T_Sune_SolarBlades,TalentIcon,512,512,datamine,,
-Talent.ID.Talent7,Sune,7,Imposing Presence,Enemies standing in <rt.absorb>Shining Halo</> have <rt.bold>20% reduced Attack Speed</> and <rt.bold>35% reduced Movement Speed</>.,3,0,2,T_Nhance_RPG_Icons_SoulRage,TalentIcon,256,256,datamine,,
+<rt.effect>Sunburn</> causes the enemy to <rt.heal>deal 10% reduced damage to you for the duration</>.",1,0,2,false,CAA_Talent_Sune_Talent6,T_Sune_SolarBlades,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent7,Sune,7,Imposing Presence,Enemies standing in <rt.absorb>Shining Halo</> have <rt.bold>20% reduced Attack Speed</> and <rt.bold>35% reduced Movement Speed</>.,3,0,2,false,CAA_Talent_Sune_Talent7,T_Nhance_RPG_Icons_SoulRage,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent8,Sune,8,Light's Oath,"Your <rt.absorb>Omnistrike</> and <rt.absorb>Solar Blades</> abilities grant you 1 stack of <rt.effect>Light's Oath</> for 30 seconds, stacking up to 8 times.
 
 <rt.effect>Light's Oath</>
-When you have 8 stacks of <rt.effect>Light's Oath</>, your next <rt.absorb>Shining Halo</> deals <rt.warning>+100% increased damage</>.",2,0,1,T_Sune_ShiningHalo,TalentIcon,512,512,datamine,,
+When you have 8 stacks of <rt.effect>Light's Oath</>, your next <rt.absorb>Shining Halo</> deals <rt.warning>+100% increased damage</>.",2,0,1,false,CAA_Talent_Sune_Talent8,T_Sune_ShiningHalo,TalentIcon,512,512,datamine,,,legacy_unbound
 Talent.ID.Talent9,Sune,9,Hallowed Shield,"Each time you successfully <rt.bold>Parry</> an attack you are granted 1 stack of <rt.effect>Solar Vanguard</> for 30 seconds.
 
 <rt.effect>Solar Vanguard</> increases the power of your next <rt.absorb>Solar Shield</> by <rt.heal>1% per stack</>. Stacks up to 30 times.
 
-<rt.absorb>Solar Shield</> consumes all stacks of <rt.effect>Solar Vanguard</>.",4,0,1,T_Nhance_RPG_Fire_17,TalentIcon,256,256,datamine,,
-Talent.ID.Talent97,Sune,23,Shining Flash (old),Your <rt.absorb>Brilliant Flare</> and <rt.absorb>Brilliant Flash</> has <rt.warning>20% more power</> while you are standing in your <rt.absorb>Shining Halo</>.,3,0,1,T_ShinyHand,TalentIcon,256,256,datamine,,
+<rt.absorb>Solar Shield</> consumes all stacks of <rt.effect>Solar Vanguard</>.",4,0,1,false,CAA_Talent_Sune_Talent9,T_Nhance_RPG_Fire_17,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent97,Sune,23,Shining Flash (old),Your <rt.absorb>Brilliant Flare</> and <rt.absorb>Brilliant Flash</> has <rt.warning>20% more power</> while you are standing in your <rt.absorb>Shining Halo</>.,3,0,1,true,CAA_Talent_Sune_Talent10,T_ShinyHand,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent98,Sune,24,Fortress in the Sun (old),"Solar Shield now reduces damage taken by 50%
 
 When you take damage that would kill you, Solar Shield is applied to you for free. Does not trigger its cooldown.
 
-This can occur once every 5 minutes.",4,0,3,T_Nhance_RPG_Icons_HolyPeak,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Sune,25,Zenith Technique (OLD),Your <rt.absorb>Skycrash</> grants you <rt.bold>+20% Parry</> for 3 seconds.,6,0,1,T_Ink_Leap,TalentIcon,1024,1024,datamine,,
+This can occur once every 5 minutes.",4,0,3,true,CAA_Talent_Sune_Talent14,T_Nhance_RPG_Icons_HolyPeak,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Sune,25,Zenith Technique (OLD),Your <rt.absorb>Skycrash</> grants you <rt.bold>+20% Parry</> for 3 seconds.,6,0,1,true,CAA_Talent_Sune_Talent16,T_Ink_Leap,TalentIcon,1024,1024,datamine,,,legacy_unbound
 Talent.ID.Talent1,Vigor,1,Dawn Strider,"When you cast <rt.absorb>Dawnbreaker Orb</>, and while it is active, each <rt.mana>Radiant Rune</> you spend causes a free <rt.absorb>Greater Heal</> of 25% efficiency to be cast on a nearby ally, preferring the player with lowest health.
 
-The additional heals triggered by <rt.effect>Dawn Strider</> do not trigger <rt.absorb>Rune of Renewal</> healing.",3,0,2,T_Vigor_DawnSphere,TalentIcon,256,256,datamine,,
-Talent.ID.Talent10,Vigor,10,Shining Blast,Your <rt.absorb>Rune of Renewal</> healing is <rt.heal>four times as effective</> when triggered by your <rt.absorb>Radiant Blast</>.,4,0,1,T_Vigor_Cone,TalentIcon,256,256,datamine,,
-Talent.ID.Talent11,Vigor,11,Ascending Avatar,Your <rt.absorb>Levitate</> ability grants you <rt.absorb>Avatar of Light</> for 5 seconds.,5,0,3,T_Vigor_Spirit,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Vigor,12,Divine Light,"<rt.bold>Every 3 casts</> of <rt.absorb>Radiant Blast</> grants you <rt.effect>Divine Light</>, causing your next <rt.absorb>Circle of Light</> to be <rt.mana>Free</> and have <rt.heal>100% increased healing</>.",6,0,1,Priest20,TalentIcon,256,256,datamine,,
-Talent.ID.Talent13,Vigor,13,Runic Revelations,"Your <rt.absorb>Soulbrand</>, <rt.absorb>Rune of Renewal</> & <rt.absorb>Luminous Barrier</> have 25% increased duration.",6,0,1,T_Nhance_RPG_Icons_CorruptionKnowledge,TalentIcon,256,256,datamine,,
-Talent.ID.Talent14,Vigor,14,Greater Renewal,Your <rt.absorb>Rune of Renewal's</> <rt.heal>initial heal is increased by 100%</> when healing an ally that already has <rt.effect>Rune of Renewal</> active on them..,4,0,1,T_Vigor_Rune,TalentIcon,512,512,datamine,,
-Talent.ID.Talent15,Vigor,15,Enduring Light,"When your <rt.absorb>Circle of Light</> heals a player, they are healed for an additional <rt.heal>50% of the initial heal</> over 12 seconds, accumulatively.",1,0,2,T_Vigor_AoEHeal,TalentIcon,256,256,datamine,,
-Talent.ID.Talent16,Vigor,16,Enlightened Soul,"Your <rt.absorb>Radiant Blast</> adds 3 seconds to the duration of all your active <rt.absorb>Rune of Renewal</>, <rt.absorb>Soulbrand</>, and <rt.absorb>Luminous Barrier</> effects.",4,0,1,T_GoldTransmutation,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Vigor,17,Radiant Soul,"<rt.absorb>Rune of Renewal's</> healing, <rt.absorb>Luminous Barrier's</> absorb, and <rt.absorb>Soulbrand's</> damage is increased by 25%.",1,0,2,T_RuneOfGold,TalentIcon,256,256,datamine,,
-Talent.ID.Talent18,Vigor,18,Alacritous Healing,Your <rt.absorb>Greater Heal</> has 0.5 seconds reduced cast time and 20% increased Critical Strike chance.,2,0,1,T_Vigor_Heal,TalentIcon,256,256,datamine,,
+The additional heals triggered by <rt.effect>Dawn Strider</> do not trigger <rt.absorb>Rune of Renewal</> healing.",3,0,2,false,CAA_Talent_Vigor_Talent17,T_Vigor_DawnSphere,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent10,Vigor,10,Shining Blast,Your <rt.absorb>Rune of Renewal</> healing is <rt.heal>four times as effective</> when triggered by your <rt.absorb>Radiant Blast</>.,4,0,1,false,CAA_Vigor_Trait1,T_Vigor_Cone,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent11,Vigor,11,Ascending Avatar,Your <rt.absorb>Levitate</> ability grants you <rt.absorb>Avatar of Light</> for 5 seconds.,5,0,3,false,CAA_Talent_Vigor_Talent10,T_Vigor_Spirit,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Vigor,12,Divine Light,"<rt.bold>Every 3 casts</> of <rt.absorb>Radiant Blast</> grants you <rt.effect>Divine Light</>, causing your next <rt.absorb>Circle of Light</> to be <rt.mana>Free</> and have <rt.heal>100% increased healing</>.",6,0,1,false,CAA_Vigor_Trait2,Priest20,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent13,Vigor,13,Runic Revelations,"Your <rt.absorb>Soulbrand</>, <rt.absorb>Rune of Renewal</> & <rt.absorb>Luminous Barrier</> have 25% increased duration.",6,0,1,false,CAA_Talent_Vigor_PassiveTalent4,T_Nhance_RPG_Icons_CorruptionKnowledge,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent14,Vigor,14,Greater Renewal,Your <rt.absorb>Rune of Renewal's</> <rt.heal>initial heal is increased by 100%</> when healing an ally that already has <rt.effect>Rune of Renewal</> active on them..,4,0,1,false,CAA_Talent_Vigor_PassiveTalent11,T_Vigor_Rune,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent15,Vigor,15,Enduring Light,"When your <rt.absorb>Circle of Light</> heals a player, they are healed for an additional <rt.heal>50% of the initial heal</> over 12 seconds, accumulatively.",1,0,2,false,CAA_Talent_Vigor_Talent14,T_Vigor_AoEHeal,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent16,Vigor,16,Enlightened Soul,"Your <rt.absorb>Radiant Blast</> adds 3 seconds to the duration of all your active <rt.absorb>Rune of Renewal</>, <rt.absorb>Soulbrand</>, and <rt.absorb>Luminous Barrier</> effects.",4,0,1,false,CAA_Talent_Vigor_PassiveTalent7,T_GoldTransmutation,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Vigor,17,Radiant Soul,"<rt.absorb>Rune of Renewal's</> healing, <rt.absorb>Luminous Barrier's</> absorb, and <rt.absorb>Soulbrand's</> damage is increased by 25%.",1,0,2,false,CAA_Talent_Vigor_Talent18,T_RuneOfGold,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent18,Vigor,18,Alacritous Healing,Your <rt.absorb>Greater Heal</> has 0.5 seconds reduced cast time and 20% increased Critical Strike chance.,2,0,1,false,CAA_Talent_Vigor_PassiveTalent9,T_Vigor_Heal,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent2,Vigor,2,Ceremony of Light,"Your <rt.absorb>Circle of Light</> creates a persistent area on the ground, causing all players standing in it to take <bold>10% reduced damage</>.
 
-After 5 seconds, the area erupts in light, as a second <rt.absorb>Circle of Light</> of 50% power heals players in the area.",3,0,2,Tex_SpellBook06_23,TalentIcon,256,256,datamine,,
-Talent.ID.Talent3,Vigor,3,Ruptured Soul,When an enemy dies while <rt.absorb>Soulbrand</> is active on them you instantly gain <rt.mana>50% of the Radiant Rune power it would have generated</> in the time that was remaining and trigger an explosion <rt.warning>dealing 16% of the damage that was remaining to all nearby enemies</>.,2,0,1,T_Vigor_Soulbrand,TalentIcon,256,256,datamine,,
+After 5 seconds, the area erupts in light, as a second <rt.absorb>Circle of Light</> of 50% power heals players in the area.",3,0,2,false,CAA_Talent_Vigor_Trait3,Tex_SpellBook06_23,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent3,Vigor,3,Ruptured Soul,When an enemy dies while <rt.absorb>Soulbrand</> is active on them you instantly gain <rt.mana>50% of the Radiant Rune power it would have generated</> in the time that was remaining and trigger an explosion <rt.warning>dealing 16% of the damage that was remaining to all nearby enemies</>.,2,0,1,false,CAA_Talent_Vigor_Talent3,T_Vigor_Soulbrand,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent4,Vigor,4,Beacon in the Dark,"Your <rt.absorb>Dawnflare</> and <rt.absorb>Radiant Blast</> abilities have a 15% chance to grant you <bold>Beacon in the Dark</>, causing your next <rt.absorb>Radiant Blast</> to have an additional 50% Critical Strike chance.
 
-Upon gaining <bold>Beacon in the Dark</> the cooldown of <rt.absorb>Radiant Blast</> is instantly reset.",6,0,1,Priest5,TalentIcon,256,256,datamine,,
-Talent.ID.Talent5,Vigor,5,Sacred Barrier,Your <rt.absorb>Luminous Barrier</> has 2 charges and gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.,3,0,2,T_SunOrb,TalentIcon,256,256,datamine,,
+Upon gaining <bold>Beacon in the Dark</> the cooldown of <rt.absorb>Radiant Blast</> is instantly reset.",6,0,1,false,CAA_Talent_Vigor_Talent4,Priest5,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent5,Vigor,5,Sacred Barrier,Your <rt.absorb>Luminous Barrier</> has 2 charges and gains <rt.meikoability2>Cooldown Acceleration</> equal to your Haste.,3,0,2,false,CAA_Talent_Vigor_Talent16,T_SunOrb,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent6,Vigor,6,Expansive Mind,"Your <rt.absorb>Dawnflare</> casts have a chance to grant you <bold>Expansive Mind</>, increasing your Spirit by 20% for 12 seconds and replenishing <rt.mana>2% max mana</> every 3 seconds for the duration.
 
-(1.2 PPM)",2,0,1,T_Nhance_RPG_Icons_ManaTome,TalentIcon,256,256,datamine,,
+(1.2 PPM)",2,0,1,false,CAA_Talent_Vigor_Talent6,T_Nhance_RPG_Icons_ManaTome,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent7,Vigor,7,Master of Triage,"Each time you generate a <rt.mana>Radiant Rune</>, a free <rt.absorb>Greater Heal</> of 20% efficiency is cast on a nearby ally, preferring the player with lowest health.
 
-The additional heals triggered by <rt.effect>Master of Triage</> do not trigger <rt.absorb>Rune of Renewal</> healing.",1,0,2,Tex_SpellBook06_87,TalentIcon,256,256,datamine,,
+The additional heals triggered by <rt.effect>Master of Triage</> do not trigger <rt.absorb>Rune of Renewal</> healing.",1,0,2,false,CAA_Talent_Vigor_Talent7,Tex_SpellBook06_87,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent8,Vigor,8,Meticulous Runesmith,"When your <rt.absorb>Dawnbreaker Orb</> heals a player, 50% of that healing is also applied as an absorb shield on that player for 12 seconds.
 
 The shield from <rt.effect>Meticulous Runesmith</> stacks up to a maximum absorb value equal to <rt.heal>900% of your Intellect</>.
 
-Damage absorbed by the shield is reduced by 50%.",5,0,3,T_LightPortal,TalentIcon,256,256,datamine,,
+Damage absorbed by the shield is reduced by 50%.",5,0,3,false,CAA_Talent_Vigor_Talent12,T_LightPortal,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent84,Vigor,35,Orb Crit (old),"Your <rt.absorb>Dawnbreaker Orb's</> Critical Strike chance is increased by 25%.
 
-Every 4 casts of <rt.absorb>Radiant Blast</> grants you ""Divine Light"", causing your next <rt.absorb>Circle of Light</> to have no mana cost and 100% increased power.",6,0,1,Tex_orb_02_b,TalentIcon,256,256,datamine,,
-Talent.ID.Talent85,Vigor,36,Preserved Illumination (old),Your active <rt.absorb>Luminous Barriers</> absorb values are replenished for 100% of your <rt.absorb>Dawnflare</> damage and 40% of your <rt.absorb>Radiant Blast</> damage.,4,0,1,T_GoldTransmutation,TalentIcon,256,256,datamine,,
+Every 4 casts of <rt.absorb>Radiant Blast</> grants you ""Divine Light"", causing your next <rt.absorb>Circle of Light</> to have no mana cost and 100% increased power.",6,0,1,true,CAA_Talent_Vigor_PassiveTalent3,Tex_orb_02_b,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent85,Vigor,36,Preserved Illumination (old),Your active <rt.absorb>Luminous Barriers</> absorb values are replenished for 100% of your <rt.absorb>Dawnflare</> damage and 40% of your <rt.absorb>Radiant Blast</> damage.,4,0,1,true,CAA_Talent_Vigor_Trait5,T_GoldTransmutation,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent86,Vigor,37,Radiant Soul (old),"Your <rt.absorb>Radiant Blast</> adds 3 seconds to the duration of all your active <rt.absorb>Rune of Renewal</>, <rt.absorb>Soulbrand</>, and <rt.absorb>Luminous Barrier</> effects.
 
-<rt.absorb>Rune of Renewal's</> healing, <rt.absorb>Luminous Barrier's</> absorb, and <rt.absorb>Soulbrand's</> damage is increased by 25%.",5,0,3,T_RuneOfGold,TalentIcon,256,256,datamine,,
+<rt.absorb>Rune of Renewal's</> healing, <rt.absorb>Luminous Barrier's</> absorb, and <rt.absorb>Soulbrand's</> damage is increased by 25%.",5,0,3,false,CAA_Talent_Vigor_PassiveTalent7,T_RuneOfGold,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent87,Vigor,38,Resplendent Dawn (old),"Your <rt.absorb>Dawnflare</> deals <rt.warning>20% more damage</> and heals all players that have your <rt.absorb>Rune of Renewal</> active on them for <rt.heal>50% of the damage dealt by</> <rt.absorb>Dawnflare</>.
 
-Additionally, the cast time of <rt.absorb>Dawnflare</> is reduced by 0.1 seconds for 9 seconds each time you cast it. stacking up to a maximum of 0.5 seconds reduction.",5,0,3,T_Vigor_Bolt,TalentIcon,256,256,datamine,,
-Talent.ID.Talent88,Vigor,39,Spirited Fortitude (old),You take 10% less <bold>Area of effect damage</>.,4,0,1,Barbarian3,TalentIcon,256,256,datamine,,
+Additionally, the cast time of <rt.absorb>Dawnflare</> is reduced by 0.1 seconds for 9 seconds each time you cast it. stacking up to a maximum of 0.5 seconds reduction.",5,0,3,true,CAA_Talent_Vigor_Trait2,T_Vigor_Bolt,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent88,Vigor,39,Spirited Fortitude (old),You take 10% less <bold>Area of effect damage</>.,4,0,1,true,CAA_Talent_Vigor_PassiveTalent10,Barbarian3,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent89,Vigor,40,Grand Design (old),"Your <rt.absorb>Soulbrand</>, <rt.absorb>Rune of Renewal</> & <rt.absorb>Luminous Barrier</> abilities can now be <rt.effect>Overcharged</>, causing the ability to be cast on up to 4 applicable targets at once at <rt.heal>60% power</>.
 
 <rt.mana>Requires and costs 2 Radiant Runes</>
 
 <rt.effect>Overcharged Abilities</>
-Hold down the relevant ability button until a cast bar is displayed. Once the cast has completed, the <rt.effect>overcharged</> version of the ability will trigger.",5,0,3,Tex_SpellBook07_11,TalentIcon,256,256,datamine,,
-Talent.ID.Talent9,Vigor,9,Grand Proliferation,"Whille <rt.effect>Runic Proliferation</> is active, your <rt.absorb>Soulbrand</>, <rt.absorb>Rune of Renewal</>, and <rt.absorb>Luminous Barrier</> is cast on up to 4 targets at 120% power, as long as you have <rt.mana>2 Radiant Runes</> to spend.",5,0,3,T_Vigor_HealRune,TalentIcon,256,256,datamine,,
+Hold down the relevant ability button until a cast bar is displayed. Once the cast has completed, the <rt.effect>overcharged</> version of the ability will trigger.",5,0,3,true,CAA_Talent_Vigor_Talent9,Tex_SpellBook07_11,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent9,Vigor,9,Grand Proliferation,"Whille <rt.effect>Runic Proliferation</> is active, your <rt.absorb>Soulbrand</>, <rt.absorb>Rune of Renewal</>, and <rt.absorb>Luminous Barrier</> is cast on up to 4 targets at 120% power, as long as you have <rt.mana>2 Radiant Runes</> to spend.",5,0,3,false,CAA_Talent_Vigor_Talent19,T_Vigor_HealRune,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent90,Vigor,31,Shimmering Brand (old),"Your <rt.effect>Soulbrand: Remnant</> damage also heals a nearby ally for <rt.heal>100% of the damage it dealt</>.
 
-<rt.effect>Shimmering Brand</> prefers the ally with lowest health.",3,0,2,T_Icon_Tech_35,TalentIcon,256,256,datamine,,
-Talent.ID.Talent91,Vigor,30,Magic Ward (old),You take 10% less <bold>Magic damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
-Talent.ID.Talent92,Vigor,29,Sacred Barrier (old),Allies under the effects of any <rt.absorb>absorbs created from your hero abilities</> take 10% reduced damage.,3,0,2,T_SunOrb,TalentIcon,256,256,datamine,,
-Talent.ID.Talent93,Vigor,28,Well of Knowledge (old),Your <rt.mana>Mana Regeneration</> is increased by your Haste.,2,0,1,T_Icon_Tech_35,TalentIcon,256,256,datamine,,
-Talent.ID.Talent94,Vigor,27,Enduring Light (old),The healing of your <rt.absorb>Circle of Light</> is increased by up to 50% depending on the amount of health the target is missing. Lower health gives a larger bonus.,1,0,2,Tex_SpellBook06_23,TalentIcon,256,256,datamine,,
-Talent.ID.Talent95,Vigor,26,Rite of Dawn (old),The damage and healing of your <rt.absorb>Radiant Blast</> is increased by 20%.,2,0,1,Tex_SpellBook06_20,TalentIcon,256,256,datamine,,
-Talent.ID.Talent96,Vigor,22,Meticulous Runesmith (old),Your <rt.absorb>Dawnbreaker Orb</> costs 1 less <rt.mana>Radiant Rune</>.,3,0,2,T_Vigor_DawnSphere,TalentIcon,256,256,datamine,,
+<rt.effect>Shimmering Brand</> prefers the ally with lowest health.",3,0,2,true,CAA_Talent_Vigor_Talent15,T_Icon_Tech_35,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent91,Vigor,30,Magic Ward (old),You take 10% less <bold>Magic damage</>.,4,0,1,true,CAA_Talent_Vigor_PassiveTalent6,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent92,Vigor,29,Sacred Barrier (old),Allies under the effects of any <rt.absorb>absorbs created from your hero abilities</> take 10% reduced damage.,3,0,2,true,CAA_Talent_Vigor_Talent5,T_SunOrb,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent93,Vigor,28,Well of Knowledge (old),Your <rt.mana>Mana Regeneration</> is increased by your Haste.,2,0,1,true,CAA_Talent_Vigor_PassiveTalent8,T_Icon_Tech_35,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent94,Vigor,27,Enduring Light (old),The healing of your <rt.absorb>Circle of Light</> is increased by up to 50% depending on the amount of health the target is missing. Lower health gives a larger bonus.,1,0,2,true,CAA_Talent_Vigor_Talent2,Tex_SpellBook06_23,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent95,Vigor,26,Rite of Dawn (old),The damage and healing of your <rt.absorb>Radiant Blast</> is increased by 20%.,2,0,1,true,CAA_Talent_Vigor_PassiveTalent1,Tex_SpellBook06_20,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent96,Vigor,22,Meticulous Runesmith (old),Your <rt.absorb>Dawnbreaker Orb</> costs 1 less <rt.mana>Radiant Rune</>.,3,0,2,true,CAA_Talent_Vigor_Talent8,T_Vigor_DawnSphere,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent97,Vigor,23,Epiphany (old),"Your <rt.absorb>Dawnflare</>, <rt.absorb>Soulbrand</> & <rt.absorb>Radiant Blast</> have a 15% chance to make your next <rt.absorb>Greater Heal</> instant cast and <rt.mana>cost 50% less Mana</>.
 
-<bold>Epiphany</> stacks up to 3 times.",1,0,2,T_LightPortal,TalentIcon,256,256,datamine,,
+<bold>Epiphany</> stacks up to 3 times.",1,0,2,true,CAA_Talent_Vigor_Talent1,T_LightPortal,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent98,Vigor,24,Greater Soulbrand (old),"Your <rt.absorb>Soulbrand</> deals 20% increased damage.
 
-- NUUKED - needs redesign - Axel",4,0,1,T_Vigor_Soulbrand,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Vigor,25,Perfect Circle (old),Your <rt.absorb>Circle of Light</> costs <rt.mana>25% less Mana</>.,6,0,1,T_Vigor_AoEHeal,TalentIcon,256,256,datamine,,
+- NUUKED - needs redesign - Axel",4,0,1,true,CAA_Talent_Vigor_PassiveTalent5,T_Vigor_Soulbrand,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Vigor,25,Perfect Circle (old),Your <rt.absorb>Circle of Light</> costs <rt.mana>25% less Mana</>.,6,0,1,true,CAA_Talent_Vigor_PassiveTalent2,T_Vigor_AoEHeal,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent1,Warmaster,1,The Best Defense,"Each time you <bold>Block</> an attack with your shield, you have a chance to reset the cooldown of <rt.absorb>Shield Throw</> and cause your next <rt.absorb>Shield Throw</> within 12 seconds to deal <rt.warning>20% increased damage</>.
 
-(2.0 PPM)",1,0,2,warmaster_shield_throw_3,TalentIcon,256,256,datamine,,
-Talent.ID.Talent10,Warmaster,10,Sharpened Blade,Enemies afflicted by your <rt.absorb>Sweeping Strike's</> bleed have <rt.effect>20% reduced attack speed</> and your <rt.absorb>Power Strike</> deals <rt.warning>200% more damage</> to them.,3,0,2,T_Warmaster_BleedStrike,TalentIcon,256,256,datamine,,
-Talent.ID.Talent11,Warmaster,11,Defiance,"When you are <rt.bold>below 80% health</>, you gain <rt.bold>+5% Block Chance</> and <rt.heal>20% increased Healing taken</>.",4,0,1,Tex_SpellBook01_21,TalentIcon,256,256,datamine,,
-Talent.ID.Talent12,Warmaster,12,Lingering Rush,"Your <rt.absorb>Sweeping Strike's</> <rt.effect>Blood Rally</> lasts an additional 6 seconds, but its healing is reduced to <rt.heal>4% of your maximum health every 1 second</>.",2,0,1,T_HandsOfBlood,TalentIcon,256,256,datamine,,
-Talent.ID.Talent13,Warmaster,13,Commander's Advance (disabled),Your <rt.absorb>Hold the Line</> ability increases your movement speed by 50% and the movement speed of your allies by 25% for 5 seconds.,4,0,1,Barbarian8,TalentIcon,256,256,datamine,,
-Talent.ID.Talent14,Warmaster,14,Second Wind,"When your <rt.mana>Toughness</> has reduced an amount of damage equal to <rt.bold>30% of your Maximum Health</>, you gain <rt.effect>20% increased Strength</> for 8 sec.",5,0,3,T_Nhance_RPG_Energy_07,TalentIcon,256,256,datamine,,
+(2.0 PPM)",1,0,2,false,CAA_Talent_Warmaster_Talent2,warmaster_shield_throw_3,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent10,Warmaster,10,Sharpened Blade,Enemies afflicted by your <rt.absorb>Sweeping Strike's</> bleed have <rt.effect>20% reduced attack speed</> and your <rt.absorb>Power Strike</> deals <rt.warning>200% more damage</> to them.,3,0,2,false,CAA_Talent_Warmaster_Talent10,T_Warmaster_BleedStrike,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent11,Warmaster,11,Defiance,"When you are <rt.bold>below 80% health</>, you gain <rt.bold>+5% Block Chance</> and <rt.heal>20% increased Healing taken</>.",4,0,1,false,CAA_Warmaster_Trait1,Tex_SpellBook01_21,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent12,Warmaster,12,Lingering Rush,"Your <rt.absorb>Sweeping Strike's</> <rt.effect>Blood Rally</> lasts an additional 6 seconds, but its healing is reduced to <rt.heal>4% of your maximum health every 1 second</>.",2,0,1,false,CAA_Talent_Warmaster_Talent23,T_HandsOfBlood,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent13,Warmaster,13,Commander's Advance (disabled),Your <rt.absorb>Hold the Line</> ability increases your movement speed by 50% and the movement speed of your allies by 25% for 5 seconds.,4,0,1,true,CAA_Talent_Warmaster_Talent21,Barbarian8,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent14,Warmaster,14,Second Wind,"When your <rt.mana>Toughness</> has reduced an amount of damage equal to <rt.bold>30% of your Maximum Health</>, you gain <rt.effect>20% increased Strength</> for 8 sec.",5,0,3,false,CAA_Talent_Warmaster_Talent14,T_Nhance_RPG_Energy_07,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent15,Warmaster,15,Martial Command,"While <rt.absorb>Siegebreaker</> is active you deal <rt.warning>25% more damage</> and <rt.bold>50% your damage reduction</> from <rt.mana>Toughness</> is shared with all allies.
 
-Your <rt.warning>Spirit is increased by +5%</> and each time you use your <rt.absorb>Shield Throw</> abililty you <rt.mana>generate 2 Spirit Points</>.",5,0,3,T_Warmaster_Ultimate,TalentIcon,256,256,datamine,,
+Your <rt.warning>Spirit is increased by +5%</> and each time you use your <rt.absorb>Shield Throw</> abililty you <rt.mana>generate 2 Spirit Points</>.",5,0,3,false,CAA_Talent_Warmaster_Talent1,T_Warmaster_Ultimate,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent16,Warmaster,16,Gleaming Shield,"Each time you use <rt.absorb>Shield Throw</>, <rt.absorb>Shield Slam</>, <rt.absorb>Shockwave</>, and <rt.absorb>Shields Up</>, you gain <rt.heal>3.0% increased Armor</> for 3 seconds, stacking up to 10 times. Upon expiration, 1 stack is lost.
 
-Your <rt.absorb>Shield Slam</> deals additional damage to all targets hit equal to <rt.warning>10% of your total Armor value</>.",5,0,3,T_Nhance_RPG_Gold_05,TalentIcon,256,256,datamine,,
-Talent.ID.Talent17,Warmaster,17,Front Line Defender,Your <rt.mana>Toughness</> reduces damage taken by an <rt.heal>additional 5%</> on each <rt.mana>Toughness</> Tier.,6,0,1,warmaster_shields_up,TalentIcon,256,256,datamine,,
-Talent.ID.Talent18,Warmaster,18,Master of War,"Each time you <rt.bold>Block</> an attack, the cooldown of <rt.absorb>Grand Melee</> is reduced by 0.2 seconds.",6,0,1,T_Nhance_RPG_Gold_03,TalentIcon,256,256,datamine,,
-Talent.ID.Talent19,Warmaster,19,Greater Shockwave,Your <rt.absorb>Shockwave</> grants an additional <rt.mana>10% Toughness</> and  <rt.warning>deals up to 30% increased damage</> based on how much  <rt.mana>Toughness</> you have.,6,0,1,T_Warmaster_shockwave,TalentIcon,256,256,datamine,,
-Talent.ID.Talent2,Warmaster,2,Shield Mastery,The cooldown of your <rt.absorb>Shields Up</> and <rt.absorb>Shield Throw</> abilities are reduced relative to the amount of damage you mitigate with <rt.mana>Toughness</>.,1,0,2,Tex_y_17_layered,TalentIcon,512,512,datamine,,
-Talent.ID.Talent3,Warmaster,3,Sword & Board,"Your <rt.absorb>Power Strike</> has a <rt.bold>50% chance</> to instantly replenish 1 charge of <rt.absorb>Shield Slam</> and grant you <rt.effect>Empowered Shield Slam</> for 12 seconds, causing your next <rt.absorb>Shield Slam</> to <rt.heal>apply an absorb on you</>.",1,0,2,T_Warmaster_ShieldSlam,TalentIcon,256,256,datamine,,
-Talent.ID.Talent4,Warmaster,4,High Command,Your <rt.absorb>Hold the Line</> cooldown is reduced by 6 seconds each time you use <rt.absorb>Shields Up</>.,4,0,1,T_Nhance_RPG_Fire_05,TalentIcon,256,256,datamine,,
+Your <rt.absorb>Shield Slam</> deals additional damage to all targets hit equal to <rt.warning>10% of your total Armor value</>.",5,0,3,false,CAA_Warmaster_Trait8,T_Nhance_RPG_Gold_05,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent17,Warmaster,17,Front Line Defender,Your <rt.mana>Toughness</> reduces damage taken by an <rt.heal>additional 5%</> on each <rt.mana>Toughness</> Tier.,6,0,1,false,CAA_Warmaster_Trait3,warmaster_shields_up,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent18,Warmaster,18,Master of War,"Each time you <rt.bold>Block</> an attack, the cooldown of <rt.absorb>Grand Melee</> is reduced by 0.2 seconds.",6,0,1,false,CAA_Warmaster_Trait2,T_Nhance_RPG_Gold_03,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent19,Warmaster,19,Greater Shockwave,Your <rt.absorb>Shockwave</> grants an additional <rt.mana>10% Toughness</> and  <rt.warning>deals up to 30% increased damage</> based on how much  <rt.mana>Toughness</> you have.,6,0,1,false,CAA_Warmaster_Trait6,T_Warmaster_shockwave,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent2,Warmaster,2,Shield Mastery,The cooldown of your <rt.absorb>Shields Up</> and <rt.absorb>Shield Throw</> abilities are reduced relative to the amount of damage you mitigate with <rt.mana>Toughness</>.,1,0,2,false,CAA_Talent_Warmaster_Talent3,Tex_y_17_layered,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent3,Warmaster,3,Sword & Board,"Your <rt.absorb>Power Strike</> has a <rt.bold>50% chance</> to instantly replenish 1 charge of <rt.absorb>Shield Slam</> and grant you <rt.effect>Empowered Shield Slam</> for 12 seconds, causing your next <rt.absorb>Shield Slam</> to <rt.heal>apply an absorb on you</>.",1,0,2,false,CAA_Talent_Warmaster_Talent4,T_Warmaster_ShieldSlam,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent4,Warmaster,4,High Command,Your <rt.absorb>Hold the Line</> cooldown is reduced by 6 seconds each time you use <rt.absorb>Shields Up</>.,4,0,1,false,CAA_Talent_Warmaster_Talent19,T_Nhance_RPG_Fire_05,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent5,Warmaster,5,Guarded Veteran,"Your <rt.bold>Block Chance is increased by 5%</>.
 
-You gain another <rt.bold>5% Block Chance</> while <rt.absorb>Shields Up</> is active.",2,0,1,T_Nhance_RPG_Fire_08_Yellow,TalentIcon,256,256,datamine,,
+You gain another <rt.bold>5% Block Chance</> while <rt.absorb>Shields Up</> is active.",2,0,1,false,CAA_Warmaster_Trait4,T_Nhance_RPG_Fire_08_Yellow,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent6,Warmaster,6,Punishing Strikes,"Your <rt.bold>Successful Blocks</> have a <rt.bold>6% chance</> to grant you 2 stacks of <rt.effect>Punishing Strikes</>.
 
-<rt.effect>Punishing Strikes</> causes your next <rt.absorb>Meassured Strike</> to deal <rt.warning>100% increased damage</> and have <rt.absorb>100% increased Veteran of War</>.",2,0,1,T_Warmaster_FatalBlow,TalentIcon,256,256,datamine,,
-Talent.ID.Talent7,Warmaster,7,Aftershock,Enemies that take damage from your <rt.absorb>Shockwave</> ability take <rt.warning>30% more damage</> from you for 5 seconds.,3,0,2,T_Nhance_RPG_Arcane_36,TalentIcon,256,256,datamine,,
-Talent.ID.Talent8,Warmaster,8,Unscarred Soul,The <rt.bold>absorb shield</> from your <rt.effect>Empowered Shield Slams</> takes <rt.bold>20% reduced damage</> & enemies that attack you while it is active take <rt.warning>50% Strength</> physical damage.,3,0,2,T_WM_HoldTheLine,TalentIcon,512,512,datamine,,
-Talent.ID.Talent9,Warmaster,9,Skull Cracker,Your <rt.absorb>Shield Throw</> has <rt.warning>+20% additional critical strike chance</> and deals <rt.warning>100% increased damage to the first target it hits</>.,4,0,1,T_Nhance_RPG_BloodCombat_01,TalentIcon,256,256,datamine,,
-Talent.ID.Talent90,Warmaster,31,Reinforced Steel (old),Your <bold>Armor is increased by 20%</>.,2,0,1,Tex_armor_3_b,TalentIcon,256,256,datamine,,
-Talent.ID.Talent91,Warmaster,30,Gleaming Shield (old),"While <rt.absorb>Shields up</> is active you gain an additional <rt.bold>+20% chance to block</>, all healing effects on you are <rt.heal>increased by 20%</>, and your <rt.absorb>Shield Slam</> deals <rt.warning>40% increased damage</>.",5,0,3,T_Nhance_RPG_Gold_05,TalentIcon,256,256,datamine,,
+<rt.effect>Punishing Strikes</> causes your next <rt.absorb>Meassured Strike</> to deal <rt.warning>100% increased damage</> and have <rt.absorb>100% increased Veteran of War</>.",2,0,1,false,CAA_Warmaster_Trait5,T_Warmaster_FatalBlow,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent7,Warmaster,7,Aftershock,Enemies that take damage from your <rt.absorb>Shockwave</> ability take <rt.warning>30% more damage</> from you for 5 seconds.,3,0,2,false,CAA_Talent_Warmaster_Talent8,T_Nhance_RPG_Arcane_36,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent8,Warmaster,8,Unscarred Soul,The <rt.bold>absorb shield</> from your <rt.effect>Empowered Shield Slams</> takes <rt.bold>20% reduced damage</> & enemies that attack you while it is active take <rt.warning>50% Strength</> physical damage.,3,0,2,false,CAA_Talent_Warmaster_Trait3,T_WM_HoldTheLine,TalentIcon,512,512,datamine,,,legacy_unbound
+Talent.ID.Talent9,Warmaster,9,Skull Cracker,Your <rt.absorb>Shield Throw</> has <rt.warning>+20% additional critical strike chance</> and deals <rt.warning>100% increased damage to the first target it hits</>.,4,0,1,false,CAA_Talent_Warmaster_Talent9,T_Nhance_RPG_BloodCombat_01,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent90,Warmaster,31,Reinforced Steel (old),Your <bold>Armor is increased by 20%</>.,2,0,1,true,CAA_Talent_Warmaster_Talent12,Tex_armor_3_b,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent91,Warmaster,30,Gleaming Shield (old),"While <rt.absorb>Shields up</> is active you gain an additional <rt.bold>+20% chance to block</>, all healing effects on you are <rt.heal>increased by 20%</>, and your <rt.absorb>Shield Slam</> deals <rt.warning>40% increased damage</>.",5,0,3,false,CAA_Talent_Warmaster_Talent15,T_Nhance_RPG_Gold_05,TalentIcon,256,256,datamine,,,legacy_unbound
 Talent.ID.Talent92,Warmaster,29,Resonant Bulwark,"Your <rt.absorb>Shield Slam</> applies 1 stack of <rt.effect>Resonant Bulwark</> to the target, up to 20 stacks. Critical Strikes apply 2 stacks.
 
-Your next <rt.absorb>Shockwave</> consumes all <rt.effect>Resonant Bulwark</> stacks on all targets hit, and <rt.warning>deals 10% more damage to those targets per stack consumed</> and <rt.effect>Stuns them for 0.2s per stack consumed</>.",5,0,3,T_Nhance_RPG_Energy_07,TalentIcon,256,256,datamine,,
-Talent.ID.Talent93,Warmaster,28,Greater Shockwave (old),Your <rt.absorb>Shockwave</> deals <rt.warning>20% more damage</>.,6,0,1,T_Warmaster_shockwave,TalentIcon,256,256,datamine,,
-Talent.ID.Talent94,Warmaster,27,Punishing Strikes (old),Your <rt.absorb>Power Strike</> and <rt.absorb>Shield Slam</> deal <rt.warning>15% more damage</>.,2,0,1,T_Warmaster_FatalBlow,TalentIcon,256,256,datamine,,
-Talent.ID.Talent95,Warmaster,26,Guarded Veteran (old),Your <rt.bold>block chance is increased by 10%</>.,2,0,1,T_Nhance_RPG_Fire_08_Yellow,TalentIcon,256,256,datamine,,
-Talent.ID.Talent96,Warmaster,22,Front Line Defender (old),Your <rt.mana>maximum toughness</> and <rt.mana>toughness generation</> is increased by <rt.mana>20%</>.,6,0,1,warmaster_shields_up,TalentIcon,256,256,datamine,,
-Talent.ID.Talent97,Warmaster,23,Master of War (old),Your <rt.absorb>Grand Melee</> ability has <rt.bold>20% reduced cooldown</>.,6,0,1,T_Nhance_RPG_Gold_03,TalentIcon,256,256,datamine,,
-Talent.ID.Talent98,Warmaster,24,Magic Ward (old),You take <rt.bold>10% reduced magic damage</>.,4,0,1,T_Arcane_Scroll,TalentIcon,256,256,datamine,,
-Talent.ID.Talent99,Warmaster,25,Razor Shrapnel (old),"Your <rt.absorb>Shield Throw</> hits have a 20% chance to trigger an explosion of metal, dealing <rt.warning>damage equal to 40% of the Shield Throw hit that triggered the explosion</> to the target and up to 7 additional nearby enemies.",3,0,2,Tex_SpellBook06_48,TalentIcon,256,256,datamine,,
+Your next <rt.absorb>Shockwave</> consumes all <rt.effect>Resonant Bulwark</> stacks on all targets hit, and <rt.warning>deals 10% more damage to those targets per stack consumed</> and <rt.effect>Stuns them for 0.2s per stack consumed</>.",5,0,3,true,CAA_Warmaster_Trait7,T_Nhance_RPG_Energy_07,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent93,Warmaster,28,Greater Shockwave (old),Your <rt.absorb>Shockwave</> deals <rt.warning>20% more damage</>.,6,0,1,true,CAA_Talent_Warmaster_Talent18,T_Warmaster_shockwave,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent94,Warmaster,27,Punishing Strikes (old),Your <rt.absorb>Power Strike</> and <rt.absorb>Shield Slam</> deal <rt.warning>15% more damage</>.,2,0,1,true,CAA_Talent_Warmaster_Talent7,T_Warmaster_FatalBlow,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent95,Warmaster,26,Guarded Veteran (old),Your <rt.bold>block chance is increased by 10%</>.,2,0,1,false,CAA_Talent_Warmaster_Talent6,T_Nhance_RPG_Fire_08_Yellow,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent96,Warmaster,22,Front Line Defender (old),Your <rt.mana>maximum toughness</> and <rt.mana>toughness generation</> is increased by <rt.mana>20%</>.,6,0,1,true,CAA_Talent_Warmaster_Talent16,warmaster_shields_up,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent97,Warmaster,23,Master of War (old),Your <rt.absorb>Grand Melee</> ability has <rt.bold>20% reduced cooldown</>.,6,0,1,true,CAA_Talent_Warmaster_Talent17,T_Nhance_RPG_Gold_03,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent98,Warmaster,24,Magic Ward (old),You take <rt.bold>10% reduced magic damage</>.,4,0,1,true,CAA_Talent_Warmaster_Talent11,T_Arcane_Scroll,TalentIcon,256,256,datamine,,,legacy_unbound
+Talent.ID.Talent99,Warmaster,25,Razor Shrapnel (old),"Your <rt.absorb>Shield Throw</> hits have a 20% chance to trigger an explosion of metal, dealing <rt.warning>damage equal to 40% of the Shield Throw hit that triggered the explosion</> to the target and up to 7 additional nearby enemies.",3,0,2,true,CAA_Talent_Warmaster_Talent20,Tex_SpellBook06_48,TalentIcon,256,256,datamine,,,legacy_unbound

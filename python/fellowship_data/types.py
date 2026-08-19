@@ -1,4 +1,4 @@
-# SOURCED FILE — do not edit here. Edit automation/publish-data/ in the generator; this copy is overwritten on the next sync.
+# SOURCED FILE — do not edit this copy; it is overwritten on the next data sync.
 
 """The vocabulary the data is expressed in.
 
@@ -161,6 +161,14 @@ class Origin(str, Enum):
     OVERLAY = "overlay"
 
 
+class SourceAuthority(str, Enum):
+    """Strength of the immutable source binding behind a published fact."""
+
+    PRODUCER_BOUND = "producer_bound"
+    LEGACY_UNBOUND = "legacy_unbound"
+    UNCLASSIFIED = "unclassified"
+
+
 @dataclass(frozen=True)
 class AbilityGuidScheme:
     """The public protocol used to derive Ability GUIDs."""
@@ -178,17 +186,26 @@ class Provenance:
     """Provenance carried alongside a record."""
 
     origin: Origin
+    #: Acquisition authority of the weakest immutable input behind this record.
+    source_authority: SourceAuthority
     #: The developer-facing identifier, where one exists.
     dev_name: str | None = None
     #: For :attr:`Origin.DERIVED`, the transform. For :attr:`Origin.OVERLAY`, the reason.
     source: str | None = None
-
     #: Read directly from the game's own data. Assigned below, because a frozen dataclass cannot
     #: reference itself inside its own body.
-    DATAMINE: ClassVar[Provenance]
+    DATAMINE_UNCLASSIFIED: ClassVar[Provenance]
+
+    @classmethod
+    def datamine(cls, source_authority: SourceAuthority) -> Provenance:
+        """A datamined record with its acquisition authority stated explicitly."""
+        return cls(origin=Origin.DATAMINE, source_authority=source_authority)
 
 
-Provenance.DATAMINE = Provenance(origin=Origin.DATAMINE)
+Provenance.DATAMINE_UNCLASSIFIED = Provenance(
+    origin=Origin.DATAMINE,
+    source_authority=SourceAuthority.UNCLASSIFIED,
+)
 
 
 class MediaKind(str, Enum):

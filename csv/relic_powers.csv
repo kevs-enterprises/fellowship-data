@@ -1,43 +1,43 @@
-id,name,description,gameplay_ability_asset,gameplay_ability_ref_source_id,gameplay_ability_ref_guid,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source
+id,name,description,gameplay_ability_asset,gameplay_ability_ref_source_id,gameplay_ability_ref_guid,icon_id,icon_kind,icon_width,icon_height,provenance_origin,provenance_dev_name,provenance_source,provenance_source_authority
 GA_RelicPower_CastedSingleTargetRevive,Revive,"<rt.absorb>Revive</> target dead ally.
 
-<rt.meikoability2>Can be used in combat</>",GA_RelicPower_CastedSingleTargetRevive_C,GA_RelicPower_CastedSingleTargetRevive_C,b88fe676-6db9-55cb-b0ec-7db28d8ed684,,,,,datamine,,
+<rt.meikoability2>Can be used in combat</>",GA_RelicPower_CastedSingleTargetRevive_C,GA_RelicPower_CastedSingleTargetRevive_C,b88fe676-6db9-55cb-b0ec-7db28d8ed684,,,,,datamine,,,legacy_unbound
 GA_RelicPower_DamagePotion,(CUT) Elemental Empowerment,"+20 Bonus Main Stat. This is increased by 2.75 for every 15 item levels your item has.
 
-Main stats are Strength, Agility and Intellect.",GA_RelicPower_DamagePotion_C,GA_RelicPower_DamagePotion_C,c17936fd-d7c4-5022-a174-b15c3a534db8,,,,,datamine,,
+Main stats are Strength, Agility and Intellect.",GA_RelicPower_DamagePotion_C,GA_RelicPower_DamagePotion_C,c17936fd-d7c4-5022-a174-b15c3a534db8,,,,,datamine,,,legacy_unbound
 GA_RelicPower_InstantSingleInterrupt.GA_RelicPower_InstantSingleInterrupt,Interject Spell,"<rt.absorb>Interrupt</> the target's spellcasting and prevent it from casting for 4 sec. 
 Must interrupt a spell, or it will have no effect.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_InstantSingleInterrupt_C,GA_RelicPower_InstantSingleInterrupt_C,6c907645-db76-5dd7-bf0a-1dc10eff78f2,,,,,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_InstantSingleInterrupt_C,GA_RelicPower_InstantSingleInterrupt_C,6c907645-db76-5dd7-bf0a-1dc10eff78f2,,,,,datamine,,,legacy_unbound
 GA_RelicPower_ManaPotion,Restore Mana,"Instantly restore <rt.mana>30% of your maximum mana</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_ManaPotion_C,GA_RelicPower_ManaPotion_C,8877996a-eedd-5bf6-824e-260380a53182,,,,,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_ManaPotion_C,GA_RelicPower_ManaPotion_C,8877996a-eedd-5bf6-824e-260380a53182,,,,,datamine,,,legacy_unbound
 GA_RelicPower_MassDispel,Major Dispel,"Instantly <rt.heal>Dispel all harmful magic effects</> from you and your allies in a large radius around you.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_MassDispel_C,GA_RelicPower_MassDispel_C,b6c76e62-9232-5583-8cb2-dd45bec0c0ff,,,,,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_MassDispel_C,GA_RelicPower_MassDispel_C,b6c76e62-9232-5583-8cb2-dd45bec0c0ff,,,,,datamine,,,legacy_unbound
 GA_RelicPower_PartyDamageReductionBuff,Sanctuary,"Grants <rt.heal>15% Damage Reduction</> to yourself and nearby allies for 15 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_PartyDamageReductionBuff_C,GA_RelicPower_PartyDamageReductionBuff_C,80549f12-bcee-55d6-8a05-4f3fa06f8ea9,,,,,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_PartyDamageReductionBuff_C,GA_RelicPower_PartyDamageReductionBuff_C,80549f12-bcee-55d6-8a05-4f3fa06f8ea9,,,,,datamine,,,legacy_unbound
 GA_RelicPower_PartyInvisibility,Major Invisibility,"Instantly conceal yourself all nearby allies, granting <rt.effect>Major Invisiblilty</> for 15 seconds.
 
-<rt.meikoability2>Can only be used out of combat.</>",GA_RelicPower_PartyInvisibility_C,GA_RelicPower_PartyInvisibility_C,2ed8bfea-7333-568f-8ddd-a03e36b74a5d,,,,,datamine,,
+<rt.meikoability2>Can only be used out of combat.</>",GA_RelicPower_PartyInvisibility_C,GA_RelicPower_PartyInvisibility_C,2ed8bfea-7333-568f-8ddd-a03e36b74a5d,,,,,datamine,,,legacy_unbound
 GA_RelicPower_PartyMoveSpeedBuff,Bloodrite Fervor,"You and nearby allies gain <rt.absorb>50% increased Movement Speed</> for 12 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_PartyMoveSpeedBuff_C,GA_RelicPower_PartyMoveSpeedBuff_C,a647cb4a-9c17-53b3-bbbf-c8d7e6d63cce,,,,,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_PartyMoveSpeedBuff_C,GA_RelicPower_PartyMoveSpeedBuff_C,a647cb4a-9c17-53b3-bbbf-c8d7e6d63cce,,,,,datamine,,,legacy_unbound
 GA_RelicPower_PersonalDamageReductionBuff.GA_RelicPower_PersonalDamageReductionBuff,Obsidian Skin,"Grants <rt.heal>30% Damage Reduction</> to yourself for 9 seconds.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_PersonalDamageReductionBuff_C,GA_RelicPower_PersonalDamageReductionBuff_C,2c869b27-5eff-52f0-aff9-210d993aed7a,,,,,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_PersonalDamageReductionBuff_C,GA_RelicPower_PersonalDamageReductionBuff_C,2c869b27-5eff-52f0-aff9-210d993aed7a,,,,,datamine,,,legacy_unbound
 GA_RelicPower_PolymorphTargetWithSharedCharges,Chickenize!,"Instantly turn your target into a chicken.
 
 <rt.absorb>Chickenize!</> can only be used a limited amount of times per dungeon. The charges are shared by everyone in the party.
 
 <rt.effect>Chickenized</> enemies <rt.warning>do not give Kill Score.</>
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_PolymorphTargetWithSharedCharges_C,GA_RelicPower_PolymorphTargetWithSharedCharges_C,a53ba442-3959-5a69-9764-09d9eefe081e,,,,,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_PolymorphTargetWithSharedCharges_C,GA_RelicPower_PolymorphTargetWithSharedCharges_C,a53ba442-3959-5a69-9764-09d9eefe081e,,,,,datamine,,,legacy_unbound
 GA_RelicPower_Portal,Conjure Portal,"Conjures two interactable <rt.absorb>Portals</> that you and your allies can use to safely travel between two points.
 
-<rt.meikoability2>Can only have 1 active portal at a time.</>",GA_RelicPower_Portal_C,GA_RelicPower_Portal_C,26b40291-5603-5494-8bd2-536a8a56a672,,,,,datamine,,
-GA_RelicPower_Portal_Interact,Relic Teleport,,GA_RelicPower_Portal_Interact_C,GA_RelicPower_Portal_Interact_C,4e0da0cb-8b75-519d-a37d-248d9941b27f,,,,,datamine,,
+<rt.meikoability2>Can only have 1 active portal at a time.</>",GA_RelicPower_Portal_C,GA_RelicPower_Portal_C,26b40291-5603-5494-8bd2-536a8a56a672,,,,,datamine,,,legacy_unbound
+GA_RelicPower_Portal_Interact,Relic Teleport,,GA_RelicPower_Portal_Interact_C,GA_RelicPower_Portal_Interact_C,4e0da0cb-8b75-519d-a37d-248d9941b27f,,,,,datamine,,,legacy_unbound
 GA_Relic_Potion_Health,Rejuvenate,"Instantly replenish <rt.heal>40% of your maximum health</>.
 
-<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_HealthPotion_C,GA_RelicPower_HealthPotion_C,0deecd6b-d39c-5d35-af73-a2dd59c90057,,,,,datamine,,
+<rt.meikoability2>Can be used during Global Cooldown</>",GA_RelicPower_HealthPotion_C,GA_RelicPower_HealthPotion_C,0deecd6b-d39c-5d35-af73-a2dd59c90057,,,,,datamine,,,legacy_unbound
