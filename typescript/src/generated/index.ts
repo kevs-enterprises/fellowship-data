@@ -25,7 +25,7 @@ export * from "./talents.js";
 export * from "./traits.js";
 
 /** The game build this data was extracted from. */
-export const BUILD_ID = "24133959";
+export const BUILD_ID = "24736527";
 
 /** The protocol used to derive every published Ability GUID. */
 export const ABILITY_GUID_SCHEME: AbilityGuidScheme = {

@@ -28,7 +28,7 @@ Available modules:
 from ..types import AbilityGuidScheme, Origin
 
 #: The game build this data was extracted from.
-BUILD_ID = "24133959"
+BUILD_ID = "24736527"
 
 #: The protocol used to derive every published Ability GUID.
 ABILITY_GUID_SCHEME = AbilityGuidScheme(
