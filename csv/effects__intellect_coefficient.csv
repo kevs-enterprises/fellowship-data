@@ -1,0 +1,12 @@
+id,intellect_coefficient_ordinal,curve_ref,value_known,value_curve_ref,value_default,value_unresolved_reason
+GE_Firemage_CastedDotBoostProjectile_DamageAndDotBoost,0,Firemage.CastedDotBoostProjectile.DirectDamage.IntellectCoefficient,2.0,,,
+GE_Firemage_CastedPlacedAoe_Damage,0,Firemage.CastedPlacedAoe.Damage.IntellectCoefficient,24.07,,,
+GE_Firemage_CastedSingleDot_Dot,0,Firemage.CastedSingleDot.DamageIntellectCoefficient,0.6498,,,
+GE_Firemage_CastedSingleHeavyDot_Dot,0,Firemage.CastedSingleHeavyDot.DamageIntellectCoefficient,1.8886,,,
+GE_Firemage_ChanneledForwardAoeDamage_Damage,0,Firemage.ChanneledForwardAoeDamage.IntellectCoefficient,3.2015,,,
+GE_Firemage_ChanneledForwardAoeDamage_Dot,0,Firemage.ChanneledForwardAoeDamage.DotIntellectCoefficientPerTick,0.3895,,,
+GE_Firemage_FireFrog_DirectDamage,0,Firemage.FireFrog.DirectDamage.DamageIntellectCoefficient,0.863052,,,
+GE_Firemage_InstantDoubleDot_MainTargetBonus_Damage,0,Firemage.InstantDoubleDotSelfBuff.InstantCastedSingleDot.MainTargetBonus.DamageIntellectCoefficient,0.85,,,
+GE_Firemage_InstantSingleDisorient_Damage,0,Firemage.InstantSingleDisorient.Damage.IntellectCoefficient,1.2445,,,
+GE_Firemage_InstantSingleTargetDot_Dot,0,Firemage.InstantSingleTargetDot.IntellectCoefficientPerTick,0.64695,,,
+GE_Firemage_PlacedProjectileAoe_Damage,0,Firemage.PlacedProjectileAoe.AoeDamageIntellectCoefficient,5.8482,,,

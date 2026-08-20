@@ -1,5 +1,5 @@
 {
-  "build_id": "24133959",
+  "build_id": "24736527",
   "conventions": {
     "absent_vs_empty": "An empty cell in a required column is the empty string. An empty cell in an optional column is the absence of a value — never a stand-in for zero, for the empty string, or for a value that exists but was not recovered. An optional column never holds the empty string, which is what keeps the two readings apart.",
     "child_tables": "A field whose length varies per record is not a column: it is its own file, <domain>__<field>.csv, carrying its parent's key in its leading columns — the join_key each entry in files states. A variable-length field nested inside one of those recurses one level further out, <domain>__<field>__<nested>.csv, joined on the parent key plus the struct row's ordinal. A file with no parent and an empty join key is domain-wide rather than per-record: it is a lookup shared by every record, and its own key column names the entry.",
@@ -11,7 +11,7 @@
     "quoting": "RFC 4180: a cell containing a comma, a double quote, CR or LF is wrapped in double quotes and its own double quotes are doubled. Nothing else is quoted, so the unquoted form is what a diff of a data refresh reads."
   },
   "delivery": "This folder is one of this repository's deliveries of the same dataset, rendered as CSV for consumers that would rather load a dataframe or open a spreadsheet than install a package. Every file here is rendered from the same description the other deliveries are rendered from, never converted from one of them.",
-  "file_count": 59,
+  "file_count": 75,
   "files": [
     {
       "domain": "heroes",
@@ -374,6 +374,16 @@
     },
     {
       "domain": "effects",
+      "file": "effects__intellect_coefficient.csv",
+      "join_key": [
+        "id"
+      ],
+      "parent": "effects.csv",
+      "row_count": 11,
+      "source_authority": "legacy_unbound"
+    },
+    {
+      "domain": "effects",
       "file": "effects__unresolved_effect_executions.csv",
       "join_key": [],
       "parent": null,
@@ -577,7 +587,7 @@
         "name"
       ],
       "parent": null,
-      "row_count": 12928,
+      "row_count": 12931,
       "source_authority": "producer_bound"
     },
     {
@@ -588,7 +598,7 @@
       ],
       "parent": null,
       "row_count": 22,
-      "source_authority": "legacy_unbound"
+      "source_authority": "producer_bound"
     },
     {
       "domain": "effect_executions",
@@ -598,7 +608,7 @@
       ],
       "parent": "effect_executions.csv",
       "row_count": 1214,
-      "source_authority": "legacy_unbound"
+      "source_authority": "producer_bound"
     },
     {
       "domain": "effect_executions",
@@ -607,8 +617,179 @@
         "name"
       ],
       "parent": "effect_executions.csv",
-      "row_count": 166,
-      "source_authority": "legacy_unbound"
+      "row_count": 154,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions.csv",
+      "join_key": [
+        "name"
+      ],
+      "parent": "effect_executions.csv",
+      "row_count": 1214,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__passed_in_tags.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal"
+      ],
+      "parent": "effect_executions__definitions.csv",
+      "row_count": 95,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal"
+      ],
+      "parent": "effect_executions__definitions.csv",
+      "row_count": 1960,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__magnitude_scalars.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 1910,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__magnitude_source_tag_filter.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 0,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__magnitude_target_tag_filter.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 0,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__source_required_tags.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 214,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__source_ignored_tags.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 19,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__source_query_tag_dictionary.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 0,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__target_required_tags.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 30,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__target_ignored_tags.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 0,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__calculation_modifiers__target_query_tag_dictionary.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "calculation_modifiers_ordinal"
+      ],
+      "parent": "effect_executions__definitions__calculation_modifiers.csv",
+      "row_count": 0,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__conditional_gameplay_effects.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal"
+      ],
+      "parent": "effect_executions__definitions.csv",
+      "row_count": 10,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__definitions__conditional_gameplay_effects__required_source_tags.csv",
+      "join_key": [
+        "name",
+        "definitions_ordinal",
+        "conditional_gameplay_effects_ordinal"
+      ],
+      "parent": "effect_executions__definitions__conditional_gameplay_effects.csv",
+      "row_count": 0,
+      "source_authority": "producer_bound"
+    },
+    {
+      "domain": "effect_executions",
+      "file": "effect_executions__non_calculating_execution_dispositions.csv",
+      "join_key": [],
+      "parent": null,
+      "row_count": 1,
+      "source_authority": "producer_bound"
     }
   ],
   "generated": "Every file in this folder is generated, and an edit made here is silently overwritten by the next build. The other deliveries state that in the files themselves; a CSV file cannot, because a comment line is a row and a row of the wrong width breaks the rectangle, so it is stated here instead.",

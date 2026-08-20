@@ -213,6 +213,7 @@ Bowguy.InstantMarkTarget.AdditionalHit.Aoe.Radius,800.0,,,,AC_Hero_Bowguy,base,,
 Bowguy.InstantMarkTarget.AdditionalHit.Aoe.TargetCountThreshold,12.0,,,,AC_Hero_Bowguy,base,,datamine,,,producer_bound
 Bowguy.InstantMarkTarget.AdditionalHit.ChanceToProc,0.25,,,,AC_Hero_Bowguy,base,,datamine,,,producer_bound
 Bowguy.InstantMarkTarget.AdditionalHit.ChanceToProcIfCrit,0.5,,,,AC_Hero_Bowguy,base,,datamine,,,producer_bound
+Bowguy.InstantMarkTarget.AdditionalHit.ChanneledMultiProjectileDebuff.TriggerAoeHit.ChanceToProc,0.25,,,,AC_Hero_Bowguy,base,,datamine,,,producer_bound
 Bowguy.InstantMarkTarget.AdditionalHit.DamageScale,1.0,,,,AC_Hero_Bowguy,base,not used yet but could come as talent,datamine,,,producer_bound
 Bowguy.InstantMarkTarget.AdditionalHit.MaxRadius,3000.0,,,,AC_Hero_Bowguy,base,not used yet but could come as talent,datamine,,,producer_bound
 Bowguy.InstantMarkTarget.AdditionalTargetsRadius,850.0,,,,AC_Hero_Bowguy,base,,datamine,,,producer_bound
@@ -3330,6 +3331,7 @@ Firemage.FireFrog.Movement.MaxTargetingRadius,3000.0,,,,AbilityConstants,base,,d
 Firemage.FireFrog.Movement.MinJumpLength,280.0,,,,AbilityConstants,base,,datamine,,,producer_bound
 Firemage.FireFrog.Movement.MinJumpPeriod,0.3,,,,AbilityConstants,base,,datamine,,,producer_bound
 Firemage.FireFrogs.Ability.Talent.DirectDamageIncrease.DamageScale,1.2,,,,AbilityConstants,base,,datamine,,,producer_bound
+Firemage.FireFrogs.Ability.Talent.FireToad.Aoe.DamageMultiplier,5.0,,,,AbilityConstants,base,,datamine,,,producer_bound
 Firemage.FireFrogs.Ability.Talent.FireToad.Aoe.Radius,700.0,,,,AbilityConstants,base,,datamine,,,producer_bound
 Firemage.FireFrogs.Ability.Talent.FireToad.AoeDamageScaler,1.0,,,,AbilityConstants,base,to compensate aoe is reduced,datamine,,,producer_bound
 Firemage.FireFrogs.Ability.Talent.FireToad.DamageScaler,9.0,,,,AbilityConstants,base,was 10.0 and was targetscaled on main target. now not targetscaled on main,datamine,,,producer_bound
@@ -4553,6 +4555,7 @@ Ink.Talent.ChanceIncreasedSpenderDamage.HeavySingleTargetAttack.DamageMultiplier
 Ink.Talent.ChanceIncreasedSpenderDamage.PPM,3.2,,,,AC_Hero_Ink,base,old,datamine,,,producer_bound
 Ink.Talent.ChanceIncreasedSpenderDamage.ProcChance,0.35,,,,AC_Hero_Ink,base,,datamine,,,producer_bound
 Ink.Talent.DecreasedIncomingMagicDamage.DamageMultiplier,0.9,,,,AC_Hero_Ink,base,,datamine,,,producer_bound
+Ink.Talent.ExtraResourcesAtStart.AdditionalSpirit,50.0,,,,AC_Hero_Ink,base,,datamine,,,producer_bound
 Ink.Talent.IncreasedAttackSpeed.SpeedIncrease,1.85,,,,AC_Hero_Ink,base,was 50%,datamine,,,producer_bound
 Ink.Talent.IncreasedMovementSpeed.SpeedMultiplier,1.2,,,,AC_Hero_Ink,base,,datamine,,,producer_bound
 Ink.Talent.PassiveLightningCritChanceIncrease,0.2,,,,AC_Hero_Ink,base,,datamine,,,producer_bound
@@ -6661,8 +6664,8 @@ Mosse.TurretChannelHeal.Debuff.OutgoingDamageScale,0.8,,,,AbilityConstants,base,
 Mosse.TurretChannelHeal.ManaCost,77.0,,,,AbilityConstants,base,,datamine,,,producer_bound
 Mosse.TurretChannelHeal.MaxRange,3000.0,,,,AbilityConstants,base,,datamine,,,producer_bound
 Mosse.TurretChannelHeal.Talent.FocusTargetIncreasedDamage.DamageMultiplier,2.5,,,,AbilityConstants,base,,datamine,,,producer_bound
-Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.AttackSpeedDivider,1.5,,,,AbilityConstants,base,Divide when using reduction,datamine,,,producer_bound
-Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.MovementSpeedDivider,1.5,,,,AbilityConstants,base,Divide when using reduction,datamine,,,producer_bound
+Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.AttackSpeedDivider,2.0,,,,AbilityConstants,base,Divide when using reduction ;WAS 1.5,datamine,,,producer_bound
+Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.MovementSpeedDivider,2.0,,,,AbilityConstants,base,Divide when using reduction ;WAS 1.5,datamine,,,producer_bound
 Mosse.TurretChannelHeal.Talent.ReducedSpeedAoeDebuff.Radius,700.0,,,,AbilityConstants,base,,datamine,,,producer_bound
 Mosse.TurretChannelHeal.TurretChannelDuration,10.0,,,,AbilityConstants,base,,datamine,,,producer_bound
 Mosse.YellowButterflies.Duration,20.0,,,,AbilityConstants,base,,datamine,,,producer_bound
@@ -12653,7 +12656,7 @@ Warmaster.MeleeCleave.NumCharges,2.0,,,,AC_Hero_Warmaster,base,,datamine,,,produ
 Warmaster.MeleeCleave.ReducedIncomingDamageFromTarget.Duration,12.0,,,,AC_Hero_Warmaster,base,,datamine,,,producer_bound
 Warmaster.MeleeCleave.ReducedIncomingDamageFromTarget.MaxStackCount,5.0,,,,AC_Hero_Warmaster,base,,datamine,,,producer_bound
 Warmaster.MeleeCleave.ReducedIncomingDamageFromTarget.OutgoingDamageScalePerStack,0.97,,,,AC_Hero_Warmaster,base,,datamine,,,producer_bound
-Warmaster.MeleeCleave.StrengthCoefficient,4.2964,,,,AC_Hero_Warmaster,base,,datamine,,,producer_bound
+Warmaster.MeleeCleave.StrengthCoefficient,6.01496,,,,AC_Hero_Warmaster,base,,datamine,,,producer_bound
 Warmaster.MeleeCleave.Talent.ApplyAbsorb.HeavyMeleeProcChance,0.5,,,,AC_Hero_Warmaster,base,,datamine,,,producer_bound
 Warmaster.MeleeCleave.Talent.ApplyAbsorb.HeavyMeleeProcPPM,1.0,,,,AC_Hero_Warmaster,base,old,datamine,,,producer_bound
 Warmaster.MeleeCleave.Talent.DamageIncreaseFreeCastProc.Level1.DamageIncrease,0.5,,,,AC_Hero_Warmaster,base,,datamine,,,producer_bound

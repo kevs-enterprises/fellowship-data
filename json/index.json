@@ -6,7 +6,7 @@
     "transform": "strip-terminal-_C;resolve-GameplayAbility;ascii-lowercase;prefix=ability/",
     "version": 5
   },
-  "build_id": "24133959",
+  "build_id": "24736527",
   "conventions": {
     "curves": "A curve is {\"dense\": [v, ...]} with one value per difficulty from 1, or {\"keyframes\": [[difficulty, value], ...]} stating only the points the data gives. Values between keyframes are not interpolated here.",
     "media": "A media handle carries a stable id and the source dimensions, never a path. Map the id onto wherever you serve art from.",
@@ -100,7 +100,7 @@
     {
       "domain": "ability_constants",
       "file": "ability_constants.json",
-      "record_count": 12928
+      "record_count": 12931
     },
     {
       "domain": "effect_executions",
