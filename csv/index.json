@@ -10,7 +10,7 @@
     "order": "Records are stable-sorted and columns are in declaration order — the same order every other delivery states its fields in — so a data refresh diffs one entity at a time. Column order is part of what this schema_version promises.",
     "quoting": "RFC 4180: a cell containing a comma, a double quote, CR or LF is wrapped in double quotes and its own double quotes are doubled. Nothing else is quoted, so the unquoted form is what a diff of a data refresh reads."
   },
-  "delivery": "This folder is one of this repository's deliveries of the same dataset, rendered as CSV for consumers that would rather load a dataframe or open a spreadsheet than install a package. Every file here is rendered from the same description the other deliveries are rendered from, never converted from one of them.",
+  "delivery": "This folder is the CSV delivery of the dataset, for consumers that would rather load a dataframe or open a spreadsheet than install a package. Every file here is rendered from the same description as the other deliveries, never converted from one of them.",
   "file_count": 75,
   "files": [
     {
